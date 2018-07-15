@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/2363728649 -->
   <!-- Original coordinates: POINT (47.557386 19.088351) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-1" lat="47.557386" lon="19.088351" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'48'; 'addr:postcode':'1043'; 'addr:street':'Berda József utca'; 'name':'CBA Príma'; 'note':'nyitvatartás valószinű rossz, de ez az adat van a websiteon.'; 'opening_hours':'Mo-Fr 06:30-20:00; Sa 07:00-16:00; Su 07:30-14:00'; 'operator':'CBA'; 'phone':'+3613694020'; 'shop':'supermarket'; 'source':'http://cba.hu/uzletek'; 'website':'http://cba.hu/uzletek'; 'wheelchair':'yes';  -->
+  <node action="modify" changeset="1" id="2363728649" lat="47.5572805949084" lon="19.087645397343" timestamp="2017-11-01T22:35:09Z" uid="4579407" user="KAMI" version="10">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="48"/>
     <tag k="addr:postcode" v="1043"/>
     <tag k="addr:street" v="Berda József utca"/>
@@ -12,20 +14,24 @@
     <tag k="email" v="berda@jegcsillag.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
+    <tag k="note" v="nyitvatartás valószinű rossz, de ez az adat van a websiteon."/>
     <tag k="opening_hours" v="Mo-Fr 06:30-20:00; Sa 07:00-16:00; Su 07:30-14:00"/>
+    <tag k="operator" v="CBA"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+3613990559"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/2385679967 -->
   <!-- Original coordinates: POINT (47.503092 19.065728) -->
   <!-- Original tags: 'name':'CBA'; 'shop':'supermarket'; 'wheelchair':'no';  -->
-  <node action="modify" changeset="1" id="2385679967" lat="47.503092" lon="19.065728" timestamp="2017-07-19T07:28:37Z" uid="4579407" user="KAMI" version="2">
+  <node action="modify" changeset="1" id="2385679967" lat="47.5031316949107" lon="19.065636597346" timestamp="2017-07-19T07:28:37Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="58"/>
     <tag k="addr:postcode" v="1073"/>
     <tag k="addr:street" v="Erzsébet körút"/>
@@ -40,19 +46,34 @@
     <tag k="phone" v="+3614130085"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="no"/>
   </node>
+  <!-- OSM link: https://osm.org/way/261038038 -->
   <!-- Original coordinates: POINT (47.488287 19.082548) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-3" lat="47.488287" lon="19.082548" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'111'; 'addr:postcode':'1083'; 'addr:street':'Baross utca'; 'building':'retail'; 'name':'Príma'; 'opening_hours':'Mo-Fr 06:30-21:00; Sa 07:00-15:00; Su 07:30-14:30'; 'shop':'supermarket'; 'source':'Bing'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="261038038" timestamp="2017-12-25T16:17:18Z" uid="4579407" user="KAMI" version="8">
+    <nd ref="2666411709"/>
+    <nd ref="2936159951"/>
+    <nd ref="2666411684"/>
+    <nd ref="2666411687"/>
+    <nd ref="2666411701"/>
+    <nd ref="2666411700"/>
+    <nd ref="2666411704"/>
+    <nd ref="2666411703"/>
+    <nd ref="2666411708"/>
+    <nd ref="2666411707"/>
+    <nd ref="2666411710"/>
+    <nd ref="2666411709"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="111"/>
     <tag k="addr:postcode" v="1083"/>
     <tag k="addr:street" v="Baross utca"/>
     <tag k="branch" v="Príma Élelmiszer Baross u.111."/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="baross@jegcsillag.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
@@ -62,9 +83,10 @@
     <tag k="phone" v="+3612100057"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <!-- OSM link: https://osm.org/way/183987431 -->
   <!-- Original coordinates: POINT (47.546325 19.038255) -->
   <!-- Original tags: 'contact:website':'http://www.cbaprima.hu'; 'name':'CBA Príma'; 'shop':'convenience'; 'website':'http://www.cbaprima.hu';  -->
@@ -75,6 +97,7 @@
     <nd ref="1944245368"/>
     <nd ref="1944245372"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="17"/>
     <tag k="addr:postcode" v="1035"/>
     <tag k="addr:street" v="Vihar utca"/>
@@ -90,7 +113,7 @@
     <tag k="phone" v="+3614390932"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </way>
   <!-- OSM link: https://osm.org/way/47078866 -->
@@ -130,15 +153,16 @@
     <tag k="phone" v="+3612502843"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <!-- OSM link: https://osm.org/node/1696119025 -->
   <!-- Original coordinates: POINT (47.522094 19.102466) -->
   <!-- Original tags: 'contact:website':'http://www.cbaprima.hu'; 'name':'CBA Príma'; 'shop':'convenience'; 'website':'http://www.cbaprima.hu'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="1696119025" lat="47.522094" lon="19.102466" timestamp="2016-03-13T10:24:08Z" uid="4579407" user="KAMI" version="5">
+  <node action="modify" changeset="1" id="1696119025" lat="47.5222284949099" lon="19.102171397341" timestamp="2016-03-13T10:24:08Z" uid="4579407" user="KAMI" version="5">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="212-214"/>
     <tag k="addr:postcode" v="1145"/>
     <tag k="addr:street" v="Nagy Lajos király útja"/>
@@ -152,39 +176,48 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
-  <!-- OSM link: https://osm.org/node/735173768 -->
+  <!-- OSM link: https://osm.org/way/250165688 -->
   <!-- Original coordinates: POINT (47.497012 19.032873) -->
-  <!-- Original tags: 'name':'CBA'; 'operator':'CBA'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="735173768" lat="47.497012" lon="19.032873" timestamp="2015-12-02T15:55:20Z" uid="4579407" user="KAMI" version="3">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'3'; 'addr:postcode':'1016'; 'addr:street':'Naphegy tér'; 'building':'retail'; 'contact:website':'http://www.cbaprima.hu'; 'name':'CBA Príma'; 'opening_hours':'Mo-Fr 06:30-21:00; Sa 07:00-17:00; Su 08:00-17:00'; 'shop':'supermarket'; 'source':'Bing'; 'website':'http://www.cbaprima.hu'; 'wheelchair':'no'; 'wheelchair:description':'Szűk nem lehet közlekedni kerekesszekkel';  -->
+  <way action="modify" changeset="1" id="250165688" timestamp="2018-03-07T08:59:03Z" uid="4579407" user="KAMI" version="8">
+    <nd ref="2566589094"/>
+    <nd ref="2566589059"/>
+    <nd ref="2566589053"/>
+    <nd ref="2566589082"/>
+    <nd ref="2566589094"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="1013"/>
     <tag k="addr:street" v="Alagút utca"/>
     <tag k="branch" v="Príma Horváthkert"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
+    <tag k="contact:website" v="http://www.cbaprima.hu"/>
     <tag k="email" v="horvathkert@cba-budavar.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Sa 07:00-22:00"/>
-    <tag k="operator" v="CBA"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+307082641"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-    <tag k="wheelchair" v="yes"/>
-  </node>
+    <tag k="wheelchair" v="no"/>
+    <tag k="wheelchair:description" v="Szűk nem lehet közlekedni kerekesszekkel"/>
+  </way>
   <!-- OSM link: https://osm.org/node/1644977908 -->
   <!-- Original coordinates: POINT (47.486377 19.070494) -->
   <!-- Original tags: 'name':'CBA'; 'shop':'convenience'; 'wheelchair':'limited';  -->
-  <node action="modify" changeset="1" id="1644977908" lat="47.486377" lon="19.070494" timestamp="2017-02-03T21:42:09Z" uid="4579407" user="KAMI" version="3">
+  <node action="modify" changeset="1" id="1644977908" lat="47.4862990949114" lon="19.0704205973454" timestamp="2017-02-03T21:42:09Z" uid="4579407" user="KAMI" version="3">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="84"/>
     <tag k="addr:postcode" v="1085"/>
     <tag k="addr:street" v="József körút"/>
@@ -199,19 +232,34 @@
     <tag k="phone" v="+36306300792"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="limited"/>
   </node>
+  <!-- OSM link: https://osm.org/way/261038038 -->
   <!-- Original coordinates: POINT (47.48622 19.074691) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-9" lat="47.48622" lon="19.074691" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'111'; 'addr:postcode':'1083'; 'addr:street':'Baross utca'; 'building':'retail'; 'name':'Príma'; 'opening_hours':'Mo-Fr 06:30-21:00; Sa 07:00-15:00; Su 07:30-14:30'; 'shop':'supermarket'; 'source':'Bing'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="261038038" timestamp="2017-12-25T16:17:18Z" uid="4579407" user="KAMI" version="8">
+    <nd ref="2666411709"/>
+    <nd ref="2936159951"/>
+    <nd ref="2666411684"/>
+    <nd ref="2666411687"/>
+    <nd ref="2666411701"/>
+    <nd ref="2666411700"/>
+    <nd ref="2666411704"/>
+    <nd ref="2666411703"/>
+    <nd ref="2666411708"/>
+    <nd ref="2666411707"/>
+    <nd ref="2666411710"/>
+    <nd ref="2666411709"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="14"/>
     <tag k="addr:postcode" v="1082"/>
     <tag k="addr:street" v="Városház utca"/>
     <tag k="branch" v="Pilvax Príma Élelmiszerüzlet"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="pilvax.cba@gmail.com"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
@@ -221,18 +269,34 @@
     <tag k="phone" v="+3613378139"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <!-- OSM link: https://osm.org/way/261038038 -->
   <!-- Original coordinates: POINT (47.48622 19.074691) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-10" lat="47.48622" lon="19.074691" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'111'; 'addr:postcode':'1083'; 'addr:street':'Baross utca'; 'building':'retail'; 'name':'Príma'; 'opening_hours':'Mo-Fr 06:30-21:00; Sa 07:00-15:00; Su 07:30-14:30'; 'shop':'supermarket'; 'source':'Bing'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="261038038" timestamp="2017-12-25T16:17:18Z" uid="4579407" user="KAMI" version="8">
+    <nd ref="2666411709"/>
+    <nd ref="2936159951"/>
+    <nd ref="2666411684"/>
+    <nd ref="2666411687"/>
+    <nd ref="2666411701"/>
+    <nd ref="2666411700"/>
+    <nd ref="2666411704"/>
+    <nd ref="2666411703"/>
+    <nd ref="2666411708"/>
+    <nd ref="2666411707"/>
+    <nd ref="2666411710"/>
+    <nd ref="2666411709"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="37-45"/>
     <tag k="addr:postcode" v="1082"/>
     <tag k="addr:street" v="Futó utca"/>
     <tag k="branch" v="Príma Corvin Átrium"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="igazgato@corvinatriumcba.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
@@ -242,13 +306,15 @@
     <tag k="phone" v="+3617101230"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <!-- Original coordinates: POINT (47.468021 19.04789) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-11" lat="47.468021" lon="19.04789" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="5/A"/>
     <tag k="addr:postcode" v="1117"/>
     <tag k="addr:street" v="Nádorliget utca"/>
@@ -263,13 +329,14 @@
     <tag k="phone" v="+36306107447"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.549376 19.072893) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-12" lat="47.549376" lon="19.072893" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="178"/>
     <tag k="addr:postcode" v="1138"/>
     <tag k="addr:street" v="Váci út"/>
@@ -284,13 +351,15 @@
     <tag k="phone" v="+3612363000"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/node/412953472 -->
   <!-- Original coordinates: POINT (47.499985 19.025859) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-13" lat="47.499985" lon="19.025859" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'name':'Príma'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
+  <node action="modify" changeset="1" id="412953472" lat="47.4990156949109" lon="19.0258775973516" timestamp="2017-11-13T10:52:43Z" uid="4579407" user="KAMI" version="6">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="37"/>
     <tag k="addr:postcode" v="1012"/>
     <tag k="addr:street" v="Krisztina körút"/>
@@ -304,18 +373,31 @@
     <tag k="phone" v="+3614890320"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
+  <!-- OSM link: https://osm.org/way/220378065 -->
   <!-- Original coordinates: POINT (47.460852 18.956777) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-14" lat="47.460852" lon="18.956777" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'building':'retail'; 'name':'CBA'; 'opening_hours':'Mo-Sa 06:00-21:00; Su 07:00-18:00'; 'shop':'supermarket'; 'wheelchair':'limited';  -->
+  <way action="modify" changeset="1" id="220378065" timestamp="2017-12-25T16:16:44Z" uid="4579407" user="KAMI" version="3">
+    <nd ref="2295018043"/>
+    <nd ref="2295018045"/>
+    <nd ref="2295018049"/>
+    <nd ref="2295018048"/>
+    <nd ref="2295018050"/>
+    <nd ref="2295018047"/>
+    <nd ref="2295018046"/>
+    <nd ref="2295018044"/>
+    <nd ref="2295018043"/>
     <tag k="addr:city" v="Budaörs"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="52-54"/>
     <tag k="addr:postcode" v="2040"/>
     <tag k="addr:street" v="Szabadság út"/>
     <tag k="branch" v="Príma Élelmiszer Áruház - Budaörs"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00"/>
@@ -324,13 +406,16 @@
     <tag k="phone" v="+3623445750"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <!-- OSM link: https://osm.org/node/752197818 -->
   <!-- Original coordinates: POINT (47.507727 18.919632) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-15" lat="47.507727" lon="18.919632" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:street':'Dózsa György tér'; 'name':'Príma'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
+  <node action="modify" changeset="1" id="752197818" lat="47.5073601949105" lon="18.9204457973663" timestamp="2017-09-12T09:05:19Z" uid="4579407" user="KAMI" version="4">
     <tag k="addr:city" v="Budakeszi"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1/A"/>
     <tag k="addr:postcode" v="2092"/>
     <tag k="addr:street" v="Dózsa György tér"/>
@@ -344,14 +429,16 @@
     <tag k="phone" v="+3623535571"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/3008314716 -->
   <!-- Original coordinates: POINT (47.545047 18.726652) -->
   <!-- Original tags: 'addr:city':'Zsámbék'; 'addr:postcode':'2072'; 'addr:street':'Ady Endre utca'; 'name':'CBA'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="3008314716" lat="47.545047" lon="18.726652" timestamp="2015-11-22T17:25:10Z" uid="4579407" user="KAMI" version="2">
+  <node action="modify" changeset="1" id="3008314716" lat="47.5449074949089" lon="18.7265003973932" timestamp="2015-11-22T17:25:10Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Zsámbék"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="75"/>
     <tag k="addr:postcode" v="2072"/>
     <tag k="addr:street" v="Magyar utca"/>
@@ -365,7 +452,7 @@
     <tag k="phone" v="+3623565500"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
@@ -373,6 +460,7 @@
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-17" lat="47.47149" lon="18.840432" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Biatorbágy"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="2051"/>
     <tag k="addr:street" v="Csodaszarvas utca"/>
@@ -386,14 +474,15 @@
     <tag k="phone" v="+3623530970"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/2053022477 -->
   <!-- Original coordinates: POINT (47.506012 19.022934) -->
   <!-- Original tags: 'shop':'convenience'; 'wheelchair':'no';  -->
-  <node action="modify" changeset="1" id="2053022477" lat="47.506012" lon="19.022934" timestamp="2017-09-20T06:26:32Z" uid="4579407" user="KAMI" version="3">
+  <node action="modify" changeset="1" id="2053022477" lat="47.5061370949106" lon="19.022865097352" timestamp="2017-09-20T06:26:32Z" uid="4579407" user="KAMI" version="3">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="1122"/>
     <tag k="addr:street" v="Krisztina körút"/>
@@ -407,34 +496,52 @@
     <tag k="phone" v="+3612240056"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="no"/>
   </node>
+  <!-- OSM link: https://osm.org/way/221268930 -->
   <!-- Original coordinates: POINT (47.407255 18.89134) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-19" lat="47.407255" lon="18.89134" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Érd'; 'addr:housenumber':'125-127'; 'addr:postcode':'2030'; 'addr:street':'Bajcsy-Zsilinszky Endre utca'; 'building':'retail'; 'name':'CBA'; 'operator':'CBA'; 'shop':'supermarket'; 'toilets:wheelchair':'no'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="221268930" timestamp="2017-12-25T16:16:46Z" uid="4579407" user="KAMI" version="5">
+    <nd ref="2303163291"/>
+    <nd ref="2303163294"/>
+    <nd ref="2303163295"/>
+    <nd ref="4717093691"/>
+    <nd ref="2303163297"/>
+    <nd ref="2303163299"/>
+    <nd ref="2303163301"/>
+    <nd ref="2303163303"/>
+    <nd ref="2303163304"/>
+    <nd ref="2843723278"/>
+    <nd ref="2303163291"/>
     <tag k="addr:city" v="Érd"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="125-127"/>
     <tag k="addr:postcode" v="2030"/>
     <tag k="addr:street" v="Bajcsy-Zs. utca"/>
     <tag k="branch" v="Príma Élelmiszer Áruház - Érd, Pára"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00"/>
+    <tag k="operator" v="CBA"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+3623520349"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
+    <tag k="toilets:wheelchair" v="no"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <!-- Original coordinates: POINT (47.515845 18.833571) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-20" lat="47.515845" lon="18.833571" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Páty"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="2071"/>
     <tag k="addr:street" v="Somogyi B. utca"/>
@@ -448,13 +555,14 @@
     <tag k="phone" v="+3623555550"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.448444 18.751422) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-21" lat="47.448444" lon="18.751422" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Etyek"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="4"/>
     <tag k="addr:postcode" v="2091"/>
     <tag k="addr:street" v="Körpince utca"/>
@@ -468,13 +576,15 @@
     <tag k="phone" v="+3622597058"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/node/5126428943 -->
   <!-- Original coordinates: POINT (47.509098 19.025322) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-22" lat="47.509098" lon="19.025322" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'12-14'; 'addr:postcode':'1024'; 'addr:street':'Lövőház utca'; 'name':'Príma'; 'operator':'Krupp és Társa kereskedelmi Kft.'; 'shop':'supermarket';  -->
+  <node action="modify" changeset="1" id="5126428943" lat="47.5088758949105" lon="19.0243719973518" timestamp="2018-01-13T09:28:04Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="12-14"/>
     <tag k="addr:postcode" v="1024"/>
     <tag k="addr:street" v="Lövőház utca"/>
@@ -483,18 +593,20 @@
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 08:00-20:00"/>
+    <tag k="operator" v="Krupp és Társa kereskedelmi Kft."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+3613360347"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.698687 17.542074) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-23" lat="47.698687" lon="17.542074" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Abda"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="47"/>
     <tag k="addr:postcode" v="9151"/>
     <tag k="addr:street" v="Hunyadi út"/>
@@ -509,13 +621,14 @@
     <tag k="phone" v="+3696553200"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.867763 17.271554) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-24" lat="47.867763" lon="17.271554" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Mosonmagyaróvár"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="9200"/>
     <tag k="branch" v="7.számú Delikát csemegebolt Príma"/>
     <tag k="brand" v="Príma"/>
@@ -528,18 +641,26 @@
     <tag k="phone" v="+3696211344"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/way/280627293 -->
   <!-- Original coordinates: POINT (47.674126 17.65854) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-25" lat="47.674126" lon="17.65854" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Győr'; 'addr:housenumber':'36'; 'addr:postcode':'9023'; 'addr:street':'Ifjúság körút'; 'building':'retail'; 'name':'CBA'; 'shop':'supermarket'; 'toilets:wheelchair':'no'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="280627293" timestamp="2017-12-25T16:17:32Z" uid="4579407" user="KAMI" version="4">
+    <nd ref="2847092077"/>
+    <nd ref="2847092078"/>
+    <nd ref="2847092079"/>
+    <nd ref="2847092080"/>
+    <nd ref="2847092077"/>
     <tag k="addr:city" v="Győr"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="36"/>
     <tag k="addr:postcode" v="9023"/>
     <tag k="addr:street" v="Ifjúság körút"/>
     <tag k="branch" v="13.számú Delikát csemege Príma"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="delikat13@delikatkft.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
@@ -549,13 +670,16 @@
     <tag k="phone" v="+3696424335"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
+    <tag k="toilets:wheelchair" v="no"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <!-- Original coordinates: POINT (46.907408 19.689162) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-26" lat="46.907408" lon="19.689162" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="6000"/>
     <tag k="addr:street" v="Korona utca"/>
@@ -570,14 +694,15 @@
     <tag k="phone" v="+3676328431"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/1948190489 -->
   <!-- Original coordinates: POINT (47.510586 19.190814) -->
   <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'2'; 'addr:postcode':'1165'; 'addr:street':'Jókai Mór utca'; 'name':'CBA'; 'shop':'supermarket';  -->
-  <node action="modify" changeset="1" id="1948190489" lat="47.510586" lon="19.190814" timestamp="2016-04-29T09:12:00Z" uid="4579407" user="KAMI" version="4">
+  <node action="modify" changeset="1" id="1948190489" lat="47.5106969949104" lon="19.1908838973286" timestamp="2016-04-29T09:12:00Z" uid="4579407" user="KAMI" version="4">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="1165"/>
     <tag k="addr:street" v="Jókai Mór utca"/>
@@ -592,18 +717,27 @@
     <tag k="phone" v="+3614010593"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/way/120259292 -->
   <!-- Original coordinates: POINT (47.559631 19.089965) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-28" lat="47.559631" lon="19.089965" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'26'; 'addr:postcode':'1042'; 'addr:street':'Munkásotthon utca'; 'building':'retail'; 'name':'CBA Príma'; 'opening_hours':'Mo-Sa 06:00-22:00; Su 08:00-19:00'; 'phone':'+3612310216'; 'shop':'supermarket'; 'website':'http://cba.hu/uzletek'; 'wheelchair':'limited';  -->
+  <way action="modify" changeset="1" id="120259292" timestamp="2017-12-25T16:16:05Z" uid="4579407" user="KAMI" version="11">
+    <nd ref="1348878460"/>
+    <nd ref="1348878496"/>
+    <nd ref="1348878483"/>
+    <nd ref="1348895290"/>
+    <nd ref="1348878441"/>
+    <nd ref="1348878460"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="26"/>
     <tag k="addr:postcode" v="1042"/>
     <tag k="addr:street" v="Munkásotthon utca"/>
     <tag k="branch" v="Príma Munkásotthon"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="cba-ujpest@lazarteam.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
@@ -613,9 +747,10 @@
     <tag k="phone" v="+3612310215"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="limited"/>
+  </way>
   <!-- OSM link: https://osm.org/way/102226129 -->
   <!-- Original coordinates: POINT (47.443554 19.037284) -->
   <!-- Original tags: 'building':'retail'; 'contact:website':'http://www.cbaprima.hu'; 'name':'CBA Príma'; 'shop':'supermarket'; 'website':'http://www.cbaprima.hu'; 'wheelchair':'yes';  -->
@@ -631,6 +766,7 @@
     <nd ref="4597044888"/>
     <nd ref="1179843623"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="192"/>
     <tag k="addr:postcode" v="1116"/>
     <tag k="addr:street" v="Fehérvári út"/>
@@ -646,14 +782,16 @@
     <tag k="phone" v="+3612053530"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </way>
+  <!-- OSM link: https://osm.org/node/856400311 -->
   <!-- Original coordinates: POINT (47.498062 19.055507) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-30" lat="47.498062" lon="19.055507" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'name':'Príma'; 'opening_hours':'06:00-22:00'; 'shop':'supermarket'; 'wheelchair':'limited';  -->
+  <node action="modify" changeset="1" id="856400311" lat="47.4977370949109" lon="19.0554367973475" timestamp="2017-07-27T07:07:54Z" uid="4579407" user="KAMI" version="8">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1-3"/>
     <tag k="addr:postcode" v="1061"/>
     <tag k="addr:street" v="Anker köz"/>
@@ -668,14 +806,16 @@
     <tag k="phone" v="+3612350703"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
+    <tag k="wheelchair" v="limited"/>
   </node>
   <!-- OSM link: https://osm.org/node/678832790 -->
   <!-- Original coordinates: POINT (47.479397 19.153384) -->
   <!-- Original tags: 'name':'CBA'; 'shop':'convenience'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="678832790" lat="47.479397" lon="19.153384" timestamp="2015-10-26T14:55:10Z" uid="4579407" user="KAMI" version="4">
+  <node action="modify" changeset="1" id="678832790" lat="47.4794582949117" lon="19.1533660973338" timestamp="2015-10-26T14:55:10Z" uid="4579407" user="KAMI" version="4">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="122"/>
     <tag k="addr:postcode" v="1104"/>
     <tag k="addr:street" v="Kada utca"/>
@@ -690,15 +830,16 @@
     <tag k="phone" v="+3614332082"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/264122016 -->
   <!-- Original coordinates: POINT (47.499077 19.051672) -->
   <!-- Original tags: 'created_by':'JOSM'; 'name':'Príma'; 'shop':'supermarket'; 'wheelchair':'no';  -->
-  <node action="modify" changeset="1" id="264122016" lat="47.499077" lon="19.051672" timestamp="2016-10-30T16:13:09Z" uid="4579407" user="KAMI" version="4">
+  <node action="modify" changeset="1" id="264122016" lat="47.4990852949109" lon="19.051573797348" timestamp="2016-10-30T16:13:09Z" uid="4579407" user="KAMI" version="4">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="16"/>
     <tag k="addr:postcode" v="1051"/>
     <tag k="addr:street" v="József Attila utca"/>
@@ -714,15 +855,21 @@
     <tag k="phone" v="+3612350830"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="no"/>
   </node>
-  <!-- OSM link: https://osm.org/node/4275414390 -->
+  <!-- OSM link: https://osm.org/way/287658435 -->
   <!-- Original coordinates: POINT (47.516799 19.184924) -->
-  <!-- Original tags: 'addr:city':'Budapest'; 'addr:postcode':'1165'; 'addr:street':'Centenáriumi sétány'; 'name':'Peti Csemege'; 'operator':'Peti Csemege Kft.'; 'shop':'convenience'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="4275414390" lat="47.516799" lon="19.184924" timestamp="2017-09-18T09:44:29Z" uid="4579407" user="KAMI" version="3">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'16-24'; 'addr:postcode':'1165'; 'addr:street':'Centenáriumi sétány'; 'name':'Príma'; 'shop':'convenience'; 'website':'http://www.primaboltok.hu'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="287658435" timestamp="2017-09-18T09:29:27Z" uid="4579407" user="KAMI" version="4">
+    <nd ref="2912293572"/>
+    <nd ref="2912293573"/>
+    <nd ref="2912293571"/>
+    <nd ref="2912293570"/>
+    <nd ref="2912293572"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="16-24"/>
     <tag k="addr:postcode" v="1165"/>
     <tag k="addr:street" v="Centenáriumi sétány"/>
@@ -732,20 +879,20 @@
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Fr 06:00-20:00; Sa 06:30-18:00"/>
-    <tag k="operator" v="Peti Csemege Kft."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+3614010168"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
-  </node>
+  </way>
   <!-- Original coordinates: POINT (47.463938 19.033375) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-34" lat="47.463938" lon="19.033375" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="63"/>
     <tag k="addr:postcode" v="1119"/>
     <tag k="addr:street" v="Tétényi út"/>
@@ -759,14 +906,15 @@
     <tag k="phone" v="+3612053368"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/4318606604 -->
   <!-- Original coordinates: POINT (47.432793 19.036832) -->
   <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'13'; 'addr:postcode':'1221'; 'addr:street':'Leányka utca'; 'name':'CBA Príma'; 'opening_hours':'Mo-Sa 06:00-21:00; Su 07:00-18:00'; 'operator':'CBA'; 'shop':'supermarket'; 'website':'http://www.cbaprima.hu'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="4318606604" lat="47.432793" lon="19.036832" timestamp="2017-09-12T08:00:05Z" uid="4579407" user="KAMI" version="2">
+  <node action="modify" changeset="1" id="4318606604" lat="47.4327834949137" lon="19.03686909735" timestamp="2017-09-12T08:00:05Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="13"/>
     <tag k="addr:postcode" v="1221"/>
     <tag k="addr:street" v="Leányka utca"/>
@@ -781,19 +929,27 @@
     <tag k="phone" v="+3612053560"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
+  <!-- OSM link: https://osm.org/way/46618551 -->
   <!-- Original coordinates: POINT (47.540759 19.140818) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-36" lat="47.540759" lon="19.140818" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'11'; 'addr:postcode':'1157'; 'addr:street':'Legénybíró utca'; 'building':'retail'; 'name':'Príma'; 'opening_hours':'Mo-Fr 06:00-20:00; Sa 07:00-16:00; Su 07:00-14:00; PH closed'; 'phone':'+36 1 414 0163'; 'shop':'supermarket'; 'website':'http://www.primaboltok.hu/'; 'wheelchair':'yes'; 'wheelchair:description':'járható';  -->
+  <way action="modify" changeset="1" id="46618551" timestamp="2017-12-25T16:15:48Z" uid="4579407" user="KAMI" version="8">
+    <nd ref="595742543"/>
+    <nd ref="595742544"/>
+    <nd ref="595742545"/>
+    <nd ref="460981193"/>
+    <nd ref="595742543"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="1157"/>
     <tag k="addr:street" v="Legénybíró utca"/>
     <tag k="branch" v="Príma Legénybíró"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="cba-legenybiro@lazarteam.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
@@ -803,14 +959,17 @@
     <tag k="phone" v="+3614140163"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair:description" v="járható"/>
+  </way>
   <!-- OSM link: https://osm.org/node/705517727 -->
   <!-- Original coordinates: POINT (47.616498 18.916228) -->
   <!-- Original tags: 'name':'CBA élelmiszer'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="705517727" lat="47.616498" lon="18.916228" timestamp="2017-07-20T10:19:12Z" uid="4579407" user="KAMI" version="7">
+  <node action="modify" changeset="1" id="705517727" lat="47.616441494906" lon="18.9158463973669" timestamp="2017-07-20T10:19:12Z" uid="4579407" user="KAMI" version="7">
     <tag k="addr:city" v="Pilisvörösvár"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2/F"/>
     <tag k="addr:postcode" v="2085"/>
     <tag k="addr:street" v="Fő utca"/>
@@ -823,7 +982,7 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
@@ -831,6 +990,7 @@
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-38" lat="47.518915" lon="17.513532" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Tét"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="70"/>
     <tag k="addr:postcode" v="9100"/>
     <tag k="addr:street" v="Debrecen út"/>
@@ -845,14 +1005,15 @@
     <tag k="phone" v="+3696561088"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/4939179613 -->
   <!-- Original coordinates: POINT (47.669641 19.073815) -->
   <!-- Original tags: 'fixme':'verify'; 'name':'Fulcó deák'; 'shop':'convenience'; 'source':'route4u';  -->
-  <node action="modify" changeset="1" id="4939179613" lat="47.669641" lon="19.073815" timestamp="2017-12-19T13:08:31Z" uid="4579407" user="KAMI" version="3">
+  <node action="modify" changeset="1" id="4939179613" lat="47.6695955949037" lon="19.0739540973449" timestamp="2017-12-19T13:08:31Z" uid="4579407" user="KAMI" version="3">
     <tag k="addr:city" v="Szentendre"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="2000"/>
     <tag k="addr:street" v="Dobozi utca"/>
@@ -866,13 +1027,14 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.374086 16.769627) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-40" lat="47.374086" lon="16.769627" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Bük"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="127"/>
     <tag k="addr:postcode" v="9737"/>
     <tag k="addr:street" v="Kossuth utca"/>
@@ -887,13 +1049,14 @@
     <tag k="phone" v="+3694655046"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.711773 18.01091) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-41" lat="47.711773" lon="18.01091" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Ács"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="4"/>
     <tag k="addr:postcode" v="2941"/>
     <tag k="addr:street" v="Zichy park"/>
@@ -908,14 +1071,15 @@
     <tag k="phone" v="+3634595010"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/1408320846 -->
   <!-- Original coordinates: POINT (47.605135 17.655414) -->
   <!-- Original tags: 'name':'CBA'; 'shop':'supermarket'; 'toilets:wheelchair':'no'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="1408320846" lat="47.605135" lon="17.655414" timestamp="2017-08-31T06:12:09Z" uid="4579407" user="KAMI" version="2">
+  <node action="modify" changeset="1" id="1408320846" lat="47.6049814949064" lon="17.6556736975423" timestamp="2017-08-31T06:12:09Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Győrújbarát"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="18"/>
     <tag k="addr:postcode" v="9081"/>
     <tag k="addr:street" v="Széchenyi körút"/>
@@ -930,7 +1094,7 @@
     <tag k="phone" v="+3696543141"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
@@ -939,6 +1103,7 @@
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-43" lat="47.607927" lon="18.384788" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Vértesszőlős"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1-3"/>
     <tag k="addr:postcode" v="2837"/>
     <tag k="addr:street" v="Határ út"/>
@@ -951,7 +1116,7 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.746246 17.574283) -->
@@ -959,6 +1124,7 @@
   <node action="modify" changeset="99999" id="-44" lat="47.746246" lon="17.574283" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Győrzámoly"/>
     <tag k="addr:conscriptionnumber" v="552"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="9172"/>
     <tag k="addr:street" v="Ancsali utca"/>
     <tag k="branch" v="32.sz. Delikát. Príma"/>
@@ -972,13 +1138,15 @@
     <tag k="phone" v="+3696545003"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/node/4379262789 -->
   <!-- Original coordinates: POINT (47.878456 17.281279) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-45" lat="47.878456" lon="17.281279" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'name':'Prima'; 'name:hu':'Prima'; 'shop':'supermarket'; 'toilets:wheelchair':'limited'; 'wheelchair':'yes';  -->
+  <node action="modify" changeset="1" id="4379262789" lat="47.8788033948951" lon="17.2817216975944" timestamp="2017-09-19T08:30:36Z" uid="4579407" user="KAMI" version="3">
     <tag k="addr:city" v="Mosonmagyaróvár"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="19"/>
     <tag k="addr:postcode" v="9200"/>
     <tag k="addr:street" v="Kálnoki utca"/>
@@ -987,14 +1155,17 @@
     <tag k="email" v="delikat33@delikatkft.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
+    <tag k="name:hu" v="Prima"/>
     <tag k="opening_hours" v="Mo-Fr 06:00-19:30; Sa 06:00-18:00; Su 07:00-11:00"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+3696576554"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
+    <tag k="toilets:wheelchair" v="limited"/>
     <tag k="website" v="https://www.prima.hu"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/way/430877032 -->
   <!-- Original coordinates: POINT (47.597003 18.929052) -->
@@ -1006,6 +1177,7 @@
     <nd ref="4301403572"/>
     <nd ref="4301403569"/>
     <tag k="addr:city" v="Solymár"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="94"/>
     <tag k="addr:postcode" v="2083"/>
     <tag k="addr:street" v="Terstyánszky Ödön utca"/>
@@ -1020,7 +1192,7 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </way>
@@ -1028,6 +1200,7 @@
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-47" lat="47.628646" lon="17.60116" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Győr"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="19"/>
     <tag k="addr:postcode" v="9012"/>
     <tag k="addr:street" v="Új-Élet utca"/>
@@ -1042,14 +1215,15 @@
     <tag k="phone" v="+3696556106"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/844607245 -->
   <!-- Original coordinates: POINT (47.718608 19.089245) -->
   <!-- Original tags: 'addr:city':'Leányfalu'; 'addr:housenumber':'167'; 'addr:postcode':'2016'; 'addr:street':'Móricz Zsigmond út'; 'name':'Príma'; 'opening_hours':'Mo-Fr 06:00-20:00; Sa 07:00-19:00; Su 07:00-17:00; PH closed'; 'operator':'Halmschlager Trade Zrt.'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="844607245" lat="47.718608" lon="19.089245" timestamp="2018-01-30T16:16:40Z" uid="4579407" user="KAMI" version="9">
+  <node action="modify" changeset="1" id="844607245" lat="47.7183963949017" lon="19.0892111973428" timestamp="2018-01-30T16:16:40Z" uid="4579407" user="KAMI" version="9">
     <tag k="addr:city" v="Leányfalu"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="167"/>
     <tag k="addr:postcode" v="2016"/>
     <tag k="addr:street" v="Móricz Zsigmond út"/>
@@ -1063,14 +1237,16 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
+  <!-- OSM link: https://osm.org/node/4939175188 -->
   <!-- Original coordinates: POINT (47.609706 18.897512) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-49" lat="47.609706" lon="18.897512" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'name':'4 sz Príma Cba'; 'shop':'convenience'; 'wheelchair':'yes';  -->
+  <node action="modify" changeset="1" id="4939175188" lat="47.6097449949062" lon="18.8966799973696" timestamp="2017-07-06T21:21:57Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Pilisszentiván"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="91"/>
     <tag k="addr:postcode" v="2084"/>
     <tag k="addr:street" v="Szabadság utca"/>
@@ -1083,13 +1259,15 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <!-- Original coordinates: POINT (47.650476 18.316773) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-50" lat="47.650476" lon="18.316773" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Tata"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="20"/>
     <tag k="addr:postcode" v="2890"/>
     <tag k="addr:street" v="Május 1 út"/>
@@ -1102,14 +1280,15 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/3412995580 -->
   <!-- Original coordinates: POINT (47.490148 19.055388) -->
   <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'54'; 'addr:postcode':'1056'; 'addr:street':'Váci utca'; 'level':'0'; 'name':'CBA Príma'; 'opening_hours':'Mo-Su 08:00-21:00'; 'shop':'supermarket'; 'website':'http://cba.hu/'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="3412995580" lat="47.490148" lon="19.055388" timestamp="2016-11-19T16:50:04Z" uid="4579407" user="KAMI" version="3">
+  <node action="modify" changeset="1" id="3412995580" lat="47.4902480949113" lon="19.0556162973474" timestamp="2016-11-19T16:50:04Z" uid="4579407" user="KAMI" version="3">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="54"/>
     <tag k="addr:postcode" v="1056"/>
     <tag k="addr:street" v="Váci utca"/>
@@ -1124,15 +1303,16 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/715863385 -->
   <!-- Original coordinates: POINT (47.450524 19.172698) -->
   <!-- Original tags: 'name':'CBA'; 'shop':'supermarket'; 'wheelchair':'limited';  -->
-  <node action="modify" changeset="1" id="715863385" lat="47.450524" lon="19.172698" timestamp="2017-02-26T19:14:37Z" uid="4579407" user="KAMI" version="4">
+  <node action="modify" changeset="1" id="715863385" lat="47.450542994913" lon="19.1727625973311" timestamp="2017-02-26T19:14:37Z" uid="4579407" user="KAMI" version="4">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="1184"/>
     <tag k="addr:street" v="Lakatos utca"/>
@@ -1147,7 +1327,7 @@
     <tag k="phone" v="+3612960573"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="limited"/>
   </node>
@@ -1162,6 +1342,7 @@
     <nd ref="1934896554"/>
     <nd ref="1934896552"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="99"/>
     <tag k="addr:postcode" v="1103"/>
     <tag k="addr:street" v="Gyömrői út"/>
@@ -1178,7 +1359,7 @@
     <tag k="phone" v="+3614310132"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="start_date" v="12 04 2018"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.prima.hu"/>
@@ -1188,6 +1369,7 @@
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-54" lat="46.285379" lon="20.086413" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Szeged"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="6791"/>
     <tag k="addr:street" v="Back Bernát utca"/>
@@ -1202,35 +1384,49 @@
     <tag k="phone" v="+3662815688"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/way/249422613 -->
   <!-- Original coordinates: POINT (47.377982 18.920743) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-55" lat="47.377982" lon="18.920743" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Érd'; 'addr:country':'HU'; 'addr:housenumber':'1'; 'addr:postcode':'2030'; 'addr:street':'Kálvin tér'; 'building':'retail'; 'contact:website':'http://www.cbaprima.hu'; 'name':'CBA Príma'; 'operator':'CBA'; 'shop':'supermarket'; 'website':'http://www.cbaprima.hu'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="249422613" timestamp="2018-03-15T11:10:26Z" uid="4579407" user="KAMI" version="7">
+    <nd ref="2560315999"/>
+    <nd ref="2560316002"/>
+    <nd ref="2560316004"/>
+    <nd ref="5480164826"/>
+    <nd ref="2560316005"/>
+    <nd ref="2560316007"/>
+    <nd ref="2560315999"/>
     <tag k="addr:city" v="Érd"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="2030"/>
     <tag k="addr:street" v="Kálvin tér"/>
     <tag k="branch" v="Príma Élelmiszer Áruház - Érd, Kálvin"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
+    <tag k="contact:website" v="http://www.cbaprima.hu"/>
     <tag k="email" v="krupptsa@krupptsa.hu"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00"/>
+    <tag k="operator" v="CBA"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+3623522620"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <!-- OSM link: https://osm.org/node/2124160110 -->
   <!-- Original coordinates: POINT (47.513271 19.200667) -->
   <!-- Original tags: 'addr:postcode':'1165'; 'addr:street':'Imre utca'; 'name':'CBA'; 'shop':'convenience';  -->
-  <node action="modify" changeset="1" id="2124160110" lat="47.513271" lon="19.200667" timestamp="2014-11-04T16:05:21Z" uid="4579407" user="KAMI" version="4">
+  <node action="modify" changeset="1" id="2124160110" lat="47.5133877949103" lon="19.2008242973272" timestamp="2014-11-04T16:05:21Z" uid="4579407" user="KAMI" version="4">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="1165"/>
     <tag k="addr:street" v="Imre utca"/>
@@ -1245,15 +1441,16 @@
     <tag k="phone" v="+364075902"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/4595891889 -->
   <!-- Original coordinates: POINT (47.318334 18.907242) -->
   <!-- Original tags: 'FIXME':'check real location'; 'addr:postcode':'2440'; 'addr:street':'Damjanich utca'; 'name':'CBA Príma'; 'name:hu':'CBA Primo'; 'opening_hours':'Mo-Sa 06:00-21:00'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="4595891889" lat="47.318334" lon="18.907242" timestamp="2018-06-01T13:03:58Z" uid="4579407" user="KAMI" version="4">
+  <node action="modify" changeset="1" id="4595891889" lat="47.3184053949186" lon="18.9074479973681" timestamp="2018-06-01T13:03:58Z" uid="4579407" user="KAMI" version="4">
     <tag k="FIXME" v="check real location"/>
     <tag k="addr:city" v="Százhalombatta"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="23"/>
     <tag k="addr:postcode" v="2440"/>
     <tag k="addr:street" v="Damjanich utca"/>
@@ -1269,19 +1466,35 @@
     <tag k="phone" v="+3623540580"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
+  <!-- OSM link: https://osm.org/way/273442379 -->
   <!-- Original coordinates: POINT (47.438623 19.166407) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-58" lat="47.438623" lon="19.166407" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'11-15'; 'addr:postcode':'1181'; 'addr:street':'Kondor Béla sétány'; 'building':'retail'; 'name':'Príma'; 'shop':'supermarket'; 'website':'http://www.primaboltok.hu'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="273442379" timestamp="2017-12-25T16:17:26Z" uid="4579407" user="KAMI" version="7">
+    <nd ref="2782913883"/>
+    <nd ref="2782913856"/>
+    <nd ref="2782913875"/>
+    <nd ref="2782913836"/>
+    <nd ref="2782913828"/>
+    <nd ref="2782913839"/>
+    <nd ref="2782913832"/>
+    <nd ref="2782913826"/>
+    <nd ref="2782913789"/>
+    <nd ref="2782913820"/>
+    <nd ref="2782913816"/>
+    <nd ref="2782913847"/>
+    <nd ref="2782913883"/>
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="11-15"/>
     <tag k="addr:postcode" v="1181"/>
     <tag k="addr:street" v="Kondor Béla sétány"/>
     <tag k="branch" v="Príma Havanna"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Fr 06:00-21:00; Sa-Su 07:00-17:00"/>
@@ -1289,14 +1502,16 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <!-- OSM link: https://osm.org/node/4684021842 -->
   <!-- Original coordinates: POINT (47.508602 19.058084) -->
   <!-- Original tags: 'name':'Príma'; 'shop':'supermarket';  -->
-  <node action="modify" changeset="1" id="4684021842" lat="47.508602" lon="19.058084" timestamp="2017-02-13T19:16:41Z" uid="4579407" user="KAMI" version="1">
+  <node action="modify" changeset="1" id="4684021842" lat="47.5086774949105" lon="19.0580214973471" timestamp="2017-02-13T19:16:41Z" uid="4579407" user="KAMI" version="1">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="54"/>
     <tag k="addr:postcode" v="1066"/>
     <tag k="addr:street" v="Teréz körút"/>
@@ -1311,13 +1526,14 @@
     <tag k="phone" v="+3613010162"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (46.235613 20.171842) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-60" lat="46.235613" lon="20.171842" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Szeged"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="80"/>
     <tag k="addr:postcode" v="6726"/>
     <tag k="addr:street" v="Szőregi út"/>
@@ -1330,18 +1546,28 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/way/274978775 -->
   <!-- Original coordinates: POINT (47.651053 19.473793) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-61" lat="47.651053" lon="19.473793" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'building':'retail'; 'name':'CBA'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="274978775" timestamp="2017-12-25T16:17:28Z" uid="4579407" user="KAMI" version="4">
+    <nd ref="2796445593"/>
+    <nd ref="2796445594"/>
+    <nd ref="2796445595"/>
+    <nd ref="2796445596"/>
+    <nd ref="2796445597"/>
+    <nd ref="2796445598"/>
+    <nd ref="2796445593"/>
     <tag k="addr:city" v="Aszód"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="11"/>
     <tag k="addr:postcode" v="2170"/>
     <tag k="addr:street" v="Pesti út"/>
     <tag k="branch" v="Príma Élelmiszer Áruház"/>
     <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="name" v="Príma"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 08:00-16:00"/>
@@ -1349,13 +1575,15 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
-  </node>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <!-- Original coordinates: POINT (47.620989 16.878877) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-62" lat="47.620989" lon="16.878877" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Fertőd"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="11"/>
     <tag k="addr:postcode" v="9431"/>
     <tag k="addr:street" v="Gábor Áron utca"/>
@@ -1370,14 +1598,15 @@
     <tag k="phone" v="+36305884864"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- OSM link: https://osm.org/node/4796843424 -->
   <!-- Original coordinates: POINT (47.524394 19.133131) -->
   <!-- Original tags: 'name':'Príma'; 'name:hu':'Príma'; 'shop':'convenience';  -->
-  <node action="modify" changeset="1" id="4796843424" lat="47.524394" lon="19.133131" timestamp="2017-04-18T05:44:23Z" uid="4579407" user="KAMI" version="2">
+  <node action="modify" changeset="1" id="4796843424" lat="47.5243498949098" lon="19.1333839973366" timestamp="2017-04-18T05:44:23Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="135"/>
     <tag k="addr:postcode" v="1141"/>
     <tag k="addr:street" v="Egressy út"/>
@@ -1393,13 +1622,14 @@
     <tag k="phone" v="+3612200362"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.528531 19.037719) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-64" lat="47.528531" lon="19.037719" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="38-44"/>
     <tag k="addr:postcode" v="1034"/>
     <tag k="addr:street" v="Bécsi út"/>
@@ -1412,13 +1642,14 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.474947 19.048063) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-65" lat="47.474947" lon="19.048063" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="9"/>
     <tag k="addr:postcode" v="1117"/>
     <tag k="addr:street" v="Körösi József utca"/>
@@ -1433,13 +1664,14 @@
     <tag k="phone" v="+36303307516"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.386644 18.459975) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-66" lat="47.386644" lon="18.459975" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Csákvár"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="68"/>
     <tag k="addr:postcode" v="8083"/>
     <tag k="addr:street" v="Széchenyi utca"/>
@@ -1454,13 +1686,14 @@
     <tag k="phone" v="+36308700952"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.580341 18.398799) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-67" lat="47.580341" lon="18.398799" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Tatabánya"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1/F"/>
     <tag k="addr:postcode" v="2800"/>
     <tag k="addr:street" v="Köztársaság útja"/>
@@ -1473,13 +1706,14 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
   <!-- Original coordinates: POINT (47.550481 18.820318) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-68" lat="47.550481" lon="18.820318" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="addr:city" v="Telki"/>
+    <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="2089"/>
     <tag k="addr:street" v="Napsugár utca"/>
@@ -1492,7 +1726,7 @@
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-13"/>
+    <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.prima.hu"/>
   </node>
 </osm>

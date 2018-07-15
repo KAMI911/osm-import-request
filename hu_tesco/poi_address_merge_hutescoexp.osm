@@ -400,9 +400,10 @@
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-bp-bimbo-ut"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </way>
+  <!-- OSM link: https://osm.org/node/1704395738 -->
   <!-- Original coordinates: POINT (47.510954 19.059487) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-14" lat="47.510954" lon="19.059487" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'name':'Tesco Express'; 'shop':'supermarket'; 'toilets:wheelchair':'no'; 'wheelchair':'limited';  -->
+  <node action="modify" changeset="1" id="1704395738" lat="47.5096497949104" lon="19.0579899973471" timestamp="2017-09-11T11:23:45Z" uid="4579407" user="KAMI" version="2">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="55-57"/>
@@ -425,7 +426,9 @@
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
     <tag k="source:date" v="2018-07-15"/>
+    <tag k="toilets:wheelchair" v="no"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-bp-eiffel-ter"/>
+    <tag k="wheelchair" v="limited"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </node>
   <!-- OSM link: https://osm.org/node/974419451 -->
@@ -982,10 +985,15 @@
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </node>
-  <!-- OSM link: https://osm.org/node/3473673382 -->
+  <!-- OSM link: https://osm.org/way/171351730 -->
   <!-- Original coordinates: POINT (47.68219 17.63823) -->
-  <!-- Original tags: 'name':'COOP'; 'shop':'convenience'; 'source':'turistautak.hu'; 'source:date':'2011-02-20'; 'url':'http://turistautak.hu/poi.php?id=37172';  -->
-  <node action="modify" changeset="1" id="3473673382" lat="47.6819979949032" lon="17.6381799975447" timestamp="2015-04-23T18:06:42Z" uid="4579407" user="KAMI" version="1">
+  <!-- Original tags: 'addr:city':'Győr'; 'addr:housenumber':'22/A'; 'addr:postcode':'9023'; 'addr:street':'Herman Ottó utca'; 'building':'retail'; 'name':'Tesco'; 'opening_hours':'Mo-Fr 06:00-21:00; Su 06:00-18:00; Su 06:00-17:00'; 'shop':'supermarket';  -->
+  <way action="modify" changeset="1" id="171351730" timestamp="2017-12-25T16:16:22Z" uid="4579407" user="KAMI" version="7">
+    <nd ref="1823908800"/>
+    <nd ref="1823908804"/>
+    <nd ref="1823908816"/>
+    <nd ref="1823908807"/>
+    <nd ref="1823908800"/>
     <tag k="addr:city" v="Győr"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="13"/>
@@ -995,6 +1003,7 @@
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
@@ -1008,10 +1017,9 @@
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
     <tag k="source:date" v="2018-07-15"/>
-    <tag k="url" v="http://turistautak.hu/poi.php?id=37172"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-bartok-bela-utca"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
-  </node>
+  </way>
   <!-- OSM link: https://osm.org/node/3210031716 -->
   <!-- Original coordinates: POINT (47.69457 17.63028) -->
   <!-- Original tags: 'addr:city':'Győr'; 'addr:housenumber':'21'; 'addr:postcode':'9026'; 'addr:street':'Hédervári út'; 'name':'Tesco Express'; 'opening_hours':'Mo-Sa 06:00-22:00'; 'operator':'Tesco-Global Áruházak Zrt'; 'shop':'supermarket'; 'wheelchair':'limited'; 'wheelchair:description':'Bejárat szélessége 145cm.Rámpa 12%-os ,1méter széles';  -->
@@ -1043,9 +1051,15 @@
     <tag k="wheelchair:description" v="Bejárat szélessége 145cm.Rámpa 12%-os ,1méter széles"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </node>
+  <!-- OSM link: https://osm.org/way/265217396 -->
   <!-- Original coordinates: POINT (47.68045 17.63266) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-35" lat="47.68045" lon="17.63266" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Győr'; 'addr:housenumber':'2'; 'addr:postcode':'9024'; 'addr:street':'Hunyadi utca'; 'building':'retail'; 'name':'S Market'; 'shop':'supermarket'; 'toilets:wheelchair':'no'; 'wheelchair':'no';  -->
+  <way action="modify" changeset="1" id="265217396" timestamp="2017-12-25T16:17:22Z" uid="4579407" user="KAMI" version="3">
+    <nd ref="1751083796"/>
+    <nd ref="2708784053"/>
+    <nd ref="2708784054"/>
+    <nd ref="1751083791"/>
+    <nd ref="1751083796"/>
     <tag k="addr:city" v="Győr"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2"/>
@@ -1055,6 +1069,7 @@
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
@@ -1068,9 +1083,11 @@
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
     <tag k="source:date" v="2018-07-15"/>
+    <tag k="toilets:wheelchair" v="no"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-hunyadi-utca"/>
+    <tag k="wheelchair" v="no"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
-  </node>
+  </way>
   <!-- Original coordinates: POINT (47.69258 17.66049) -->
   <!-- Original tags:  -->
   <node action="modify" changeset="99999" id="-36" lat="47.69258" lon="17.66049" timestamp="" uid="4579407" user="KAMI" version="99999">
@@ -1165,9 +1182,10 @@
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </way>
+  <!-- OSM link: https://osm.org/node/5081664573 -->
   <!-- Original coordinates: POINT (48.109297 20.787642) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-39" lat="48.109297" lon="20.787642" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'name':'Tesco Express'; 'shop':'convenience';  -->
+  <node action="modify" changeset="1" id="5081664573" lat="48.1073063948859" lon="20.7873905971064" timestamp="2017-09-05T13:43:06Z" uid="4579407" user="KAMI" version="1">
     <tag k="addr:city" v="Miskolc"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1"/>
@@ -1223,9 +1241,10 @@
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </node>
+  <!-- OSM link: https://osm.org/node/2425935283 -->
   <!-- Original coordinates: POINT (47.85557 17.27842) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-41" lat="47.85557" lon="17.27842" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Mosonmagyaróvár'; 'addr:housenumber':'96'; 'addr:postcode':'9200'; 'addr:street':'Szent István király út'; 'name':'Tesco Market'; 'shop':'supermarket'; 'toilets:wheelchair':'no'; 'wheelchair':'yes';  -->
+  <node action="modify" changeset="1" id="2425935283" lat="47.8568060948961" lon="17.276859997595" timestamp="2018-05-14T10:14:08Z" uid="4579407" user="KAMI" version="4">
     <tag k="addr:city" v="Mosonmagyaróvár"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="96"/>
@@ -1248,7 +1267,9 @@
     <tag k="shop" v="convenience"/>
     <tag k="source" v="website"/>
     <tag k="source:date" v="2018-07-15"/>
+    <tag k="toilets:wheelchair" v="no"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-movar-szent-i-kir-utca"/>
+    <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </node>
   <!-- Original coordinates: POINT (47.86276 17.27494) -->
@@ -1398,10 +1419,15 @@
     <tag k="wheelchair" v="limited"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </node>
-  <!-- OSM link: https://osm.org/node/4940559150 -->
+  <!-- OSM link: https://osm.org/way/301419137 -->
   <!-- Original coordinates: POINT (47.67471 16.58269) -->
-  <!-- Original tags: 'fixme':'verify'; 'name':'45012 Sm So 3050'; 'shop':'supermarket'; 'source':'route4u';  -->
-  <node action="modify" changeset="1" id="4940559150" lat="47.6746999949035" lon="16.5831148976916" timestamp="2018-02-24T16:47:50Z" uid="4579407" user="KAMI" version="3">
+  <!-- Original tags: 'addr:city':'Sopron'; 'addr:housenumber':'1'; 'addr:postcode':'9400'; 'addr:street':'József Attila utca'; 'building':'retail'; 'name':'S-Market'; 'opening_hours':'Mo-Fr 06:00-21:00;Sa-Su 06:00-18:00'; 'shop':'supermarket';  -->
+  <way action="modify" changeset="1" id="301419137" timestamp="2014-09-02T01:46:58Z" uid="4579407" user="KAMI" version="2">
+    <nd ref="3054666797"/>
+    <nd ref="3054666780"/>
+    <nd ref="3054666789"/>
+    <nd ref="3054666790"/>
+    <nd ref="3054666797"/>
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1"/>
@@ -1411,8 +1437,8 @@
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="fixme" v="verify"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
@@ -1427,7 +1453,7 @@
     <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-jozsef-attila-utca"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
-  </node>
+  </way>
   <!-- OSM link: https://osm.org/node/3057051146 -->
   <!-- Original coordinates: POINT (47.67949 16.59297) -->
   <!-- Original tags: 'addr:city':'Sopron'; 'addr:housenumber':'1'; 'addr:postcode':'9400'; 'addr:street':'Király Jenő utca'; 'name':'Turzay és Németh'; 'shop':'convenience';  -->
@@ -1457,9 +1483,15 @@
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-kiraly-j-utca"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
   </node>
+  <!-- OSM link: https://osm.org/way/138442332 -->
   <!-- Original coordinates: POINT (47.68852 16.58626) -->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-49" lat="47.68852" lon="16.58626" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'addr:city':'Sopron'; 'addr:housenumber':'11'; 'addr:postcode':'9400'; 'addr:street':'Lackner Kristóf utca'; 'building':'retail'; 'name':'S-Market'; 'opening_hours':'Mo-Fr 06:00-21:00;Sa-Su 06:00-18:00'; 'shop':'supermarket'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="138442332" timestamp="2017-09-11T06:07:31Z" uid="4579407" user="KAMI" version="3">
+    <nd ref="1517944945"/>
+    <nd ref="1517944887"/>
+    <nd ref="1517944905"/>
+    <nd ref="1517944892"/>
+    <nd ref="1517944945"/>
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="11"/>
@@ -1469,6 +1501,7 @@
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
@@ -1483,8 +1516,9 @@
     <tag k="source" v="website"/>
     <tag k="source:date" v="2018-07-15"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-lackner-k-utca"/>
+    <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
-  </node>
+  </way>
   <!-- OSM link: https://osm.org/node/1406975311 -->
   <!-- Original coordinates: POINT (47.68508 16.5979) -->
   <!-- Original tags: 'addr:city':'Sopron'; 'addr:housenumber':'9'; 'addr:postcode':'9400'; 'addr:street':'Végfordulat'; 'name':'S-Market'; 'shop':'supermarket'; 'wheelchair':'limited';  -->

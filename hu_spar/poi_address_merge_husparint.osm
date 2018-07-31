@@ -27,7 +27,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/10/interspar-hipermarket-3-keruelet.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -59,17 +59,28 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/11/interspar-hipermarket-10-keruelet0.html"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
   </node>
-  <!-- OSM link: https://osm.org/node/702905911 -->
+  <!-- OSM link: https://osm.org/way/286441729 -->
   <!-- Original coordinates: POINT (47.5029 19.13633) -->
-  <!-- OSM <-> POI distance: 179.3025195 m-->
+  <!-- OSM <-> POI distance: 808.80688848 m-->
   <!-- Checker good: {not_in_water}; bad {}-->
-  <!-- Original tags: 'contact:website':'http://www.spar.hu'; 'name':'SPAR'; 'opening_hours':'Mo-Fr 06:30-21:30, Sa,Su 08:00-20:00'; 'shop':'supermarket'; 'website':'http://www.spar.hu'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="702905911" lat="47.5041237949107" lon="19.137884297336" timestamp="2017-08-31T18:22:34Z" uid="4579407" user="KAMI" version="5">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'34'; 'addr:postcode':'1144'; 'addr:street':'Ond Vezér útja'; 'building':'retail'; 'name':'Spar'; 'opening_hours':'Mo-Fr 07:00-21:00; Sa 07:00-17:00; Su 08:00-16:00'; 'shop':'supermarket'; 'source':'Bing';  -->
+  <way action="modify" changeset="1" id="286441729" timestamp="2018-05-10T12:43:00Z" uid="4579407" user="KAMI" version="6">
+    <nd ref="2901186562"/>
+    <nd ref="2901186537"/>
+    <nd ref="2901186541"/>
+    <nd ref="2901186559"/>
+    <nd ref="2901186561"/>
+    <nd ref="2901186571"/>
+    <nd ref="2901186568"/>
+    <nd ref="2901186580"/>
+    <nd ref="2901186575"/>
+    <nd ref="2901186564"/>
+    <nd ref="2901186562"/>
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="61"/>
@@ -79,62 +90,74 @@
     <tag k="brand" v="Spar"/>
     <tag k="brand:wikidata" v="Q610492"/>
     <tag k="brand:wikipedia" v="hu:Spar "/>
+    <tag k="building" v="retail"/>
+    <tag k="email" v="vevoszolgalat@spar.hu"/>
+    <tag k="facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
+    <tag k="instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="name" v="Interspar"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-21:00; Sa 07:00-17:00; Su 08:00-16:00"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+36208237727"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2018-07-30"/>
+    <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/11/interspar-hipermarket-10-keruelet.html"/>
+    <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+  </way>
+  <!-- OSM link: https://osm.org/way/204985046 -->
+  <!-- Original coordinates: POINT (47.46405 19.12746) -->
+  <!-- OSM <-> POI distance: 897.23315077 m-->
+  <!-- Checker good: {not_in_water}; bad {}-->
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'14'; 'addr:housenumber_1':'10'; 'addr:postcode':'1098'; 'addr:street':'Lobogó utca'; 'addr:street_1':'Napfény utca'; 'building':'retail'; 'contact:website':'http://www.spar.hu'; 'name':'SPAR'; 'shop':'supermarket'; 'website':'http://www.spar.hu'; 'wheelchair':'yes';  -->
+  <way action="modify" changeset="1" id="204985046" timestamp="2017-12-25T16:16:37Z" uid="4579407" user="KAMI" version="5">
+    <nd ref="2149636219"/>
+    <nd ref="2149636183"/>
+    <nd ref="2149636187"/>
+    <nd ref="2149636226"/>
+    <nd ref="2149636219"/>
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:country" v="HU"/>
+    <tag k="addr:housenumber" v="201"/>
+    <tag k="addr:housenumber_1" v="10"/>
+    <tag k="addr:postcode" v="1191"/>
+    <tag k="addr:street" v="Üllői utca"/>
+    <tag k="addr:street_1" v="Napfény utca"/>
+    <tag k="branch" v="Interspar hipermarket Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar "/>
+    <tag k="building" v="retail"/>
     <tag k="contact:website" v="http://www.spar.hu"/>
     <tag k="email" v="vevoszolgalat@spar.hu"/>
     <tag k="facebook" v="https://www.facebook.com/sparmagyarorszag"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="instagram" v="https://www.instagram.com/sparmagyarorszag"/>
     <tag k="name" v="Interspar"/>
-    <tag k="opening_hours" v="Mo-Fr 06:30-21:30, Sa,Su 08:00-20:00"/>
     <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
-    <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/11/interspar-hipermarket-10-keruelet.html"/>
+    <tag k="source:date" v="2018-07-30"/>
+    <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/11/interspar-hipermarket-budapest-19-keruelet.html"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
-  </node>
-  <!-- OSM link: https://osm.org/node/2398061520 -->
-  <!-- Original coordinates: POINT (47.46405 19.12746) -->
-  <!-- OSM <-> POI distance: 208.9883498 m-->
-  <!-- Checker good: {not_in_water}; bad {}-->
-  <!-- Original tags: 'name':'INTERSPAR'; 'opening_hours':'Mo-Th 07:00-21:00; Fr 07:00-22:00; Sa 07:00-21:00; Su 08:30-19:30'; 'shop':'supermarket'; 'website':'http://www.spar.hu'; 'wheelchair':'limited';  -->
-  <node action="modify" changeset="1" id="2398061520" lat="47.4627804949124" lon="19.1295099973371" timestamp="2015-11-28T14:22:33Z" uid="4579407" user="KAMI" version="3">
-    <tag k="addr:city" v="Budapest"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:housenumber" v="201"/>
-    <tag k="addr:postcode" v="1191"/>
-    <tag k="addr:street" v="Üllői utca"/>
-    <tag k="branch" v="Interspar hipermarket Budapest"/>
-    <tag k="brand" v="Spar"/>
-    <tag k="brand:wikidata" v="Q610492"/>
-    <tag k="brand:wikipedia" v="hu:Spar "/>
-    <tag k="email" v="vevoszolgalat@spar.hu"/>
-    <tag k="facebook" v="https://www.facebook.com/sparmagyarorszag"/>
-    <tag k="import" v="osm_poi_matchmaker"/>
-    <tag k="instagram" v="https://www.instagram.com/sparmagyarorszag"/>
-    <tag k="name" v="Interspar"/>
-    <tag k="opening_hours" v="Mo-Th 07:00-21:00; Fr 07:00-22:00; Sa 07:00-21:00; Su 08:30-19:30"/>
-    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="phone" v="+36208237727"/>
-    <tag k="shop" v="supermarket"/>
-    <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
-    <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/11/interspar-hipermarket-budapest-19-keruelet.html"/>
-    <tag k="wheelchair" v="limited"/>
-    <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
-  </node>
-  <!-- OSM link: https://osm.org/node/318617643 -->
+  </way>
+  <!-- OSM link: https://osm.org/way/211334066 -->
   <!-- Original coordinates: POINT (47.43935 19.10088) -->
-  <!-- OSM <-> POI distance: 41.48780626 m-->
+  <!-- OSM <-> POI distance: 317.9013036 m-->
   <!-- Checker good: {not_in_water}; bad {}-->
-  <!-- Original tags: 'name':'INTERSPAR'; 'shop':'supermarket'; 'toilets:wheelchair':'no'; 'website':'http://www.spar.hu'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="318617643" lat="47.4395460949134" lon="19.1004106973412" timestamp="2017-09-13T07:27:21Z" uid="4579407" user="KAMI" version="6">
+  <!-- Original tags: 'addr:city':'Budapest'; 'addr:housenumber':'5'; 'addr:postcode':'1203'; 'addr:street':'Baross utca'; 'building':'retail'; 'name':'SPAR'; 'opening_hours':'Mo-Fr 06:30-20:00; Sa 06:30-17:00'; 'phone':'+36 20 8237103'; 'ref':'103'; 'shop':'supermarket'; 'website':'http://www.spar.hu'; 'wheelchair':'limited';  -->
+  <way action="modify" changeset="1" id="211334066" timestamp="2015-11-29T09:37:22Z" uid="4579407" user="KAMI" version="7">
+    <nd ref="2213446177"/>
+    <nd ref="2213446173"/>
+    <nd ref="2213446171"/>
+    <nd ref="2213446172"/>
+    <nd ref="2213446177"/>
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="1"/>
@@ -144,23 +167,25 @@
     <tag k="brand" v="Spar"/>
     <tag k="brand:wikidata" v="Q610492"/>
     <tag k="brand:wikipedia" v="hu:Spar "/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="vevoszolgalat@spar.hu"/>
     <tag k="facebook" v="https://www.facebook.com/sparmagyarorszag"/>
     <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="instagram" v="https://www.instagram.com/sparmagyarorszag"/>
     <tag k="name" v="Interspar"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30-20:00; Sa 06:30-17:00"/>
     <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="phone" v="+36208237727"/>
+    <tag k="ref" v="103"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
-    <tag k="toilets:wheelchair" v="no"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/12/interspar-hipermarket-budapest-20-keruelet.html"/>
-    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair" v="limited"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
-  </node>
+  </way>
   <!-- OSM link: https://osm.org/node/1963117485 -->
   <!-- Original coordinates: POINT (47.646068 19.063413) -->
   <!-- OSM <-> POI distance: 68.86685915 m-->
@@ -187,7 +212,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/20/interspar-hipermarket-szentendre-.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -195,10 +220,17 @@
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
   </node>
   <!-- Original coordinates: POINT (47.41378 18.88284) -->
-  <!-- OSM <-> POI distance: None m-->
+  <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water}; bad {}-->
-  <!-- Original tags:  -->
-  <node action="modify" changeset="99999" id="-7" lat="47.41378" lon="18.88284" timestamp="" uid="4579407" user="KAMI" version="99999">
+  <!-- Original tags: 'building':'retail'; 'name':'Interspar'; 'shop':'supermarket'; 'type':'multipolygon';  -->
+  <relation action="modify" changeset="1" id="-7033175" timestamp="2017-12-25T16:18:20Z" uid="4579407" user="KAMI" version="4">
+    <member ref="478614452" role="outer" type="way"/>
+    <member ref="478614578" role="outer" type="way"/>
+    <member ref="478384039" role="outer" type="way"/>
+    <member ref="478614395" role="outer" type="way"/>
+    <member ref="478614218" role="outer" type="way"/>
+    <member ref="478384041" role="outer" type="way"/>
+    <member ref="478614406" role="outer" type="way"/>
     <tag k="addr:city" v="Érd"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="5"/>
@@ -208,6 +240,7 @@
     <tag k="brand" v="Spar"/>
     <tag k="brand:wikidata" v="Q610492"/>
     <tag k="brand:wikipedia" v="hu:Spar "/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="vevoszolgalat@spar.hu"/>
     <tag k="facebook" v="https://www.facebook.com/sparmagyarorszag"/>
     <tag k="import" v="osm_poi_matchmaker"/>
@@ -219,10 +252,11 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
+    <tag k="type" v="multipolygon"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/20/interspar-hipermarket-erd.html"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
-  </node>
+  </relation>
   <!-- OSM link: https://osm.org/way/15117985 -->
   <!-- Original coordinates: POINT (47.404122 18.946629) -->
   <!-- OSM <-> POI distance: 12.23414179 m-->
@@ -274,7 +308,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/20/interspar-hipermarket-diosd.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -315,7 +349,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/24/interspar-hipermarket-dunaujvaros.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -353,16 +387,26 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/28/interspar-hipermarket-tatabanya.html"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
   </way>
-  <!-- OSM link: https://osm.org/node/3308611700 -->
+  <!-- OSM link: https://osm.org/way/121218702 -->
   <!-- Original coordinates: POINT (48.10268 20.79223) -->
-  <!-- OSM <-> POI distance: 13.87082664 m-->
+  <!-- OSM <-> POI distance: 347.23001903 m-->
   <!-- Checker good: {not_in_water}; bad {}-->
-  <!-- Original tags: 'name':'Interspar'; 'shop':'supermarket'; 'website':'http://www.spar.hu'; 'wheelchair':'yes';  -->
-  <node action="modify" changeset="1" id="3308611700" lat="48.1026907948861" lon="20.7924160971057" timestamp="2015-11-20T21:40:34Z" uid="4579407" user="KAMI" version="4">
+  <!-- Original tags: 'building':'retail'; 'name':'Spar'; 'shop':'supermarket';  -->
+  <way action="modify" changeset="1" id="121218702" timestamp="2017-12-25T16:16:07Z" uid="4579407" user="KAMI" version="4">
+    <nd ref="1357561448"/>
+    <nd ref="1357561413"/>
+    <nd ref="1357561513"/>
+    <nd ref="1357561514"/>
+    <nd ref="1357561569"/>
+    <nd ref="1357561444"/>
+    <nd ref="1357561498"/>
+    <nd ref="1357561447"/>
+    <nd ref="1357561551"/>
+    <nd ref="1357561448"/>
     <tag k="addr:city" v="Miskolc"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="2-4"/>
@@ -372,6 +416,7 @@
     <tag k="brand" v="Spar"/>
     <tag k="brand:wikidata" v="Q610492"/>
     <tag k="brand:wikipedia" v="hu:Spar "/>
+    <tag k="building" v="retail"/>
     <tag k="email" v="vevoszolgalat@spar.hu"/>
     <tag k="facebook" v="https://www.facebook.com/sparmagyarorszag"/>
     <tag k="import" v="osm_poi_matchmaker"/>
@@ -383,11 +428,10 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/35/interspar-hipermarket-miskolc.html"/>
-    <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
-  </node>
+  </way>
   <!-- OSM link: https://osm.org/way/357284270 -->
   <!-- Original coordinates: POINT (48.22172 20.28103) -->
   <!-- OSM <-> POI distance: 6.77253329 m-->
@@ -436,7 +480,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/36/interspar-hipermarket-ozd.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -468,7 +512,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/40/interspar-hipermarket-debrecen.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -517,7 +561,7 @@
     <tag k="ref" v="5110"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/44/interspar-hipermarket-nyiregyhaza.html"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
@@ -560,7 +604,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/44/interspar-hipermarket-nyiregyhaza-ii-.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -611,7 +655,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/50/interspar-hipermarket-szolnok.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -621,7 +665,7 @@
   <!-- Original coordinates: POINT (46.639507 21.26215) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water}; bad {}-->
-  <!-- Original tags: 'building':'retail'; 'name':'INTERSPAR'; 'shop':'supermarket'; 'website':'http://www.spar.hu'; 'wheelchair':'yes';  -->
+  <!-- Original tags: 'addr:city':'Gyula'; 'building':'retail'; 'name':'Interspar'; 'shop':'supermarket'; 'website':'http://www.spar.hu'; 'wheelchair':'yes';  -->
   <way action="modify" changeset="1" id="264961886" timestamp="2017-12-25T16:17:21Z" uid="4579407" user="KAMI" version="5">
     <nd ref="2388594265"/>
     <nd ref="2706102022"/>
@@ -654,7 +698,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/57/interspar-hipermarket-gyula.html"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
@@ -685,7 +729,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/68/interspar-hipermarket-hodmezvasarhely.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -723,7 +767,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/71/interspar-hipermarket-szekszard.html"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
@@ -768,7 +812,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/76/interspar-hipermarket-pecs.html"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
   </way>
@@ -799,7 +843,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/76/interspar-hipermarket-pecs0.html"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
@@ -865,7 +909,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/80/interspar-hipermarket-szekesfehervar.html"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
   </way>
@@ -905,7 +949,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/80/interspar-hipermarket-szekesfehervar0.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -951,7 +995,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/82/interspar-hipermarket-veszprem.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -992,7 +1036,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/83/interspar-hipermarket-keszthely.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -1045,7 +1089,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="limited"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/85/interspar-hipermarket-papa.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -1078,7 +1122,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/88/interspar-hipermarket-nagykanizsa.html"/>
     <tag k="youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
   </node>
@@ -1129,7 +1173,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/89/interspar-hipermarket-zalaegerszeg.html"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="wheelchair:description" v="Nyitvatartás h-sz 06-22, bejárat szélessége 2x110 cm-es szárnyú, fotocellás ajtó, bejárat: padlószinti, küszöb nélküli kialakítás, kerekesszékkel megközelíthető, mozgássérült WC van, mozgássérült parkolók száma: 6 db, legkisebb járdaszélesség: 1,40 m."/>
@@ -1169,7 +1213,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="limited"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/90/interspar-hipermarket-gyr.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -1209,7 +1253,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="limited"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/90/interspar-hipermarket-gyr-ece.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -1261,7 +1305,7 @@
     <tag k="ref" v="5240"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/94/interspar-hipermarket-sopron.html"/>
     <tag k="wheelchair" v="yes"/>
@@ -1294,7 +1338,7 @@
     <tag k="phone" v="+36208237727"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2018-07-18"/>
+    <tag k="source:date" v="2018-07-30"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="website" v="https://www.spar.hu/content/aspiag_spar_hu/hu_HU/uzletek/97/interspar-hipermarket-szombathely.html"/>
     <tag k="wheelchair" v="yes"/>

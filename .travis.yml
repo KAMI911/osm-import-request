@@ -6,5 +6,4 @@ sudo: false
 
 # command to run test
 script:
-  - cat */*.osm | grep "OSM link" |  sort |  uniq -cd
-  - cat */*.osm | grep "OSM link" |  sort |  uniq -cd  | wc -l
+  - ./test/osm_basic_test.sh

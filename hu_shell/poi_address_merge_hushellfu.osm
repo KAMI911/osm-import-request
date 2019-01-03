@@ -1,5 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/623646134 -->
+  <!-- Original coordinates: POINT (47.25803 16.93817) -->
+  <!-- OSM <-> POI distance: 1.47131818 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Sárvár'
+addr:country                     N		'HU'
+addr:postcode                    N		'9600'
+addr:street                      N		'Vágóhíd utca'
+air_conditioning                 N		'yes'
+amenity                          E		'fuel'			'fuel'
+branch                           N		'SÁRVÁR.'
+brand                            N		'Shell'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Shell'
+opening_hours                    N		'24/7'
+operator                         E		'Shell'			'Shell'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+phone                            N		'+3695325200'
+source:www.shell.hu:date         N		'2019-01-03'
+website                          N		'https://www.shell.hu'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n623646134&addtags=%7Caddr%3Acity%3DS%C3%A1rv%C3%A1r%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9600%7Caddr%3Astreet%3DV%C3%A1g%C3%B3h%C3%ADd%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DS%C3%81RV%C3%81R.%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3695325200%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="623646134" lat="47.2580430949212" lon="16.9381727976422" timestamp="2014-09-29T07:41:42Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <tag k="addr:city" v="Sárvár"/>
+    <tag k="addr:country" v="HU"/>
+    <tag k="addr:postcode" v="9600"/>
+    <tag k="addr:street" v="Vágóhíd utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="branch" v="SÁRVÁR."/>
+    <tag k="brand" v="Shell"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Shell"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Shell"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+3695325200"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
+    <tag k="website" v="https://www.shell.hu"/>
+  </node>
   <node action="modify" id="4387573548" lat="45.9974111" lon="18.6674691" timestamp="2016-09-06T16:54:33Z" uid="1559158" user="vakulya" version="1"/>
   <node action="modify" id="4387573549" lat="45.9973974" lon="18.6676501" timestamp="2016-09-06T16:54:33Z" uid="1559158" user="vakulya" version="1"/>
   <node action="modify" id="4387573550" lat="45.9973336" lon="18.6676401" timestamp="2016-09-06T16:54:33Z" uid="1559158" user="vakulya" version="1"/>
@@ -283,54 +329,6 @@ wheelchair                       E		'yes'			'yes'
     <tag k="website" v="https://www.shell.hu"/>
     <tag k="wheelchair" v="yes"/>
   </node>
-  <!-- OSM link: https://osm.org/node/448081655 -->
-  <!-- Original coordinates: POINT (47.0412 19.566824) -->
-  <!-- OSM <-> POI distance: 4.84146111 m-->
-  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        N		'Lajosmizse'
-addr:country                     N		'HU'
-addr:housenumber                 N		'67'
-addr:postcode                    N		'6050'
-addr:street                      N		'M5 autópálya'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-branch                           N		'LAJOSMIZSE (K/BAL).'
-brand                            E		'Shell'			'Shell'
-fuel:diesel                      N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'Shell'			'Shell'
-opening_hours                    N		'24/7'
-operator                         E		'Shell'			'Shell'
-payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-phone                            N		'+3676555016'
-source:www.shell.hu:date         N		'2019-01-03'
-website                          M		'https://www.shell.hu'			'http://www.shell.hu/'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n448081655&addtags=%7Caddr%3Acity%3DLajosmizse%7Caddr%3Acountry%3DHU%7Caddr%3Ahousenumber%3D67%7Caddr%3Apostcode%3D6050%7Caddr%3Astreet%3DM5%20aut%C3%B3p%C3%A1lya%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DLAJOSMIZSE%20%28K/BAL%29.%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3676555016%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="448081655" lat="47.0412354949307" lon="19.5667869972763" timestamp="2015-03-15T08:34:23Z" uid="8635934" user="osm_poi_matchmaker" version="4">
-    <tag k="addr:city" v="Lajosmizse"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:housenumber" v="67"/>
-    <tag k="addr:postcode" v="6050"/>
-    <tag k="addr:street" v="M5 autópálya"/>
-    <tag k="air_conditioning" v="yes"/>
-    <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="LAJOSMIZSE (K/BAL)."/>
-    <tag k="brand" v="Shell"/>
-    <tag k="fuel:diesel" v="yes"/>
-    <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="operator" v="Shell"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="phone" v="+3676555016"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
-    <tag k="website" v="https://www.shell.hu"/>
-  </node>
   <!-- OSM link: https://osm.org/node/2376254232 -->
   <!-- Original coordinates: POINT (46.084406 18.268648) -->
   <!-- OSM <-> POI distance: 8.3225442 m-->
@@ -612,7 +610,7 @@ source:www.shell.hu:date         N		'2019-01-03'
 website                          N		'https://www.shell.hu'
 -->
   <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DMak%C3%B3%7Caddr%3Acountry%3DHU%7Caddr%3Ahousenumber%3D103%7Caddr%3Apostcode%3D6900%7Caddr%3Astreet%3DAradi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMAK%C3%93%20II%20572%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3662510044%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="-11" lat="46.216227" lon="20.502021" timestamp="2019-01-02T23:46:40Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-11" lat="46.216227" lon="20.502021" timestamp="2019-01-03T12:08:29Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Makó"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="103"/>
@@ -657,7 +655,7 @@ source:www.shell.hu:date         N		'2019-01-03'
 website                          N		'https://www.shell.hu'
 -->
   <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DMak%C3%B3%7Caddr%3Acountry%3DHU%7Caddr%3Ahousenumber%3D117%7Caddr%3Apostcode%3D6900%7Caddr%3Astreet%3DAradi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMAK%C3%93%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3662510372%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="-12" lat="46.216772" lon="20.507070000000002" timestamp="2019-01-02T23:46:40Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-12" lat="46.216772" lon="20.507070000000002" timestamp="2019-01-03T12:08:29Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Makó"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:housenumber" v="117"/>
@@ -1079,7 +1077,7 @@ source:www.shell.hu:date         N		'2019-01-03'
 website                          N		'https://www.shell.hu'
 -->
   <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-19&addtags=%7Caddr%3Acity%3DDomb%C3%B3v%C3%A1r%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D7200%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DDOMB%C3%93V%C3%81R%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3674467374%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="-19" lat="46.38624" lon="18.14099" timestamp="2019-01-02T23:46:40Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-19" lat="46.38624" lon="18.14099" timestamp="2019-01-03T12:08:29Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Dombóvár"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="7200"/>
@@ -1463,6 +1461,54 @@ website                          M		'https://www.shell.hu'			'http://www.shell.h
     <tag k="source:www.shell.hu:date" v="2019-01-03"/>
     <tag k="website" v="https://www.shell.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/node/2379280211 -->
+  <!-- Original coordinates: POINT (47.258231 16.612629) -->
+  <!-- OSM <-> POI distance: 17.41910942 m-->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Szombathely'
+addr:country                     N		'HU'
+addr:postcode                    N		'9700'
+addr:street                      N		'Kőszegi út'
+air_conditioning                 N		'yes'
+amenity                          E		'fuel'			'fuel'
+branch                           N		'SZOMBATHELY'
+brand                            E		'Shell'			'Shell'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             E		'Shell'			'Shell'
+opening_hours                    N		'24/7'
+operator                         E		'Shell'			'Shell'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+phone                            N		'+694506261'
+source:www.shell.hu:date         N		'2019-01-03'
+website                          M		'https://www.shell.hu'			'http://www.shell.hu/'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2379280211&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DK%C5%91szegi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B694506261%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu%7Cwheelchair%3Dyes -->
+  <node action="modify" id="2379280211" lat="47.2582991949212" lon="16.6128367976875" timestamp="2015-05-15T03:53:03Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <tag k="addr:city" v="Szombathely"/>
+    <tag k="addr:country" v="HU"/>
+    <tag k="addr:postcode" v="9700"/>
+    <tag k="addr:street" v="Kőszegi út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="branch" v="SZOMBATHELY"/>
+    <tag k="brand" v="Shell"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Shell"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Shell"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+694506261"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
+    <tag k="website" v="https://www.shell.hu"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
   <node action="modify" id="4037496747" lat="46.6402457" lon="20.2685036" timestamp="2016-03-02T22:47:28Z" uid="1559158" user="vakulya" version="1"/>
   <node action="modify" id="4037496748" lat="46.6404009" lon="20.2683522" timestamp="2016-03-02T22:47:28Z" uid="1559158" user="vakulya" version="1"/>
   <node action="modify" id="4037496749" lat="46.6403385" lon="20.2682163" timestamp="2016-03-02T22:47:28Z" uid="1559158" user="vakulya" version="1"/>
@@ -1736,58 +1782,6 @@ website                          N		'https://www.shell.hu'
     <tag k="source:www.shell.hu:date" v="2019-01-03"/>
     <tag k="website" v="https://www.shell.hu"/>
   </way>
-  <!-- OSM link: https://osm.org/node/1714722100 -->
-  <!-- Original coordinates: POINT (47.085854 17.920128) -->
-  <!-- OSM <-> POI distance: 5.54291502 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        N		'Veszprém'
-addr:country                     N		'HU'
-addr:housenumber                 N		'7'
-addr:postcode                    N		'8200'
-addr:street                      N		'Almádi út'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-branch                           N		'VESZPRÉM II.'
-brand                            E		'Shell'			'Shell'
-fuel:diesel                      N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'Shell'			'Shell'
-opening_hours                    N		'24/7'
-operator                         E		'Shell'			'Shell'
-payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-phone                            N		'+3688564890'
-source:www.shell.hu:date         N		'2019-01-03'
-toilets:wheelchair               E		'yes'			'yes'
-website                          M		'https://www.shell.hu'			'http://www.shell.hu/'
-wheelchair                       E		'yes'			'yes'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1714722100&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Acountry%3DHU%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DAlm%C3%A1di%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DVESZPR%C3%89M%20II.%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3688564890%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Ctoilets%3Awheelchair%3Dyes%7Cwebsite%3Dhttps%3A//www.shell.hu%7Cwheelchair%3Dyes -->
-  <node action="modify" id="1714722100" lat="47.0858746949287" lon="17.9200613975055" timestamp="2017-09-07T13:47:16Z" uid="8635934" user="osm_poi_matchmaker" version="6">
-    <tag k="addr:city" v="Veszprém"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:housenumber" v="7"/>
-    <tag k="addr:postcode" v="8200"/>
-    <tag k="addr:street" v="Almádi út"/>
-    <tag k="air_conditioning" v="yes"/>
-    <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="VESZPRÉM II."/>
-    <tag k="brand" v="Shell"/>
-    <tag k="fuel:diesel" v="yes"/>
-    <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="operator" v="Shell"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="phone" v="+3688564890"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
-    <tag k="toilets:wheelchair" v="yes"/>
-    <tag k="website" v="https://www.shell.hu"/>
-    <tag k="wheelchair" v="yes"/>
-  </node>
   <!-- OSM link: https://osm.org/node/673334420 -->
   <!-- Original coordinates: POINT (46.689781 19.849985) -->
   <!-- OSM <-> POI distance: 14.70603068 m-->
@@ -2961,6 +2955,106 @@ website                          N		'https://www.shell.hu'
     <tag k="source:www.shell.hu:date" v="2019-01-03"/>
     <tag k="website" v="https://www.shell.hu"/>
   </node>
+  <!-- OSM link: https://osm.org/node/448081655 -->
+  <!-- Original coordinates: POINT (47.0412 19.566824) -->
+  <!-- OSM <-> POI distance: 4.84146111 m-->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Lajosmizse'
+addr:country                     N		'HU'
+addr:housenumber                 N		'67'
+addr:postcode                    N		'6050'
+addr:street                      N		'M5 autópálya'
+air_conditioning                 N		'yes'
+amenity                          E		'fuel'			'fuel'
+branch                           N		'LAJOSMIZSE (K/BAL).'
+brand                            E		'Shell'			'Shell'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             E		'Shell'			'Shell'
+opening_hours                    N		'24/7'
+operator                         E		'Shell'			'Shell'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+phone                            N		'+3676555016'
+source:www.shell.hu:date         N		'2019-01-03'
+website                          M		'https://www.shell.hu'			'http://www.shell.hu/'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n448081655&addtags=%7Caddr%3Acity%3DLajosmizse%7Caddr%3Acountry%3DHU%7Caddr%3Ahousenumber%3D67%7Caddr%3Apostcode%3D6050%7Caddr%3Astreet%3DM5%20aut%C3%B3p%C3%A1lya%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DLAJOSMIZSE%20%28K/BAL%29.%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3676555016%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="448081655" lat="47.0412354949307" lon="19.5667869972763" timestamp="2015-03-15T08:34:23Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <tag k="addr:city" v="Lajosmizse"/>
+    <tag k="addr:country" v="HU"/>
+    <tag k="addr:housenumber" v="67"/>
+    <tag k="addr:postcode" v="6050"/>
+    <tag k="addr:street" v="M5 autópálya"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="branch" v="LAJOSMIZSE (K/BAL)."/>
+    <tag k="brand" v="Shell"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Shell"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Shell"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+3676555016"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
+    <tag k="website" v="https://www.shell.hu"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1714722100 -->
+  <!-- Original coordinates: POINT (47.085854 17.920128) -->
+  <!-- OSM <-> POI distance: 5.54291502 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Veszprém'
+addr:country                     N		'HU'
+addr:housenumber                 N		'7'
+addr:postcode                    N		'8200'
+addr:street                      N		'Almádi út'
+air_conditioning                 N		'yes'
+amenity                          E		'fuel'			'fuel'
+branch                           N		'VESZPRÉM II.'
+brand                            E		'Shell'			'Shell'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             E		'Shell'			'Shell'
+opening_hours                    N		'24/7'
+operator                         E		'Shell'			'Shell'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+phone                            N		'+3688564890'
+source:www.shell.hu:date         N		'2019-01-03'
+toilets:wheelchair               E		'yes'			'yes'
+website                          M		'https://www.shell.hu'			'http://www.shell.hu/'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1714722100&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Acountry%3DHU%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DAlm%C3%A1di%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DVESZPR%C3%89M%20II.%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3688564890%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Ctoilets%3Awheelchair%3Dyes%7Cwebsite%3Dhttps%3A//www.shell.hu%7Cwheelchair%3Dyes -->
+  <node action="modify" id="1714722100" lat="47.0858746949287" lon="17.9200613975055" timestamp="2017-09-07T13:47:16Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+    <tag k="addr:city" v="Veszprém"/>
+    <tag k="addr:country" v="HU"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="8200"/>
+    <tag k="addr:street" v="Almádi út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="branch" v="VESZPRÉM II."/>
+    <tag k="brand" v="Shell"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Shell"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Shell"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+3688564890"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="website" v="https://www.shell.hu"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
   <node action="modify" id="2838394449" lat="47.1044162" lon="17.9318206" timestamp="2014-05-05T17:40:06Z" uid="613605" user="Plutoz" version="1"/>
   <node action="modify" id="2838394444" lat="47.1042111" lon="17.9317536" timestamp="2014-05-05T17:40:06Z" uid="613605" user="Plutoz" version="1"/>
   <node action="modify" id="2838394442" lat="47.104185" lon="17.9319264" timestamp="2014-05-05T17:40:06Z" uid="613605" user="Plutoz" version="1"/>
@@ -3973,100 +4067,6 @@ website                          M		'https://www.shell.hu'			'http://www.shell.h
     <tag k="phone" v="+694506990"/>
     <tag k="source:www.shell.hu:date" v="2019-01-03"/>
     <tag k="website" v="https://www.shell.hu"/>
-  </node>
-  <!-- OSM link: https://osm.org/node/623646134 -->
-  <!-- Original coordinates: POINT (47.25803 16.93817) -->
-  <!-- OSM <-> POI distance: 1.47131818 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        N		'Sárvár'
-addr:country                     N		'HU'
-addr:postcode                    N		'9600'
-addr:street                      N		'Vágóhíd utca'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-branch                           N		'SÁRVÁR.'
-brand                            N		'Shell'
-fuel:diesel                      N		'yes'
-fuel:octane_95                   N		'yes'
-name                             N		'Shell'
-opening_hours                    N		'24/7'
-operator                         E		'Shell'			'Shell'
-payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-phone                            N		'+3695325200'
-source:www.shell.hu:date         N		'2019-01-03'
-website                          N		'https://www.shell.hu'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n623646134&addtags=%7Caddr%3Acity%3DS%C3%A1rv%C3%A1r%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9600%7Caddr%3Astreet%3DV%C3%A1g%C3%B3h%C3%ADd%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DS%C3%81RV%C3%81R.%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B3695325200%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="623646134" lat="47.2580430949212" lon="16.9381727976422" timestamp="2014-09-29T07:41:42Z" uid="8635934" user="osm_poi_matchmaker" version="4">
-    <tag k="addr:city" v="Sárvár"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="9600"/>
-    <tag k="addr:street" v="Vágóhíd utca"/>
-    <tag k="air_conditioning" v="yes"/>
-    <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="SÁRVÁR."/>
-    <tag k="brand" v="Shell"/>
-    <tag k="fuel:diesel" v="yes"/>
-    <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="operator" v="Shell"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="phone" v="+3695325200"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
-    <tag k="website" v="https://www.shell.hu"/>
-  </node>
-  <!-- OSM link: https://osm.org/node/2379280211 -->
-  <!-- Original coordinates: POINT (47.258231 16.612629) -->
-  <!-- OSM <-> POI distance: 17.41910942 m-->
-  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        N		'Szombathely'
-addr:country                     N		'HU'
-addr:postcode                    N		'9700'
-addr:street                      N		'Kőszegi út'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-branch                           N		'SZOMBATHELY'
-brand                            E		'Shell'			'Shell'
-fuel:diesel                      N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'Shell'			'Shell'
-opening_hours                    N		'24/7'
-operator                         E		'Shell'			'Shell'
-payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-phone                            N		'+694506261'
-source:www.shell.hu:date         N		'2019-01-03'
-website                          M		'https://www.shell.hu'			'http://www.shell.hu/'
-wheelchair                       E		'yes'			'yes'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2379280211&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DK%C5%91szegi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%7Cbrand%3DShell%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cphone%3D%2B694506261%7Csource%3Awww.shell.hu%3Adate%3D2019-01-03%7Cwebsite%3Dhttps%3A//www.shell.hu%7Cwheelchair%3Dyes -->
-  <node action="modify" id="2379280211" lat="47.2582991949212" lon="16.6128367976875" timestamp="2015-05-15T03:53:03Z" uid="8635934" user="osm_poi_matchmaker" version="4">
-    <tag k="addr:city" v="Szombathely"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="9700"/>
-    <tag k="addr:street" v="Kőszegi út"/>
-    <tag k="air_conditioning" v="yes"/>
-    <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="SZOMBATHELY"/>
-    <tag k="brand" v="Shell"/>
-    <tag k="fuel:diesel" v="yes"/>
-    <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="operator" v="Shell"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="phone" v="+694506261"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-03"/>
-    <tag k="website" v="https://www.shell.hu"/>
-    <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/2050554038 -->
   <!-- Original coordinates: POINT (47.304022 20.904412) -->

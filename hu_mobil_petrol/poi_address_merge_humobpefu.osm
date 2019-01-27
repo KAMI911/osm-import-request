@@ -1,56 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <node action="modify" id="3048193647" lat="46.2274042" lon="19.5362056" timestamp="2018-01-20T15:36:44Z" uid="1559158" user="vakulya" version="2"/>
-  <node action="modify" id="3048193646" lat="46.2273769" lon="19.5359465" timestamp="2018-01-20T15:36:44Z" uid="1559158" user="vakulya" version="2"/>
-  <node action="modify" id="3048193652" lat="46.2276185" lon="19.5358934" timestamp="2018-01-20T15:36:44Z" uid="1559158" user="vakulya" version="2"/>
-  <node action="modify" id="3048193655" lat="46.2276458" lon="19.5361525" timestamp="2018-01-20T15:36:44Z" uid="1559158" user="vakulya" version="2"/>
-  <!-- OSM link: https://osm.org/way/300713149 -->
   <!-- Original coordinates: POINT (46.2277 19.5359) -->
-  <!-- OSM <-> POI distance: 8.88315634 m-->
+  <!-- OSM <-> POI distance: None m-->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Tompa'
 addr:country                     N		'HU'
 addr:postcode                    N		'6422'
-amenity                          E		'fuel'			'fuel'
+amenity                          N		'fuel'
 branch                           N		'Tompa'
 brand                            N		'Mobil Petrol'
-building                         E		'roof'			'roof'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-layer                            E		'1'			'1'
-name                             M		'Mobil Petrol'			'M Petrol'
+name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
 payment:debit_cards              N		'yes'
-source:www.shell.hu:date         N		'2019-01-25'
+source:www.shell.hu:date         N		'2019-01-27'
 website                          N		'https://www.shell.hu'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w300713149&addtags=%7Caddr%3Acity%3DTompa%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6422%7Camenity%3Dfuel%7Cbranch%3DTompa%7Cbrand%3DMobil%20Petrol%7Cbuilding%3Droof%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Clayer%3D1%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-25%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <way action="modify" id="300713149" timestamp="2018-01-20T16:36:55Z" uid="8635934" user="osm_poi_matchmaker" version="3">
-    <nd ref="3048193647"/>
-    <nd ref="3048193646"/>
-    <nd ref="3048193652"/>
-    <nd ref="3048193655"/>
-    <nd ref="3048193647"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DTompa%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6422%7Camenity%3Dfuel%7Cbranch%3DTompa%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-27%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="-1" lat="46.2277" lon="19.5359" timestamp="2019-01-27T02:09:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tompa"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="6422"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Tompa"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="building" v="roof"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
-    <tag k="layer" v="1"/>
     <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-25"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-27"/>
     <tag k="website" v="https://www.shell.hu"/>
-  </way>
+  </node>
   <!-- Original coordinates: POINT (46.6076 19.8413) -->
   <!-- OSM <-> POI distance: None m-->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
@@ -68,11 +54,11 @@ name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
 payment:debit_cards              N		'yes'
-source:www.shell.hu:date         N		'2019-01-25'
+source:www.shell.hu:date         N		'2019-01-27'
 website                          N		'https://www.shell.hu'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6113%7Camenity%3Dfuel%7Cbranch%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-25%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="-2" lat="46.6076" lon="19.8413" timestamp="2019-01-25T06:27:51Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6113%7Camenity%3Dfuel%7Cbranch%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-27%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="-2" lat="46.6076" lon="19.8413" timestamp="2019-01-27T02:09:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Petőfiszállás A"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="6113"/>
@@ -85,80 +71,46 @@ website                          N		'https://www.shell.hu'
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-25"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-27"/>
     <tag k="website" v="https://www.shell.hu"/>
   </node>
-  <node action="modify" id="5424615789" lat="46.8464967" lon="19.2976655" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615790" lat="46.8464368" lon="19.297701" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615791" lat="46.8464594" lon="19.2977911" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615792" lat="46.846396" lon="19.2978279" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615793" lat="46.846429" lon="19.2979548" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615794" lat="46.8464021" lon="19.29797" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615795" lat="46.8463899" lon="19.297918" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615796" lat="46.8463379" lon="19.2979459" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615797" lat="46.8463691" lon="19.298055" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615798" lat="46.8463717" lon="19.298159" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615799" lat="46.8464229" lon="19.2981565" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615800" lat="46.8464246" lon="19.2981184" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615801" lat="46.846534" lon="19.2980639" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615802" lat="46.8465227" lon="19.2980017" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <node action="modify" id="5424615803" lat="46.846573" lon="19.2979763" timestamp="2018-02-20T13:09:23Z" uid="622084" user="ITineris" version="1"/>
-  <!-- OSM link: https://osm.org/way/562747859 -->
   <!-- Original coordinates: POINT (46.8464 19.2978) -->
-  <!-- OSM <-> POI distance: 1.80762664 m-->
+  <!-- OSM <-> POI distance: None m-->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Fülöpszállás'
 addr:country                     N		'HU'
 addr:postcode                    N		'6085'
-amenity                          E		'fuel'			'fuel'
+amenity                          N		'fuel'
 branch                           N		'Fülöpszállás'
 brand                            N		'Mobil Petrol'
-building                         E		'yes'			'yes'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
 payment:debit_cards              N		'yes'
-source:www.shell.hu:date         N		'2019-01-25'
+source:www.shell.hu:date         N		'2019-01-27'
 website                          N		'https://www.shell.hu'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w562747859&addtags=%7Caddr%3Acity%3DF%C3%BCl%C3%B6psz%C3%A1ll%C3%A1s%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6085%7Camenity%3Dfuel%7Cbranch%3DF%C3%BCl%C3%B6psz%C3%A1ll%C3%A1s%7Cbrand%3DMobil%20Petrol%7Cbuilding%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-25%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <way action="modify" id="562747859" timestamp="2018-02-20T14:09:25Z" uid="8635934" user="osm_poi_matchmaker" version="1">
-    <nd ref="5424615789"/>
-    <nd ref="5424615790"/>
-    <nd ref="5424615791"/>
-    <nd ref="5424615792"/>
-    <nd ref="5424615793"/>
-    <nd ref="5424615794"/>
-    <nd ref="5424615795"/>
-    <nd ref="5424615796"/>
-    <nd ref="5424615797"/>
-    <nd ref="5424615798"/>
-    <nd ref="5424615799"/>
-    <nd ref="5424615800"/>
-    <nd ref="5424615801"/>
-    <nd ref="5424615802"/>
-    <nd ref="5424615803"/>
-    <nd ref="5424615789"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DF%C3%BCl%C3%B6psz%C3%A1ll%C3%A1s%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6085%7Camenity%3Dfuel%7Cbranch%3DF%C3%BCl%C3%B6psz%C3%A1ll%C3%A1s%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-27%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="-3" lat="46.8464" lon="19.2978" timestamp="2019-01-27T02:09:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Fülöpszállás"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="6085"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Fülöpszállás"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="building" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-25"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-27"/>
     <tag k="website" v="https://www.shell.hu"/>
-  </way>
+  </node>
   <!-- Original coordinates: POINT (46.9827 16.2801) -->
   <!-- OSM <-> POI distance: None m-->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
@@ -177,11 +129,11 @@ name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
 payment:debit_cards              N		'yes'
-source:www.shell.hu:date         N		'2019-01-25'
+source:www.shell.hu:date         N		'2019-01-27'
 website                          N		'https://www.shell.hu'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DSzentgotth%C3%A1rd%7Caddr%3Aconscriptionnumber%3D0232/8%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9955%7Camenity%3Dfuel%7Cbranch%3DSzentgotth%C3%A1rd%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-25%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="-4" lat="46.9827" lon="16.2801" timestamp="2019-01-25T06:27:51Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DSzentgotth%C3%A1rd%7Caddr%3Aconscriptionnumber%3D0232/8%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9955%7Camenity%3Dfuel%7Cbranch%3DSzentgotth%C3%A1rd%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-27%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="-4" lat="46.9827" lon="16.2801" timestamp="2019-01-27T02:09:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szentgotthárd"/>
     <tag k="addr:conscriptionnumber" v="0232/8"/>
     <tag k="addr:country" v="HU"/>
@@ -195,12 +147,11 @@ website                          N		'https://www.shell.hu'
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-25"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-27"/>
     <tag k="website" v="https://www.shell.hu"/>
   </node>
-  <!-- OSM link: https://osm.org/node/5030594234 -->
   <!-- Original coordinates: POINT (47.5955 17.6876) -->
-  <!-- OSM <-> POI distance: 9.57415356 m-->
+  <!-- OSM <-> POI distance: None m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
@@ -208,20 +159,20 @@ addr:city                        N		'Nyúl'
 addr:country                     N		'HU'
 addr:postcode                    N		'9082'
 addr:street                      N		'Kossuth Lajos utca'
-amenity                          E		'fuel'			'fuel'
+amenity                          N		'fuel'
 branch                           N		'Nyúl'
-brand                            M		'Mobil Petrol'			'Petrol'
+brand                            N		'Mobil Petrol'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
 payment:debit_cards              N		'yes'
-source:www.shell.hu:date         N		'2019-01-25'
+source:www.shell.hu:date         N		'2019-01-27'
 website                          N		'https://www.shell.hu'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5030594234&addtags=%7Caddr%3Acity%3DNy%C3%BAl%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9082%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfuel%7Cbranch%3DNy%C3%BAl%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-25%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <node action="modify" id="5030594234" lat="47.5954452949068" lon="17.6876985975379" timestamp="2017-08-12T14:24:42Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DNy%C3%BAl%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9082%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfuel%7Cbranch%3DNy%C3%BAl%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-27%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="-5" lat="47.5955" lon="17.6876" timestamp="2019-01-27T02:09:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nyúl"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="9082"/>
@@ -235,12 +186,11 @@ website                          N		'https://www.shell.hu'
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-25"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-27"/>
     <tag k="website" v="https://www.shell.hu"/>
   </node>
-  <!-- OSM link: https://osm.org/node/4910845133 -->
   <!-- Original coordinates: POINT (47.637 19.4718) -->
-  <!-- OSM <-> POI distance: 37.31517431 m-->
+  <!-- OSM <-> POI distance: None m-->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
@@ -248,22 +198,20 @@ addr:city                        N		'Bag'
 addr:conscriptionnumber          N		'2429/3'
 addr:country                     N		'HU'
 addr:postcode                    N		'2191'
-amenity                          E		'fuel'			'fuel'
+amenity                          N		'fuel'
 branch                           N		'Bag'
-brand                            M		'Mobil Petrol'			'M. Petrol'
+brand                            N		'Mobil Petrol'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-name                             M		'Mobil Petrol'			'M. Petrol'
-opening_hours                    M		'Mo-Su 06:00-22:00; PH off'			'24/7'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
 payment:debit_cards              N		'yes'
-shop                             E		'yes'			'yes'
-source:www.shell.hu:date         N		'2019-01-25'
+source:www.shell.hu:date         N		'2019-01-27'
 website                          N		'https://www.shell.hu'
-wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4910845133&addtags=%7Caddr%3Acity%3DBag%7Caddr%3Aconscriptionnumber%3D2429/3%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2191%7Camenity%3Dfuel%7Cbranch%3DBag%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-25%7Cwebsite%3Dhttps%3A//www.shell.hu%7Cwheelchair%3Dyes -->
-  <node action="modify" id="4910845133" lat="47.6371183949051" lon="19.4713339972896" timestamp="2018-11-01T21:20:34Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DBag%7Caddr%3Aconscriptionnumber%3D2429/3%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2191%7Camenity%3Dfuel%7Cbranch%3DBag%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-27%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="-6" lat="47.637" lon="19.4718" timestamp="2019-01-27T02:09:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Bag"/>
     <tag k="addr:conscriptionnumber" v="2429/3"/>
     <tag k="addr:country" v="HU"/>
@@ -277,62 +225,44 @@ wheelchair                       E		'yes'			'yes'
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
-    <tag k="shop" v="yes"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-25"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-27"/>
     <tag k="website" v="https://www.shell.hu"/>
-    <tag k="wheelchair" v="yes"/>
   </node>
-  <node action="modify" id="5338334364" lat="47.7567283" lon="19.1417127" timestamp="2018-01-14T04:36:43Z" uid="871272" user="MarsupilamiEater" version="1"/>
-  <node action="modify" id="5338334365" lat="47.7566236" lon="19.1417278" timestamp="2018-01-14T04:36:43Z" uid="871272" user="MarsupilamiEater" version="1"/>
-  <node action="modify" id="5338334366" lat="47.7566345" lon="19.141882" timestamp="2018-01-14T04:36:43Z" uid="871272" user="MarsupilamiEater" version="1"/>
-  <node action="modify" id="5973428888" lat="47.7567214" lon="19.1418695" timestamp="2018-10-10T20:39:27Z" uid="871272" user="MarsupilamiEater" version="1"/>
-  <node action="modify" id="5338334367" lat="47.756738" lon="19.1418671" timestamp="2018-01-14T04:36:43Z" uid="871272" user="MarsupilamiEater" version="1"/>
-  <!-- OSM link: https://osm.org/way/552960470 -->
   <!-- Original coordinates: POINT (47.7565 19.1417) -->
-  <!-- OSM <-> POI distance: 13.89935275 m-->
+  <!-- OSM <-> POI distance: None m-->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Vác'
 addr:country                     N		'HU'
 addr:postcode                    N		'2600'
-amenity                          E		'fuel'			'fuel'
+amenity                          N		'fuel'
 branch                           N		'Vác'
 brand                            N		'Mobil Petrol'
-building                         E		'yes'			'yes'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-name                             M		'Mobil Petrol'			'M. Petrol'
+name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
-operator                         E		'M. Petrol'			'M. Petrol'
 payment:cash                     N		'yes'
 payment:debit_cards              N		'yes'
-source:www.shell.hu:date         N		'2019-01-25'
+source:www.shell.hu:date         N		'2019-01-27'
 website                          N		'https://www.shell.hu'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w552960470&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2600%7Camenity%3Dfuel%7Cbranch%3DV%C3%A1c%7Cbrand%3DMobil%20Petrol%7Cbuilding%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DM.%20Petrol%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-25%7Cwebsite%3Dhttps%3A//www.shell.hu -->
-  <way action="modify" id="552960470" timestamp="2018-10-10T22:39:39Z" uid="8635934" user="osm_poi_matchmaker" version="2">
-    <nd ref="5338334364"/>
-    <nd ref="5338334365"/>
-    <nd ref="5338334366"/>
-    <nd ref="5973428888"/>
-    <nd ref="5338334367"/>
-    <nd ref="5338334364"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2600%7Camenity%3Dfuel%7Cbranch%3DV%C3%A1c%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.shell.hu%3Adate%3D2019-01-27%7Cwebsite%3Dhttps%3A//www.shell.hu -->
+  <node action="modify" id="-7" lat="47.7565" lon="19.1417" timestamp="2019-01-27T02:09:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Vác"/>
     <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="2600"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Vác"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="building" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
-    <tag k="operator" v="M. Petrol"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.shell.hu:date" v="2019-01-25"/>
+    <tag k="source:www.shell.hu:date" v="2019-01-27"/>
     <tag k="website" v="https://www.shell.hu"/>
-  </way>
+  </node>
 </osm>

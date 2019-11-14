@@ -8,40 +8,50 @@
 Key				Status		New value		OSM value
 addr:city                        N		'Bag'
 addr:conscriptionnumber          N		'2429/3'
-addr:country                     N		'HU'
 addr:postcode                    N		'2191'
 amenity                          E		'fuel'			'fuel'
 branch                           N		'Bag'
 brand                            M		'Mobil Petrol'			'M. Petrol'
+contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-name                             E		'M. Petrol'			'M. Petrol'
+name                             M		'Mobil Petrol'			'M. Petrol'
 opening_hours                    M		'Mo-Su 06:00-22:00; PH off'			'24/7'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
 shop                             E		'yes'			'yes'
-source:www.mpetrol.hu:date       N		'2019-09-22'
-website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+source:www.mpetrol.hu:date       N		'2019-11-10'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4910845133&addtags=%7Caddr%3Acity%3DBag%7Caddr%3Aconscriptionnumber%3D2429/3%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2191%7Camenity%3Dfuel%7Cbranch%3DBag%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DM.%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-09-22%7Cwebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4910845133&addtags=%7Caddr%3Acity%3DBag%7Caddr%3Aconscriptionnumber%3D2429/3%7Caddr%3Apostcode%3D2191%7Camenity%3Dfuel%7Cbranch%3DBag%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-11-10%7Cwheelchair%3Dyes -->
   <node action="modify" id="4910845133" lat="47.6371184000226" lon="19.471334" timestamp="2018-11-01T21:20:34Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Bag"/>
     <tag k="addr:conscriptionnumber" v="2429/3"/>
-    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="2191"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Bag"/>
     <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="M. Petrol"/>
+    <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-09-22"/>
-    <tag k="website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="source:www.mpetrol.hu:date" v="2019-11-10"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <node action="modify" id="5338334364" lat="47.7567283" lon="19.1417127" timestamp="2018-01-14T05:36:43Z" uid="871272" user="MarsupilamiEater" version="1"/>
@@ -56,23 +66,28 @@ wheelchair                       E		'yes'			'yes'
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Vác'
-addr:country                     N		'HU'
 addr:postcode                    N		'2600'
 amenity                          E		'fuel'			'fuel'
 branch                           N		'Vác'
 brand                            N		'Mobil Petrol'
 building                         E		'yes'			'yes'
+contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-name                             E		'M. Petrol'			'M. Petrol'
+name                             M		'Mobil Petrol'			'M. Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 operator                         E		'M. Petrol'			'M. Petrol'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-09-22'
-website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:www.mpetrol.hu:date       N		'2019-11-10'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w552960470&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2600%7Camenity%3Dfuel%7Cbranch%3DV%C3%A1c%7Cbrand%3DMobil%20Petrol%7Cbuilding%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DM.%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DM.%20Petrol%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-09-22%7Cwebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/ -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w552960470&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Apostcode%3D2600%7Camenity%3Dfuel%7Cbranch%3DV%C3%A1c%7Cbrand%3DMobil%20Petrol%7Cbuilding%3Dyes%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DM.%20Petrol%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-11-10 -->
   <way action="modify" id="552960470" timestamp="2018-10-10T22:39:39Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <nd ref="5338334364"/>
     <nd ref="5338334365"/>
@@ -81,21 +96,26 @@ website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
     <nd ref="5338334367"/>
     <nd ref="5338334364"/>
     <tag k="addr:city" v="Vác"/>
-    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="2600"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Vác"/>
     <tag k="brand" v="Mobil Petrol"/>
     <tag k="building" v="yes"/>
+    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="M. Petrol"/>
+    <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="operator" v="M. Petrol"/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-09-22"/>
-    <tag k="website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:www.mpetrol.hu:date" v="2019-11-10"/>
   </way>
   <!-- Original coordinates: POINT (46.6076 19.8413) -->
   <!-- OSM <-> POI distance: None m-->
@@ -103,36 +123,46 @@ website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Petőfiszállás A'
-addr:country                     N		'HU'
 addr:postcode                    N		'6113'
 amenity                          N		'fuel'
 branch                           N		'Petőfiszállás A'
 brand                            N		'Mobil Petrol'
+contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-name                             N		'M. Petrol'
+name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-09-22'
-website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:www.mpetrol.hu:date       N		'2019-11-10'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6113%7Camenity%3Dfuel%7Cbranch%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DM.%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-09-22%7Cwebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/ -->
-  <node action="modify" id="-3" lat="46.6076" lon="19.8413" timestamp="2019-09-22T16:23:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Caddr%3Apostcode%3D6113%7Camenity%3Dfuel%7Cbranch%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-11-10 -->
+  <node action="modify" id="-3" lat="46.6076" lon="19.8413" timestamp="2019-11-10T14:20:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Petőfiszállás A"/>
-    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="6113"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Petőfiszállás A"/>
     <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="M. Petrol"/>
+    <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-09-22"/>
-    <tag k="website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:www.mpetrol.hu:date" v="2019-11-10"/>
   </node>
   <node action="modify" id="3048193647" lat="46.2274042" lon="19.5362056" timestamp="2018-01-20T16:36:44Z" uid="1559158" user="vakulya" version="2"/>
   <node action="modify" id="3048193646" lat="46.2273769" lon="19.5359465" timestamp="2018-01-20T16:36:44Z" uid="1559158" user="vakulya" version="2"/>
@@ -145,23 +175,28 @@ website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Tompa'
-addr:country                     N		'HU'
 addr:postcode                    N		'6422'
 amenity                          E		'fuel'			'fuel'
 branch                           N		'Tompa'
 brand                            N		'Mobil Petrol'
 building                         E		'roof'			'roof'
+contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 layer                            E		'1'			'1'
-name                             M		'M. Petrol'			'M Petrol'
+name                             M		'Mobil Petrol'			'M Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-09-22'
-website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:www.mpetrol.hu:date       N		'2019-11-10'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w300713149&addtags=%7Caddr%3Acity%3DTompa%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6422%7Camenity%3Dfuel%7Cbranch%3DTompa%7Cbrand%3DMobil%20Petrol%7Cbuilding%3Droof%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Clayer%3D1%7Cname%3DM.%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-09-22%7Cwebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/ -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w300713149&addtags=%7Caddr%3Acity%3DTompa%7Caddr%3Apostcode%3D6422%7Camenity%3Dfuel%7Cbranch%3DTompa%7Cbrand%3DMobil%20Petrol%7Cbuilding%3Droof%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Clayer%3D1%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-11-10 -->
   <way action="modify" id="300713149" timestamp="2018-01-20T16:36:55Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="3048193647"/>
     <nd ref="3048193646"/>
@@ -169,21 +204,26 @@ website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
     <nd ref="3048193655"/>
     <nd ref="3048193647"/>
     <tag k="addr:city" v="Tompa"/>
-    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="6422"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Tompa"/>
     <tag k="brand" v="Mobil Petrol"/>
     <tag k="building" v="roof"/>
+    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="layer" v="1"/>
-    <tag k="name" v="M. Petrol"/>
+    <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-09-22"/>
-    <tag k="website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:www.mpetrol.hu:date" v="2019-11-10"/>
   </way>
   <!-- OSM link: https://osm.org/node/5030594234 -->
   <!-- Original coordinates: POINT (47.5955 17.6876) -->
@@ -192,38 +232,48 @@ website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Nyúl'
-addr:country                     N		'HU'
 addr:postcode                    N		'9082'
 addr:street                      N		'Kossuth Lajos utca'
 amenity                          E		'fuel'			'fuel'
 branch                           N		'Nyúl'
 brand                            M		'Mobil Petrol'			'Petrol'
+contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-name                             N		'M. Petrol'
+name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-09-22'
-website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:www.mpetrol.hu:date       N		'2019-11-10'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5030594234&addtags=%7Caddr%3Acity%3DNy%C3%BAl%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9082%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfuel%7Cbranch%3DNy%C3%BAl%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DM.%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-09-22%7Cwebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/ -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5030594234&addtags=%7Caddr%3Acity%3DNy%C3%BAl%7Caddr%3Apostcode%3D9082%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfuel%7Cbranch%3DNy%C3%BAl%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-11-10 -->
   <node action="modify" id="5030594234" lat="47.5954453000321" lon="17.6876986" timestamp="2017-08-12T14:24:42Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Nyúl"/>
-    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="9082"/>
     <tag k="addr:street" v="Kossuth Lajos utca"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Nyúl"/>
     <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="M. Petrol"/>
+    <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-09-22"/>
-    <tag k="website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:www.mpetrol.hu:date" v="2019-11-10"/>
   </node>
   <!-- Original coordinates: POINT (46.9827 16.2801) -->
   <!-- OSM <-> POI distance: None m-->
@@ -232,36 +282,46 @@ website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
 Key				Status		New value		OSM value
 addr:city                        N		'Szentgotthárd'
 addr:conscriptionnumber          N		'0232/8'
-addr:country                     N		'HU'
 addr:postcode                    N		'9955'
 amenity                          N		'fuel'
 branch                           N		'Szentgotthárd'
 brand                            N		'Mobil Petrol'
+contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
-name                             N		'M. Petrol'
+name                             N		'Mobil Petrol'
 opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-09-22'
-website                          N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:www.mpetrol.hu:date       N		'2019-11-10'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DSzentgotth%C3%A1rd%7Caddr%3Aconscriptionnumber%3D0232/8%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9955%7Camenity%3Dfuel%7Cbranch%3DSzentgotth%C3%A1rd%7Cbrand%3DMobil%20Petrol%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DM.%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-09-22%7Cwebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/ -->
-  <node action="modify" id="-6" lat="46.9827" lon="16.2801" timestamp="2019-09-22T16:23:41Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DSzentgotth%C3%A1rd%7Caddr%3Aconscriptionnumber%3D0232/8%7Caddr%3Apostcode%3D9955%7Camenity%3Dfuel%7Cbranch%3DSzentgotth%C3%A1rd%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-11-10 -->
+  <node action="modify" id="-6" lat="46.9827" lon="16.2801" timestamp="2019-11-10T14:20:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szentgotthárd"/>
     <tag k="addr:conscriptionnumber" v="0232/8"/>
-    <tag k="addr:country" v="HU"/>
     <tag k="addr:postcode" v="9955"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="Szentgotthárd"/>
     <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="M. Petrol"/>
+    <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-09-22"/>
-    <tag k="website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:www.mpetrol.hu:date" v="2019-11-10"/>
   </node>
 </osm>

@@ -5,7 +5,10 @@ find ./??_* -maxdepth 2 -type f -name "*.osm" -exec sh -c 'echo {}; echo -n "All
 echo "Name changes:"
 find ./??_* -maxdepth 2 -type f -name "*.osm" -exec sh -c 'grep "name                             M" {}' \;
 
+echo "value changes:"
+find ./??_* -maxdepth 2 -type f -name "*.osm" -exec sh -c 'grep "   M" {} | grep -v "source:"' \;
 
+echo 
 echo -n "Matched street name : "
 grep  "street_is_around" hu_*/*.osm | wc -l
 echo -n "Not matching street name : "

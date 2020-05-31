@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
   <!-- OSM link: https://osm.org/node/7059681529 -->
-  <!-- Original coordinates: POINT (47.769095 19.912092) -->
+  <!-- Original coordinates: POINT (47.76909 19.91209) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -11,17 +11,17 @@ addr:housenumber                 E		'2'			'2'
 addr:postcode                    E		'3200'			'3200'
 addr:street                      E		'Vásár utca'			'Vásár utca'
 amenity                          E		'vending_machine'			'vending_machine'
-branch                           M		'Gyöngyös Tesco'			'Tesco Gyöngyös'
+branch                           E		'Gyöngyös Tesco'			'Gyöngyös Tesco'
 brand                            E		'Foxpost'			'Foxpost'
 contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
 contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 03 69'			'+36 1 999 03 69'
+contact:phone                    E		'+36 1 999 0369'			'+36 1 999 0369'
 contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
 contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'Főbejáratnál az előtérben, a szélfogóban. Az automatát minden hétköznap 8:00 és 8:30 között ürítjük és töltjük'			'Fõbejáratnál az elõtérben, a szélfogóban. Az automatát minden hétköznap 9:45 és 10:30 között ürítjük és töltjük'
+description                      E		'Főbejáratnál az előtérben, a szélfogóban. Az automatát minden hétköznap 8:00 és 8:30 között ürítjük és töltjük'			'Főbejáratnál az előtérben, a szélfogóban. Az automatát minden hétköznap 8:00 és 8:30 között ürítjük és töltjük'
 name                             E		'Foxpost'			'Foxpost'
-opening_hours                    E		'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'
-opening_hours:covid19            N		'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'
+opening_hours                    M		'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'
+opening_hours:covid19            E		'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'			'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'
 operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
 operator:addr                    N		'3200 Gyöngyös, Batsányi János utca 9.'
 payment:cash                     E		'no'			'no'
@@ -31,10 +31,12 @@ payment:visa                     E		'yes'			'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2020\-05\-17'			'2019\-12\-15'
+source                           E		'website'			'website'
+source:date                      E		'2020\-04\-04'			'2020\-04\-04'
+source:www.foxpost.hu:date       N		'2020\-05\-31'
 vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681529&addtags=%7Caddr%3Acity%3DGy%C3%B6ngy%C3%B6s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D3200%7Caddr%3Astreet%3DV%C3%A1s%C3%A1r%20utca%7Camenity%3Dvending_machine%7Cbranch%3DGy%C3%B6ngy%C3%B6s%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DF%C5%91bej%C3%A1ratn%C3%A1l%20az%20el%C5%91t%C3%A9rben%2C%20a%20sz%C3%A9lfog%C3%B3ban.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%208%3A00%20%C3%A9s%208%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-20%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681529&addtags=%7Caddr%3Acity%3DGy%C3%B6ngy%C3%B6s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D3200%7Caddr%3Astreet%3DV%C3%A1s%C3%A1r%20utca%7Camenity%3Dvending_machine%7Cbranch%3DGy%C3%B6ngy%C3%B6s%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DF%C5%91bej%C3%A1ratn%C3%A1l%20az%20el%C5%91t%C3%A9rben%2C%20a%20sz%C3%A9lfog%C3%B3ban.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%208%3A00%20%C3%A9s%208%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-20%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Dwebsite%7Csource%3Adate%3D2020-04-04%7Csource%3Awww.foxpost.hu%3Adate%3D2020-05-31%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <node action="modify" id="7059681529" lat="47.769095" lon="19.912092" timestamp="2020-05-12T21:34:35Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Gyöngyös"/>
     <tag k="addr:housenumber" v="2"/>
@@ -45,12 +47,12 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
     <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
-    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
     <tag k="description" v="Főbejáratnál az előtérben, a szélfogóban. Az automatát minden hétköznap 8:00 és 8:30 között ürítjük és töltjük"/>
     <tag k="name" v="Foxpost"/>
-    <tag k="opening_hours" v="Mo-Sa 06:00-22:00; Su 07:00-20:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-20:00; Su 07:00-20:00; PH off"/>
     <tag k="opening_hours:covid19" v="Mo-Sa 06:00-20:00; Su 07:00-20:00; PH off"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
@@ -61,11 +63,13 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2020-05-17"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2020-04-04"/>
+    <tag k="source:www.foxpost.hu:date" v="2020-05-31"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681528 -->
-  <!-- Original coordinates: POINT (47.92336 20.367381) -->
+  <!-- Original coordinates: POINT (47.92336 20.36738) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
@@ -79,13 +83,13 @@ branch                           E		'Eger Tesco'			'Eger Tesco'
 brand                            E		'Foxpost'			'Foxpost'
 contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
 contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 03 69'			'+36 1 999 03 69'
+contact:phone                    E		'+36 1 999 0369'			'+36 1 999 0369'
 contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
 contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'Az északi, gyógyszertár felöli, nagy szélfogóban található az automatánk.. Az automatát minden hétköznap 12:45 és 13:15 között ürítjük és töltjük.'			'Az északi, gyógyszertár felöli, nagy szélfogóban található az automatánk.. Az automatát minden hétköznap 10:30 és 11:30 között ürítjük és töltjük.'
+description                      E		'Az északi, gyógyszertár felöli, nagy szélfogóban található az automatánk.. Az automatát minden hétköznap 12:45 és 13:15 között ürítjük és töltjük.'			'Az északi, gyógyszertár felöli, nagy szélfogóban található az automatánk.. Az automatát minden hétköznap 12:45 és 13:15 között ürítjük és töltjük.'
 name                             E		'Foxpost'			'Foxpost'
-opening_hours                    E		'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'
-opening_hours:covid19            N		'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'
+opening_hours                    M		'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'
+opening_hours:covid19            E		'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'			'Mo\-Sa 06:00\-20:00; Su 07:00\-20:00; PH off'
 operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
 operator:addr                    N		'3200 Gyöngyös, Batsányi János utca 9.'
 payment:cash                     E		'no'			'no'
@@ -95,11 +99,11 @@ payment:visa                     E		'yes'			'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2020\-05\-17'			'2019\-12\-15'
+source:www.foxpost.hu:date       M		'2020\-05\-31'			'2020\-04\-04'
 vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681528&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D100%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DEger%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAz%20%C3%A9szaki%2C%20gy%C3%B3gyszert%C3%A1r%20fel%C3%B6li%2C%20nagy%20sz%C3%A9lfog%C3%B3ban%20tal%C3%A1lhat%C3%B3%20az%20automat%C3%A1nk..%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A45%20%C3%A9s%2013%3A15%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-20%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
-  <node action="modify" id="7059681528" lat="47.92336" lon="20.367381" timestamp="2020-05-12T21:34:35Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681528&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D100%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DEger%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAz%20%C3%A9szaki%2C%20gy%C3%B3gyszert%C3%A1r%20fel%C3%B6li%2C%20nagy%20sz%C3%A9lfog%C3%B3ban%20tal%C3%A1lhat%C3%B3%20az%20automat%C3%A1nk..%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A45%20%C3%A9s%2013%3A15%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-20%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2020-05-31%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <node action="modify" id="7059681528" lat="47.92336" lon="20.36738" timestamp="2020-05-12T21:34:35Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Eger"/>
     <tag k="addr:housenumber" v="100"/>
     <tag k="addr:postcode" v="3300"/>
@@ -109,12 +113,12 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
     <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
-    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
     <tag k="description" v="Az északi, gyógyszertár felöli, nagy szélfogóban található az automatánk.. Az automatát minden hétköznap 12:45 és 13:15 között ürítjük és töltjük."/>
     <tag k="name" v="Foxpost"/>
-    <tag k="opening_hours" v="Mo-Sa 06:00-22:00; Su 07:00-20:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-20:00; Su 07:00-20:00; PH off"/>
     <tag k="opening_hours:covid19" v="Mo-Sa 06:00-20:00; Su 07:00-20:00; PH off"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
@@ -125,11 +129,11 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2020-05-17"/>
+    <tag k="source:www.foxpost.hu:date" v="2020-05-31"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681527 -->
-  <!-- Original coordinates: POINT (47.90021 20.368172) -->
+  <!-- Original coordinates: POINT (47.90021 20.36817) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -143,13 +147,13 @@ branch                           E		'Agria Park'			'Agria Park'
 brand                            E		'Foxpost'			'Foxpost'
 contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
 contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 03 69'			'+36 1 999 03 69'
+contact:phone                    E		'+36 1 999 0369'			'+36 1 999 0369'
 contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
 contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'A földszinten, az épület végében a Garage Store mellett. Az automatát minden hétköznap 12:00 és 12:30 között ürítjük és töltjük'			'A földszinten, az épület végében a Garage Store mellett. Az automatát minden hétköznap 11:00 és 11:45 között ürítjük és töltjük'
+description                      E		'A földszinten, az épület végében a Garage Store mellett. Az automatát minden hétköznap 12:00 és 12:30 között ürítjük és töltjük'			'A földszinten, az épület végében a Garage Store mellett. Az automatát minden hétköznap 12:00 és 12:30 között ürítjük és töltjük'
 name                             E		'Foxpost'			'Foxpost'
 opening_hours                    E		'Mo\-Su 06:00\-22:00; PH off'			'Mo\-Su 06:00\-22:00; PH off'
-opening_hours:covid19            N		'same'
+opening_hours:covid19            E		'same'			'same'
 operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
 operator:addr                    N		'3200 Gyöngyös, Batsányi János utca 9.'
 payment:cash                     E		'no'			'no'
@@ -159,10 +163,10 @@ payment:visa                     E		'yes'			'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2020\-05\-17'			'2019\-12\-15'
+source:www.foxpost.hu:date       M		'2020\-05\-31'			'2020\-04\-04'
 vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681527&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DT%C3%B6rv%C3%A9nyh%C3%A1z%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DAgria%20Park%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DA%20f%C3%B6ldszinten%2C%20az%20%C3%A9p%C3%BClet%20v%C3%A9g%C3%A9ben%20a%20Garage%20Store%20mellett.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A00%20%C3%A9s%2012%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk%7Cname%3DFoxpost%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681527&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DT%C3%B6rv%C3%A9nyh%C3%A1z%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DAgria%20Park%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DA%20f%C3%B6ldszinten%2C%20az%20%C3%A9p%C3%BClet%20v%C3%A9g%C3%A9ben%20a%20Garage%20Store%20mellett.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A00%20%C3%A9s%2012%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk%7Cname%3DFoxpost%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2020-05-31%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <node action="modify" id="7059681527" lat="47.899637" lon="20.3685154" timestamp="2020-05-12T21:34:35Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Eger"/>
     <tag k="addr:housenumber" v="4"/>
@@ -173,7 +177,7 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
     <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
-    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
     <tag k="description" v="A földszinten, az épület végében a Garage Store mellett. Az automatát minden hétköznap 12:00 és 12:30 között ürítjük és töltjük"/>
@@ -189,7 +193,7 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2020-05-17"/>
+    <tag k="source:www.foxpost.hu:date" v="2020-05-31"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
 </osm>

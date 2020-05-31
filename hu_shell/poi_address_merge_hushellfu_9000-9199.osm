@@ -5,7 +5,7 @@
   <node action="modify" id="2123905157" lat="47.6497909" lon="17.6266062" timestamp="2013-01-22T15:50:52Z" uid="50797" user="Rugo" version="1"/>
   <node action="modify" id="2123905135" lat="47.6499046" lon="17.6264799" timestamp="2013-01-22T15:50:52Z" uid="50797" user="Rugo" version="1"/>
   <!-- OSM link: https://osm.org/way/202423013 -->
-  <!-- Original coordinates: POINT (47.649933 17.6267) -->
+  <!-- Original coordinates: POINT (47.64993 17.6267) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -30,7 +30,6 @@ fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             E		'Shell'			'Shell'
 opening_hours                    E		'24/7'			'24/7'
-opening_hours:covid19            N		'same'
 operator                         E		'Shell'			'Shell'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
@@ -40,9 +39,9 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:shell.hu:date             N		'2020\-05\-17'
+source:shell.hu:date             N		'2020\-05\-31'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w202423013&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Ahousenumber%3D33%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DKir%C3%A1lysz%C3%A9ki%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20IV%20544%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696700151%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w202423013&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Ahousenumber%3D33%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DKir%C3%A1lysz%C3%A9ki%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20IV%20544%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696700151%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-05-31 -->
   <way action="modify" id="202423013" timestamp="2019-03-21T12:58:19Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <nd ref="2123905184"/>
     <nd ref="2123905119"/>
@@ -69,7 +68,6 @@ source:shell.hu:date             N		'2020\-05\-17'
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Shell"/>
     <tag k="opening_hours" v="24/7"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Shell"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -79,7 +77,7 @@ source:shell.hu:date             N		'2020\-05\-17'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:shell.hu:date" v="2020-05-17"/>
+    <tag k="source:shell.hu:date" v="2020-05-31"/>
   </way>
   <node action="modify" id="2137116670" lat="47.6812611" lon="17.6281643" timestamp="2013-02-01T10:39:04Z" uid="50797" user="Rugo" version="1"/>
   <node action="modify" id="2137116660" lat="47.6810861" lon="17.6279043" timestamp="2013-02-01T10:39:04Z" uid="50797" user="Rugo" version="1"/>
@@ -90,7 +88,7 @@ source:shell.hu:date             N		'2020\-05\-17'
   <node action="modify" id="2137116653" lat="47.6811801" lon="17.6282358" timestamp="2013-02-01T10:39:04Z" uid="50797" user="Rugo" version="1"/>
   <node action="modify" id="2137116673" lat="47.6812035" lon="17.6282637" timestamp="2013-02-01T10:39:04Z" uid="50797" user="Rugo" version="1"/>
   <!-- OSM link: https://osm.org/way/203713726 -->
-  <!-- Original coordinates: POINT (47.681143 17.628048) -->
+  <!-- Original coordinates: POINT (47.68114 17.62804) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -115,7 +113,6 @@ fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             E		'Shell'			'Shell'
 opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
-opening_hours:covid19            N		'same'
 operator                         E		'Shell'			'Shell'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
@@ -125,9 +122,9 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:shell.hu:date             N		'2020\-05\-17'
+source:shell.hu:date             N		'2020\-05\-31'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w203713726&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Ahousenumber%3D2-4%7Caddr%3Apostcode%3D9021%7Caddr%3Astreet%3DDomb%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20I.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696525293%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w203713726&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Ahousenumber%3D2-4%7Caddr%3Apostcode%3D9021%7Caddr%3Astreet%3DDomb%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20I.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696525293%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-05-31 -->
   <way action="modify" id="203713726" timestamp="2020-01-03T18:43:12Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="2137116670"/>
     <nd ref="2137116660"/>
@@ -158,7 +155,6 @@ source:shell.hu:date             N		'2020\-05\-17'
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Shell"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Shell"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -168,7 +164,7 @@ source:shell.hu:date             N		'2020\-05\-17'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:shell.hu:date" v="2020-05-17"/>
+    <tag k="source:shell.hu:date" v="2020-05-31"/>
   </way>
   <node action="modify" id="1430276335" lat="47.6779481" lon="17.6549669" timestamp="2011-09-11T16:10:23Z" uid="381122" user="herrbert74" version="1"/>
   <node action="modify" id="1430276338" lat="47.6780016" lon="17.6549697" timestamp="2011-09-11T16:10:24Z" uid="381122" user="herrbert74" version="1"/>
@@ -179,7 +175,7 @@ source:shell.hu:date             N		'2020\-05\-17'
   <node action="modify" id="1430276334" lat="47.6778458" lon="17.6548704" timestamp="2011-09-11T16:10:23Z" uid="381122" user="herrbert74" version="1"/>
   <node action="modify" id="1430276336" lat="47.6779502" lon="17.6548758" timestamp="2011-09-11T16:10:23Z" uid="381122" user="herrbert74" version="1"/>
   <!-- OSM link: https://osm.org/way/129684411 -->
-  <!-- Original coordinates: POINT (47.677918 17.654911) -->
+  <!-- Original coordinates: POINT (47.67791 17.65491) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -202,8 +198,7 @@ contact:website                  N		'https://shell.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             E		'Shell'			'Shell'
-opening_hours                    E		'Mo\-Su 07:00\-21:00; Sa 08:00\-20:00'			'Mo\-Su 07:00\-21:00; Sa 08:00\-20:00'
-opening_hours:covid19            N		'24/7'
+opening_hours                    M		'24/7'			'Mo\-Su 07:00\-21:00; Sa 08:00\-20:00'
 operator                         E		'Shell'			'Shell'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
@@ -213,9 +208,9 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:shell.hu:date             N		'2020\-05\-17'
+source:shell.hu:date             N		'2020\-05\-31'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w129684411&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Apostcode%3D9023%7Caddr%3Astreet%3DSzigethy%20Attila%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696414122%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2007%3A00-21%3A00%3B%20Sa%2008%3A00-20%3A00%7Copening_hours%3Acovid19%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w129684411&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Apostcode%3D9023%7Caddr%3Astreet%3DSzigethy%20Attila%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696414122%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-05-31 -->
   <way action="modify" id="129684411" timestamp="2019-03-29T15:24:36Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="1430276335"/>
     <nd ref="1430276338"/>
@@ -244,8 +239,7 @@ source:shell.hu:date             N		'2020\-05\-17'
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="Mo-Su 07:00-21:00; Sa 08:00-20:00"/>
-    <tag k="opening_hours:covid19" v="24/7"/>
+    <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Shell"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -255,7 +249,7 @@ source:shell.hu:date             N		'2020\-05\-17'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:shell.hu:date" v="2020-05-17"/>
+    <tag k="source:shell.hu:date" v="2020-05-31"/>
   </way>
   <node action="modify" id="1355696746" lat="47.6909672" lon="17.6531686" timestamp="2011-07-10T00:03:19Z" uid="381122" user="herrbert74" version="1"/>
   <node action="modify" id="1355696742" lat="47.6907346" lon="17.6533493" timestamp="2011-07-10T00:03:19Z" uid="381122" user="herrbert74" version="1"/>
@@ -265,7 +259,7 @@ source:shell.hu:date             N		'2020\-05\-17'
   <node action="modify" id="1355696751" lat="47.6911258" lon="17.6531496" timestamp="2011-07-10T00:03:19Z" uid="381122" user="herrbert74" version="1"/>
   <node action="modify" id="1355696747" lat="47.690993" lon="17.6532466" timestamp="2011-07-10T00:03:19Z" uid="381122" user="herrbert74" version="1"/>
   <!-- OSM link: https://osm.org/way/121040292 -->
-  <!-- Original coordinates: POINT (47.691067 17.653086) -->
+  <!-- Original coordinates: POINT (47.69106 17.65308) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -290,7 +284,6 @@ fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             E		'Shell'			'Shell'
 opening_hours                    N		'24/7'
-opening_hours:covid19            N		'same'
 operator                         E		'Shell'			'Shell'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
@@ -301,11 +294,11 @@ payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 source                           E		'bing'			'bing'
-source:shell.hu:date             N		'2020\-05\-17'
+source:shell.hu:date             N		'2020\-05\-31'
 toilets:wheelchair               E		'no'			'no'
 wheelchair                       E		'limited'			'limited'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w121040292&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D9027%7Caddr%3Astreet%3DTompa%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20III.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696313346%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dbing%7Csource%3Ashell.hu%3Adate%3D2020-05-17%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dlimited -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w121040292&addtags=%7Caddr%3Acity%3DGyor%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D9027%7Caddr%3Astreet%3DTompa%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C5%90R%20III.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20696313346%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dbing%7Csource%3Ashell.hu%3Adate%3D2020-05-31%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dlimited -->
   <way action="modify" id="121040292" timestamp="2019-03-29T15:24:13Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <nd ref="1355696746"/>
     <nd ref="1355696742"/>
@@ -335,7 +328,6 @@ wheelchair                       E		'limited'			'limited'
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Shell"/>
     <tag k="opening_hours" v="24/7"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Shell"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -346,7 +338,7 @@ wheelchair                       E		'limited'			'limited'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="source" v="bing"/>
-    <tag k="source:shell.hu:date" v="2020-05-17"/>
+    <tag k="source:shell.hu:date" v="2020-05-31"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="wheelchair" v="limited"/>
   </way>

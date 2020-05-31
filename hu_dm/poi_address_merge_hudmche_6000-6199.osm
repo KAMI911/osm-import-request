@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
   <!-- OSM link: https://osm.org/node/6752849457 -->
-  <!-- Original coordinates: POINT (46.88738632202148 19.63533020019531) -->
+  <!-- Original coordinates: POINT (46.88738 19.63533) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -14,32 +14,32 @@ air_conditioning                 E		'yes'			'yes'
 brand                            E		'dm'			'dm'
 brand:wikidata                   E		'Q266572'			'Q266572'
 brand:wikipedia                  E		'en:Dm\-drogerie markt'			'en:Dm\-drogerie markt'
-contact:facebook                 N		'https://www.facebook.com/dm.Magyarorszag'
-contact:instagram                N		'https://www.instagram.com/dm_magyarorszag'
-contact:phone                    N		'+36 30 443 8852'
-contact:website                  N		'https://www.dm.hu/hu\-373/kecskemet/dunafoeldvari\-ut\-2'
-contact:youtube                  N		'https://www.youtube.com/user/dmMagyarorszag'
+contact:facebook                 E		'https://www.facebook.com/dm.Magyarorszag'			'https://www.facebook.com/dm.Magyarorszag'
+contact:instagram                E		'https://www.instagram.com/dm_magyarorszag'			'https://www.instagram.com/dm_magyarorszag'
+contact:phone                    E		'+36 30 443 8852'			'+36 30 443 8852'
+contact:website                  E		'https://www.dm.hu/hu\-373/kecskemet/dunafoeldvari\-ut\-2'			'https://www.dm.hu/hu\-373/kecskemet/dunafoeldvari\-ut\-2'
+contact:youtube                  E		'https://www.youtube.com/user/dmMagyarorszag'			'https://www.youtube.com/user/dmMagyarorszag'
 name                             E		'dm'			'dm'
-opening_hours                    N		'Mo\-Sa 08:00\-20:00; Su 08:00\-18:00; PH off'
-opening_hours:covid19            N		'same'
+opening_hours                    M		'Mo\-Sa 08:00\-20:00; Su 08:00\-18:00; PH off'			'Mo\-Sa 08:00\-18:00; Su 09:00\-15:00; PH off'
+opening_hours:covid19            E		'same'			'same'
 operator                         E		'dm Kft.'			'dm Kft.'
 payment:cash                     E		'yes'			'yes'
 payment:contactless              E		'yes'			'yes'
-payment:maestro                  N		'yes'
+payment:maestro                  E		'yes'			'yes'
 payment:mastercard               E		'yes'			'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
 payment:visa                     E		'yes'			'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'13 09 078006'
-ref:vatin                        N		'HU11181530'
-ref:vatin:hu                     N		'11181530\-2\-44'
+payment:visa_electron            E		'yes'			'yes'
+ref:HU:company                   E		'13 09 078006'			'13 09 078006'
+ref:vatin                        E		'HU11181530'			'HU11181530'
+ref:vatin:hu                     E		'11181530\-2\-44'			'11181530\-2\-44'
 shop                             E		'chemist'			'chemist'
 source                           E		'website'			'website'
 source:date                      E		'2019\-08\-27'			'2019\-08\-27'
-source:www.dm.hu:date            N		'2020\-05\-17'
+source:www.dm.hu:date            M		'2020\-05\-31'			'2020\-04\-12'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6752849457&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20443%208852%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-373/kecskemet/dunafoeldvari-ut-2%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-20%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Dwebsite%7Csource%3Adate%3D2019-08-27%7Csource%3Awww.dm.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6752849457&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20443%208852%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-373/kecskemet/dunafoeldvari-ut-2%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-20%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Dwebsite%7Csource%3Adate%3D2019-08-27%7Csource%3Awww.dm.hu%3Adate%3D2020-05-31 -->
   <node action="modify" id="6752849457" lat="46.8873863" lon="19.6353302" timestamp="2020-04-12T15:39:24Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="2"/>
@@ -72,10 +72,10 @@ source:www.dm.hu:date            N		'2020\-05\-17'
     <tag k="shop" v="chemist"/>
     <tag k="source" v="website"/>
     <tag k="source:date" v="2019-08-27"/>
-    <tag k="source:www.dm.hu:date" v="2020-05-17"/>
+    <tag k="source:www.dm.hu:date" v="2020-05-31"/>
   </node>
   <!-- OSM link: https://osm.org/node/2463407947 -->
-  <!-- Original coordinates: POINT (46.89344024658203 19.66617012023926) -->
+  <!-- Original coordinates: POINT (46.89344 19.66617) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -88,32 +88,32 @@ air_conditioning                 E		'yes'			'yes'
 brand                            E		'dm'			'dm'
 brand:wikidata                   E		'Q266572'			'Q266572'
 brand:wikipedia                  E		'en:Dm\-drogerie markt'			'en:Dm\-drogerie markt'
-contact:facebook                 N		'https://www.facebook.com/dm.Magyarorszag'
-contact:instagram                N		'https://www.instagram.com/dm_magyarorszag'
-contact:phone                    N		'+36 30 886 9715'
-contact:website                  N		'https://www.dm.hu/hu\-297/kecskemet/izsaki\-ut\-12'
-contact:youtube                  N		'https://www.youtube.com/user/dmMagyarorszag'
+contact:facebook                 E		'https://www.facebook.com/dm.Magyarorszag'			'https://www.facebook.com/dm.Magyarorszag'
+contact:instagram                E		'https://www.instagram.com/dm_magyarorszag'			'https://www.instagram.com/dm_magyarorszag'
+contact:phone                    E		'+36 30 886 9715'			'+36 30 886 9715'
+contact:website                  E		'https://www.dm.hu/hu\-297/kecskemet/izsaki\-ut\-12'			'https://www.dm.hu/hu\-297/kecskemet/izsaki\-ut\-12'
+contact:youtube                  E		'https://www.youtube.com/user/dmMagyarorszag'			'https://www.youtube.com/user/dmMagyarorszag'
 name                             E		'dm'			'dm'
-opening_hours                    N		'Mo\-Sa 08:00\-20:00; Su 08:00\-18:00; PH off'
-opening_hours:covid19            N		'same'
+opening_hours                    M		'Mo\-Sa 08:00\-20:00; Su 08:00\-18:00; PH off'			'Mo\-Sa 08:00\-19:00; Su 09:00\-15:00; PH off'
+opening_hours:covid19            E		'same'			'same'
 operator                         E		'dm Kft.'			'dm Kft.'
 payment:cash                     E		'yes'			'yes'
 payment:contactless              E		'yes'			'yes'
-payment:maestro                  N		'yes'
+payment:maestro                  E		'yes'			'yes'
 payment:mastercard               E		'yes'			'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
 payment:visa                     E		'yes'			'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'13 09 078006'
-ref:vatin                        N		'HU11181530'
-ref:vatin:hu                     N		'11181530\-2\-44'
+payment:visa_electron            E		'yes'			'yes'
+ref:HU:company                   E		'13 09 078006'			'13 09 078006'
+ref:vatin                        E		'HU11181530'			'HU11181530'
+ref:vatin:hu                     E		'11181530\-2\-44'			'11181530\-2\-44'
 shop                             E		'chemist'			'chemist'
 source                           E		'http://www.aruhazabc.hu/%C3%A1ruh%C3%A1zak/Kecskem%C3%A9t/dm/DM+Kecskem%C3%A9t+Izs%C3%A1ki+%C3%BAt+12./'			'http://www.aruhazabc.hu/%C3%A1ruh%C3%A1zak/Kecskem%C3%A9t/dm/DM+Kecskem%C3%A9t+Izs%C3%A1ki+%C3%BAt+12./'
-source:www.dm.hu:date            M		'2020\-05\-17'			'2019\-08\-27'
+source:www.dm.hu:date            M		'2020\-05\-31'			'2020\-04\-12'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2463407947&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DIzs%C3%A1ki%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20886%209715%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-297/kecskemet/izsaki-ut-12%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-20%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Dhttp%3A//www.aruhazabc.hu/%25C3%25A1ruh%25C3%25A1zak/Kecskem%25C3%25A9t/dm/DM%2BKecskem%25C3%25A9t%2BIzs%25C3%25A1ki%2B%25C3%25BAt%2B12./%7Csource%3Awww.dm.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2463407947&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DIzs%C3%A1ki%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20886%209715%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-297/kecskemet/izsaki-ut-12%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-20%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Dhttp%3A//www.aruhazabc.hu/%25C3%25A1ruh%25C3%25A1zak/Kecskem%25C3%25A9t/dm/DM%2BKecskem%25C3%25A9t%2BIzs%25C3%25A1ki%2B%25C3%25BAt%2B12./%7Csource%3Awww.dm.hu%3Adate%3D2020-05-31%7Cwheelchair%3Dyes -->
   <node action="modify" id="2463407947" lat="46.8934431" lon="19.6658331" timestamp="2020-04-12T15:39:24Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="12"/>
@@ -145,11 +145,11 @@ wheelchair                       E		'yes'			'yes'
     <tag k="ref:vatin:hu" v="11181530-2-44"/>
     <tag k="shop" v="chemist"/>
     <tag k="source" v="http://www.aruhazabc.hu/%C3%A1ruh%C3%A1zak/Kecskem%C3%A9t/dm/DM+Kecskem%C3%A9t+Izs%C3%A1ki+%C3%BAt+12./"/>
-    <tag k="source:www.dm.hu:date" v="2020-05-17"/>
+    <tag k="source:www.dm.hu:date" v="2020-05-31"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/1296409801 -->
-  <!-- Original coordinates: POINT (46.90745162963867 19.68946075439453) -->
+  <!-- Original coordinates: POINT (46.90745 19.68946) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -162,31 +162,31 @@ air_conditioning                 E		'yes'			'yes'
 brand                            E		'dm'			'dm'
 brand:wikidata                   E		'Q266572'			'Q266572'
 brand:wikipedia                  E		'en:Dm\-drogerie markt'			'en:Dm\-drogerie markt'
-contact:facebook                 N		'https://www.facebook.com/dm.Magyarorszag'
-contact:instagram                N		'https://www.instagram.com/dm_magyarorszag'
-contact:phone                    N		'+36 30 781 6910'
-contact:website                  N		'https://www.dm.hu/hu\-181/kecskemet/korona\-utca\-2'
-contact:youtube                  N		'https://www.youtube.com/user/dmMagyarorszag'
+contact:facebook                 E		'https://www.facebook.com/dm.Magyarorszag'			'https://www.facebook.com/dm.Magyarorszag'
+contact:instagram                E		'https://www.instagram.com/dm_magyarorszag'			'https://www.instagram.com/dm_magyarorszag'
+contact:phone                    E		'+36 30 781 6910'			'+36 30 781 6910'
+contact:website                  E		'https://www.dm.hu/hu\-181/kecskemet/korona\-utca\-2'			'https://www.dm.hu/hu\-181/kecskemet/korona\-utca\-2'
+contact:youtube                  E		'https://www.youtube.com/user/dmMagyarorszag'			'https://www.youtube.com/user/dmMagyarorszag'
 name                             E		'dm'			'dm'
-opening_hours                    N		'Mo\-Sa 08:00\-20:00; Su 08:00\-18:00; PH off'
-opening_hours:covid19            N		'same'
+opening_hours                    M		'Mo\-Sa 08:00\-20:00; Su 08:00\-18:00; PH off'			'Mo\-Sa 08:00\-18:00; Su 10:00\-16:00; PH off'
+opening_hours:covid19            E		'same'			'same'
 operator                         E		'dm Kft.'			'dm Kft.'
 payment:cash                     E		'yes'			'yes'
 payment:contactless              E		'yes'			'yes'
-payment:maestro                  N		'yes'
+payment:maestro                  E		'yes'			'yes'
 payment:mastercard               E		'yes'			'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
 payment:visa                     E		'yes'			'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'13 09 078006'
-ref:vatin                        N		'HU11181530'
-ref:vatin:hu                     N		'11181530\-2\-44'
+payment:visa_electron            E		'yes'			'yes'
+ref:HU:company                   E		'13 09 078006'			'13 09 078006'
+ref:vatin                        E		'HU11181530'			'HU11181530'
+ref:vatin:hu                     E		'11181530\-2\-44'			'11181530\-2\-44'
 shop                             E		'chemist'			'chemist'
-source:www.dm.hu:date            M		'2020\-05\-17'			'2019\-08\-27'
+source:www.dm.hu:date            M		'2020\-05\-31'			'2020\-04\-12'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1296409801&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DKorona%20utca%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20781%206910%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-181/kecskemet/korona-utca-2%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-20%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Awww.dm.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1296409801&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DKorona%20utca%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20781%206910%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-181/kecskemet/korona-utca-2%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-20%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Awww.dm.hu%3Adate%3D2020-05-31%7Cwheelchair%3Dyes -->
   <node action="modify" id="1296409801" lat="46.9072365" lon="19.6886736" timestamp="2020-04-12T15:39:24Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="2"/>
@@ -217,11 +217,11 @@ wheelchair                       E		'yes'			'yes'
     <tag k="ref:vatin" v="HU11181530"/>
     <tag k="ref:vatin:hu" v="11181530-2-44"/>
     <tag k="shop" v="chemist"/>
-    <tag k="source:www.dm.hu:date" v="2020-05-17"/>
+    <tag k="source:www.dm.hu:date" v="2020-05-31"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/6752849446 -->
-  <!-- Original coordinates: POINT (46.91891098022461 19.67423057556152) -->
+  <!-- Original coordinates: POINT (46.91891 19.67423) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -234,30 +234,30 @@ air_conditioning                 E		'yes'			'yes'
 brand                            E		'dm'			'dm'
 brand:wikidata                   E		'Q266572'			'Q266572'
 brand:wikipedia                  E		'en:Dm\-drogerie markt'			'en:Dm\-drogerie markt'
-contact:facebook                 N		'https://www.facebook.com/dm.Magyarorszag'
-contact:instagram                N		'https://www.instagram.com/dm_magyarorszag'
-contact:phone                    N		'+36 30 402 0169'
-contact:website                  N		'https://www.dm.hu/hu\-35/kecskemet/marcius\-15\-ut\-5\-a'
-contact:youtube                  N		'https://www.youtube.com/user/dmMagyarorszag'
+contact:facebook                 E		'https://www.facebook.com/dm.Magyarorszag'			'https://www.facebook.com/dm.Magyarorszag'
+contact:instagram                E		'https://www.instagram.com/dm_magyarorszag'			'https://www.instagram.com/dm_magyarorszag'
+contact:phone                    E		'+36 30 402 0169'			'+36 30 402 0169'
+contact:website                  E		'https://www.dm.hu/hu\-35/kecskemet/marcius\-15\-ut\-5\-a'			'https://www.dm.hu/hu\-35/kecskemet/marcius\-15\-ut\-5\-a'
+contact:youtube                  E		'https://www.youtube.com/user/dmMagyarorszag'			'https://www.youtube.com/user/dmMagyarorszag'
 name                             E		'dm'			'dm'
-opening_hours                    N		'Mo\-Sa 08:00\-19:00; Su 08:00\-15:00; PH off'
-opening_hours:covid19            N		'same'
+opening_hours                    M		'Mo\-Sa 08:00\-19:00; Su 08:00\-15:00; PH off'			'Mo\-Fr 08:00\-19:00; Sa 08:00\-17:00; Su 08:00\-13:00; PH off'
+opening_hours:covid19            E		'same'			'same'
 operator                         E		'dm Kft.'			'dm Kft.'
 payment:cash                     E		'yes'			'yes'
 payment:contactless              E		'yes'			'yes'
-payment:maestro                  N		'yes'
+payment:maestro                  E		'yes'			'yes'
 payment:mastercard               E		'yes'			'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
 payment:visa                     E		'yes'			'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'13 09 078006'
-ref:vatin                        N		'HU11181530'
-ref:vatin:hu                     N		'11181530\-2\-44'
+payment:visa_electron            E		'yes'			'yes'
+ref:HU:company                   E		'13 09 078006'			'13 09 078006'
+ref:vatin                        E		'HU11181530'			'HU11181530'
+ref:vatin:hu                     E		'11181530\-2\-44'			'11181530\-2\-44'
 shop                             E		'chemist'			'chemist'
-source:www.dm.hu:date            M		'2020\-05\-17'			'2019\-08\-27'
+source:www.dm.hu:date            M		'2020\-05\-31'			'2020\-04\-12'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6752849446&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D5/A%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DM%C3%A1rcius%2015.%20utca%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20402%200169%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-35/kecskemet/marcius-15-ut-5-a%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-19%3A00%3B%20Su%2008%3A00-15%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Awww.dm.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6752849446&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D5/A%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DM%C3%A1rcius%2015.%20utca%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20402%200169%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-35/kecskemet/marcius-15-ut-5-a%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Sa%2008%3A00-19%3A00%3B%20Su%2008%3A00-15%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Awww.dm.hu%3Adate%3D2020-05-31 -->
   <node action="modify" id="6752849446" lat="46.918911" lon="19.6742306" timestamp="2020-04-12T15:39:24Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="5/A"/>
@@ -288,10 +288,10 @@ source:www.dm.hu:date            M		'2020\-05\-17'			'2019\-08\-27'
     <tag k="ref:vatin" v="HU11181530"/>
     <tag k="ref:vatin:hu" v="11181530-2-44"/>
     <tag k="shop" v="chemist"/>
-    <tag k="source:www.dm.hu:date" v="2020-05-17"/>
+    <tag k="source:www.dm.hu:date" v="2020-05-31"/>
   </node>
   <!-- OSM link: https://osm.org/node/6752849466 -->
-  <!-- Original coordinates: POINT (46.71170425415039 19.84857368469238) -->
+  <!-- Original coordinates: POINT (46.7117 19.84857) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
@@ -304,30 +304,30 @@ air_conditioning                 E		'yes'			'yes'
 brand                            E		'dm'			'dm'
 brand:wikidata                   E		'Q266572'			'Q266572'
 brand:wikipedia                  E		'en:Dm\-drogerie markt'			'en:Dm\-drogerie markt'
-contact:facebook                 N		'https://www.facebook.com/dm.Magyarorszag'
-contact:instagram                N		'https://www.instagram.com/dm_magyarorszag'
-contact:phone                    N		'+36 30 412 3599'
-contact:website                  N		'https://www.dm.hu/hu\-358/kiskunfelegyhaza/martirok\-utja\-2'
-contact:youtube                  N		'https://www.youtube.com/user/dmMagyarorszag'
+contact:facebook                 E		'https://www.facebook.com/dm.Magyarorszag'			'https://www.facebook.com/dm.Magyarorszag'
+contact:instagram                E		'https://www.instagram.com/dm_magyarorszag'			'https://www.instagram.com/dm_magyarorszag'
+contact:phone                    E		'+36 30 412 3599'			'+36 30 412 3599'
+contact:website                  E		'https://www.dm.hu/hu\-358/kiskunfelegyhaza/martirok\-utja\-2'			'https://www.dm.hu/hu\-358/kiskunfelegyhaza/martirok\-utja\-2'
+contact:youtube                  E		'https://www.youtube.com/user/dmMagyarorszag'			'https://www.youtube.com/user/dmMagyarorszag'
 name                             E		'dm'			'dm'
-opening_hours                    N		'Mo\-Fr 08:00\-18:00; Sa 08:00\-13:00; PH off'
-opening_hours:covid19            N		'same'
+opening_hours                    E		'Mo\-Fr 08:00\-18:00; Sa 08:00\-13:00; PH off'			'Mo\-Fr 08:00\-18:00; Sa 08:00\-13:00; PH off'
+opening_hours:covid19            E		'same'			'same'
 operator                         E		'dm Kft.'			'dm Kft.'
 payment:cash                     E		'yes'			'yes'
 payment:contactless              E		'yes'			'yes'
-payment:maestro                  N		'yes'
+payment:maestro                  E		'yes'			'yes'
 payment:mastercard               E		'yes'			'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
 payment:visa                     E		'yes'			'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'13 09 078006'
-ref:vatin                        N		'HU11181530'
-ref:vatin:hu                     N		'11181530\-2\-44'
+payment:visa_electron            E		'yes'			'yes'
+ref:HU:company                   E		'13 09 078006'			'13 09 078006'
+ref:vatin                        E		'HU11181530'			'HU11181530'
+ref:vatin:hu                     E		'11181530\-2\-44'			'11181530\-2\-44'
 shop                             E		'chemist'			'chemist'
-source:www.dm.hu:date            M		'2020\-05\-17'			'2019\-08\-27'
+source:www.dm.hu:date            M		'2020\-05\-31'			'2020\-04\-12'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6752849466&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20412%203599%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-358/kiskunfelegyhaza/martirok-utja-2%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Fr%2008%3A00-18%3A00%3B%20Sa%2008%3A00-13%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Awww.dm.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6752849466&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Cbrand%3Ddm%7Cbrand%3Awikidata%3DQ266572%7Cbrand%3Awikipedia%3Den%3ADm-drogerie%20markt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/dm.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/dm_magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20412%203599%7Ccontact%3Awebsite%3Dhttps%3A//www.dm.hu/hu-358/kiskunfelegyhaza/martirok-utja-2%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/dmMagyarorszag%7Cname%3Ddm%7Copening_hours%3DMo-Fr%2008%3A00-18%3A00%3B%20Sa%2008%3A00-13%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3Ddm%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2009%20078006%7Cref%3Avatin%3DHU11181530%7Cref%3Avatin%3Ahu%3D11181530-2-44%7Cshop%3Dchemist%7Csource%3Awww.dm.hu%3Adate%3D2020-05-31 -->
   <node action="modify" id="6752849466" lat="46.7117043" lon="19.8485737" timestamp="2020-04-12T15:39:24Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Kiskunfélegyháza"/>
     <tag k="addr:housenumber" v="2"/>
@@ -358,6 +358,6 @@ source:www.dm.hu:date            M		'2020\-05\-17'			'2019\-08\-27'
     <tag k="ref:vatin" v="HU11181530"/>
     <tag k="ref:vatin:hu" v="11181530-2-44"/>
     <tag k="shop" v="chemist"/>
-    <tag k="source:www.dm.hu:date" v="2020-05-17"/>
+    <tag k="source:www.dm.hu:date" v="2020-05-31"/>
   </node>
 </osm>

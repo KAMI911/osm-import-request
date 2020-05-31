@@ -9,7 +9,7 @@
   <node action="modify" id="370439473" lat="46.3648264" lon="17.7965861" timestamp="2016-02-04T13:04:17Z" uid="3192789" user="Orbán Péter" version="6"/>
   <node action="modify" id="370439476" lat="46.3648263" lon="17.7965298" timestamp="2016-02-04T13:04:17Z" uid="3192789" user="Orbán Péter" version="6"/>
   <!-- OSM link: https://osm.org/way/32890313 -->
-  <!-- Original coordinates: POINT (46.364923967077 17.796723413768) -->
+  <!-- Original coordinates: POINT (46.36492 17.79672) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
@@ -18,9 +18,9 @@ addr:city                        N		'Kaposvár'
 addr:housenumber                 N		'36\-46'
 addr:postcode                    N		'7400'
 addr:street                      N		'Hunyadi János utca'
-brand                            N		'Penny Market'
-brand:wikidata                   N		'Q284688'
-brand:wikipedia                  N		'en:Penny (supermarket)'
+brand                            M		'Penny Market'			'Penny'
+brand:wikidata                   E		'Q284688'			'Q284688'
+brand:wikipedia                  E		'en:Penny (supermarket)'			'en:Penny (supermarket)'
 building                         E		'retail'			'retail'
 contact:email                    N		'ugyfelszolgalat@penny.hu'
 contact:facebook                 N		'https://www.facebook.com/PennyMarketMagyarorszag'
@@ -31,7 +31,7 @@ contact:youtube                  N		'https://www.youtube.com/channel/UCSy0KKUrDx
 internet_access                  N		'wlan'
 internet_access:fee              N		'no'
 internet_access:ssid             N		'PENNY FREE WLAN'
-name                             E		'Penny Market'			'Penny Market'
+name                             M		'Penny Market'			'Penny'
 operator                         N		'Penny Market Kft.'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
@@ -44,9 +44,9 @@ payment:visa_electron            N		'yes'
 ref:vatin                        N		'HU10969629'
 ref:vatin:hu                     N		'10969629\-2\-44'
 shop                             E		'supermarket'			'supermarket'
-source:www.penny.hu:date         N		'2020\-05\-17'
+source:www.penny.hu:date         N		'2020\-05\-31'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w32890313&addtags=%7Caddr%3Acity%3DKaposv%C3%A1r%7Caddr%3Ahousenumber%3D36-46%7Caddr%3Apostcode%3D7400%7Caddr%3Astreet%3DHunyadi%20J%C3%A1nos%20utca%7Cbrand%3DPenny%20Market%7Cbrand%3Awikidata%3DQ284688%7Cbrand%3Awikipedia%3Den%3APenny%20%28supermarket%29%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dugyfelszolgalat%40penny.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/PennyMarketMagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/pennymarkethu%7Ccontact%3Aphone%3D%2B36%2030%20748%202819%7Ccontact%3Awebsite%3Dhttps%3A//www.penny.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCSy0KKUrDxVWkx8qicky_pQ%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3DPENNY%20FREE%20WLAN%7Cname%3DPenny%20Market%7Coperator%3DPenny%20Market%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10969629%7Cref%3Avatin%3Ahu%3D10969629-2-44%7Cshop%3Dsupermarket%7Csource%3Awww.penny.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w32890313&addtags=%7Caddr%3Acity%3DKaposv%C3%A1r%7Caddr%3Ahousenumber%3D36-46%7Caddr%3Apostcode%3D7400%7Caddr%3Astreet%3DHunyadi%20J%C3%A1nos%20utca%7Cbrand%3DPenny%20Market%7Cbrand%3Awikidata%3DQ284688%7Cbrand%3Awikipedia%3Den%3APenny%20%28supermarket%29%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dugyfelszolgalat%40penny.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/PennyMarketMagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/pennymarkethu%7Ccontact%3Aphone%3D%2B36%2030%20748%202819%7Ccontact%3Awebsite%3Dhttps%3A//www.penny.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCSy0KKUrDxVWkx8qicky_pQ%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3DPENNY%20FREE%20WLAN%7Cname%3DPenny%20Market%7Coperator%3DPenny%20Market%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10969629%7Cref%3Avatin%3Ahu%3D10969629-2-44%7Cshop%3Dsupermarket%7Csource%3Awww.penny.hu%3Adate%3D2020-05-31 -->
   <way action="modify" id="32890313" timestamp="2020-04-26T16:57:38Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <nd ref="370439456"/>
     <nd ref="370439459"/>
@@ -87,7 +87,7 @@ source:www.penny.hu:date         N		'2020\-05\-17'
     <tag k="ref:vatin" v="HU10969629"/>
     <tag k="ref:vatin:hu" v="10969629-2-44"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:www.penny.hu:date" v="2020-05-17"/>
+    <tag k="source:www.penny.hu:date" v="2020-05-31"/>
   </way>
   <node action="modify" id="2447701585" lat="46.2250703" lon="17.3709554" timestamp="2013-09-06T00:22:05Z" uid="311866" user="papesz" version="1"/>
   <node action="modify" id="2447701586" lat="46.2248334" lon="17.3709808" timestamp="2013-09-06T00:22:05Z" uid="311866" user="papesz" version="1"/>
@@ -96,7 +96,7 @@ source:www.penny.hu:date         N		'2020\-05\-17'
   <node action="modify" id="2447701589" lat="46.2249755" lon="17.3714858" timestamp="2013-09-06T00:22:05Z" uid="311866" user="papesz" version="1"/>
   <node action="modify" id="2447701590" lat="46.2250984" lon="17.3714731" timestamp="2013-09-06T00:22:05Z" uid="311866" user="papesz" version="1"/>
   <!-- OSM link: https://osm.org/way/236798270 -->
-  <!-- Original coordinates: POINT (46.225037041685 17.371104230397) -->
+  <!-- Original coordinates: POINT (46.22503 17.3711) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
@@ -131,9 +131,9 @@ payment:visa_electron            N		'yes'
 ref:vatin                        N		'HU10969629'
 ref:vatin:hu                     N		'10969629\-2\-44'
 shop                             E		'supermarket'			'supermarket'
-source:www.penny.hu:date         N		'2020\-05\-17'
+source:www.penny.hu:date         N		'2020\-05\-31'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w236798270&addtags=%7Caddr%3Acity%3DNagyat%C3%A1d%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D7500%7Caddr%3Astreet%3DHunyadi%20utca%7Cbrand%3DPenny%20Market%7Cbrand%3Awikidata%3DQ284688%7Cbrand%3Awikipedia%3Den%3APenny%20%28supermarket%29%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dugyfelszolgalat%40penny.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/PennyMarketMagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/pennymarkethu%7Ccontact%3Aphone%3D%2B36%2029%20339%20345%7Ccontact%3Awebsite%3Dhttps%3A//www.penny.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCSy0KKUrDxVWkx8qicky_pQ%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3DPENNY%20FREE%20WLAN%7Cname%3DPenny%20Market%7Coperator%3DPenny%20Market%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10969629%7Cref%3Avatin%3Ahu%3D10969629-2-44%7Cshop%3Dsupermarket%7Csource%3Awww.penny.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w236798270&addtags=%7Caddr%3Acity%3DNagyat%C3%A1d%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D7500%7Caddr%3Astreet%3DHunyadi%20utca%7Cbrand%3DPenny%20Market%7Cbrand%3Awikidata%3DQ284688%7Cbrand%3Awikipedia%3Den%3APenny%20%28supermarket%29%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dugyfelszolgalat%40penny.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/PennyMarketMagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/pennymarkethu%7Ccontact%3Aphone%3D%2B36%2029%20339%20345%7Ccontact%3Awebsite%3Dhttps%3A//www.penny.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCSy0KKUrDxVWkx8qicky_pQ%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3DPENNY%20FREE%20WLAN%7Cname%3DPenny%20Market%7Coperator%3DPenny%20Market%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10969629%7Cref%3Avatin%3Ahu%3D10969629-2-44%7Cshop%3Dsupermarket%7Csource%3Awww.penny.hu%3Adate%3D2020-05-31 -->
   <way action="modify" id="236798270" timestamp="2017-12-25T16:17:07Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="2447701585"/>
     <nd ref="2447701586"/>
@@ -172,7 +172,7 @@ source:www.penny.hu:date         N		'2020\-05\-17'
     <tag k="ref:vatin" v="HU10969629"/>
     <tag k="ref:vatin:hu" v="10969629-2-44"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:www.penny.hu:date" v="2020-05-17"/>
+    <tag k="source:www.penny.hu:date" v="2020-05-31"/>
   </way>
   <node action="modify" id="256349681" lat="45.9587026" lon="17.4663557" timestamp="2014-06-24T20:36:23Z" uid="8219" user="hunsly" version="15"/>
   <node action="modify" id="256349682" lat="45.9586946" lon="17.4660935" timestamp="2014-06-24T20:36:23Z" uid="8219" user="hunsly" version="10"/>
@@ -186,7 +186,7 @@ source:www.penny.hu:date         N		'2020\-05\-17'
   <node action="modify" id="1023038947" lat="45.9585786" lon="17.466431" timestamp="2014-06-24T20:32:47Z" uid="8219" user="hunsly" version="5"/>
   <node action="modify" id="1023038903" lat="45.9585766" lon="17.4663636" timestamp="2014-06-24T20:32:47Z" uid="8219" user="hunsly" version="5"/>
   <!-- OSM link: https://osm.org/way/23661195 -->
-  <!-- Original coordinates: POINT (45.958387445099 17.466285978875) -->
+  <!-- Original coordinates: POINT (45.95838 17.46628) -->
   <!-- OSM <-> POI distance: 0.0 m-->
   <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
@@ -222,10 +222,10 @@ payment:visa_electron            N		'yes'
 ref:vatin                        N		'HU10969629'
 ref:vatin:hu                     N		'10969629\-2\-44'
 shop                             E		'supermarket'			'supermarket'
-source:www.penny.hu:date         N		'2020\-05\-17'
+source:www.penny.hu:date         N		'2020\-05\-31'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w23661195&addtags=%7Caddr%3Acity%3DBarcs%7Caddr%3Ahousenumber%3D6-7%7Caddr%3Apostcode%3D7570%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20tere%7Cbrand%3DPenny%20Market%7Cbrand%3Awikidata%3DQ284688%7Cbrand%3Awikipedia%3Den%3APenny%20%28supermarket%29%7Cbuilding%3Dstore%7Cbuilding%3Alevels%3D1%7Ccontact%3Aemail%3Dugyfelszolgalat%40penny.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/PennyMarketMagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/pennymarkethu%7Ccontact%3Aphone%3D%2B36%2029%20339%20345%7Ccontact%3Awebsite%3Dhttps%3A//www.penny.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCSy0KKUrDxVWkx8qicky_pQ%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3DPENNY%20FREE%20WLAN%7Cname%3DPenny%20Market%7Coperator%3DPenny%20Market%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10969629%7Cref%3Avatin%3Ahu%3D10969629-2-44%7Cshop%3Dsupermarket%7Csource%3Awww.penny.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w23661195&addtags=%7Caddr%3Acity%3DBarcs%7Caddr%3Ahousenumber%3D6-7%7Caddr%3Apostcode%3D7570%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20tere%7Cbrand%3DPenny%20Market%7Cbrand%3Awikidata%3DQ284688%7Cbrand%3Awikipedia%3Den%3APenny%20%28supermarket%29%7Cbuilding%3Dstore%7Cbuilding%3Alevels%3D1%7Ccontact%3Aemail%3Dugyfelszolgalat%40penny.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/PennyMarketMagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/pennymarkethu%7Ccontact%3Aphone%3D%2B36%2029%20339%20345%7Ccontact%3Awebsite%3Dhttps%3A//www.penny.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCSy0KKUrDxVWkx8qicky_pQ%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3DPENNY%20FREE%20WLAN%7Cname%3DPenny%20Market%7Coperator%3DPenny%20Market%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10969629%7Cref%3Avatin%3Ahu%3D10969629-2-44%7Cshop%3Dsupermarket%7Csource%3Awww.penny.hu%3Adate%3D2020-05-31%7Cwheelchair%3Dyes -->
   <way action="modify" id="23661195" timestamp="2015-03-15T08:40:57Z" uid="8635934" user="osm_poi_matchmaker" version="16">
     <nd ref="256349681"/>
     <nd ref="256349682"/>
@@ -270,7 +270,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="ref:vatin" v="HU10969629"/>
     <tag k="ref:vatin:hu" v="10969629-2-44"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:www.penny.hu:date" v="2020-05-17"/>
+    <tag k="source:www.penny.hu:date" v="2020-05-31"/>
     <tag k="wheelchair" v="yes"/>
   </way>
 </osm>

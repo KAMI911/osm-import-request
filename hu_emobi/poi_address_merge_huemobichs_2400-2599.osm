@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- Original coordinates: POINT (46.97443 18.93491) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_metaphone_is_around}; bad {street_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Dunaújváros'
+addr:postcode                    N		'2400'
+addr:street                      N		'Martinovics Ignác út'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Dunaújváros \- Martinovics Ignác út'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'DBT Quick Charger Tri\-Standard'
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:chademo                   N		'1'
+socket:chademo:output            N		'44 kW'
+socket:type2_cable               N		'1'
+socket:type2_cable:output        N		'22 kW'
+socket:type2_combo               N		'1'
+socket:type2_combo:output        N		'44 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DDuna%C3%BAjv%C3%A1ros%7Caddr%3Apostcode%3D2400%7Caddr%3Astreet%3DMartinovics%20Ign%C3%A1c%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDuna%C3%BAjv%C3%A1ros%20-%20Martinovics%20Ign%C3%A1c%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DDBT%20Quick%20Charger%20Tri-Standard%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D44%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D44%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-1" lat="46.97443" lon="18.93491" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Dunaújváros"/>
+    <tag k="addr:postcode" v="2400"/>
+    <tag k="addr:street" v="Martinovics Ignác út"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Dunaújváros - Martinovics Ignác út"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="DBT Quick Charger Tri-Standard"/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="44 kW"/>
+    <tag k="socket:type2_cable" v="1"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="44 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+  <!-- Original coordinates: POINT (46.9656 18.91656) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Dunaújváros'
+addr:postcode                    N		'2400'
+addr:street                      N		'Szabadság út'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Dunaújváros \- Szabadság út'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Evopro'
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DDuna%C3%BAjv%C3%A1ros%7Caddr%3Apostcode%3D2400%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDuna%C3%BAjv%C3%A1ros%20-%20Szabads%C3%A1g%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-2" lat="46.9656" lon="18.91656" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Dunaújváros"/>
+    <tag k="addr:postcode" v="2400"/>
+    <tag k="addr:street" v="Szabadság út"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Dunaújváros - Szabadság út"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+  <!-- Original coordinates: POINT (47.31487 18.78633) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Martonvásár'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'2462'
+addr:street                      N		'Kodály Zoltán utca'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Martonvásár \- Kodály Zoltán utca 2.'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		' '
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:chademo                   N		'1'
+socket:chademo:output            N		'22 kW'
+socket:type2_combo               N		'1'
+socket:type2_combo:output        N		'22 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DMartonv%C3%A1s%C3%A1r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2462%7Caddr%3Astreet%3DKod%C3%A1ly%20Zolt%C3%A1n%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DMartonv%C3%A1s%C3%A1r%20-%20Kod%C3%A1ly%20Zolt%C3%A1n%20utca%202.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3D%20%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-3" lat="47.31487" lon="18.78633" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Martonvásár"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="2462"/>
+    <tag k="addr:street" v="Kodály Zoltán utca"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Martonvásár - Kodály Zoltán utca 2."/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v=" "/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="22 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="22 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+  <!-- Original coordinates: POINT (47.3148 18.78626) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Martonvásár'
+addr:postcode                    N		'2462'
+addr:street                      N		'Kodály Zoltán utca'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Martonvásár \- Kodály Zoltán utca'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Evopro'
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DMartonv%C3%A1s%C3%A1r%7Caddr%3Apostcode%3D2462%7Caddr%3Astreet%3DKod%C3%A1ly%20Zolt%C3%A1n%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DMartonv%C3%A1s%C3%A1r%20-%20Kod%C3%A1ly%20Zolt%C3%A1n%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-4" lat="47.3148" lon="18.78626" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Martonvásár"/>
+    <tag k="addr:postcode" v="2462"/>
+    <tag k="addr:street" v="Kodály Zoltán utca"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Martonvásár - Kodály Zoltán utca"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+  <!-- Original coordinates: POINT (47.23865 18.67388) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Kápolnásnyék'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'2475'
+addr:street                      N		'Vörösmarty utca'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Kápolnásnyék \- Vörösmarty utca 2.'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Evopro'
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DK%C3%A1poln%C3%A1sny%C3%A9k%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2475%7Caddr%3Astreet%3DV%C3%B6r%C3%B6smarty%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DK%C3%A1poln%C3%A1sny%C3%A9k%20-%20V%C3%B6r%C3%B6smarty%20utca%202.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-5" lat="47.23865" lon="18.67388" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kápolnásnyék"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="2475"/>
+    <tag k="addr:street" v="Vörösmarty utca"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Kápolnásnyék - Vörösmarty utca 2."/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+  <!-- Original coordinates: POINT (47.22887 18.66335) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Velence'
+addr:postcode                    N		'2481'
+addr:street                      N		'Velence Tópart utca'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Velence \- Velence Tópart utca'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Evopro'
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DVelence%7Caddr%3Apostcode%3D2481%7Caddr%3Astreet%3DVelence%20T%C3%B3part%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DVelence%20-%20Velence%20T%C3%B3part%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-6" lat="47.22887" lon="18.66335" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Velence"/>
+    <tag k="addr:postcode" v="2481"/>
+    <tag k="addr:street" v="Velence Tópart utca"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Velence - Velence Tópart utca"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+  <!-- Original coordinates: POINT (47.1951 18.59619) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Gárdony'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'2484'
+addr:street                      N		'Fürdő tér'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Gárdony\-Agárd \- Fürdő tér 1.'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Evopro'
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DG%C3%A1rdony%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2484%7Caddr%3Astreet%3DF%C3%BCrd%C5%91%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DG%C3%A1rdony-Ag%C3%A1rd%20-%20F%C3%BCrd%C5%91%20t%C3%A9r%201.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-7" lat="47.1951" lon="18.59619" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Gárdony"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="2484"/>
+    <tag k="addr:street" v="Fürdő tér"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Gárdony-Agárd - Fürdő tér 1."/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+  <!-- Original coordinates: POINT (47.2067 18.62675) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_metaphone_is_around}; bad {street_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Gárdony'
+addr:postcode                    N		'2483'
+addr:street                      N		'Szabadság utca'
+alt_name                         N		'e\-mobi'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Gárdony\-Agárd \- Szabadság utca'
+capacity                         N		'2'
+contact:email                    N		'kapcsolat@e\-mobi.hu'
+contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
+contact:phone                    N		'+36 80 210 012'
+contact:website                  N		'https://e\-mobi.hu/'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Evopro'
+name                             N		'e\-töltőpont'
+opening_hours                    N		'24/7'
+operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01 09 281052'
+ref:vatin                        N		'HU25539431'
+ref:vatin:hu                     N		' 25539431\-2\-41'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:e-mobi.hu:date            N		'2020\-10\-13'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DG%C3%A1rdony%7Caddr%3Apostcode%3D2483%7Caddr%3Astreet%3DSzabads%C3%A1g%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DG%C3%A1rdony-Ag%C3%A1rd%20-%20Szabads%C3%A1g%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
+  <node action="modify" id="-8" lat="47.2067" lon="18.62675" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Gárdony"/>
+    <tag k="addr:postcode" v="2483"/>
+    <tag k="addr:street" v="Szabadság utca"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="Gárdony-Agárd - Szabadság utca"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="kapcsolat@e-mobi.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 80 210 012"/>
+    <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="e-töltőpont"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
+    <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01 09 281052"/>
+    <tag k="ref:vatin" v="HU25539431"/>
+    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+  </node>
+</osm>

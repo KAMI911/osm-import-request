@@ -3,7 +3,7 @@
   <!-- OSM link: https://osm.org/node/5781345117 -->
   <!-- Original coordinates: POINT (48.21988 22.07866) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Kisvárda'			'Kisvárda'
@@ -19,7 +19,7 @@ contact:website                  N		'https://benu.hu/gyogyszertaraink/gyogyszert
 contact:youtube                  N		'https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg'
 dispensing                       E		'yes'			'yes'
 healthcare                       E		'pharmacy'			'pharmacy'
-name                             E		'Benu'			'Benu'
+name                             E		'Benu gyógyszertár'			'Benu gyógyszertár'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
 payment:maestro                  N		'yes'
@@ -28,10 +28,11 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5781345117&addtags=%7Caddr%3Acity%3DKisv%C3%A1rda%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D4600%7Caddr%3Astreet%3DK%C3%B6lcsey%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20500%20462%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-kisvarda/fagyongy-gyogyszertar-kisvarda/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Chealthcare%3Dpharmacy%7Cname%3DBenu%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="5781345117" lat="48.2198887" lon="22.0791765" timestamp="2018-07-24T09:13:57Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5781345117&addtags=%7Caddr%3Acity%3DKisv%C3%A1rda%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D4600%7Caddr%3Astreet%3DK%C3%B6lcsey%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20500%20462%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-kisvarda/fagyongy-gyogyszertar-kisvarda/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Chealthcare%3Dpharmacy%7Cname%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Kölcsei utca 5.', 'postcode': '4600', 'city': 'Kisvárda', 'street': 'Kölcsey utca', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="5781345117" lat="48.2199929" lon="22.079431" timestamp="2020-09-19T20:54:43Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Kisvárda"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="4600"/>
@@ -45,7 +46,7 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg"/>
     <tag k="dispensing" v="yes"/>
     <tag k="healthcare" v="pharmacy"/>
-    <tag k="name" v="Benu"/>
+    <tag k="name" v="Benu gyógyszertár"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:maestro" v="yes"/>
@@ -54,12 +55,12 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
   <!-- OSM link: https://osm.org/node/5781345117 -->
   <!-- Original coordinates: POINT (48.22137 22.07965) -->
-  <!-- OSM <-> POI distance: 168.40731805 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 153.98389335 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Kisvárda'			'Kisvárda'
@@ -75,7 +76,7 @@ contact:website                  N		'https://benu.hu/gyogyszertaraink/gyogyszert
 contact:youtube                  N		'https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg'
 dispensing                       E		'yes'			'yes'
 healthcare                       E		'pharmacy'			'pharmacy'
-name                             E		'Benu'			'Benu'
+name                             E		'Benu gyógyszertár'			'Benu gyógyszertár'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
 payment:maestro                  N		'yes'
@@ -84,10 +85,11 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5781345117&addtags=%7Caddr%3Acity%3DKisv%C3%A1rda%7Caddr%3Ahousenumber%3D56%7Caddr%3Apostcode%3D4600%7Caddr%3Astreet%3DSzent%20L%C3%A1szl%C3%B3%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20415%20857%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-kisvarda/balzsam-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Chealthcare%3Dpharmacy%7Cname%3DBenu%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="5781345117" lat="48.2198887" lon="22.0791765" timestamp="2018-07-24T09:13:57Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5781345117&addtags=%7Caddr%3Acity%3DKisv%C3%A1rda%7Caddr%3Ahousenumber%3D56%7Caddr%3Apostcode%3D4600%7Caddr%3Astreet%3DSzent%20L%C3%A1szl%C3%B3%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20415%20857%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-kisvarda/balzsam-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Chealthcare%3Dpharmacy%7Cname%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Szent László utca 56.', 'postcode': '4600', 'city': 'Kisvárda', 'street': 'Szent László utca', 'housenumber': '56', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="5781345117" lat="48.2199929" lon="22.079431" timestamp="2020-09-19T20:54:43Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Kisvárda"/>
     <tag k="addr:housenumber" v="56"/>
     <tag k="addr:postcode" v="4600"/>
@@ -101,7 +103,7 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg"/>
     <tag k="dispensing" v="yes"/>
     <tag k="healthcare" v="pharmacy"/>
-    <tag k="name" v="Benu"/>
+    <tag k="name" v="Benu gyógyszertár"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:maestro" v="yes"/>
@@ -110,12 +112,12 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
   <!-- OSM link: https://osm.org/node/5203772323 -->
   <!-- Original coordinates: POINT (48.2333 22.06379) -->
   <!-- OSM <-> POI distance: 147.19372412 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Kisvárda'
@@ -140,9 +142,10 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5203772323&addtags=%7Caddr%3Acity%3DKisv%C3%A1rda%7Caddr%3Ahousenumber%3D72%7Caddr%3Apostcode%3D4600%7Caddr%3Astreet%3DV%C3%A1rosmajor%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbranch%3DBENU%20Gy%C3%B3gyszert%C3%A1r%20Kisv%C3%A1rda%20V%C3%A1rosmajor%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20404%20243%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-kisvarda/benu-gyogyszertar-kisvarda-varosmajor/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cname%3DBENU%20Gy%C3%B3gyszert%C3%A1r%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5203772323&addtags=%7Caddr%3Acity%3DKisv%C3%A1rda%7Caddr%3Ahousenumber%3D72%7Caddr%3Apostcode%3D4600%7Caddr%3Astreet%3DV%C3%A1rosmajor%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbranch%3DBENU%20Gy%C3%B3gyszert%C3%A1r%20Kisv%C3%A1rda%20V%C3%A1rosmajor%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20404%20243%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-kisvarda/benu-gyogyszertar-kisvarda-varosmajor/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cname%3DBENU%20Gy%C3%B3gyszert%C3%A1r%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Városmajor utca 72.', 'postcode': '4600', 'city': 'Kisvárda', 'street': 'Városmajor utca', 'housenumber': '72', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="5203772323" lat="48.2319776" lon="22.0637005" timestamp="2017-11-01T08:51:24Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Kisvárda"/>
     <tag k="addr:housenumber" v="72"/>
@@ -166,11 +169,11 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (48.34143 22.11532) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Tuzsér'
@@ -195,10 +198,11 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DTuzs%C3%A9r%7Caddr%3Ahousenumber%3D64%7Caddr%3Apostcode%3D4623%7Caddr%3Astreet%3DKossuth%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20541%20308%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertarak/tuzser/sanitas-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-4" lat="48.34143" lon="22.11532" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DTuzs%C3%A9r%7Caddr%3Ahousenumber%3D64%7Caddr%3Apostcode%3D4623%7Caddr%3Astreet%3DKossuth%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2045%20541%20308%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertarak/tuzser/sanitas-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Kossuth utca 64.', 'postcode': '4623', 'city': 'Tuzsér', 'street': 'Kossuth utca', 'housenumber': '64', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="48.34143" lon="22.11532" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tuzsér"/>
     <tag k="addr:housenumber" v="64"/>
     <tag k="addr:postcode" v="4623"/>
@@ -221,11 +225,11 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.95463 22.32415) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Mátészalka'
@@ -250,10 +254,11 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DM%C3%A1t%C3%A9szalka%7Caddr%3Ahousenumber%3D25-27%7Caddr%3Apostcode%3D4700%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20Endre%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20500%20032%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-mateszalka/fecske-patika/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-5" lat="47.95463" lon="22.32415" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DM%C3%A1t%C3%A9szalka%7Caddr%3Ahousenumber%3D25-27%7Caddr%3Apostcode%3D4700%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20Endre%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20500%20032%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-mateszalka/fecske-patika/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Bajcsy út 25-27. fsz 7.', 'postcode': '4700', 'city': 'Mátészalka', 'street': 'Bajcsy-Zsilinszky Endre utca', 'housenumber': '25-27', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.95463" lon="22.32415" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Mátészalka"/>
     <tag k="addr:housenumber" v="25-27"/>
     <tag k="addr:postcode" v="4700"/>
@@ -276,12 +281,12 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
   <!-- OSM link: https://osm.org/node/4792257521 -->
   <!-- Original coordinates: POINT (47.95684 22.31685) -->
   <!-- OSM <-> POI distance: 11.31014235 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Mátészalka'
@@ -305,9 +310,10 @@ payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 source                           E		'survey'			'survey'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4792257521&addtags=%7Caddr%3Acity%3DM%C3%A1t%C3%A9szalka%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D4700%7Caddr%3Astreet%3DE%C3%B6tv%C3%B6s%20J%C3%B3zsef%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertarak/mateszalka/szalka-patika/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dsurvey%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4792257521&addtags=%7Caddr%3Acity%3DM%C3%A1t%C3%A9szalka%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D4700%7Caddr%3Astreet%3DE%C3%B6tv%C3%B6s%20J%C3%B3zsef%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertarak/mateszalka/szalka-patika/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dsurvey%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Eötvös u 21.', 'postcode': '4700', 'city': 'Mátészalka', 'street': 'Eötvös József utca', 'housenumber': '21', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4792257521" lat="47.9569405" lon="22.3168266" timestamp="2017-04-13T20:01:59Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Mátészalka"/>
     <tag k="addr:housenumber" v="21"/>
@@ -330,11 +336,11 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="source" v="survey"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.9555 22.32419) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Mátészalka'
@@ -359,10 +365,11 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DM%C3%A1t%C3%A9szalka%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D4700%7Caddr%3Astreet%3DK%C3%A1lvin%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20311%20253%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-mateszalka/sas-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-7" lat="47.9555" lon="22.32419" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DM%C3%A1t%C3%A9szalka%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D4700%7Caddr%3Astreet%3DK%C3%A1lvin%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20311%20253%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/gyogyszertarak-mateszalka/sas-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Kálvin tér 7.', 'postcode': '4700', 'city': 'Mátészalka', 'street': 'Kálvin tér', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="47.9555" lon="22.32419" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Mátészalka"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="4700"/>
@@ -385,11 +392,67 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
+  </node>
+  <!-- Original coordinates: POINT (47.88293 22.56656) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Porcsalma'
+addr:housenumber                 N		'23'
+addr:postcode                    N		'4761'
+addr:street                      N		'Szabadság tér'
+air_conditioning                 N		'yes'
+amenity                          N		'pharmacy'
+brand                            N		'Benu gyógyszertár'
+contact:facebook                 N		'https://www.facebook.com/BENUgyogyszertar'
+contact:phone                    N		'+36 44 376 127'
+contact:website                  N		'https://benu.hu/gyogyszertarak/porcsalma/patika\-porcsalma'
+contact:youtube                  N		'https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg'
+dispensing                       N		'yes'
+fixme                            N		'verify import'
+name                             N		'None'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:benu.hu:date              N		'2020\-12\-25'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DPorcsalma%7Caddr%3Ahousenumber%3D23%7Caddr%3Apostcode%3D4761%7Caddr%3Astreet%3DSzabads%C3%A1g%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20376%20127%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertarak/porcsalma/patika-porcsalma%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Szabadság tér 23.', 'postcode': '4761', 'city': 'Porcsalma', 'street': 'Szabadság tér', 'housenumber': '23', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-8" lat="47.88293" lon="22.56656" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Porcsalma"/>
+    <tag k="addr:housenumber" v="23"/>
+    <tag k="addr:postcode" v="4761"/>
+    <tag k="addr:street" v="Szabadság tér"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="brand" v="Benu gyógyszertár"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/BENUgyogyszertar"/>
+    <tag k="contact:phone" v="+36 44 376 127"/>
+    <tag k="contact:website" v="https://benu.hu/gyogyszertarak/porcsalma/patika-porcsalma"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.83658 22.67727) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Csenger'
@@ -414,10 +477,11 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-source:benu.hu:date              N		'2020\-06\-10'
+source:benu.hu:date              N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DCsenger%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D4765%7Caddr%3Astreet%3DAdy%20Endre%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20520%20060%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/csenger/oroszlan-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-8" lat="47.83658" lon="22.67727" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DCsenger%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D4765%7Caddr%3Astreet%3DAdy%20Endre%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20520%20060%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertaraink/gyogyszertarak-szabolcs-szatmar-bereg-megye/csenger/oroszlan-gyogyszertar/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Ady Endre u. 10.', 'postcode': '4765', 'city': 'Csenger', 'street': 'Ady Endre út', 'housenumber': '10', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-9" lat="47.83658" lon="22.67727" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Csenger"/>
     <tag k="addr:housenumber" v="10"/>
     <tag k="addr:postcode" v="4765"/>
@@ -440,6 +504,74 @@ source:benu.hu:date              N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:benu.hu:date" v="2020-06-10"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
   </node>
+  <node id="5270875884" lat="47.8299808" lon="22.6726078" timestamp="2017-12-07T22:34:55Z" uid="7174521" user="BMEEOFTAT43-VNT22D" version="1"/>
+  <node id="5270875885" lat="47.8300905" lon="22.6728273" timestamp="2017-12-07T22:34:55Z" uid="7174521" user="BMEEOFTAT43-VNT22D" version="1"/>
+  <node id="5270875886" lat="47.8299369" lon="22.672944" timestamp="2017-12-07T22:34:55Z" uid="7174521" user="BMEEOFTAT43-VNT22D" version="1"/>
+  <node id="5270875887" lat="47.8298491" lon="22.6727479" timestamp="2017-12-07T22:34:55Z" uid="7174521" user="BMEEOFTAT43-VNT22D" version="1"/>
+  <!-- OSM link: https://osm.org/way/545351451 -->
+  <!-- Original coordinates: POINT (47.82999 22.67272) -->
+  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- Checker good: ['not_in_water']; bad ['street_is_not_around', 'street_metaphone_is_not_around']-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Csenger'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'4765'
+addr:street                      N		'Tisza utca'
+air_conditioning                 N		'yes'
+amenity                          E		'pharmacy'			'pharmacy'
+brand                            N		'Benu gyógyszertár'
+building                         E		'yes'			'yes'
+contact:facebook                 N		'https://www.facebook.com/BENUgyogyszertar'
+contact:phone                    N		'+36 44 341 077'
+contact:website                  N		'https://benu.hu/gyogyszertarak/csenger/patika\-csenger\-gyógyszertár'
+contact:youtube                  N		'https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg'
+dispensing                       N		'yes'
+healthcare                       E		'pharmacy'			'pharmacy'
+name                             E		'Patika és Reformház'			'Patika és Reformház'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:benu.hu:date              N		'2020\-12\-25'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w545351451&addtags=%7Caddr%3Acity%3DCsenger%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D4765%7Caddr%3Astreet%3DTisza%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DBenu%20gy%C3%B3gyszert%C3%A1r%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/BENUgyogyszertar%7Ccontact%3Aphone%3D%2B36%2044%20341%20077%7Ccontact%3Awebsite%3Dhttps%3A//benu.hu/gyogyszertarak/csenger/patika-csenger-gy%C3%B3gyszert%C3%A1r%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg%7Cdispensing%3Dyes%7Chealthcare%3Dpharmacy%7Cname%3DPatika%20%C3%A9s%20Reformh%C3%A1z%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Abenu.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Tisza u. 2.', 'postcode': '4765', 'city': 'Csenger', 'street': 'Tisza utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="545351451" timestamp="2017-12-07T22:34:55Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <nd ref="5270875884"/>
+    <nd ref="5270875885"/>
+    <nd ref="5270875886"/>
+    <nd ref="5270875887"/>
+    <nd ref="5270875884"/>
+    <tag k="addr:city" v="Csenger"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="4765"/>
+    <tag k="addr:street" v="Tisza utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="brand" v="Benu gyógyszertár"/>
+    <tag k="building" v="yes"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/BENUgyogyszertar"/>
+    <tag k="contact:phone" v="+36 44 341 077"/>
+    <tag k="contact:website" v="https://benu.hu/gyogyszertarak/csenger/patika-csenger-gyógyszertár"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCBLjL10QMtRHdkak0h9exqg"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="healthcare" v="pharmacy"/>
+    <tag k="name" v="Patika és Reformház"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:benu.hu:date" v="2020-12-25"/>
+  </way>
 </osm>

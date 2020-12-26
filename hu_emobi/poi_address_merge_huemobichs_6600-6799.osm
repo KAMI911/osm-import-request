@@ -2,42 +2,43 @@
 <osm generator="JOSM" version="0.6">
   <!-- OSM link: https://osm.org/node/7296568773 -->
   <!-- Original coordinates: POINT (46.27045 20.1576) -->
-  <!-- OSM <-> POI distance: 4.50546874 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'122'
-addr:postcode                    N		'6723'
-addr:street                      N		'József Attila sugárút'
-alt_name                         N		'e\-mobi'
+addr:city                        E		'Szeged'			'Szeged'
+addr:housenumber                 E		'122'			'122'
+addr:postcode                    E		'6723'			'6723'
+addr:street                      E		'József Attila sugárút'			'József Attila sugárút'
+alt_name                         E		'e\-mobi'			'e\-mobi'
 amenity                          E		'charging_station'			'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- József Attila sugárút 122.'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- József Attila sugárút 122.'			'Szeged \- József Attila sugárút 122.'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
 description                      E		'AC 22kW'			'AC 22kW'
-fee                              N		'yes'
-manufacturer                     N		'Evopro'
-name                             N		'e\-töltőpont'
-opening_hours                    N		'24/7'
-operator                         M		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+fee                              E		'yes'			'yes'
+manufacturer                     E		'Evopro'			'Evopro'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:type2_cable               E		'2'			'2'
+socket:type2_cable:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7296568773&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D122%7Caddr%3Apostcode%3D6723%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20sug%C3%A1r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20J%C3%B3zsef%20Attila%20sug%C3%A1r%C3%BAt%20122.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="7296568773" lat="46.2704664" lon="20.1575464" timestamp="2020-03-15T11:24:21Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7296568773&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D122%7Caddr%3Apostcode%3D6723%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20sug%C3%A1r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20J%C3%B3zsef%20Attila%20sug%C3%A1r%C3%BAt%20122.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'József Attila sugárút 122.     ', 'postcode': '6723', 'city': 'Szeged', 'street': 'József Attila sugárút', 'housenumber': '122', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="7296568773" lat="46.2704664" lon="20.1575464" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="122"/>
     <tag k="addr:postcode" v="6723"/>
@@ -63,48 +64,49 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="parking:fee" v="no"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
   <!-- OSM link: https://osm.org/node/7296568771 -->
   <!-- Original coordinates: POINT (46.25764 20.17591) -->
   <!-- OSM <-> POI distance: 7.3202178 m-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!-- Checker good: ['not_in_water']; bad ['street_is_not_around', 'street_metaphone_is_not_around']-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:postcode                    N		'6753'
-addr:street                      N		'Vízi Sport Egyesület Felső Tisza part'
-alt_name                         N		'e\-mobi'
+addr:city                        E		'Szeged'			'Szeged'
+addr:postcode                    E		'6753'			'6753'
+addr:street                      E		'Vízi Sport Egyesület Felső Tisza part'			'Vízi Sport Egyesület Felső Tisza part'
+alt_name                         E		'e\-mobi'			'e\-mobi'
 amenity                          E		'charging_station'			'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- Vízi Sport Egyesület Felső Tisza part'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- Vízi Sport Egyesület Felső Tisza part'			'Szeged \- Vízi Sport Egyesület Felső Tisza part'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
 description                      E		'AC 22kW'			'AC 22kW'
-fee                              N		'yes'
-manufacturer                     N		'Evopro'
-name                             N		'e\-töltőpont'
-opening_hours                    N		'24/7'
-operator                         M		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+fee                              E		'yes'			'yes'
+manufacturer                     E		'Evopro'			'Evopro'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:type2_cable               E		'2'			'2'
+socket:type2_cable:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7296568771&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Apostcode%3D6753%7Caddr%3Astreet%3DV%C3%ADzi%20Sport%20Egyes%C3%BClet%20Fels%C5%91%20Tisza%20part%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20V%C3%ADzi%20Sport%20Egyes%C3%BClet%20Fels%C5%91%20Tisza%20part%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="7296568771" lat="46.2576847" lon="20.1759799" timestamp="2020-03-15T11:24:21Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7296568771&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Apostcode%3D6753%7Caddr%3Astreet%3DV%C3%ADzi%20Sport%20Egyes%C3%BClet%20Fels%C5%91%20Tisza%20part%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20V%C3%ADzi%20Sport%20Egyes%C3%BClet%20Fels%C5%91%20Tisza%20part%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Vízi Sport Egyesület Felső Tisza part   ', 'postcode': '6753', 'city': 'Szeged', 'street': 'Vízi Sport Egyesület Felső Tisza part', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="7296568771" lat="46.2576847" lon="20.1759799" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:postcode" v="6753"/>
     <tag k="addr:street" v="Vízi Sport Egyesület Felső Tisza part"/>
@@ -129,48 +131,51 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="parking:fee" v="no"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
+  <!-- OSM link: https://osm.org/node/7296568770 -->
   <!-- Original coordinates: POINT (46.27035 20.16443) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'1'
-addr:postcode                    N		'6723'
-addr:street                      N		'Víztorony tér'
-alt_name                         N		'e\-mobi'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- Víztorony tér 1.'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Evopro'
-name                             N		'e\-töltőpont'
-opening_hours                    N		'24/7'
-operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+addr:city                        E		'Szeged'			'Szeged'
+addr:housenumber                 E		'1'			'1'
+addr:postcode                    E		'6723'			'6723'
+addr:street                      E		'Víztorony tér'			'Víztorony tér'
+alt_name                         E		'e\-mobi'			'e\-mobi'
+amenity                          E		'charging_station'			'charging_station'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- Víztorony tér 1.'			'Szeged \- Víztorony tér 1.'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
+description                      E		'AC 22kW'			'AC 22kW'
+fee                              E		'yes'			'yes'
+fixme                            E		'verify import'			'verify import'
+manufacturer                     E		'Evopro'			'Evopro'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:type2_cable               E		'2'			'2'
+socket:type2_cable:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6723%7Caddr%3Astreet%3DV%C3%ADztorony%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20V%C3%ADztorony%20t%C3%A9r%201.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="-3" lat="46.27035" lon="20.16443" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7296568770&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6723%7Caddr%3Astreet%3DV%C3%ADztorony%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20V%C3%ADztorony%20t%C3%A9r%201.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Víztorony tér 1.      ', 'postcode': '6723', 'city': 'Szeged', 'street': 'Víztorony tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="7296568770" lat="46.2704479" lon="20.1645098" timestamp="2020-11-29T07:56:20Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="6723"/>
@@ -186,6 +191,7 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
     <tag k="contact:phone" v="+36 80 210 012"/>
     <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="description" v="AC 22kW"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
     <tag k="manufacturer" v="Evopro"/>
@@ -196,51 +202,52 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="parking:fee" v="no"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
   <!-- OSM link: https://osm.org/node/6985282301 -->
   <!-- Original coordinates: POINT (46.26 20.14032) -->
-  <!-- OSM <-> POI distance: 20.53533525 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'47'
-addr:postcode                    N		'6724'
-addr:street                      N		'Kossuth Lajos sugárút'
-alt_name                         N		'e\-mobi'
+addr:city                        E		'Szeged'			'Szeged'
+addr:housenumber                 E		'47'			'47'
+addr:postcode                    E		'6724'			'6724'
+addr:street                      E		'Kossuth Lajos sugárút'			'Kossuth Lajos sugárút'
+alt_name                         E		'e\-mobi'			'e\-mobi'
 amenity                          E		'charging_station'			'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- Kossuth Lajos sugárút 47.'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
-fee                              N		'yes'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- Kossuth Lajos sugárút 47.'			'Szeged \- Kossuth Lajos sugárút 47.'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
+fee                              E		'yes'			'yes'
 manufacturer                     N		' '
-name                             M		'e\-töltőpont'			'e\-Mobi'
-opening_hours                    N		'24/7'
-operator                         M		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:chademo                   N		'1'
-socket:chademo:output            N		'22 kW'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:chademo                   E		'1'			'1'
+socket:chademo:output            E		'22 kW'			'22 kW'
 socket:type2:output              E		'22 kW'			'22 kW'
-socket:type2_combo               N		'1'
-socket:type2_combo:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+socket:type2_combo               E		'1'			'1'
+socket:type2_combo:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6985282301&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D47%7Caddr%3Apostcode%3D6724%7Caddr%3Astreet%3DKossuth%20Lajos%20sug%C3%A1r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Kossuth%20Lajos%20sug%C3%A1r%C3%BAt%2047.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cmanufacturer%3D%20%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D22%20kW%7Csocket%3Atype2%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="6985282301" lat="46.2600643" lon="20.1405704" timestamp="2020-05-26T21:00:13Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6985282301&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D47%7Caddr%3Apostcode%3D6724%7Caddr%3Astreet%3DKossuth%20Lajos%20sug%C3%A1r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Kossuth%20Lajos%20sug%C3%A1r%C3%BAt%2047.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cmanufacturer%3D%20%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D22%20kW%7Csocket%3Atype2%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Kossuth Lajos sugárút 47.     ', 'postcode': '6724', 'city': 'Szeged', 'street': 'Kossuth Lajos sugárút', 'housenumber': '47', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="6985282301" lat="46.2600643" lon="20.1405704" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="47"/>
     <tag k="addr:postcode" v="6724"/>
@@ -265,51 +272,53 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="parking:fee" v="no"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
     <tag k="socket:chademo" v="1"/>
     <tag k="socket:chademo:output" v="22 kW"/>
     <tag k="socket:type2:output" v="22 kW"/>
     <tag k="socket:type2_combo" v="1"/>
     <tag k="socket:type2_combo:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
+  <!-- OSM link: https://osm.org/node/8099989607 -->
   <!-- Original coordinates: POINT (46.24846 20.1378) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'25'
-addr:postcode                    N		'6725'
-addr:street                      N		'Moszkvai körút'
-alt_name                         N		'e\-mobi'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- Moszkvai krt. 25.'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Evopro'
-name                             N		'e\-töltőpont'
-opening_hours                    N		'24/7'
-operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+addr:city                        E		'Szeged'			'Szeged'
+addr:housenumber                 E		'25'			'25'
+addr:postcode                    E		'6725'			'6725'
+addr:street                      E		'Moszkvai körút'			'Moszkvai körút'
+alt_name                         E		'e\-mobi'			'e\-mobi'
+amenity                          E		'charging_station'			'charging_station'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- Moszkvai krt. 25.'			'Szeged \- Moszkvai krt. 25.'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
+fee                              E		'yes'			'yes'
+fixme                            E		'verify import'			'verify import'
+manufacturer                     E		'Evopro'			'Evopro'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:type2_cable               E		'2'			'2'
+socket:type2_cable:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D6725%7Caddr%3Astreet%3DMoszkvai%20k%C3%B6r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Moszkvai%20krt.%2025.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="-5" lat="46.24846" lon="20.1378" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989607&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D6725%7Caddr%3Astreet%3DMoszkvai%20k%C3%B6r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Moszkvai%20krt.%2025.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Moszkvai krt. 25.      ', 'postcode': '6725', 'city': 'Szeged', 'street': 'Moszkvai körút', 'housenumber': '25', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989607" lat="46.24846" lon="20.1378" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="25"/>
     <tag k="addr:postcode" v="6725"/>
@@ -335,50 +344,54 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="parking:fee" v="no"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
+  <!-- OSM link: https://osm.org/node/6470375064 -->
   <!-- Original coordinates: POINT (46.24457 20.13364) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'74'
-addr:postcode                    N		'6725'
-addr:street                      N		'Petőfi Sándor sugárút'
-alt_name                         N		'e\-mobi'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- Petőfi Sándor sugárút 74.'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
-fee                              N		'yes'
-fixme                            N		'verify import'
+addr:city                        E		'Szeged'			'Szeged'
+addr:housenumber                 E		'74'			'74'
+addr:postcode                    E		'6725'			'6725'
+addr:street                      E		'Petőfi Sándor sugárút'			'Petőfi Sándor sugárút'
+alt_name                         E		'e\-mobi'			'e\-mobi'
+amenity                          E		'charging_station'			'charging_station'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- Petőfi Sándor sugárút 74.'			'Szeged \- Petőfi Sándor sugárút 74.'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
+description                      E		'Van még 2 CSS kombinált kábel is;DC 22kW'			'Van még 2 CSS kombinált kábel is;DC 22kW'
+fee                              E		'yes'			'yes'
+fixme                            E		'verify import'			'verify import'
 manufacturer                     N		' '
-name                             N		'e\-töltőpont'
-opening_hours                    N		'24/7'
-operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:chademo                   N		'1'
-socket:chademo:output            N		'22 kW'
-socket:type2_combo               N		'1'
-socket:type2_combo:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref                              E		'0248SZGD22D17'			'0248SZGD22D17'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:chademo                   E		'1'			'1'
+socket:chademo:output            E		'22 kW'			'22 kW'
+socket:type2_combo               E		'1'			'1'
+socket:type2_combo:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D74%7Caddr%3Apostcode%3D6725%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20sug%C3%A1r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Pet%C5%91fi%20S%C3%A1ndor%20sug%C3%A1r%C3%BAt%2074.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3D%20%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="-6" lat="46.24457" lon="20.13364" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6470375064&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D74%7Caddr%3Apostcode%3D6725%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20sug%C3%A1r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Pet%C5%91fi%20S%C3%A1ndor%20sug%C3%A1r%C3%BAt%2074.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DVan%20m%C3%A9g%202%20CSS%20kombin%C3%A1lt%20k%C3%A1bel%20is%3BDC%2022kW%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3D%20%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3D0248SZGD22D17%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Petőfi Sándor sugárút 74.     ', 'postcode': '6725', 'city': 'Szeged', 'street': 'Petőfi Sándor sugárút', 'housenumber': '74', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="6470375064" lat="46.2446107" lon="20.1334993" timestamp="2020-11-29T07:56:20Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="74"/>
     <tag k="addr:postcode" v="6725"/>
@@ -394,6 +407,7 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
     <tag k="contact:phone" v="+36 80 210 012"/>
     <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="description" v="Van még 2 CSS kombinált kábel is;DC 22kW"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
     <tag k="manufacturer" v=" "/>
@@ -402,52 +416,58 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
     <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
     <tag k="parking:fee" v="no"/>
+    <tag k="ref" v="0248SZGD22D17"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
     <tag k="socket:chademo" v="1"/>
     <tag k="socket:chademo:output" v="22 kW"/>
     <tag k="socket:type2_combo" v="1"/>
     <tag k="socket:type2_combo:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
+  <!-- OSM link: https://osm.org/node/6109534056 -->
   <!-- Original coordinates: POINT (46.24978 20.16471) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'13'
-addr:postcode                    N		'6726'
-addr:street                      N		'Népkert sor'
-alt_name                         N		'e\-mobi'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- Népkert sor 13.'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Evopro'
-name                             N		'e\-töltőpont'
-opening_hours                    N		'24/7'
-operator                         N		'e\-Mobi Elektromobilitás Nonprofit Kft.'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+addr:city                        E		'Szeged'			'Szeged'
+addr:housenumber                 E		'13'			'13'
+addr:postcode                    E		'6726'			'6726'
+addr:street                      E		'Népkert sor'			'Népkert sor'
+alt_name                         E		'e\-mobi'			'e\-mobi'
+amenity                          E		'charging_station'			'charging_station'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- Népkert sor 13.'			'Szeged \- Népkert sor 13.'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
+description                      E		'AC 22kW'			'AC 22kW'
+fee                              E		'yes'			'yes'
+fixme                            E		'verify import'			'verify import'
+manufacturer                     E		'Evopro'			'Evopro'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref                              E		'0242SZGD22A17'			'0242SZGD22A17'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:type2                     E		'2'			'2'
+socket:type2_cable               E		'2'			'2'
+socket:type2_cable:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D6726%7Caddr%3Astreet%3DN%C3%A9pkert%20sor%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20N%C3%A9pkert%20sor%2013.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="-7" lat="46.24978" lon="20.16471" timestamp="2020-10-13T15:25:17Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6109534056&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D6726%7Caddr%3Astreet%3DN%C3%A9pkert%20sor%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20N%C3%A9pkert%20sor%2013.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3D0242SZGD22A17%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Atype2%3D2%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Népkert sor 13.      ', 'postcode': '6726', 'city': 'Szeged', 'street': 'Népkert sor', 'housenumber': '13', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="6109534056" lat="46.2499837" lon="20.1641553" timestamp="2020-11-29T07:56:20Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="13"/>
     <tag k="addr:postcode" v="6726"/>
@@ -463,6 +483,7 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
     <tag k="contact:phone" v="+36 80 210 012"/>
     <tag k="contact:website" v="https://e-mobi.hu/"/>
+    <tag k="description" v="AC 22kW"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
     <tag k="manufacturer" v="Evopro"/>
@@ -471,51 +492,54 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="operator" v="e-Mobi Elektromobilitás Nonprofit Kft."/>
     <tag k="operator:addr" v="1037 Budapest, Montevideo utca 2/C"/>
     <tag k="parking:fee" v="no"/>
+    <tag k="ref" v="0242SZGD22A17"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
+    <tag k="socket:type2" v="2"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
   <!-- OSM link: https://osm.org/node/7296568772 -->
   <!-- Original coordinates: POINT (46.24895 20.15749) -->
-  <!-- OSM <-> POI distance: 6.79828947 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'6'
-addr:postcode                    N		'6726'
-addr:street                      N		'Torontál tér'
-alt_name                         N		'e\-mobi'
+addr:city                        E		'Szeged'			'Szeged'
+addr:housenumber                 E		'6'			'6'
+addr:postcode                    E		'6726'			'6726'
+addr:street                      E		'Torontál tér'			'Torontál tér'
+alt_name                         E		'e\-mobi'			'e\-mobi'
 amenity                          E		'charging_station'			'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Szeged \- Torontál tér 6.'
-capacity                         N		'2'
-contact:email                    N		'kapcsolat@e\-mobi.hu'
-contact:facebook                 N		'https://www.facebook.com/elektromobilitas'
-contact:phone                    N		'+36 80 210 012'
-contact:website                  N		'https://e\-mobi.hu/'
+authentication:app               E		'yes'			'yes'
+authentication:membership_card   E		'yes'			'yes'
+authentication:none              E		'yes'			'yes'
+branch                           E		'Szeged \- Torontál tér 6.'			'Szeged \- Torontál tér 6.'
+capacity                         E		'2'			'2'
+contact:email                    E		'kapcsolat@e\-mobi.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                 E		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                    E		'+36 80 210 012'			'+36 80 210 012'
+contact:website                  E		'https://e\-mobi.hu/'			'https://e\-mobi.hu/'
 description                      E		'AC 22kW'			'AC 22kW'
-fee                              N		'yes'
-manufacturer                     N		'Evopro'
-name                             N		'e\-töltőpont'
-opening_hours                    N		'24/7'
-operator                         M		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi'
-operator:addr                    N		'1037 Budapest, Montevideo utca 2/C'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01 09 281052'
-ref:vatin                        N		'HU25539431'
-ref:vatin:hu                     N		' 25539431\-2\-41'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:e-mobi.hu:date            N		'2020\-10\-13'
+fee                              E		'yes'			'yes'
+manufacturer                     E		'Evopro'			'Evopro'
+name                             E		'e\-töltőpont'			'e\-töltőpont'
+opening_hours                    E		'24/7'			'24/7'
+operator                         E		'e\-Mobi Elektromobilitás Nonprofit Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                    E		'1037 Budapest, Montevideo utca 2/C'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                      E		'no'			'no'
+ref:HU:company                   E		'01 09 281052'			'01 09 281052'
+ref:vatin                        E		'HU25539431'			'HU25539431'
+ref:vatin:hu                     E		'25539431\-2\-41'			'25539431\-2\-41'
+socket:type2_cable               E		'2'			'2'
+socket:type2_cable:output        E		'22 kW'			'22 kW'
+source:e-mobi.hu:date            M		'2020\-12\-25'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7296568772&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D6726%7Caddr%3Astreet%3DToront%C3%A1l%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Toront%C3%A1l%20t%C3%A9r%206.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D%2025539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-10-13 -->
-  <node action="modify" id="7296568772" lat="46.2490109" lon="20.1574822" timestamp="2020-03-15T11:32:02Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7296568772&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D6726%7Caddr%3Astreet%3DToront%C3%A1l%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSzeged%20-%20Toront%C3%A1l%20t%C3%A9r%206.%7Ccapacity%3D2%7Ccontact%3Aemail%3Dkapcsolat%40e-mobi.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2080%20210%20012%7Ccontact%3Awebsite%3Dhttps%3A//e-mobi.hu/%7Cdescription%3DAC%2022kW%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3De-t%C3%B6lt%C5%91pont%7Copening_hours%3D24/7%7Coperator%3De-Mobi%20Elektromobilit%C3%A1s%20Nonprofit%20Kft.%7Coperator%3Aaddr%3D1037%20Budapest%2C%20Montevideo%20utca%202/C%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01%2009%20281052%7Cref%3Avatin%3DHU25539431%7Cref%3Avatin%3Ahu%3D25539431-2-41%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Ae-mobi.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Torontál tér 6.      ', 'postcode': '6726', 'city': 'Szeged', 'street': 'Torontál tér', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="7296568772" lat="46.2490109" lon="20.1574822" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="6726"/>
@@ -541,9 +565,9 @@ source:e-mobi.hu:date            N		'2020\-10\-13'
     <tag k="parking:fee" v="no"/>
     <tag k="ref:HU:company" v="01 09 281052"/>
     <tag k="ref:vatin" v="HU25539431"/>
-    <tag k="ref:vatin:hu" v=" 25539431-2-41"/>
+    <tag k="ref:vatin:hu" v="25539431-2-41"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:e-mobi.hu:date" v="2020-10-13"/>
+    <tag k="source:e-mobi.hu:date" v="2020-12-25"/>
   </node>
 </osm>

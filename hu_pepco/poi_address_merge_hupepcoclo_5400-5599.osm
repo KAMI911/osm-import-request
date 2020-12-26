@@ -1,39 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/3489668122 -->
   <!-- Original coordinates: POINT (47.00164 20.62422) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Mezőtúr'
-addr:housenumber                 N		'21'
-addr:postcode                    N		'5400'
-addr:street                      N		'Dózsa György út'
-brand                            N		'Pepco'
-brand:wikidata                   N		'Q11815580'
-brand:wikipedia                  N		'pl:Pepco'
-contact:email                    N		'ugyfelszolgalat@pepco.eu'
-contact:facebook                 N		'https://www.facebook.com/pepcohu/'
-contact:linkedin                 N		'https://www.linkedin.com/company/pepco\-poland'
-contact:phone                    N		'+36 1 701 0424'
-contact:website                  N		'https://pepco.hu'
-fixme                            N		'verify import'
-name                             N		'Pepco'
-operator                         N		'Pepkor Hungary Kft.'
-operator:addr                    N		'1138 Budapest, Váci út 187.'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-shop                             N		'clothes'
-source:pepco.hu:date             N		'2020\-06\-10'
+addr:city                        E		'Mezőtúr'			'Mezőtúr'
+addr:housenumber                 E		'21'			'21'
+addr:postcode                    E		'5400'			'5400'
+addr:street                      E		'Dózsa György út'			'Dózsa György út'
+brand                            E		'Pepco'			'Pepco'
+brand:wikidata                   E		'Q11815580'			'Q11815580'
+brand:wikipedia                  E		'pl:Pepco'			'pl:Pepco'
+contact:email                    E		'ugyfelszolgalat@pepco.eu'			'ugyfelszolgalat@pepco.eu'
+contact:facebook                 E		'https://www.facebook.com/pepcohu/'			'https://www.facebook.com/pepcohu/'
+contact:linkedin                 E		'https://www.linkedin.com/company/pepco\-poland'			'https://www.linkedin.com/company/pepco\-poland'
+contact:phone                    E		'+36 1 701 0424'			'+36 1 701 0424'
+contact:website                  M		'https://pepco.hu'			'https://pepco.hu/'
+description                      E		'Bolt száma: 664 Cím: 5400 Mezőtúr Dózsa Gy. U. 21. Nyitva tartás: Hétköznap: 6:30\-19:00 Szombaton: 6:30\-13:00 Vasárnap: ZÁRVA Kapcsolat: 36 56 350 101'			'Bolt száma: 664 Cím: 5400 Mezőtúr Dózsa Gy. U. 21. Nyitva tartás: Hétköznap: 6:30\-19:00 Szombaton: 6:30\-13:00 Vasárnap: ZÁRVA Kapcsolat: 36 56 350 101'
+fixme                            E		'position'			'position'
+name                             E		'Pepco'			'Pepco'
+operator                         E		'Pepkor Hungary Kft.'			'Pepkor Hungary Kft.'
+operator:addr                    E		'1138 Budapest, Váci út 187.'			'1138 Budapest, Váci út 187.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+ref:company:HU                   E		'01\-09\-192750'			'01\-09\-192750'
+ref:vatin                        E		'HU24979872'			'HU24979872'
+ref:vatin:hu                     E		'24979872\-2\-44'			'24979872\-2\-44'
+shop                             E		'clothes'			'clothes'
+source                           E		'turistautak.hu'			'turistautak.hu'
+source:date                      E		'2011\-08\-22'			'2011\-08\-22'
+source:pepco.hu:date             N		'2020\-12\-25'
+url                              E		'http://www.pepco.hu'			'http://www.pepco.hu'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DMez%C5%91t%C3%BAr%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D5400%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Cbrand%3DPepco%7Cbrand%3Awikidata%3DQ11815580%7Cbrand%3Awikipedia%3Dpl%3APepco%7Ccontact%3Aemail%3Dugyfelszolgalat%40pepco.eu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/pepcohu/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/pepco-poland%7Ccontact%3Aphone%3D%2B36%201%20701%200424%7Ccontact%3Awebsite%3Dhttps%3A//pepco.hu%7Cfixme%3Dverify%20import%7Cname%3DPepco%7Coperator%3DPepkor%20Hungary%20Kft.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20187.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dclothes%7Csource%3Apepco.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-1" lat="47.00164" lon="20.62422" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3489668122&addtags=%7Caddr%3Acity%3DMez%C5%91t%C3%BAr%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D5400%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Cbrand%3DPepco%7Cbrand%3Awikidata%3DQ11815580%7Cbrand%3Awikipedia%3Dpl%3APepco%7Ccontact%3Aemail%3Dugyfelszolgalat%40pepco.eu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/pepcohu/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/pepco-poland%7Ccontact%3Aphone%3D%2B36%201%20701%200424%7Ccontact%3Awebsite%3Dhttps%3A//pepco.hu%7Cdescription%3DBolt%20sz%C3%A1ma%3A%20664%20C%C3%ADm%3A%205400%20Mez%C5%91t%C3%BAr%20D%C3%B3zsa%20Gy.%20U.%2021.%20Nyitva%20tart%C3%A1s%3A%20H%C3%A9tk%C3%B6znap%3A%206%3A30-19%3A00%20Szombaton%3A%206%3A30-13%3A00%20Vas%C3%A1rnap%3A%20Z%C3%81RVA%20Kapcsolat%3A%2036%2056%20350%20101%7Cfixme%3Dposition%7Cname%3DPepco%7Coperator%3DPepkor%20Hungary%20Kft.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20187.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D01-09-192750%7Cref%3Avatin%3DHU24979872%7Cref%3Avatin%3Ahu%3D24979872-2-44%7Cshop%3Dclothes%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2011-08-22%7Csource%3Apepco.hu%3Adate%3D2020-12-25%7Curl%3Dhttp%3A//www.pepco.hu -->
+  <!--ˇ'original': 'Dózsa Gy. u. 21.', 'postcode': '5400', 'city': 'Mezőtúr', 'street': 'Dózsa György út', 'housenumber': '21', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="3489668122" lat="47.001467" lon="20.624067" timestamp="2020-11-25T06:35:39Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Mezőtúr"/>
     <tag k="addr:housenumber" v="21"/>
     <tag k="addr:postcode" v="5400"/>
@@ -46,7 +55,8 @@ source:pepco.hu:date             N		'2020\-06\-10'
     <tag k="contact:linkedin" v="https://www.linkedin.com/company/pepco-poland"/>
     <tag k="contact:phone" v="+36 1 701 0424"/>
     <tag k="contact:website" v="https://pepco.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="description" v="Bolt száma: 664 Cím: 5400 Mezőtúr Dózsa Gy. U. 21. Nyitva tartás: Hétköznap: 6:30-19:00 Szombaton: 6:30-13:00 Vasárnap: ZÁRVA Kapcsolat: 36 56 350 101"/>
+    <tag k="fixme" v="position"/>
     <tag k="name" v="Pepco"/>
     <tag k="operator" v="Pepkor Hungary Kft."/>
     <tag k="operator:addr" v="1138 Budapest, Váci út 187."/>
@@ -58,12 +68,18 @@ source:pepco.hu:date             N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
+    <tag k="ref:company:HU" v="01-09-192750"/>
+    <tag k="ref:vatin" v="HU24979872"/>
+    <tag k="ref:vatin:hu" v="24979872-2-44"/>
     <tag k="shop" v="clothes"/>
-    <tag k="source:pepco.hu:date" v="2020-06-10"/>
+    <tag k="source" v="turistautak.hu"/>
+    <tag k="source:date" v="2011-08-22"/>
+    <tag k="source:pepco.hu:date" v="2020-12-25"/>
+    <tag k="url" v="http://www.pepco.hu"/>
   </node>
   <!-- Original coordinates: POINT (46.9796 20.25517) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Tiszaföldvár'
@@ -91,10 +107,11 @@ payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'clothes'
-source:pepco.hu:date             N		'2020\-06\-10'
+source:pepco.hu:date             N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D132%7Caddr%3Apostcode%3D5430%7Caddr%3Astreet%3DKossuth%20Lajos%20%C3%BAt%7Cbrand%3DPepco%7Cbrand%3Awikidata%3DQ11815580%7Cbrand%3Awikipedia%3Dpl%3APepco%7Ccontact%3Aemail%3Dugyfelszolgalat%40pepco.eu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/pepcohu/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/pepco-poland%7Ccontact%3Aphone%3D%2B36%201%20701%200424%7Ccontact%3Awebsite%3Dhttps%3A//pepco.hu%7Cfixme%3Dverify%20import%7Cname%3DPepco%7Coperator%3DPepkor%20Hungary%20Kft.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20187.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dclothes%7Csource%3Apepco.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-2" lat="46.9796" lon="20.25517" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D132%7Caddr%3Apostcode%3D5430%7Caddr%3Astreet%3DKossuth%20Lajos%20%C3%BAt%7Cbrand%3DPepco%7Cbrand%3Awikidata%3DQ11815580%7Cbrand%3Awikipedia%3Dpl%3APepco%7Ccontact%3Aemail%3Dugyfelszolgalat%40pepco.eu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/pepcohu/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/pepco-poland%7Ccontact%3Aphone%3D%2B36%201%20701%200424%7Ccontact%3Awebsite%3Dhttps%3A//pepco.hu%7Cfixme%3Dverify%20import%7Cname%3DPepco%7Coperator%3DPepkor%20Hungary%20Kft.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20187.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dclothes%7Csource%3Apepco.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Kossuth L. út 132.', 'postcode': '5430', 'city': 'Tiszaföldvár', 'street': 'Kossuth Lajos út', 'housenumber': '132', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="46.9796" lon="20.25517" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tiszaföldvár"/>
     <tag k="addr:housenumber" v="132"/>
     <tag k="addr:postcode" v="5430"/>
@@ -120,12 +137,12 @@ source:pepco.hu:date             N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="clothes"/>
-    <tag k="source:pepco.hu:date" v="2020-06-10"/>
+    <tag k="source:pepco.hu:date" v="2020-12-25"/>
   </node>
   <!-- OSM link: https://osm.org/node/6230644947 -->
   <!-- Original coordinates: POINT (46.86187 20.55132) -->
   <!-- OSM <-> POI distance: 8.24326332 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Szarvas'
@@ -135,28 +152,32 @@ addr:street                      N		'Kossuth tér'
 brand                            E		'Pepco'			'Pepco'
 brand:wikidata                   E		'Q11815580'			'Q11815580'
 brand:wikipedia                  E		'pl:Pepco'			'pl:Pepco'
-contact:email                    N		'ugyfelszolgalat@pepco.eu'
-contact:facebook                 N		'https://www.facebook.com/pepcohu/'
-contact:linkedin                 N		'https://www.linkedin.com/company/pepco\-poland'
-contact:phone                    N		'+36 1 701 0424'
-contact:website                  N		'https://pepco.hu'
+contact:email                    E		'ugyfelszolgalat@pepco.eu'			'ugyfelszolgalat@pepco.eu'
+contact:facebook                 E		'https://www.facebook.com/pepcohu/'			'https://www.facebook.com/pepcohu/'
+contact:linkedin                 E		'https://www.linkedin.com/company/pepco\-poland'			'https://www.linkedin.com/company/pepco\-poland'
+contact:phone                    E		'+36 1 701 0424'			'+36 1 701 0424'
+contact:website                  M		'https://pepco.hu'			'https://pepco.hu/'
 name                             E		'Pepco'			'Pepco'
 opening_hours                    E		'Mo\-Sa 08:00\-19:00; Su 09:00\-13:00'			'Mo\-Sa 08:00\-19:00; Su 09:00\-13:00'
-operator                         N		'Pepkor Hungary Kft.'
-operator:addr                    N		'1138 Budapest, Váci út 187.'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
+operator                         E		'Pepkor Hungary Kft.'			'Pepkor Hungary Kft.'
+operator:addr                    E		'1138 Budapest, Váci út 187.'			'1138 Budapest, Váci út 187.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+ref:company:HU                   E		'01\-09\-192750'			'01\-09\-192750'
+ref:vatin                        E		'HU24979872'			'HU24979872'
+ref:vatin:hu                     E		'24979872\-2\-44'			'24979872\-2\-44'
 shop                             E		'clothes'			'clothes'
-source:pepco.hu:date             N		'2020\-06\-10'
+source:pepco.hu:date             N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6230644947&addtags=%7Caddr%3Acity%3DSzarvas%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5540%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Cbrand%3DPepco%7Cbrand%3Awikidata%3DQ11815580%7Cbrand%3Awikipedia%3Dpl%3APepco%7Ccontact%3Aemail%3Dugyfelszolgalat%40pepco.eu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/pepcohu/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/pepco-poland%7Ccontact%3Aphone%3D%2B36%201%20701%200424%7Ccontact%3Awebsite%3Dhttps%3A//pepco.hu%7Cname%3DPepco%7Copening_hours%3DMo-Sa%2008%3A00-19%3A00%3B%20Su%2009%3A00-13%3A00%7Coperator%3DPepkor%20Hungary%20Kft.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20187.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dclothes%7Csource%3Apepco.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="6230644947" lat="46.861944" lon="20.5513265" timestamp="2019-04-13T13:02:18Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6230644947&addtags=%7Caddr%3Acity%3DSzarvas%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5540%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Cbrand%3DPepco%7Cbrand%3Awikidata%3DQ11815580%7Cbrand%3Awikipedia%3Dpl%3APepco%7Ccontact%3Aemail%3Dugyfelszolgalat%40pepco.eu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/pepcohu/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/pepco-poland%7Ccontact%3Aphone%3D%2B36%201%20701%200424%7Ccontact%3Awebsite%3Dhttps%3A//pepco.hu%7Cname%3DPepco%7Copening_hours%3DMo-Sa%2008%3A00-19%3A00%3B%20Su%2009%3A00-13%3A00%7Coperator%3DPepkor%20Hungary%20Kft.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20187.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D01-09-192750%7Cref%3Avatin%3DHU24979872%7Cref%3Avatin%3Ahu%3D24979872-2-44%7Cshop%3Dclothes%7Csource%3Apepco.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Kossuth tér 2.', 'postcode': '5540', 'city': 'Szarvas', 'street': 'Kossuth tér', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="6230644947" lat="46.861944" lon="20.5513265" timestamp="2020-11-25T06:35:39Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szarvas"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="5540"/>
@@ -181,7 +202,10 @@ source:pepco.hu:date             N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
+    <tag k="ref:company:HU" v="01-09-192750"/>
+    <tag k="ref:vatin" v="HU24979872"/>
+    <tag k="ref:vatin:hu" v="24979872-2-44"/>
     <tag k="shop" v="clothes"/>
-    <tag k="source:pepco.hu:date" v="2020-06-10"/>
+    <tag k="source:pepco.hu:date" v="2020-12-25"/>
   </node>
 </osm>

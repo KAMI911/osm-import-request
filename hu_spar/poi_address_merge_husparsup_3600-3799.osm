@@ -3,7 +3,6 @@
   <!-- OSM link: https://osm.org/node/506790273 -->
   <!-- Original coordinates: POINT (48.24558 20.61528) -->
   <!-- OSM <-> POI distance: 32.65188188 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Kazincbarcika'
@@ -11,16 +10,16 @@ addr:housenumber                 N		'1/A'
 addr:postcode                    N		'3700'
 addr:street                      N		'Egressy Béni út'
 branch                           N		'Spar szupermarket Kazincbarcika'
-brand                            N		'Spar'
-brand:wikidata                   N		'Q610492'
-brand:wikipedia                  N		'hu:Spar'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   E		'Q610492'			'Q610492'
+brand:wikipedia                  M		'hu:Spar'			'en:SPAR (retailer)'
 contact:email                    N		'vevoszolgalat@spar.hu'
 contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
 contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
 contact:phone                    N		'+36208237727'
 contact:website                  M		'https://www.spar.hu/uzletek/spar\-szupermarket\-kazincbarcika\-3700\-egressy\-beni\-ut\-1\-a'			'http://www.spar.hu'
 contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
-name                             M		'Spar'			'SPAR'
+name                             E		'Spar'			'Spar'
 operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
 payment:american_express         N		'yes'
 payment:cash                     N		'yes'
@@ -42,12 +41,13 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             E		'supermarket'			'supermarket'
-source:www.spar.hu:date          N		'2020\-06\-10'
+source:www.spar.hu:date          N		'2021\-11\-20'
 toilets:wheelchair               E		'no'			'no'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n506790273&addtags=%7Caddr%3Acity%3DKazincbarcika%7Caddr%3Ahousenumber%3D1/A%7Caddr%3Apostcode%3D3700%7Caddr%3Astreet%3DEgressy%20B%C3%A9ni%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Kazincbarcika%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-kazincbarcika-3700-egressy-beni-ut-1-a%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Awww.spar.hu%3Adate%3D2020-06-10%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
-  <node action="modify" id="506790273" lat="48.2454307" lon="20.6149003" timestamp="2017-09-12T07:14:55Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n506790273&addtags=%7Caddr%3Acity%3DKazincbarcika%7Caddr%3Ahousenumber%3D1/A%7Caddr%3Apostcode%3D3700%7Caddr%3Astreet%3DEgressy%20B%C3%A9ni%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Kazincbarcika%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-kazincbarcika-3700-egressy-beni-ut-1-a%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Awww.spar.hu%3Adate%3D2021-11-20%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Egressy Béni út 1/a', 'postcode': '3700', 'city': 'Kazincbarcika', 'street': 'Egressy Béni út', 'housenumber': '1/A', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="506790273" lat="48.2454307" lon="20.6149003" timestamp="2021-08-30T20:18:27Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <tag k="addr:city" v="Kazincbarcika"/>
     <tag k="addr:housenumber" v="1/A"/>
     <tag k="addr:postcode" v="3700"/>
@@ -84,20 +84,19 @@ wheelchair                       E		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:www.spar.hu:date" v="2020-06-10"/>
+    <tag k="source:www.spar.hu:date" v="2021-11-20"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="wheelchair" v="yes"/>
   </node>
-  <node action="modify" id="3680209067" lat="48.2524386" lon="20.6298369" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
-  <node action="modify" id="3680209065" lat="48.2520539" lon="20.6293474" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
-  <node action="modify" id="3680209062" lat="48.2519552" lon="20.6295123" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
-  <node action="modify" id="3680209064" lat="48.2519877" lon="20.62956" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
-  <node action="modify" id="861192065" lat="48.2518517" lon="20.6297933" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="4"/>
-  <node action="modify" id="861192060" lat="48.2522106" lon="20.6302496" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="4"/>
+  <node id="3680209067" lat="48.2524386" lon="20.6298369" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
+  <node id="3680209065" lat="48.2520539" lon="20.6293474" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
+  <node id="3680209062" lat="48.2519552" lon="20.6295123" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
+  <node id="3680209064" lat="48.2519877" lon="20.62956" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="1"/>
+  <node id="861192065" lat="48.2518517" lon="20.6297933" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="4"/>
+  <node id="861192060" lat="48.2522106" lon="20.6302496" timestamp="2015-08-04T10:33:38Z" uid="2694948" user="Németi Gergely" version="4"/>
   <!-- OSM link: https://osm.org/way/72549507 -->
   <!-- Original coordinates: POINT (48.25211 20.62966) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Kazincbarcika'			'Kazincbarcika'
@@ -105,9 +104,9 @@ addr:housenumber                 E		'58'			'58'
 addr:postcode                    E		'3700'			'3700'
 addr:street                      E		'Mátyás király út'			'Mátyás király út'
 branch                           N		'Spar szupermarket Kazincbarcika'
-brand                            N		'Spar'
-brand:wikidata                   N		'Q610492'
-brand:wikipedia                  N		'hu:Spar'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   E		'Q610492'			'Q610492'
+brand:wikipedia                  M		'hu:Spar'			'en:SPAR (retailer)'
 building                         E		'retail'			'retail'
 contact:email                    N		'vevoszolgalat@spar.hu'
 contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
@@ -115,7 +114,7 @@ contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
 contact:phone                    N		'+36208237727'
 contact:website                  M		'https://www.spar.hu/uzletek/spar\-szupermarket\-kazincbarcika\-3700\-matyas\-kiraly\-ut\-58\-'			'http://www.spar.hu'
 contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
-name                             M		'Spar'			'SPAR'
+name                             E		'Spar'			'Spar'
 operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
 payment:american_express         N		'yes'
 payment:cash                     N		'yes'
@@ -137,12 +136,13 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             E		'supermarket'			'supermarket'
-source:www.spar.hu:date          N		'2020\-06\-10'
+source:www.spar.hu:date          N		'2021\-11\-20'
 toilets:wheelchair               E		'no'			'no'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w72549507&addtags=%7Caddr%3Acity%3DKazincbarcika%7Caddr%3Ahousenumber%3D58%7Caddr%3Apostcode%3D3700%7Caddr%3Astreet%3DM%C3%A1ty%C3%A1s%20kir%C3%A1ly%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Kazincbarcika%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-kazincbarcika-3700-matyas-kiraly-ut-58-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Awww.spar.hu%3Adate%3D2020-06-10%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
-  <way action="modify" id="72549507" timestamp="2017-12-25T16:15:50Z" uid="8635934" user="osm_poi_matchmaker" version="11">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w72549507&addtags=%7Caddr%3Acity%3DKazincbarcika%7Caddr%3Ahousenumber%3D58%7Caddr%3Apostcode%3D3700%7Caddr%3Astreet%3DM%C3%A1ty%C3%A1s%20kir%C3%A1ly%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Kazincbarcika%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-kazincbarcika-3700-matyas-kiraly-ut-58-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Awww.spar.hu%3Adate%3D2021-11-20%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Mátyás király út 58.', 'postcode': '3700', 'city': 'Kazincbarcika', 'street': 'Mátyás király út', 'housenumber': '58', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="72549507" timestamp="2021-09-28T20:49:00Z" uid="8635934" user="osm_poi_matchmaker" version="13">
     <nd ref="3680209067"/>
     <nd ref="3680209065"/>
     <nd ref="3680209062"/>
@@ -187,14 +187,13 @@ wheelchair                       E		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:www.spar.hu:date" v="2020-06-10"/>
+    <tag k="source:www.spar.hu:date" v="2021-11-20"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <!-- OSM link: https://osm.org/node/3454463853 -->
-  <!-- Original coordinates: POINT (48.21628 20.72161) -->
-  <!-- OSM <-> POI distance: 94.80263381 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Original coordinates: POINT (48.216286 20.721617) -->
+  <!-- OSM <-> POI distance: 101.76998787 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Sajószentpéter'
@@ -202,16 +201,16 @@ addr:housenumber                 N		'96'
 addr:postcode                    N		'3770'
 addr:street                      N		'Kossuth Lajos út'
 branch                           N		'Spar szupermarket Sajószentpéter'
-brand                            N		'Spar'
-brand:wikidata                   N		'Q610492'
-brand:wikipedia                  N		'hu:Spar'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   E		'Q610492'			'Q610492'
+brand:wikipedia                  M		'hu:Spar'			'en:Spar (retailer)'
 contact:email                    N		'vevoszolgalat@spar.hu'
 contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
 contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
 contact:phone                    N		'+36208237727'
 contact:website                  N		'https://www.spar.hu/uzletek/spar\-szupermarket\-sajoszentpeter\-3770\-kossuth\-lajos\-ut\-96\-'
 contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
-name                             M		'Spar'			'SPAR'
+name                             E		'Spar'			'Spar'
 operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
 payment:american_express         N		'yes'
 payment:cash                     N		'yes'
@@ -235,13 +234,14 @@ payment:visa_electron            N		'yes'
 shop                             M		'supermarket'			'convenience'
 source                           E		'turistautak.hu'			'turistautak.hu'
 source:date                      E		'2011\-07\-04'			'2011\-07\-04'
-source:www.spar.hu:date          N		'2020\-06\-10'
+source:www.spar.hu:date          N		'2021\-11\-20'
 toilets:wheelchair               E		'no'			'no'
 url                              E		'http://turistautak.hu/poi.php?id=48211'			'http://turistautak.hu/poi.php?id=48211'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3454463853&addtags=%7Caddr%3Acity%3DSaj%C3%B3szentp%C3%A9ter%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D3770%7Caddr%3Astreet%3DKossuth%20Lajos%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Saj%C3%B3szentp%C3%A9ter%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-sajoszentpeter-3770-kossuth-lajos-ut-96-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2011-07-04%7Csource%3Awww.spar.hu%3Adate%3D2020-06-10%7Ctoilets%3Awheelchair%3Dno%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D48211%7Cwheelchair%3Dyes -->
-  <node action="modify" id="3454463853" lat="48.21563" lon="20.722438" timestamp="2017-09-13T14:08:36Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3454463853&addtags=%7Caddr%3Acity%3DSaj%C3%B3szentp%C3%A9ter%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D3770%7Caddr%3Astreet%3DKossuth%20Lajos%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Saj%C3%B3szentp%C3%A9ter%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-sajoszentpeter-3770-kossuth-lajos-ut-96-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2011-07-04%7Csource%3Awww.spar.hu%3Adate%3D2021-11-20%7Ctoilets%3Awheelchair%3Dno%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D48211%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Kossuth Lajos út 96.', 'postcode': '3770', 'city': 'Sajószentpéter', 'street': 'Kossuth Lajos út', 'housenumber': '96', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="3454463853" lat="48.2155964" lon="20.7225201" timestamp="2021-01-31T12:20:31Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Sajószentpéter"/>
     <tag k="addr:housenumber" v="96"/>
     <tag k="addr:postcode" v="3770"/>
@@ -280,7 +280,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="turistautak.hu"/>
     <tag k="source:date" v="2011-07-04"/>
-    <tag k="source:www.spar.hu:date" v="2020-06-10"/>
+    <tag k="source:www.spar.hu:date" v="2021-11-20"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=48211"/>
     <tag k="wheelchair" v="yes"/>

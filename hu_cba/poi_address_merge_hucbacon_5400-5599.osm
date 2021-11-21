@@ -3,7 +3,6 @@
   <!-- OSM link: https://osm.org/node/3459957809 -->
   <!-- Original coordinates: POINT (47.02811 20.95295) -->
   <!-- OSM <-> POI distance: 24.12079082 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Dévaványa'
@@ -17,6 +16,7 @@ contact:phone                    N		'+36 66 483 318'
 contact:website                  N		'https://www.cba.hu'
 name                             E		'CBA'			'CBA'
 opening_hours                    N		'Mo\-Fr 05:30\-18:00; Sa 05:30\-13:00; Su 06:30\-10:00; PH off'
+opening_hours:covid19            N		'same'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
 payment:maestro                  N		'yes'
@@ -28,11 +28,12 @@ payment:visa_electron            N		'yes'
 shop                             E		'convenience'			'convenience'
 source                           E		'turistautak.hu'			'turistautak.hu'
 source:date                      E		'2013\-06\-26'			'2013\-06\-26'
-source:www.cba.hu:date           N		'2020\-06\-10'
+source:www.cba.hu:date           N		'2021\-11\-20'
 url                              E		'http://turistautak.hu/poi.php?id=103580'			'http://turistautak.hu/poi.php?id=103580'
 wheelchair                       E		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3459957809&addtags=%7Caddr%3Acity%3DD%C3%A9vav%C3%A1nya%7Caddr%3Ahousenumber%3D47%7Caddr%3Apostcode%3D5510%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20utca%7Cbranch%3D2.sz%C3%A1m%C3%BA%20%C3%89lelmiszerbolt%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dnagyesti%40globonet.hu%7Ccontact%3Aphone%3D%2B36%2066%20483%20318%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%7Copening_hours%3DMo-Fr%2005%3A30-18%3A00%3B%20Sa%2005%3A30-13%3A00%3B%20Su%2006%3A30-10%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2013-06-26%7Csource%3Awww.cba.hu%3Adate%3D2020-06-10%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D103580%7Cwheelchair%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3459957809&addtags=%7Caddr%3Acity%3DD%C3%A9vav%C3%A1nya%7Caddr%3Ahousenumber%3D47%7Caddr%3Apostcode%3D5510%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20utca%7Cbranch%3D2.sz%C3%A1m%C3%BA%20%C3%89lelmiszerbolt%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dnagyesti%40globonet.hu%7Ccontact%3Aphone%3D%2B36%2066%20483%20318%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%7Copening_hours%3DMo-Fr%2005%3A30-18%3A00%3B%20Sa%2005%3A30-13%3A00%3B%20Su%2006%3A30-10%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2013-06-26%7Csource%3Awww.cba.hu%3Adate%3D2021-11-20%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D103580%7Cwheelchair%3Dno -->
+  <!--ˇ'original': 'Árpád utca 47.', 'postcode': '5510', 'city': 'Dévaványa', 'street': 'Árpád utca', 'housenumber': '47', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3459957809" lat="47.028156" lon="20.952639" timestamp="2017-07-21T14:49:48Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Dévaványa"/>
     <tag k="addr:housenumber" v="47"/>
@@ -45,6 +46,7 @@ wheelchair                       E		'no'			'no'
     <tag k="contact:website" v="https://www.cba.hu"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Fr 05:30-18:00; Sa 05:30-13:00; Su 06:30-10:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:maestro" v="yes"/>
@@ -56,66 +58,13 @@ wheelchair                       E		'no'			'no'
     <tag k="shop" v="convenience"/>
     <tag k="source" v="turistautak.hu"/>
     <tag k="source:date" v="2013-06-26"/>
-    <tag k="source:www.cba.hu:date" v="2020-06-10"/>
+    <tag k="source:www.cba.hu:date" v="2021-11-20"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=103580"/>
     <tag k="wheelchair" v="no"/>
   </node>
-  <!-- Original coordinates: POINT (47.02553 20.96451) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        N		'Dévaványa'
-addr:housenumber                 N		'2'
-addr:postcode                    N		'5510'
-addr:street                      N		'Csokonai Mihály utca'
-branch                           N		'Pékbolt'
-brand                            N		'CBA'
-contact:email                    N		'likerpekseg@invitel.hu'
-contact:phone                    N		'+36 66 483 003'
-contact:website                  N		'https://www.cba.hu'
-fixme                            N		'verify import'
-name                             N		'None'
-opening_hours                    N		'Mo\-Fr 05:00\-19:00; Sa 05:00\-13:00; Su 06:00\-11:00; PH off'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-shop                             N		'convenience'
-source:www.cba.hu:date           N		'2020\-06\-10'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DD%C3%A9vav%C3%A1nya%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5510%7Caddr%3Astreet%3DCsokonai%20Mih%C3%A1ly%20utca%7Cbranch%3DP%C3%A9kbolt%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dlikerpekseg%40invitel.hu%7Ccontact%3Aphone%3D%2B36%2066%20483%20003%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Fr%2005%3A00-19%3A00%3B%20Sa%2005%3A00-13%3A00%3B%20Su%2006%3A00-11%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.cba.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-2" lat="47.02553" lon="20.96451" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Dévaványa"/>
-    <tag k="addr:housenumber" v="2"/>
-    <tag k="addr:postcode" v="5510"/>
-    <tag k="addr:street" v="Csokonai Mihály utca"/>
-    <tag k="branch" v="Pékbolt"/>
-    <tag k="brand" v="CBA"/>
-    <tag k="contact:email" v="likerpekseg@invitel.hu"/>
-    <tag k="contact:phone" v="+36 66 483 003"/>
-    <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
-    <tag k="name" v="None"/>
-    <tag k="opening_hours" v="Mo-Fr 05:00-19:00; Sa 05:00-13:00; Su 06:00-11:00; PH off"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:contactless" v="yes"/>
-    <tag k="payment:maestro" v="yes"/>
-    <tag k="payment:mastercard" v="yes"/>
-    <tag k="payment:mastercard_contactless" v="yes"/>
-    <tag k="payment:mastercard_electronic" v="yes"/>
-    <tag k="payment:visa" v="yes"/>
-    <tag k="payment:visa_electron" v="yes"/>
-    <tag k="shop" v="convenience"/>
-    <tag k="source:www.cba.hu:date" v="2020-06-10"/>
-  </node>
+  <!-- OSM link: https://osm.org/node/2320252029 -->
   <!-- Original coordinates: POINT (46.95729 21.08112) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!-- OSM <-> POI distance: 7.91138451 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Körösladány'
@@ -127,9 +76,9 @@ brand                            N		'CBA'
 contact:email                    N		'ladany.miniabc@gmail.com'
 contact:phone                    N		'+36 66 474 499'
 contact:website                  N		'https://www.cba.hu'
-fixme                            N		'verify import'
-name                             N		'None'
-opening_hours                    N		'Mo\-Sa 06:00\-20:00; PH off'
+name                             E		'CBA'			'CBA'
+opening_hours                    E		'Mo\-Sa 06:00\-20:00; Su OFF'			'Mo\-Sa 06:00\-20:00; Su OFF'
+opening_hours:covid19            N		'Mo\-Sa 06:00\-20:00; PH off'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
 payment:maestro                  N		'yes'
@@ -138,11 +87,13 @@ payment:mastercard_contactless   N		'yes'
 payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-shop                             N		'convenience'
-source:www.cba.hu:date           N		'2020\-06\-10'
+shop                             E		'convenience'			'convenience'
+source:www.cba.hu:date           N		'2021\-11\-20'
+wheelchair                       E		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DK%C3%B6r%C3%B6slad%C3%A1ny%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5516%7Caddr%3Astreet%3DT%C3%BCr%C3%B6ry%20utca%7Cbranch%3DMiniabc%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dladany.miniabc%40gmail.com%7Ccontact%3Aphone%3D%2B36%2066%20474%20499%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.cba.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-3" lat="46.95729" lon="21.08112" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2320252029&addtags=%7Caddr%3Acity%3DK%C3%B6r%C3%B6slad%C3%A1ny%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5516%7Caddr%3Astreet%3DT%C3%BCr%C3%B6ry%20utca%7Cbranch%3DMiniabc%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dladany.miniabc%40gmail.com%7Ccontact%3Aphone%3D%2B36%2066%20474%20499%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20Su%20OFF%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-20%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.cba.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dno -->
+  <!--ˇ'original': 'Türöry utca 3.', 'postcode': '5516', 'city': 'Körösladány', 'street': 'Türöry utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="2320252029" lat="46.9573392" lon="21.0810447" timestamp="2021-08-06T21:06:54Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Körösladány"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="5516"/>
@@ -152,9 +103,9 @@ source:www.cba.hu:date           N		'2020\-06\-10'
     <tag k="contact:email" v="ladany.miniabc@gmail.com"/>
     <tag k="contact:phone" v="+36 66 474 499"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
-    <tag k="name" v="None"/>
-    <tag k="opening_hours" v="Mo-Sa 06:00-20:00; PH off"/>
+    <tag k="name" v="CBA"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-20:00; Su OFF"/>
+    <tag k="opening_hours:covid19" v="Mo-Sa 06:00-20:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:maestro" v="yes"/>
@@ -164,65 +115,12 @@ source:www.cba.hu:date           N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:www.cba.hu:date" v="2020-06-10"/>
-  </node>
-  <!-- Original coordinates: POINT (46.85621 20.56774) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        N		'Szarvas'
-addr:housenumber                 N		'2'
-addr:postcode                    N		'5540'
-addr:street                      N		'Csabai út'
-branch                           N		'Ital kis és Nagykereskedés'
-brand                            N		'CBA'
-contact:email                    N		'szarvas@pentadrink.hu'
-contact:phone                    N		'+36 66 215 670'
-contact:website                  N		'https://www.cba.hu'
-fixme                            N		'verify import'
-name                             N		'None'
-opening_hours                    N		'Mo\-Fr 09:00\-17:00; Sa 08:00\-12:00; PH off'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-shop                             N		'convenience'
-source:www.cba.hu:date           N		'2020\-06\-10'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DSzarvas%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5540%7Caddr%3Astreet%3DCsabai%20%C3%BAt%7Cbranch%3DItal%20kis%20%C3%A9s%20Nagykeresked%C3%A9s%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dszarvas%40pentadrink.hu%7Ccontact%3Aphone%3D%2B36%2066%20215%20670%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Fr%2009%3A00-17%3A00%3B%20Sa%2008%3A00-12%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.cba.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-4" lat="46.85621" lon="20.56774" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Szarvas"/>
-    <tag k="addr:housenumber" v="2"/>
-    <tag k="addr:postcode" v="5540"/>
-    <tag k="addr:street" v="Csabai út"/>
-    <tag k="branch" v="Ital kis és Nagykereskedés"/>
-    <tag k="brand" v="CBA"/>
-    <tag k="contact:email" v="szarvas@pentadrink.hu"/>
-    <tag k="contact:phone" v="+36 66 215 670"/>
-    <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
-    <tag k="name" v="None"/>
-    <tag k="opening_hours" v="Mo-Fr 09:00-17:00; Sa 08:00-12:00; PH off"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:contactless" v="yes"/>
-    <tag k="payment:maestro" v="yes"/>
-    <tag k="payment:mastercard" v="yes"/>
-    <tag k="payment:mastercard_contactless" v="yes"/>
-    <tag k="payment:mastercard_electronic" v="yes"/>
-    <tag k="payment:visa" v="yes"/>
-    <tag k="payment:visa_electron" v="yes"/>
-    <tag k="shop" v="convenience"/>
-    <tag k="source:www.cba.hu:date" v="2020-06-10"/>
+    <tag k="source:www.cba.hu:date" v="2021-11-20"/>
+    <tag k="wheelchair" v="no"/>
   </node>
   <!-- OSM link: https://osm.org/node/4473460450 -->
   <!-- Original coordinates: POINT (46.75963 20.79252) -->
   <!-- OSM <-> POI distance: 76.98104039 m-->
-  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Kondoros'
@@ -236,6 +134,7 @@ contact:phone                    N		'+36 66 388 225'
 contact:website                  N		'https://www.cba.hu'
 name                             E		'CBA Kisáruház'			'CBA Kisáruház'
 opening_hours                    N		'Mo\-Sa 05:30\-20:30; PH off'
+opening_hours:covid19            N		'same'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
 payment:maestro                  N		'yes'
@@ -245,11 +144,12 @@ payment:mastercard_electronic    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             M		'convenience'			'supermarket'
-source:www.cba.hu:date           N		'2020\-06\-10'
+source:www.cba.hu:date           N		'2021\-11\-20'
 toilets:wheelchair               E		'no'			'no'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4473460450&addtags=%7Caddr%3Acity%3DKondoros%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D5553%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20utca%7Cbranch%3DCBA%20Kis%C3%A1ruh%C3%A1z%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dcbakondoros%40gmail.com%7Ccontact%3Aphone%3D%2B36%2066%20388%20225%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%20Kis%C3%A1ruh%C3%A1z%7Copening_hours%3DMo-Sa%2005%3A30-20%3A30%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.cba.hu%3Adate%3D2020-06-10%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4473460450&addtags=%7Caddr%3Acity%3DKondoros%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D5553%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20utca%7Cbranch%3DCBA%20Kis%C3%A1ruh%C3%A1z%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dcbakondoros%40gmail.com%7Ccontact%3Aphone%3D%2B36%2066%20388%20225%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%20Kis%C3%A1ruh%C3%A1z%7Copening_hours%3DMo-Sa%2005%3A30-20%3A30%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.cba.hu%3Adate%3D2021-11-20%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Hősök u. 13.', 'postcode': '5553', 'city': 'Kondoros', 'street': 'Hősök utca', 'housenumber': '13', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4473460450" lat="46.7594203" lon="20.7934831" timestamp="2017-09-22T04:08:47Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Kondoros"/>
     <tag k="addr:housenumber" v="13"/>
@@ -262,6 +162,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="contact:website" v="https://www.cba.hu"/>
     <tag k="name" v="CBA Kisáruház"/>
     <tag k="opening_hours" v="Mo-Sa 05:30-20:30; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:maestro" v="yes"/>
@@ -271,7 +172,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:www.cba.hu:date" v="2020-06-10"/>
+    <tag k="source:www.cba.hu:date" v="2021-11-20"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="wheelchair" v="yes"/>
   </node>

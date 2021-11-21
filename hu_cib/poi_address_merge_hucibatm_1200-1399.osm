@@ -1,36 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/8197146407 -->
   <!-- Original coordinates: POINT (47.43665 19.101) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 18.74467083 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Budapest'
-addr:housenumber                 N		'21\-29'
-addr:postcode                    N		'1201'
-addr:street                      N		'Kossuth Lajos utca'
-amenity                          N		'atm'
-bic                              N		'CIBHHUHB'
-branch                           N		'ATM PESTERZSÉBET'
-brand                            N		'CIB Bank'
-brand:wikidata                   N		'Q839566'
-brand:wikipedia                  N		'hu:CIB Bank'
-contact:website                  N		'https://www.cib.hu'
-fixme                            N		'verify import'
-name                             N		'CIB Bank ATM'
-operator                         N		'CIB Bank Zrt.'
-operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
-ref:HU:company                   N		'01 10 041004'
-ref:vatin                        N		'HU10136915'
-ref:vatin:hu                     N		'10136915\-4\-44'
-source:www.cib.hu:date           N		'2020\-05\-17'
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'21\-29'			'21\-29'
+addr:postcode                    E		'1203'			'1203'
+addr:street                      M		'Kossuth L. u.'			'Kossuth Lajos utca'
+amenity                          E		'atm'			'atm'
+bic                              E		'CIBHHUHB'			'CIBHHUHB'
+branch                           E		'ATM PESTERZSÉBET'			'ATM PESTERZSÉBET'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  E		'hu:CIB Bank'			'hu:CIB Bank'
+contact:website                  E		'https://www.cib.hu'			'https://www.cib.hu'
+fixme                            E		'verify import;position'			'verify import;position'
+name                             E		'CIB Bank ATM'			'CIB Bank ATM'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    E		'1027 Budapest, Medve u 4\-14.'			'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   E		'01 10 041004'			'01 10 041004'
+ref:vatin                        E		'HU10136915'			'HU10136915'
+ref:vatin:hu                     E		'10136915\-4\-44'			'10136915\-4\-44'
+source:www.cib.hu:date           M		'2021\-11\-20'			'2020\-12\-05'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D21-29%7Caddr%3Apostcode%3D1201%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20PESTERZS%C3%89BET%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-1" lat="47.43665" lon="19.101" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8197146407&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D21-29%7Caddr%3Apostcode%3D1203%7Caddr%3Astreet%3DKossuth%20L.%20u.%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20PESTERZS%C3%89BET%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%3Bposition%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Kossuth L. u. 21-29, 1203 Budapest', 'postcode': '1203', 'city': 'Budapest', 'street': 'Kossuth L. u.', 'housenumber': '21-29', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8197146407" lat="47.4366598" lon="19.1007512" timestamp="2021-01-03T07:56:53Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="21-29"/>
-    <tag k="addr:postcode" v="1201"/>
-    <tag k="addr:street" v="Kossuth Lajos utca"/>
+    <tag k="addr:postcode" v="1203"/>
+    <tag k="addr:street" v="Kossuth L. u."/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="CIBHHUHB"/>
     <tag k="branch" v="ATM PESTERZSÉBET"/>
@@ -38,42 +39,45 @@ source:www.cib.hu:date           N		'2020\-05\-17'
     <tag k="brand:wikidata" v="Q839566"/>
     <tag k="brand:wikipedia" v="hu:CIB Bank"/>
     <tag k="contact:website" v="https://www.cib.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="verify import;position"/>
     <tag k="name" v="CIB Bank ATM"/>
     <tag k="operator" v="CIB Bank Zrt."/>
     <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
     <tag k="ref:HU:company" v="01 10 041004"/>
     <tag k="ref:vatin" v="HU10136915"/>
     <tag k="ref:vatin:hu" v="10136915-4-44"/>
-    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="source:www.cib.hu:date" v="2021-11-20"/>
   </node>
+  <!-- OSM link: https://osm.org/node/8197146406 -->
   <!-- Original coordinates: POINT (47.42716 19.1466) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0.0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Budapest'
-addr:housenumber                 N		'281'
-addr:postcode                    N		'1202'
-addr:street                      N		'Mártírok útja'
-amenity                          N		'atm'
-bic                              N		'CIBHHUHB'
-branch                           N		'ATM TESCO MEGAPARK'
-brand                            N		'CIB Bank'
-brand:wikidata                   N		'Q839566'
-brand:wikipedia                  N		'hu:CIB Bank'
-contact:website                  N		'https://www.cib.hu'
-fixme                            N		'verify import'
-name                             N		'CIB Bank ATM'
-operator                         N		'CIB Bank Zrt.'
-operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
-ref:HU:company                   N		'01 10 041004'
-ref:vatin                        N		'HU10136915'
-ref:vatin:hu                     N		'10136915\-4\-44'
-source:www.cib.hu:date           N		'2020\-05\-17'
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'281'			'281'
+addr:postcode                    E		'1202'			'1202'
+addr:street                      E		'Mártírok útja'			'Mártírok útja'
+amenity                          E		'atm'			'atm'
+bic                              E		'CIBHHUHB'			'CIBHHUHB'
+branch                           E		'ATM TESCO MEGAPARK'			'ATM TESCO MEGAPARK'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  M		'hu:CIB Bank'			'en:CIB Bank'
+contact:website                  E		'https://www.cib.hu'			'https://www.cib.hu'
+fixme                            E		'verify import'			'verify import'
+name                             M		'CIB Bank ATM'			'CIB Bank'
+operator                         M		'CIB Bank Zrt.'			'CIB Bank'
+operator:addr                    E		'1027 Budapest, Medve u 4\-14.'			'1027 Budapest, Medve u 4\-14.'
+operator:wikidata                E		'Q839566'			'Q839566'
+operator:wikipedia               E		'en:CIB Bank'			'en:CIB Bank'
+ref:HU:company                   E		'01 10 041004'			'01 10 041004'
+ref:vatin                        E		'HU10136915'			'HU10136915'
+ref:vatin:hu                     E		'10136915\-4\-44'			'10136915\-4\-44'
+source:www.cib.hu:date           M		'2021\-11\-20'			'2020\-12\-05'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D281%7Caddr%3Apostcode%3D1202%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20TESCO%20MEGAPARK%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-2" lat="47.42716" lon="19.1466" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8197146406&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D281%7Caddr%3Apostcode%3D1202%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20TESCO%20MEGAPARK%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Coperator%3Awikidata%3DQ839566%7Coperator%3Awikipedia%3Den%3ACIB%20Bank%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Mártírok útja  281, 1204 Budapest', 'postcode': '1202', 'city': 'Budapest', 'street': 'Mártírok útja', 'housenumber': '281', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8197146406" lat="47.42716" lon="19.1466" timestamp="2021-08-01T05:39:02Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="281"/>
     <tag k="addr:postcode" v="1202"/>
@@ -89,42 +93,45 @@ source:www.cib.hu:date           N		'2020\-05\-17'
     <tag k="name" v="CIB Bank ATM"/>
     <tag k="operator" v="CIB Bank Zrt."/>
     <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="operator:wikidata" v="Q839566"/>
+    <tag k="operator:wikipedia" v="en:CIB Bank"/>
     <tag k="ref:HU:company" v="01 10 041004"/>
     <tag k="ref:vatin" v="HU10136915"/>
     <tag k="ref:vatin:hu" v="10136915-4-44"/>
-    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="source:www.cib.hu:date" v="2021-11-20"/>
   </node>
+  <!-- OSM link: https://osm.org/node/8197146405 -->
   <!-- Original coordinates: POINT (47.42658 19.07007) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: 0.0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Budapest'
-addr:housenumber                 N		'82'
-addr:postcode                    N		'1211'
-addr:street                      N		'Kossuth Lajos utca'
-amenity                          N		'atm'
-bic                              N		'CIBHHUHB'
-branch                           N		'ATM CSEPEL'
-brand                            N		'CIB Bank'
-brand:wikidata                   N		'Q839566'
-brand:wikipedia                  N		'hu:CIB Bank'
-contact:website                  N		'https://www.cib.hu'
-fixme                            N		'verify import'
-name                             N		'CIB Bank ATM'
-operator                         N		'CIB Bank Zrt.'
-operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
-ref:HU:company                   N		'01 10 041004'
-ref:vatin                        N		'HU10136915'
-ref:vatin:hu                     N		'10136915\-4\-44'
-source:www.cib.hu:date           N		'2020\-05\-17'
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'82'			'82'
+addr:postcode                    E		'1211'			'1211'
+addr:street                      M		'Kossuth L. u.'			'Kossuth Lajos utca'
+amenity                          E		'atm'			'atm'
+bic                              E		'CIBHHUHB'			'CIBHHUHB'
+branch                           E		'ATM CSEPEL'			'ATM CSEPEL'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  E		'hu:CIB Bank'			'hu:CIB Bank'
+contact:website                  E		'https://www.cib.hu'			'https://www.cib.hu'
+fixme                            E		'verify import'			'verify import'
+name                             E		'CIB Bank ATM'			'CIB Bank ATM'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    E		'1027 Budapest, Medve u 4\-14.'			'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   E		'01 10 041004'			'01 10 041004'
+ref:vatin                        E		'HU10136915'			'HU10136915'
+ref:vatin:hu                     E		'10136915\-4\-44'			'10136915\-4\-44'
+source:www.cib.hu:date           M		'2021\-11\-20'			'2020\-12\-05'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D82%7Caddr%3Apostcode%3D1211%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20CSEPEL%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-3" lat="47.42658" lon="19.07007" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8197146405&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D82%7Caddr%3Apostcode%3D1211%7Caddr%3Astreet%3DKossuth%20L.%20u.%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20CSEPEL%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Kossuth L. u.  82, 1211 Budapest', 'postcode': '1211', 'city': 'Budapest', 'street': 'Kossuth L. u.', 'housenumber': '82', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8197146405" lat="47.42658" lon="19.07007" timestamp="2020-12-05T18:53:08Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="82"/>
     <tag k="addr:postcode" v="1211"/>
-    <tag k="addr:street" v="Kossuth Lajos utca"/>
+    <tag k="addr:street" v="Kossuth L. u."/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="CIBHHUHB"/>
     <tag k="branch" v="ATM CSEPEL"/>
@@ -139,35 +146,36 @@ source:www.cib.hu:date           N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041004"/>
     <tag k="ref:vatin" v="HU10136915"/>
     <tag k="ref:vatin:hu" v="10136915-4-44"/>
-    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="source:www.cib.hu:date" v="2021-11-20"/>
   </node>
+  <!-- OSM link: https://osm.org/node/8197146404 -->
   <!-- Original coordinates: POINT (47.4087 19.05569) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!-- OSM <-> POI distance: 0.0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Budapest'
-addr:housenumber                 N		'174'
-addr:postcode                    N		'1214'
-addr:street                      N		'Rákóczi F. út'
-amenity                          N		'atm'
-bic                              N		'CIBHHUHB'
-branch                           N		'ATM HÉV CSEPEL'
-brand                            N		'CIB Bank'
-brand:wikidata                   N		'Q839566'
-brand:wikipedia                  N		'hu:CIB Bank'
-contact:website                  N		'https://www.cib.hu'
-fixme                            N		'verify import'
-name                             N		'CIB Bank ATM'
-operator                         N		'CIB Bank Zrt.'
-operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
-ref:HU:company                   N		'01 10 041004'
-ref:vatin                        N		'HU10136915'
-ref:vatin:hu                     N		'10136915\-4\-44'
-source:www.cib.hu:date           N		'2020\-05\-17'
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'174'			'174'
+addr:postcode                    M		'1214'			'1212'
+addr:street                      M		'Rákóczi F. út'			'II. Rákóczi Ferenc út'
+amenity                          E		'atm'			'atm'
+bic                              E		'CIBHHUHB'			'CIBHHUHB'
+branch                           E		'ATM HÉV CSEPEL'			'ATM HÉV CSEPEL'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  E		'hu:CIB Bank'			'hu:CIB Bank'
+contact:website                  E		'https://www.cib.hu'			'https://www.cib.hu'
+fixme                            E		'verify import'			'verify import'
+name                             E		'CIB Bank ATM'			'CIB Bank ATM'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    E		'1027 Budapest, Medve u 4\-14.'			'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   E		'01 10 041004'			'01 10 041004'
+ref:vatin                        E		'HU10136915'			'HU10136915'
+ref:vatin:hu                     E		'10136915\-4\-44'			'10136915\-4\-44'
+source:www.cib.hu:date           M		'2021\-11\-20'			'2020\-12\-05'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D174%7Caddr%3Apostcode%3D1214%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20F.%20%C3%BAt%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20H%C3%89V%20CSEPEL%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-4" lat="47.4087" lon="19.05569" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8197146404&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D174%7Caddr%3Apostcode%3D1214%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20F.%20%C3%BAt%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20H%C3%89V%20CSEPEL%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Rákóczi F. út  174, 1214 Budapest', 'postcode': '1214', 'city': 'Budapest', 'street': 'Rákóczi F. út', 'housenumber': '174', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8197146404" lat="47.4087" lon="19.05569" timestamp="2021-01-02T22:43:14Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="174"/>
     <tag k="addr:postcode" v="1214"/>
@@ -186,11 +194,10 @@ source:www.cib.hu:date           N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041004"/>
     <tag k="ref:vatin" v="HU10136915"/>
     <tag k="ref:vatin:hu" v="10136915-4-44"/>
-    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="source:www.cib.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (47.40718 19.01681) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Budapest'
@@ -211,10 +218,11 @@ operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
 ref:HU:company                   N		'01 10 041004'
 ref:vatin                        N		'HU10136915'
 ref:vatin:hu                     N		'10136915\-4\-44'
-source:www.cib.hu:date           N		'2020\-05\-17'
+source:www.cib.hu:date           N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D37-43%7Caddr%3Apostcode%3D1223%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20CAMPONA%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-5" lat="47.40718" lon="19.01681" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D37-43%7Caddr%3Apostcode%3D1223%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Camenity%3Datm%7Cbic%3DCIBHHUHB%7Cbranch%3DATM%20CAMPONA%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%20ATM%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Nagytétényi út  37-43, 1221 Budapest', 'postcode': '1223', 'city': 'Budapest', 'street': 'Nagytétényi út', 'housenumber': '37-43', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.40718" lon="19.01681" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="37-43"/>
     <tag k="addr:postcode" v="1223"/>
@@ -233,6 +241,6 @@ source:www.cib.hu:date           N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041004"/>
     <tag k="ref:vatin" v="HU10136915"/>
     <tag k="ref:vatin:hu" v="10136915-4-44"/>
-    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="source:www.cib.hu:date" v="2021-11-20"/>
   </node>
 </osm>

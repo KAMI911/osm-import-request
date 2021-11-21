@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <node action="modify" id="2031668670" lat="47.1121339" lon="17.9247459" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668714" lat="47.1120993" lon="17.9246166" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668725" lat="47.1121921" lon="17.9245629" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668684" lat="47.1121277" lon="17.9243222" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668688" lat="47.1122653" lon="17.9242427" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668675" lat="47.1122997" lon="17.924371" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668696" lat="47.112284" lon="17.9243801" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668720" lat="47.1123138" lon="17.9244914" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668676" lat="47.1123456" lon="17.924473" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2031668723" lat="47.1123805" lon="17.9246034" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668670" lat="47.1121339" lon="17.9247459" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668714" lat="47.1120993" lon="17.9246166" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668725" lat="47.1121921" lon="17.9245629" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668684" lat="47.1121277" lon="17.9243222" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668688" lat="47.1122653" lon="17.9242427" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668675" lat="47.1122997" lon="17.924371" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668696" lat="47.112284" lon="17.9243801" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668720" lat="47.1123138" lon="17.9244914" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668676" lat="47.1123456" lon="17.924473" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2031668723" lat="47.1123805" lon="17.9246034" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
   <!-- OSM link: https://osm.org/way/192619193 -->
   <!-- Original coordinates: POINT (47.11227 17.92447) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Veszprém'			'Veszprém'
 addr:housenumber                 E		'11'			'11'
 addr:postcode                    E		'8200'			'8200'
-addr:street                      E		'Aradi vértanúk útja'			'Aradi vértanúk útja'
+addr:street                      M		'Aradi Vértanúk útja'			'Aradi vértanúk útja'
+addr:suburb                      E		'Bakonyalja'			'Bakonyalja'
 air_conditioning                 E		'yes'			'yes'
 amenity                          E		'fuel'			'fuel'
 brand                            E		'OMV'			'OMV'
@@ -57,10 +57,11 @@ payment:visa_electron            E		'yes'			'yes'
 ref:HU:company                   E		'01\-09\-071584'			'01\-09\-071584'
 ref:vatin                        E		'HU10542925'			'HU10542925'
 ref:vatin:hu                     E		'10542925\-2\-44'			'10542925\-2\-44'
-source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
+source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w192619193&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DAradi%20v%C3%A9rtan%C3%BAk%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2088%20404%20544%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cinternet_access%3Dwlan%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2020-06-10 -->
-  <way action="modify" id="192619193" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w192619193&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DAradi%20V%C3%A9rtan%C3%BAk%20%C3%BAtja%7Caddr%3Asuburb%3DBakonyalja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2088%20404%20544%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cinternet_access%3Dwlan%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Aradi Vértanúk útja 11', 'postcode': '8200', 'city': 'Veszprém', 'street': 'Aradi Vértanúk útja', 'housenumber': '11', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="192619193" timestamp="2020-10-04T10:06:14Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <nd ref="2031668670"/>
     <nd ref="2031668714"/>
     <nd ref="2031668725"/>
@@ -75,7 +76,8 @@ source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
     <tag k="addr:city" v="Veszprém"/>
     <tag k="addr:housenumber" v="11"/>
     <tag k="addr:postcode" v="8200"/>
-    <tag k="addr:street" v="Aradi vértanúk útja"/>
+    <tag k="addr:street" v="Aradi Vértanúk útja"/>
+    <tag k="addr:suburb" v="Bakonyalja"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
@@ -113,18 +115,17 @@ source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2020-06-10"/>
+    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
   </way>
   <!-- OSM link: https://osm.org/node/1775509880 -->
   <!-- Original coordinates: POINT (47.0945 17.9165) -->
-  <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!-- OSM <-> POI distance: 1.93620579 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Veszprém'			'Veszprém'
 addr:housenumber                 E		'12'			'12'
 addr:postcode                    E		'8200'			'8200'
-addr:street                      E		'Budapest út'			'Budapest út'
+addr:street                      M		'Budapesti út'			'Budapest út'
 air_conditioning                 E		'yes'			'yes'
 amenity                          E		'fuel'			'fuel'
 brand                            E		'OMV'			'OMV'
@@ -136,7 +137,7 @@ contact:facebook                 E		'https://www.facebook.com/omvmagyarorszag'		
 contact:fax                      E		'+36 1 381 9899'			'+36 1 381 9899'
 contact:instagram                E		'https://www.instagram.com/omv/'			'https://www.instagram.com/omv/'
 contact:linkedin                 E		'https://www.linkedin.com/company/omv'			'https://www.linkedin.com/company/omv'
-contact:phone                    M		'+36 70 309 4137'			'+36 88 563 400'
+contact:phone                    E		'+36 88 563 400'			'+36 88 563 400'
 contact:twitter                  E		'omv'			'omv'
 contact:website                  E		'https://www.omv.hu'			'https://www.omv.hu'
 contact:youtube                  E		'https://www.youtube.com/user/omvofficial'			'https://www.youtube.com/user/omvofficial'
@@ -161,16 +162,17 @@ payment:visa_electron            E		'yes'			'yes'
 ref:HU:company                   E		'01\-09\-071584'			'01\-09\-071584'
 ref:vatin                        E		'HU10542925'			'HU10542925'
 ref:vatin:hu                     E		'10542925\-2\-44'			'10542925\-2\-44'
-source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
+source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
 toilets:wheelchair               E		'no'			'no'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1775509880&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DBudapest%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2070%20309%204137%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cinternet_access%3Dwlan%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2020-06-10%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
-  <node action="modify" id="1775509880" lat="47.094495" lon="17.9164755" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="14">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1775509880&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DBudapesti%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2088%20563%20400%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cinternet_access%3Dwlan%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Budapesti út 12', 'postcode': '8200', 'city': 'Veszprém', 'street': 'Budapesti út', 'housenumber': '12', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="1775509880" lat="47.094495" lon="17.9164755" timestamp="2020-10-04T10:06:14Z" uid="8635934" user="osm_poi_matchmaker" version="15">
     <tag k="addr:city" v="Veszprém"/>
     <tag k="addr:housenumber" v="12"/>
     <tag k="addr:postcode" v="8200"/>
-    <tag k="addr:street" v="Budapest út"/>
+    <tag k="addr:street" v="Budapesti út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
@@ -182,7 +184,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="contact:fax" v="+36 1 381 9899"/>
     <tag k="contact:instagram" v="https://www.instagram.com/omv/"/>
     <tag k="contact:linkedin" v="https://www.linkedin.com/company/omv"/>
-    <tag k="contact:phone" v="+36 70 309 4137"/>
+    <tag k="contact:phone" v="+36 88 563 400"/>
     <tag k="contact:twitter" v="omv"/>
     <tag k="contact:website" v="https://www.omv.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/omvofficial"/>
@@ -207,26 +209,25 @@ wheelchair                       E		'yes'			'yes'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2020-06-10"/>
+    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="wheelchair" v="yes"/>
   </node>
-  <node action="modify" id="2000455108" lat="47.1046706" lon="17.930829" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2000455103" lat="47.1046522" lon="17.9306875" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2000455097" lat="47.1047411" lon="17.9306626" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2000455131" lat="47.1047302" lon="17.9305786" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2000455134" lat="47.104841" lon="17.9305476" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2000455090" lat="47.1048703" lon="17.9307731" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2000455108" lat="47.1046706" lon="17.930829" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2000455103" lat="47.1046522" lon="17.9306875" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2000455097" lat="47.1047411" lon="17.9306626" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2000455131" lat="47.1047302" lon="17.9305786" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2000455134" lat="47.104841" lon="17.9305476" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2000455090" lat="47.1048703" lon="17.9307731" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
   <!-- OSM link: https://osm.org/way/189422646 -->
   <!-- Original coordinates: POINT (47.10474 17.93062) -->
-  <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!-- OSM <-> POI distance: 0.0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Veszprém'			'Veszprém'
 addr:housenumber                 E		'2'			'2'
 addr:postcode                    E		'8200'			'8200'
-addr:street                      E		'Külső\-Kádártai út'			'Külső\-Kádártai út'
+addr:street                      M		'Külső \- Kádártai út'			'Külső\-Kádártai út'
 air_conditioning                 E		'yes'			'yes'
 amenity                          E		'fuel'			'fuel'
 brand                            E		'OMV'			'OMV'
@@ -263,12 +264,12 @@ payment:visa_electron            E		'yes'			'yes'
 ref:HU:company                   E		'01\-09\-071584'			'01\-09\-071584'
 ref:vatin                        E		'HU10542925'			'HU10542925'
 ref:vatin:hu                     E		'10542925\-2\-44'			'10542925\-2\-44'
-shop                             E		'yes'			'yes'
-source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
+source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w189422646&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DK%C3%BCls%C5%91-K%C3%A1d%C3%A1rtai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2088%20428%20900%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Cshop%3Dyes%7Csource%3Awww.omv.hu%3Adate%3D2020-06-10%7Cwheelchair%3Dyes -->
-  <way action="modify" id="189422646" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w189422646&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DK%C3%BCls%C5%91%20-%20K%C3%A1d%C3%A1rtai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2088%20428%20900%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Külső - Kádártai út 2.', 'postcode': '8200', 'city': 'Veszprém', 'street': 'Külső - Kádártai út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="189422646" timestamp="2020-10-04T10:06:14Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <nd ref="2000455108"/>
     <nd ref="2000455103"/>
     <nd ref="2000455097"/>
@@ -279,7 +280,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="addr:city" v="Veszprém"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="8200"/>
-    <tag k="addr:street" v="Külső-Kádártai út"/>
+    <tag k="addr:street" v="Külső - Kádártai út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
@@ -316,14 +317,12 @@ wheelchair                       E		'yes'			'yes'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="shop" v="yes"/>
-    <tag k="source:www.omv.hu:date" v="2020-06-10"/>
+    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <!-- OSM link: https://osm.org/node/1223099351 -->
   <!-- Original coordinates: POINT (46.82628 17.60562) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Révfülöp'			'Révfülöp'
@@ -350,7 +349,8 @@ fuel:lpg                         E		'yes'			'yes'
 fuel:octane_100                  E		'yes'			'yes'
 fuel:octane_95                   E		'yes'			'yes'
 name                             E		'OMV'			'OMV'
-opening_hours                    E		'Mo\-Su 06:00\-20:00'			'Mo\-Su 06:00\-20:00'
+opening_hours                    E		'Mo\-Su 06:00\-20:00; PH off'			'Mo\-Su 06:00\-20:00; PH off'
+opening_hours:covid19            N		'Mo\-Su 06:00\-22:00; PH off'
 operator                         E		'OMV Hungária Kft.'			'OMV Hungária Kft.'
 operator:addr                    E		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'			'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
 payment:cash                     E		'yes'			'yes'
@@ -364,10 +364,11 @@ payment:visa_electron            E		'yes'			'yes'
 ref:HU:company                   E		'01\-09\-071584'			'01\-09\-071584'
 ref:vatin                        E		'HU10542925'			'HU10542925'
 ref:vatin:hu                     E		'10542925\-2\-44'			'10542925\-2\-44'
-source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
+source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1223099351&addtags=%7Caddr%3Acity%3DR%C3%A9vf%C3%BCl%C3%B6p%7Caddr%3Aconscriptionnumber%3D011%7Caddr%3Apostcode%3D8253%7Caddr%3Astreet%3DBadacsonyi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-20%3A00%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="1223099351" lat="46.8261973" lon="17.6054538" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="8">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1223099351&addtags=%7Caddr%3Acity%3DR%C3%A9vf%C3%BCl%C3%B6p%7Caddr%3Aconscriptionnumber%3D011%7Caddr%3Apostcode%3D8253%7Caddr%3Astreet%3DBadacsonyi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Badacsonyi út hrsz. 011', 'postcode': '8253', 'city': 'Révfülöp', 'street': 'Badacsonyi út', 'housenumber': 'None', 'conscriptionnumber': '011'°-->
+  <node action="modify" id="1223099351" lat="46.8261973" lon="17.6054538" timestamp="2020-10-04T10:06:14Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <tag k="addr:city" v="Révfülöp"/>
     <tag k="addr:conscriptionnumber" v="011"/>
     <tag k="addr:postcode" v="8253"/>
@@ -392,7 +393,8 @@ source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
     <tag k="fuel:octane_100" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="OMV"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-20:00"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-20:00; PH off"/>
+    <tag k="opening_hours:covid19" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="operator" v="OMV Hungária Kft."/>
     <tag k="operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="payment:cash" v="yes"/>
@@ -406,28 +408,27 @@ source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2020-06-10"/>
+    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
   </node>
-  <node action="modify" id="2127808390" lat="46.7767051" lon="17.2431173" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808358" lat="46.7767071" lon="17.2429892" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808371" lat="46.7769076" lon="17.2429957" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808370" lat="46.7769055" lon="17.2431364" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808272" lat="46.7768359" lon="17.2431341" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808341" lat="46.7768329" lon="17.2433311" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808350" lat="46.7767407" lon="17.2433281" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808373" lat="46.7767429" lon="17.2431863" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808364" lat="46.7767616" lon="17.2431869" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
-  <node action="modify" id="2127808330" lat="46.7767627" lon="17.2431192" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808390" lat="46.7767051" lon="17.2431173" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808358" lat="46.7767071" lon="17.2429892" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808371" lat="46.7769076" lon="17.2429957" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808370" lat="46.7769055" lon="17.2431364" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808272" lat="46.7768359" lon="17.2431341" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808341" lat="46.7768329" lon="17.2433311" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808350" lat="46.7767407" lon="17.2433281" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808373" lat="46.7767429" lon="17.2431863" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808364" lat="46.7767616" lon="17.2431869" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node id="2127808330" lat="46.7767627" lon="17.2431192" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
   <!-- OSM link: https://osm.org/way/202843353 -->
   <!-- Original coordinates: POINT (46.666 17.2333) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        E		'Keszthely'			'Keszthely'
 addr:conscriptionnumber          E		'2505/3'			'2505/3'
 addr:postcode                    E		'8360'			'8360'
-addr:street                      E		'Csapás utca'			'Csapás utca'
+addr:street                      M		'Csapás utca'			'Csapás út'
 air_conditioning                 E		'yes'			'yes'
 amenity                          E		'fuel'			'fuel'
 brand                            E		'OMV'			'OMV'
@@ -464,10 +465,13 @@ payment:visa_electron            E		'yes'			'yes'
 ref:HU:company                   E		'01\-09\-071584'			'01\-09\-071584'
 ref:vatin                        E		'HU10542925'			'HU10542925'
 ref:vatin:hu                     E		'10542925\-2\-44'			'10542925\-2\-44'
-source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
+source                           E		'website'			'website'
+source:date                      E		'2020\-10\-03'			'2020\-10\-03'
+source:www.omv.hu:date           N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w202843353&addtags=%7Caddr%3Acity%3DKeszthely%7Caddr%3Aconscriptionnumber%3D2505/3%7Caddr%3Apostcode%3D8360%7Caddr%3Astreet%3DCsap%C3%A1s%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2083%20705%20015%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2020-06-10 -->
-  <way action="modify" id="202843353" timestamp="2020-04-05T06:21:15Z" uid="8635934" user="osm_poi_matchmaker" version="8">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w202843353&addtags=%7Caddr%3Acity%3DKeszthely%7Caddr%3Aconscriptionnumber%3D2505/3%7Caddr%3Apostcode%3D8360%7Caddr%3Astreet%3DCsap%C3%A1s%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2083%20705%20015%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Dwebsite%7Csource%3Adate%3D2020-10-03%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Csapás u. 2505/3 hrsz.', 'postcode': '8360', 'city': 'Keszthely', 'street': 'Csapás utca', 'housenumber': 'None', 'conscriptionnumber': '2505/3'°-->
+  <way action="modify" id="202843353" timestamp="2021-06-27T12:29:24Z" uid="8635934" user="osm_poi_matchmaker" version="12">
     <nd ref="2127808390"/>
     <nd ref="2127808358"/>
     <nd ref="2127808371"/>
@@ -519,6 +523,8 @@ source:www.omv.hu:date           M		'2020\-06\-10'			'2020\-04\-04'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2020-06-10"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2020-10-03"/>
+    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
   </way>
 </osm>

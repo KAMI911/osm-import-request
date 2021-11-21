@@ -2,7 +2,6 @@
 <osm generator="JOSM" version="0.6">
   <!-- Original coordinates: POINT (46.85656 18.62935) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Sárbogárd'
@@ -10,7 +9,8 @@ addr:housenumber                 N		'183'
 addr:postcode                    N		'7003'
 addr:street                      N		'7000 Sárbogárd,Köztársaság utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -33,16 +33,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DS%C3%A1rbog%C3%A1rd%7Caddr%3Ahousenumber%3D183%7Caddr%3Apostcode%3D7003%7Caddr%3Astreet%3D7000%20S%C3%A1rbog%C3%A1rd%2CK%C3%B6zt%C3%A1rsas%C3%A1g%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-1" lat="46.85656" lon="18.62935" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DS%C3%A1rbog%C3%A1rd%7Caddr%3Ahousenumber%3D183%7Caddr%3Apostcode%3D7003%7Caddr%3Astreet%3D7000%20S%C3%A1rbog%C3%A1rd%2CK%C3%B6zt%C3%A1rsas%C3%A1g%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7000 Sárbogárd,Köztársaság u. 183.', 'postcode': '7003', 'city': 'Sárbogárd', 'street': '7000 Sárbogárd,Köztársaság utca', 'housenumber': '183', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-1" lat="46.85656" lon="18.62935" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Sárbogárd"/>
     <tag k="addr:housenumber" v="183"/>
     <tag k="addr:postcode" v="7003"/>
     <tag k="addr:street" v="7000 Sárbogárd,Köztársaság utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -65,11 +67,79 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+  </node>
+  <!-- Original coordinates: POINT (46.73815 18.96884) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Bölcske'
+addr:housenumber                 N		'4'
+addr:postcode                    N		'7025'
+addr:street                      N		'7025 Bölcske,Templom tér'
+contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+fixme                            N		'verify import'
+name                             N		'Tom Market'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:tommarket.hu:date         N		'2021\-11\-20'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DB%C3%B6lcske%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D7025%7Caddr%3Astreet%3D7025%20B%C3%B6lcske%2CTemplom%20t%C3%A9r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7025 Bölcske,Templom tér 4. ', 'postcode': '7025', 'city': 'Bölcske', 'street': '7025 Bölcske,Templom tér', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="46.73815" lon="18.96884" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Bölcske"/>
+    <tag k="addr:housenumber" v="4"/>
+    <tag k="addr:postcode" v="7025"/>
+    <tag k="addr:street" v="7025 Bölcske,Templom tér"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Tom Market"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (46.68918 18.95324) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Madocsa'
@@ -77,8 +147,8 @@ addr:housenumber                 N		'7'
 addr:postcode                    N		'7026'
 addr:street                      N		'7026 Madocsa,Paksi út'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:phone                    N		'+36 30 332 5337'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -101,17 +171,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DMadocsa%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D7026%7Caddr%3Astreet%3D7026%20Madocsa%2CPaksi%20%C3%BAt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3D%2B36%2030%20332%205337%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-2" lat="46.68918" lon="18.95324" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DMadocsa%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D7026%7Caddr%3Astreet%3D7026%20Madocsa%2CPaksi%20%C3%BAt%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7026 Madocsa,Paksi út 7', 'postcode': '7026', 'city': 'Madocsa', 'street': '7026 Madocsa,Paksi út', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-3" lat="46.68918" lon="18.95324" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Madocsa"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="7026"/>
     <tag k="addr:street" v="7026 Madocsa,Paksi út"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:phone" v="+36 30 332 5337"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -134,20 +205,22 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
+  <!-- OSM link: https://osm.org/node/8043227210 -->
   <!-- Original coordinates: POINT (46.6176 18.83942) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!-- OSM <-> POI distance: 157.37040681 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Paks'
-addr:postcode                    N		'7030'
-addr:street                      N		'7030 Paks,Építők utca  1. üzletsor'
-contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
-fixme                            N		'verify import'
-name                             N		'Tom Market'
+addr:city                        E		'Paks'			'Paks'
+addr:housenumber                 E		'1'			'1'
+addr:postcode                    E		'7030'			'7030'
+addr:street                      M		'7030 Paks,Építők utca  1. üzletsor'			'Építők útja'
+contact:facebook                 M		'https://www.facebook.com/TOM.Market.Magyarorszag'			'https://www.facebook.com/Tom\-Market\-Paks\-AtomTomi\-1529596260652087'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+name                             M		'Tom Market'			'Tom Market \- AtomTomi'
+opening_hours                    E		'Mo\-Su 05:30\-22:00'			'Mo\-Su 05:30\-22:00'
 payment:american_express         N		'yes'
 payment:cash                     N		'yes'
 payment:contactless              N		'yes'
@@ -167,18 +240,22 @@ payment:unionpay                 N		'yes'
 payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
-shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+shop                             E		'convenience'			'convenience'
+source:tommarket.hu:date         N		'2021\-11\-20'
+wheelchair                       E		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DPaks%7Caddr%3Apostcode%3D7030%7Caddr%3Astreet%3D7030%20Paks%2C%C3%89p%C3%ADt%C5%91k%20utca%20%201.%20%C3%BCzletsor%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-3" lat="46.6176" lon="18.83942" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8043227210&addtags=%7Caddr%3Acity%3DPaks%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D7030%7Caddr%3Astreet%3D7030%20Paks%2C%C3%89p%C3%ADt%C5%91k%20utca%20%201.%20%C3%BCzletsor%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cname%3DTom%20Market%7Copening_hours%3DMo-Su%2005%3A30-22%3A00%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dno -->
+  <!--ˇ'original': '7030 Paks,Építők u. 1. Üzletsor', 'postcode': '7030', 'city': 'Paks', 'street': '7030 Paks,Építők utca  1. üzletsor', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8043227210" lat="46.6178537" lon="18.8414471" timestamp="2020-11-01T00:36:13Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Paks"/>
+    <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="7030"/>
     <tag k="addr:street" v="7030 Paks,Építők utca  1. üzletsor"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="name" v="Tom Market"/>
+    <tag k="opening_hours" v="Mo-Su 05:30-22:00"/>
     <tag k="payment:american_express" v="yes"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -199,19 +276,20 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+    <tag k="wheelchair" v="no"/>
   </node>
-  <!-- Original coordinates: POINT (46.62855 18.86465) -->
+  <!-- Original coordinates: POINT (46.62907 18.86647) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Paks'
-addr:housenumber                 N		'8'
+addr:housenumber                 N		'2'
 addr:postcode                    N		'7030'
-addr:street                      N		'7030 Paks,Szentháromság tér'
+addr:street                      N		'7030 Paks,Kálvária utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -234,16 +312,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DPaks%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D7030%7Caddr%3Astreet%3D7030%20Paks%2CSzenth%C3%A1roms%C3%A1g%20t%C3%A9r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-4" lat="46.62855" lon="18.86465" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DPaks%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D7030%7Caddr%3Astreet%3D7030%20Paks%2CK%C3%A1lv%C3%A1ria%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7030 Paks,Kálvária utca 2.', 'postcode': '7030', 'city': 'Paks', 'street': '7030 Paks,Kálvária utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="46.62907" lon="18.86647" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Paks"/>
-    <tag k="addr:housenumber" v="8"/>
+    <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="7030"/>
-    <tag k="addr:street" v="7030 Paks,Szentháromság tér"/>
+    <tag k="addr:street" v="7030 Paks,Kálvária utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -266,11 +346,79 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+  </node>
+  <!-- Original coordinates: POINT (46.62176 18.85703) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Paks'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'7030'
+addr:street                      N		'7030 Paks,Táncsics Mihály utca'
+contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+fixme                            N		'verify import'
+name                             N		'Tom Market'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:tommarket.hu:date         N		'2021\-11\-20'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DPaks%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D7030%7Caddr%3Astreet%3D7030%20Paks%2CT%C3%A1ncsics%20Mih%C3%A1ly%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7030 Paks,Táncsics M. u.2. ', 'postcode': '7030', 'city': 'Paks', 'street': '7030 Paks,Táncsics Mihály utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-6" lat="46.62176" lon="18.85703" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Paks"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="7030"/>
+    <tag k="addr:street" v="7030 Paks,Táncsics Mihály utca"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Tom Market"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (46.71598 18.76029) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Németkér'
@@ -278,7 +426,8 @@ addr:housenumber                 N		'402'
 addr:postcode                    N		'7039'
 addr:street                      N		'7039 Németkér,Szabadság utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -301,16 +450,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DN%C3%A9metk%C3%A9r%7Caddr%3Ahousenumber%3D402%7Caddr%3Apostcode%3D7039%7Caddr%3Astreet%3D7039%20N%C3%A9metk%C3%A9r%2CSzabads%C3%A1g%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-5" lat="46.71598" lon="18.76029" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DN%C3%A9metk%C3%A9r%7Caddr%3Ahousenumber%3D402%7Caddr%3Apostcode%3D7039%7Caddr%3Astreet%3D7039%20N%C3%A9metk%C3%A9r%2CSzabads%C3%A1g%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7039 Németkér,Szabadság u. 402/1.', 'postcode': '7039', 'city': 'Németkér', 'street': '7039 Németkér,Szabadság utca', 'housenumber': '402', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="46.71598" lon="18.76029" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Németkér"/>
     <tag k="addr:housenumber" v="402"/>
     <tag k="addr:postcode" v="7039"/>
     <tag k="addr:street" v="7039 Németkér,Szabadság utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -333,11 +484,10 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (46.62104 18.65398) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Nagydorog'
@@ -345,7 +495,8 @@ addr:housenumber                 N		'2'
 addr:postcode                    N		'7044'
 addr:street                      N		'7044 Nagydorog,Vasvári P. utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -368,16 +519,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DNagydorog%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D7044%7Caddr%3Astreet%3D7044%20Nagydorog%2CVasv%C3%A1ri%20P.%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-6" lat="46.62104" lon="18.65398" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DNagydorog%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D7044%7Caddr%3Astreet%3D7044%20Nagydorog%2CVasv%C3%A1ri%20P.%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7044 Nagydorog,Vasvári P. u. 2.', 'postcode': '7044', 'city': 'Nagydorog', 'street': '7044 Nagydorog,Vasvári P. utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-8" lat="46.62104" lon="18.65398" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nagydorog"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="7044"/>
     <tag k="addr:street" v="7044 Nagydorog,Vasvári P. utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -400,11 +553,217 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+  </node>
+  <!-- Original coordinates: POINT (46.55551 18.478) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Gyönk'
+addr:housenumber                 N		'6'
+addr:postcode                    N		'7064'
+addr:street                      N		'7064 Gyönk,Dózsa György tér'
+contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+fixme                            N		'verify import'
+name                             N		'Tom Market'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:tommarket.hu:date         N		'2021\-11\-20'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DGy%C3%B6nk%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D7064%7Caddr%3Astreet%3D7064%20Gy%C3%B6nk%2CD%C3%B3zsa%20Gy%C3%B6rgy%20t%C3%A9r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7064 Gyönk,Dózsa György tér 6.', 'postcode': '7064', 'city': 'Gyönk', 'street': '7064 Gyönk,Dózsa György tér', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-9" lat="46.55551" lon="18.478" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Gyönk"/>
+    <tag k="addr:housenumber" v="6"/>
+    <tag k="addr:postcode" v="7064"/>
+    <tag k="addr:street" v="7064 Gyönk,Dózsa György tér"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Tom Market"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+  </node>
+  <!-- Original coordinates: POINT (46.75011 18.55109) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Simontornya'
+addr:housenumber                 N		'131'
+addr:postcode                    N		'7081'
+addr:street                      N		'7081 Simontornya,Malom utca'
+contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+fixme                            N		'verify import'
+name                             N		'Tom Market'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:tommarket.hu:date         N		'2021\-11\-20'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DSimontornya%7Caddr%3Ahousenumber%3D131%7Caddr%3Apostcode%3D7081%7Caddr%3Astreet%3D7081%20Simontornya%2CMalom%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7081 Simontornya,Malom u.131. ', 'postcode': '7081', 'city': 'Simontornya', 'street': '7081 Simontornya,Malom utca', 'housenumber': '131', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-10" lat="46.75011" lon="18.55109" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Simontornya"/>
+    <tag k="addr:housenumber" v="131"/>
+    <tag k="addr:postcode" v="7081"/>
+    <tag k="addr:street" v="7081 Simontornya,Malom utca"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Tom Market"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+  </node>
+  <!-- Original coordinates: POINT (46.68103 18.4333) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Pincehely'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'7084'
+addr:street                      N		'7084 Pincehely ,Szent István tér'
+contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+fixme                            N		'verify import'
+name                             N		'Tom Market'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:tommarket.hu:date         N		'2021\-11\-20'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DPincehely%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D7084%7Caddr%3Astreet%3D7084%20Pincehely%20%2CSzent%20Istv%C3%A1n%20t%C3%A9r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7084 Pincehely ,Szent István tér 1. ', 'postcode': '7084', 'city': 'Pincehely', 'street': '7084 Pincehely ,Szent István tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-11" lat="46.68103" lon="18.4333" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Pincehely"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="7084"/>
+    <tag k="addr:street" v="7084 Pincehely ,Szent István tér"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Tom Market"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (46.63688 18.28028) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Tamási'
@@ -412,7 +771,8 @@ addr:housenumber                 N		'3/A'
 addr:postcode                    N		'7090'
 addr:street                      N		'7090 Tamási,Zrínyi utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -435,16 +795,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DTam%C3%A1si%7Caddr%3Ahousenumber%3D3/A%7Caddr%3Apostcode%3D7090%7Caddr%3Astreet%3D7090%20Tam%C3%A1si%2CZr%C3%ADnyi%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-7" lat="46.63688" lon="18.28028" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DTam%C3%A1si%7Caddr%3Ahousenumber%3D3/A%7Caddr%3Apostcode%3D7090%7Caddr%3Astreet%3D7090%20Tam%C3%A1si%2CZr%C3%ADnyi%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7090 Tamási,Zrínyi u. 3/A', 'postcode': '7090', 'city': 'Tamási', 'street': '7090 Tamási,Zrínyi utca', 'housenumber': '3/A', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-12" lat="46.63688" lon="18.28028" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tamási"/>
     <tag k="addr:housenumber" v="3/A"/>
     <tag k="addr:postcode" v="7090"/>
     <tag k="addr:street" v="7090 Tamási,Zrínyi utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -467,12 +829,80 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+  </node>
+  <!-- Original coordinates: POINT (46.59173 18.20302) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Nagykónyi'
+addr:housenumber                 N		'103'
+addr:postcode                    N		'7092'
+addr:street                      N		'7092 Nagykónyi ,Nagy utca'
+contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+fixme                            N		'verify import'
+name                             N		'Tom Market'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:tommarket.hu:date         N		'2021\-11\-20'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DNagyk%C3%B3nyi%7Caddr%3Ahousenumber%3D103%7Caddr%3Apostcode%3D7092%7Caddr%3Astreet%3D7092%20Nagyk%C3%B3nyi%20%2CNagy%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7092 Nagykónyi ,Nagy u.103. ', 'postcode': '7092', 'city': 'Nagykónyi', 'street': '7092 Nagykónyi ,Nagy utca', 'housenumber': '103', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-13" lat="46.59173" lon="18.20302" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Nagykónyi"/>
+    <tag k="addr:housenumber" v="103"/>
+    <tag k="addr:postcode" v="7092"/>
+    <tag k="addr:street" v="7092 Nagykónyi ,Nagy utca"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Tom Market"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- OSM link: https://osm.org/node/4933471207 -->
   <!-- Original coordinates: POINT (46.69502 18.18165) -->
-  <!-- OSM <-> POI distance: 151.43321071 m-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!-- OSM <-> POI distance: 131.44719759 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Iregszemcse'
@@ -480,7 +910,8 @@ addr:housenumber                 N		'1'
 addr:postcode                    N		'7095'
 addr:street                      N		'7095 Iregszemcse,Hajnal utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            E		'verify'			'verify'
 name                             E		'Tom Market'			'Tom Market'
 payment:american_express         N		'yes'
@@ -504,18 +935,20 @@ payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             E		'convenience'			'convenience'
 source                           E		'route4u'			'route4u'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 toilets:wheelchair               E		'no'			'no'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4933471207&addtags=%7Caddr%3Acity%3DIregszemcse%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D7095%7Caddr%3Astreet%3D7095%20Iregszemcse%2CHajnal%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Droute4u%7Csource%3Atommarket.hu%3Adate%3D2020-06-10%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
-  <node action="modify" id="4933471207" lat="46.6950707" lon="18.1836342" timestamp="2017-09-21T11:33:20Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4933471207&addtags=%7Caddr%3Acity%3DIregszemcse%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D7095%7Caddr%3Astreet%3D7095%20Iregszemcse%2CHajnal%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Droute4u%7Csource%3Atommarket.hu%3Adate%3D2021-11-20%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': '7095 Iregszemcse,Hajnal u. 1.', 'postcode': '7095', 'city': 'Iregszemcse', 'street': '7095 Iregszemcse,Hajnal utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="4933471207" lat="46.6947718" lon="18.1833351" timestamp="2020-08-20T14:25:33Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Iregszemcse"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="7095"/>
     <tag k="addr:street" v="7095 Iregszemcse,Hajnal utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -539,14 +972,13 @@ wheelchair                       E		'yes'			'yes'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="route4u"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
     <tag k="toilets:wheelchair" v="no"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/2967967557 -->
   <!-- Original coordinates: POINT (46.34041 18.69901) -->
   <!-- OSM <-> POI distance: 174.32534499 m-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Szekszárd'
@@ -554,8 +986,8 @@ addr:housenumber                 N		'50'
 addr:postcode                    N		'7100'
 addr:street                      N		'7100 Szekszárd,Béri Balogh Á utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:phone                    N		'36 70 607 3859'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 name                             E		'Tom Market'			'Tom Market'
 opening_hours                    E		'24/7'			'24/7'
 payment:american_express         N		'yes'
@@ -578,18 +1010,19 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             E		'convenience'			'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 wheelchair                       E		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2967967557&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D50%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CB%C3%A9ri%20Balogh%20%C3%81%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3D36%2070%20607%203859%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cname%3DTom%20Market%7Copening_hours%3D24/7%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10%7Cwheelchair%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2967967557&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D50%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CB%C3%A9ri%20Balogh%20%C3%81%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cname%3DTom%20Market%7Copening_hours%3D24/7%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dno -->
+  <!--ˇ'original': '7100 Szekszárd,Béri Balogh Á.u. 50.', 'postcode': '7100', 'city': 'Szekszárd', 'street': '7100 Szekszárd,Béri Balogh Á utca', 'housenumber': '50', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2967967557" lat="46.3407829" lon="18.7012157" timestamp="2018-09-30T19:41:04Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szekszárd"/>
     <tag k="addr:housenumber" v="50"/>
     <tag k="addr:postcode" v="7100"/>
     <tag k="addr:street" v="7100 Szekszárd,Béri Balogh Á utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:phone" v="36 70 607 3859"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="name" v="Tom Market"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="payment:american_express" v="yes"/>
@@ -612,12 +1045,11 @@ wheelchair                       E		'no'			'no'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
     <tag k="wheelchair" v="no"/>
   </node>
   <!-- Original coordinates: POINT (46.35063 18.68739) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Szekszárd'
@@ -625,8 +1057,8 @@ addr:housenumber                 N		'7\-1'
 addr:postcode                    N		'7100'
 addr:street                      N		'7100 Szekszárd,Bocskai utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:phone                    N		'36 70 607 3859'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -649,17 +1081,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D7-1%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CBocskai%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3D36%2070%20607%203859%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-10" lat="46.35063" lon="18.68739" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D7-1%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CBocskai%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7100 Szekszárd,Bocskai u. 7-1.', 'postcode': '7100', 'city': 'Szekszárd', 'street': '7100 Szekszárd,Bocskai utca', 'housenumber': '7-1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-16" lat="46.35063" lon="18.68739" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szekszárd"/>
     <tag k="addr:housenumber" v="7-1"/>
     <tag k="addr:postcode" v="7100"/>
     <tag k="addr:street" v="7100 Szekszárd,Bocskai utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:phone" v="36 70 607 3859"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -682,11 +1115,10 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (46.32884 18.69342) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Szekszárd'
@@ -694,8 +1126,8 @@ addr:housenumber                 N		'62'
 addr:postcode                    N		'7100'
 addr:street                      N		'7100 Szekszárd,Csatári utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:phone                    N		'36 70 607 3859'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -718,17 +1150,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D62%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CCsat%C3%A1ri%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3D36%2070%20607%203859%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-11" lat="46.32884" lon="18.69342" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D62%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CCsat%C3%A1ri%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7100 Szekszárd,Csatári u. 62.', 'postcode': '7100', 'city': 'Szekszárd', 'street': '7100 Szekszárd,Csatári utca', 'housenumber': '62', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-17" lat="46.32884" lon="18.69342" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szekszárd"/>
     <tag k="addr:housenumber" v="62"/>
     <tag k="addr:postcode" v="7100"/>
     <tag k="addr:street" v="7100 Szekszárd,Csatári utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:phone" v="36 70 607 3859"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -751,12 +1184,11 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- OSM link: https://osm.org/node/6788236937 -->
   <!-- Original coordinates: POINT (46.35376 18.70131) -->
   <!-- OSM <-> POI distance: 171.04253222 m-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Szekszárd'
@@ -764,8 +1196,8 @@ addr:housenumber                 N		'25'
 addr:postcode                    N		'7100'
 addr:street                      N		'7100 Szekszárd,Rákóczi utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:phone                    N		'36 70 607 3859'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 name                             E		'Tom Market'			'Tom Market'
 opening_hours                    E		'Mo\-Su 06:00\-22:00'			'Mo\-Su 06:00\-22:00'
 payment:american_express         N		'yes'
@@ -788,18 +1220,19 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             E		'convenience'			'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 wheelchair                       E		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6788236937&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CR%C3%A1k%C3%B3czi%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3D36%2070%20607%203859%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cname%3DTom%20Market%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10%7Cwheelchair%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6788236937&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3D7100%20Szeksz%C3%A1rd%2CR%C3%A1k%C3%B3czi%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cname%3DTom%20Market%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dno -->
+  <!--ˇ'original': '7100 Szekszárd,Rákóczi u. 25.', 'postcode': '7100', 'city': 'Szekszárd', 'street': '7100 Szekszárd,Rákóczi utca', 'housenumber': '25', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="6788236937" lat="46.3539734" lon="18.7035171" timestamp="2020-05-21T12:59:59Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Szekszárd"/>
     <tag k="addr:housenumber" v="25"/>
     <tag k="addr:postcode" v="7100"/>
     <tag k="addr:street" v="7100 Szekszárd,Rákóczi utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:phone" v="36 70 607 3859"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="name" v="Tom Market"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00"/>
     <tag k="payment:american_express" v="yes"/>
@@ -822,21 +1255,20 @@ wheelchair                       E		'no'			'no'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
     <tag k="wheelchair" v="no"/>
   </node>
-  <!-- Original coordinates: POINT (46.42277 18.78453) -->
+  <!-- Original coordinates: POINT (46.41958 18.76117) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Tolna'
-addr:housenumber                 N		'94'
+addr:housenumber                 N		'1'
 addr:postcode                    N		'7130'
-addr:street                      N		'7130 Tolna,Deák F. utca'
+addr:street                      N		'7130 Tolna,Gém utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:phone                    N		'ivyrangaev@gmail.com'
-contact:website                  N		'https://tommarket.hu/https://tommarketexpress.hu/'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -859,17 +1291,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DTolna%7Caddr%3Ahousenumber%3D94%7Caddr%3Apostcode%3D7130%7Caddr%3Astreet%3D7130%20Tolna%2CDe%C3%A1k%20F.%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Divyrangaev%40gmail.com%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/https%3A//tommarketexpress.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-13" lat="46.42277" lon="18.78453" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-19&addtags=%7Caddr%3Acity%3DTolna%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D7130%7Caddr%3Astreet%3D7130%20Tolna%2CG%C3%A9m%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7130 Tolna,Gém utca 1.', 'postcode': '7130', 'city': 'Tolna', 'street': '7130 Tolna,Gém utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-19" lat="46.41958" lon="18.76117" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tolna"/>
-    <tag k="addr:housenumber" v="94"/>
+    <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="7130"/>
-    <tag k="addr:street" v="7130 Tolna,Deák F. utca"/>
+    <tag k="addr:street" v="7130 Tolna,Gém utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:phone" v="ivyrangaev@gmail.com"/>
-    <tag k="contact:website" v="https://tommarket.hu/https://tommarketexpress.hu/"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -892,11 +1325,10 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (46.41083 18.7555) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Tolna'
@@ -904,7 +1336,8 @@ addr:housenumber                 N		'32'
 addr:postcode                    N		'7131'
 addr:street                      N		'7132 Bogyiszló,Kossuth Lajos utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -927,16 +1360,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DTolna%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D7131%7Caddr%3Astreet%3D7132%20Bogyiszl%C3%B3%2CKossuth%20Lajos%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-14" lat="46.41083" lon="18.7555" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-20&addtags=%7Caddr%3Acity%3DTolna%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D7131%7Caddr%3Astreet%3D7132%20Bogyiszl%C3%B3%2CKossuth%20Lajos%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7132 Bogyiszló,Kossuth L. u. 32.', 'postcode': '7131', 'city': 'Tolna', 'street': '7132 Bogyiszló,Kossuth Lajos utca', 'housenumber': '32', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-20" lat="46.41083" lon="18.7555" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tolna"/>
     <tag k="addr:housenumber" v="32"/>
     <tag k="addr:postcode" v="7131"/>
     <tag k="addr:street" v="7132 Bogyiszló,Kossuth Lajos utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -959,11 +1394,10 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
   <!-- Original coordinates: POINT (46.46549 18.8241) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Fadd'
@@ -971,7 +1405,8 @@ addr:housenumber                 N		'1'
 addr:postcode                    N		'7133'
 addr:street                      N		'7133 Fadd,Váci Mihály utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -994,16 +1429,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DFadd%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D7133%7Caddr%3Astreet%3D7133%20Fadd%2CV%C3%A1ci%20Mih%C3%A1ly%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-15" lat="46.46549" lon="18.8241" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-21&addtags=%7Caddr%3Acity%3DFadd%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D7133%7Caddr%3Astreet%3D7133%20Fadd%2CV%C3%A1ci%20Mih%C3%A1ly%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7133 Fadd,Váci Mihály utca 1.', 'postcode': '7133', 'city': 'Fadd', 'street': '7133 Fadd,Váci Mihály utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-21" lat="46.46549" lon="18.8241" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Fadd"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="7133"/>
     <tag k="addr:street" v="7133 Fadd,Váci Mihály utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -1026,20 +1463,18 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (46.29047 18.52326) -->
+  <!-- Original coordinates: POINT (46.5281 18.81448) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Bonyhád'
-addr:housenumber                 N		'85'
-addr:postcode                    N		'7150'
-addr:street                      N		'7150 Bonyhád,Perczel Mór utca'
+addr:city                        N		'Dunaszentgyörgy'
+addr:postcode                    N		'7135'
+addr:street                      N		'7135 Dunaszentgyörgy,Várdomb utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:phone                    N		'simonpatrik2019@gmail.com'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -1062,17 +1497,17 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DBonyh%C3%A1d%7Caddr%3Ahousenumber%3D85%7Caddr%3Apostcode%3D7150%7Caddr%3Astreet%3D7150%20Bonyh%C3%A1d%2CPerczel%20M%C3%B3r%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dsimonpatrik2019%40gmail.com%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-16" lat="46.29047" lon="18.52326" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Bonyhád"/>
-    <tag k="addr:housenumber" v="85"/>
-    <tag k="addr:postcode" v="7150"/>
-    <tag k="addr:street" v="7150 Bonyhád,Perczel Mór utca"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DDunaszentgy%C3%B6rgy%7Caddr%3Apostcode%3D7135%7Caddr%3Astreet%3D7135%20Dunaszentgy%C3%B6rgy%2CV%C3%A1rdomb%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7135 Dunaszentgyörgy,Várdomb utca', 'postcode': '7135', 'city': 'Dunaszentgyörgy', 'street': '7135 Dunaszentgyörgy,Várdomb utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-22" lat="46.5281" lon="18.81448" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Dunaszentgyörgy"/>
+    <tag k="addr:postcode" v="7135"/>
+    <tag k="addr:street" v="7135 Dunaszentgyörgy,Várdomb utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:phone" v="simonpatrik2019@gmail.com"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -1095,20 +1530,20 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
-  <!-- OSM link: https://osm.org/node/4939179861 -->
-  <!-- Original coordinates: POINT (46.49636 18.41632) -->
-  <!-- OSM <-> POI distance: 126.80852628 m-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!-- OSM link: https://osm.org/node/4939278378 -->
+  <!-- Original coordinates: POINT (46.29796 18.53186) -->
+  <!-- OSM <-> POI distance: 29.62785496 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Hőgyész'
-addr:housenumber                 N		'12'
-addr:postcode                    N		'7191'
-addr:street                      N		'7191 Hőgyész,Kossuth Lajos tér'
+addr:city                        N		'Bonyhád'
+addr:housenumber                 N		'11'
+addr:postcode                    N		'7150'
+addr:street                      N		'7150 Bonyhád,Széchenyi tér'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            E		'verify'			'verify'
 name                             E		'Tom Market'			'Tom Market'
 payment:american_express         N		'yes'
@@ -1132,17 +1567,19 @@ payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             E		'convenience'			'convenience'
 source                           E		'route4u'			'route4u'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 wheelchair                       E		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4939179861&addtags=%7Caddr%3Acity%3DH%C5%91gy%C3%A9sz%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D7191%7Caddr%3Astreet%3D7191%20H%C5%91gy%C3%A9sz%2CKossuth%20Lajos%20t%C3%A9r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Droute4u%7Csource%3Atommarket.hu%3Adate%3D2020-06-10%7Cwheelchair%3Dyes -->
-  <node action="modify" id="4939179861" lat="46.4962386" lon="18.4179672" timestamp="2017-09-21T07:32:50Z" uid="8635934" user="osm_poi_matchmaker" version="3">
-    <tag k="addr:city" v="Hőgyész"/>
-    <tag k="addr:housenumber" v="12"/>
-    <tag k="addr:postcode" v="7191"/>
-    <tag k="addr:street" v="7191 Hőgyész,Kossuth Lajos tér"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4939278378&addtags=%7Caddr%3Acity%3DBonyh%C3%A1d%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D7150%7Caddr%3Astreet%3D7150%20Bonyh%C3%A1d%2CSz%C3%A9chenyi%20t%C3%A9r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Droute4u%7Csource%3Atommarket.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': '7150 Bonyhád,Széchenyi tér 11.', 'postcode': '7150', 'city': 'Bonyhád', 'street': '7150 Bonyhád,Széchenyi tér', 'housenumber': '11', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="4939278378" lat="46.2979787" lon="18.5322447" timestamp="2017-09-22T07:44:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Bonyhád"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:postcode" v="7150"/>
+    <tag k="addr:street" v="7150 Bonyhád,Széchenyi tér"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -1166,12 +1603,85 @@ wheelchair                       E		'yes'			'yes'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="route4u"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/4939179861 -->
+  <!-- Original coordinates: POINT (46.49636 18.41632) -->
+  <!-- OSM <-> POI distance: 126.80852628 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Hőgyész'
+addr:housenumber                 N		'12'
+addr:postcode                    N		'7191'
+addr:street                      N		'7191 Hőgyész,Kossuth Lajos tér'
+contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
+fixme                            E		'verify'			'verify'
+name                             E		'Tom Market'			'Tom Market'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             E		'convenience'			'convenience'
+source                           E		'route4u'			'route4u'
+source:tommarket.hu:date         N		'2021\-11\-20'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4939179861&addtags=%7Caddr%3Acity%3DH%C5%91gy%C3%A9sz%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D7191%7Caddr%3Astreet%3D7191%20H%C5%91gy%C3%A9sz%2CKossuth%20Lajos%20t%C3%A9r%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Droute4u%7Csource%3Atommarket.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': '7191 Hőgyész,Kossuth L. tér 12.', 'postcode': '7191', 'city': 'Hőgyész', 'street': '7191 Hőgyész,Kossuth Lajos tér', 'housenumber': '12', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="4939179861" lat="46.4962386" lon="18.4179672" timestamp="2017-09-21T07:32:50Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Hőgyész"/>
+    <tag k="addr:housenumber" v="12"/>
+    <tag k="addr:postcode" v="7191"/>
+    <tag k="addr:street" v="7191 Hőgyész,Kossuth Lajos tér"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
+    <tag k="fixme" v="verify"/>
+    <tag k="name" v="Tom Market"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source" v="route4u"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- Original coordinates: POINT (46.52712 18.36969) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Szakály'
@@ -1179,7 +1689,8 @@ addr:housenumber                 N		'77'
 addr:postcode                    N		'7192'
 addr:street                      N		'7192 Szakály,Fő utca'
 contact:facebook                 N		'https://www.facebook.com/TOM.Market.Magyarorszag'
-contact:website                  N		'https://tommarket.hu'
+contact:phone                    N		'info@tommarket.hu'
+contact:website                  N		'https://tommarket.hu/'
 fixme                            N		'verify import'
 name                             N		'Tom Market'
 payment:american_express         N		'yes'
@@ -1202,16 +1713,18 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:tommarket.hu:date         N		'2020\-06\-10'
+source:tommarket.hu:date         N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DSzak%C3%A1ly%7Caddr%3Ahousenumber%3D77%7Caddr%3Apostcode%3D7192%7Caddr%3Astreet%3D7192%20Szak%C3%A1ly%2CF%C5%91%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-18" lat="46.52712" lon="18.36969" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DSzak%C3%A1ly%7Caddr%3Ahousenumber%3D77%7Caddr%3Apostcode%3D7192%7Caddr%3Astreet%3D7192%20Szak%C3%A1ly%2CF%C5%91%20utca%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/TOM.Market.Magyarorszag%7Ccontact%3Aphone%3Dinfo%40tommarket.hu%7Ccontact%3Awebsite%3Dhttps%3A//tommarket.hu/%7Cfixme%3Dverify%20import%7Cname%3DTom%20Market%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Atommarket.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '7192 Szakály,Fő utca 77.', 'postcode': '7192', 'city': 'Szakály', 'street': '7192 Szakály,Fő utca', 'housenumber': '77', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-25" lat="46.52712" lon="18.36969" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szakály"/>
     <tag k="addr:housenumber" v="77"/>
     <tag k="addr:postcode" v="7192"/>
     <tag k="addr:street" v="7192 Szakály,Fő utca"/>
     <tag k="contact:facebook" v="https://www.facebook.com/TOM.Market.Magyarorszag"/>
-    <tag k="contact:website" v="https://tommarket.hu"/>
+    <tag k="contact:phone" v="info@tommarket.hu"/>
+    <tag k="contact:website" v="https://tommarket.hu/"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Tom Market"/>
     <tag k="payment:american_express" v="yes"/>
@@ -1234,6 +1747,6 @@ source:tommarket.hu:date         N		'2020\-06\-10'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:tommarket.hu:date" v="2020-06-10"/>
+    <tag k="source:tommarket.hu:date" v="2021-11-20"/>
   </node>
 </osm>

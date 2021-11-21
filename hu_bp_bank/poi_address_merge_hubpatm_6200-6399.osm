@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <!-- Original coordinates: POINT (46.62036 19.28423) -->
+  <!-- Original coordinates: POINT (46.6209 19.2845) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Kiskőrös'
 addr:housenumber                 N		'18'
 addr:postcode                    N		'6200'
 addr:street                      N		'Petőfi tér'
+air_conditioning                 N		'yes'
 amenity                          N		'atm'
+bic                              N		'BUDAHUHB'
 branch                           N		'Kiskőrös'
 brand                            N		'Budapest Bank'
 brand:wikidata                   N		'Q27493463'
@@ -17,20 +18,25 @@ brand:wikipedia                  N		'en:Budapest Bank'
 contact:website                  N		'https://www.budapestbank.hu'
 fixme                            N		'verify import'
 name                             N		'Budapest Bank ATM'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
 operator                         N		'Budapest Bank Zrt.'
 operator:addr                    N		'1138 Budapest, Váci út 193.'
 ref:HU:company                   N		'01 10 041037'
 ref:vatin                        N		'HU10196445'
 ref:vatin:hu                     N		'10196445\-4\-44'
-source:www.budapestbank.hu:date  N		'2020\-06\-10'
+source:www.budapestbank.hu:date  N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DKisk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D18%7Caddr%3Apostcode%3D6200%7Caddr%3Astreet%3DPet%C5%91fi%20t%C3%A9r%7Camenity%3Datm%7Cbranch%3DKisk%C5%91r%C3%B6s%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-1" lat="46.62036" lon="19.28423" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DKisk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D18%7Caddr%3Apostcode%3D6200%7Caddr%3Astreet%3DPet%C5%91fi%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DKisk%C5%91r%C3%B6s%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'Petőfi tér 18.', 'postcode': '6200', 'city': 'Kiskőrös', 'street': 'Petőfi tér', 'housenumber': '18', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-1" lat="46.6209" lon="19.2845" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kiskőrös"/>
     <tag k="addr:housenumber" v="18"/>
     <tag k="addr:postcode" v="6200"/>
     <tag k="addr:street" v="Petőfi tér"/>
+    <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
+    <tag k="bic" v="BUDAHUHB"/>
     <tag k="branch" v="Kiskőrös"/>
     <tag k="brand" v="Budapest Bank"/>
     <tag k="brand:wikidata" v="Q27493463"/>
@@ -38,23 +44,26 @@ source:www.budapestbank.hu:date  N		'2020\-06\-10'
     <tag k="contact:website" v="https://www.budapestbank.hu"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Budapest Bank ATM"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Budapest Bank Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
-    <tag k="source:www.budapestbank.hu:date" v="2020-06-10"/>
+    <tag k="source:www.budapestbank.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (46.52376 18.9816) -->
+  <!-- Original coordinates: POINT (46.5254 18.9794) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Kalocsa'
 addr:housenumber                 N		'57/A'
 addr:postcode                    N		'6300'
-addr:street                      N		'Szent István király út'
+addr:street                      N		'I.Istvan kiraly utca'
+air_conditioning                 N		'yes'
 amenity                          N		'atm'
+bic                              N		'BUDAHUHB'
 branch                           N		'Kalocsa'
 brand                            N		'Budapest Bank'
 brand:wikidata                   N		'Q27493463'
@@ -62,20 +71,25 @@ brand:wikipedia                  N		'en:Budapest Bank'
 contact:website                  N		'https://www.budapestbank.hu'
 fixme                            N		'verify import'
 name                             N		'Budapest Bank ATM'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
 operator                         N		'Budapest Bank Zrt.'
 operator:addr                    N		'1138 Budapest, Váci út 193.'
 ref:HU:company                   N		'01 10 041037'
 ref:vatin                        N		'HU10196445'
 ref:vatin:hu                     N		'10196445\-4\-44'
-source:www.budapestbank.hu:date  N		'2020\-06\-10'
+source:www.budapestbank.hu:date  N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DKalocsa%7Caddr%3Ahousenumber%3D57/A%7Caddr%3Apostcode%3D6300%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20kir%C3%A1ly%20%C3%BAt%7Camenity%3Datm%7Cbranch%3DKalocsa%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2020-06-10 -->
-  <node action="modify" id="-2" lat="46.52376" lon="18.9816" timestamp="2020-06-10T13:41:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DKalocsa%7Caddr%3Ahousenumber%3D57/A%7Caddr%3Apostcode%3D6300%7Caddr%3Astreet%3DI.Istvan%20kiraly%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DKalocsa%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': 'I.Istvan kiraly u. 57/a', 'postcode': '6300', 'city': 'Kalocsa', 'street': 'I.Istvan kiraly utca', 'housenumber': '57/A', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="46.5254" lon="18.9794" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kalocsa"/>
     <tag k="addr:housenumber" v="57/A"/>
     <tag k="addr:postcode" v="6300"/>
-    <tag k="addr:street" v="Szent István király út"/>
+    <tag k="addr:street" v="I.Istvan kiraly utca"/>
+    <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
+    <tag k="bic" v="BUDAHUHB"/>
     <tag k="branch" v="Kalocsa"/>
     <tag k="brand" v="Budapest Bank"/>
     <tag k="brand:wikidata" v="Q27493463"/>
@@ -83,11 +97,13 @@ source:www.budapestbank.hu:date  N		'2020\-06\-10'
     <tag k="contact:website" v="https://www.budapestbank.hu"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Budapest Bank ATM"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Budapest Bank Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
-    <tag k="source:www.budapestbank.hu:date" v="2020-06-10"/>
+    <tag k="source:www.budapestbank.hu:date" v="2021-11-20"/>
   </node>
 </osm>

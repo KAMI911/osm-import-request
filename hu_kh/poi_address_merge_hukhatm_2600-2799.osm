@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <!-- Original coordinates: POINT (47.755631 19.145593) -->
-  <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!-- OSM link: https://osm.org/node/8944718705 -->
+  <!-- Original coordinates: POINT (47.75563 19.14559) -->
+  <!-- OSM <-> POI distance: 8.6746831 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Vác'
 addr:housenumber                 N		'2'
 addr:postcode                    N		'2600'
 addr:street                      N		'Deres utca'
-amenity                          N		'atm'
+amenity                          E		'atm'			'atm'
 bic                              N		'OKHBHUHB'
 brand                            N		'K&H'
 contact:website                  N		'https://www.kh.hu'
-fixme                            N		'verify import'
-name                             N		'K&H Bank ATM'
+name                             M		'K&H Bank ATM'			'K&H ATM'
 opening_hours                    N		'24/7'
 opening_hours:covid19            N		'same'
-operator                         N		'K&H Bank Zrt.'
+operator                         M		'K&H Bank Zrt.'			'K&H'
 operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DDeres%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-1" lat="47.755631" lon="19.145593" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8944718705&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DDeres%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2600 Vác, Deres utca 2. ', 'postcode': '2600', 'city': 'Vác', 'street': 'Deres utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8944718705" lat="47.7556817" lon="19.1456769" timestamp="2021-07-23T17:37:34Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Vác"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="2600"/>
@@ -34,7 +34,6 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="bic" v="OKHBHUHB"/>
     <tag k="brand" v="K&amp;H"/>
     <tag k="contact:website" v="https://www.kh.hu"/>
-    <tag k="fixme" v="verify import"/>
     <tag k="name" v="K&amp;H Bank ATM"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="opening_hours:covid19" v="same"/>
@@ -43,11 +42,10 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.781352 19.1319) -->
+  <!-- Original coordinates: POINT (47.78135 19.1319) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Vác'
@@ -67,10 +65,11 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D34%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-2" lat="47.781352" lon="19.1319" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D34%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2600 Vác, Széchenyi utca 34. fszt. 3.', 'postcode': '2600', 'city': 'Vác', 'street': 'Széchenyi utca', 'housenumber': '34', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="47.78135" lon="19.1319" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Vác"/>
     <tag k="addr:housenumber" v="34"/>
     <tag k="addr:postcode" v="2600"/>
@@ -88,17 +87,16 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (48.079834 19.29816) -->
+  <!-- Original coordinates: POINT (48.07983 19.29816) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Balassagyarmat'
 addr:housenumber                 N		'46'
 addr:postcode                    N		'2660'
-addr:street                      N		'Rákóczi fejedelem útja'
+addr:street                      N		'Rákóczi fejedelem út'
 amenity                          N		'atm'
 bic                              N		'OKHBHUHB'
 brand                            N		'K&H'
@@ -112,14 +110,15 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBalassagyarmat%7Caddr%3Ahousenumber%3D46%7Caddr%3Apostcode%3D2660%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20fejedelem%20%C3%BAtja%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-3" lat="48.079834" lon="19.29816" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBalassagyarmat%7Caddr%3Ahousenumber%3D46%7Caddr%3Apostcode%3D2660%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20fejedelem%20%C3%BAt%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2660 Balassagyarmat, Rákóczi fejedelem út 46.', 'postcode': '2660', 'city': 'Balassagyarmat', 'street': 'Rákóczi fejedelem út', 'housenumber': '46', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-3" lat="48.07983" lon="19.29816" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Balassagyarmat"/>
     <tag k="addr:housenumber" v="46"/>
     <tag k="addr:postcode" v="2660"/>
-    <tag k="addr:street" v="Rákóczi fejedelem útja"/>
+    <tag k="addr:street" v="Rákóczi fejedelem út"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="OKHBHUHB"/>
     <tag k="brand" v="K&amp;H"/>
@@ -133,11 +132,10 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.18946 19.801884) -->
+  <!-- Original coordinates: POINT (47.18946 19.80188) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Cegléd'
@@ -157,10 +155,11 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DIpartelepi%20%C3%BAt%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-4" lat="47.18946" lon="19.801884" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DIpartelepi%20%C3%BAt%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2700 Cegléd, Ipartelepi út 3.', 'postcode': '2700', 'city': 'Cegléd', 'street': 'Ipartelepi út', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="47.18946" lon="19.80188" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Cegléd"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="2700"/>
@@ -178,11 +177,10 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.183479 19.796157) -->
+  <!-- Original coordinates: POINT (47.18347 19.79615) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Cegléd'
@@ -202,10 +200,11 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DMalomt%C3%B3%20sz%C3%A9l%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-5" lat="47.183479" lon="19.796157" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DMalomt%C3%B3%20sz%C3%A9l%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2700 Cegléd, Malomtó szél 30.', 'postcode': '2700', 'city': 'Cegléd', 'street': 'Malomtó szél', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.18347" lon="19.79615" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Cegléd"/>
     <tag k="addr:housenumber" v="30"/>
     <tag k="addr:postcode" v="2700"/>
@@ -223,11 +222,10 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.171308 19.797733) -->
+  <!-- Original coordinates: POINT (47.1713 19.79773) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Cegléd'
@@ -247,10 +245,11 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DSzabads%C3%A1g%20t%C3%A9r%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-6" lat="47.171308" lon="19.797733" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DSzabads%C3%A1g%20t%C3%A9r%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2700 Cegléd, Szabadság tér 1.', 'postcode': '2700', 'city': 'Cegléd', 'street': 'Szabadság tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-6" lat="47.1713" lon="19.79773" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Cegléd"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="2700"/>
@@ -268,11 +267,10 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.171755 19.817292) -->
+  <!-- Original coordinates: POINT (47.17175 19.81729) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Cegléd'
@@ -292,10 +290,11 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DT%C3%B6rteli%20%C3%BAt%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-7" lat="47.171755" lon="19.817292" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DT%C3%B6rteli%20%C3%BAt%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2700 Cegléd, Törteli út 1-3.', 'postcode': '2700', 'city': 'Cegléd', 'street': 'Törteli út', 'housenumber': '1-3', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="47.17175" lon="19.81729" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Cegléd"/>
     <tag k="addr:housenumber" v="1-3"/>
     <tag k="addr:postcode" v="2700"/>
@@ -313,12 +312,11 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
   <!-- OSM link: https://osm.org/node/4547870906 -->
-  <!-- Original coordinates: POINT (47.243523 19.611166) -->
-  <!-- OSM <-> POI distance: 15.12895232 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!-- Original coordinates: POINT (47.24352 19.61116) -->
+  <!-- OSM <-> POI distance: 15.23208554 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Albertirsa'
@@ -337,9 +335,10 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4547870906&addtags=%7Caddr%3Acity%3DAlbertirsa%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D2730%7Caddr%3Astreet%3DVas%C3%BAt%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4547870906&addtags=%7Caddr%3Acity%3DAlbertirsa%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D2730%7Caddr%3Astreet%3DVas%C3%BAt%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2730 Albertirsa, Vasút utca 4/13', 'postcode': '2730', 'city': 'Albertirsa', 'street': 'Vasút utca', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4547870906" lat="47.2434283" lon="19.6113099" timestamp="2016-12-10T13:00:08Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Albertirsa"/>
     <tag k="addr:housenumber" v="4"/>
@@ -357,17 +356,16 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.046317 19.781993) -->
+  <!-- Original coordinates: POINT (47.04631 19.78199) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Nagykőrös'
 addr:housenumber                 N		'32'
 addr:postcode                    N		'2750'
-addr:street                      N		'Ceglédi út'
+addr:street                      N		'Ceglédi utca'
 amenity                          N		'atm'
 bic                              N		'OKHBHUHB'
 brand                            N		'K&H'
@@ -381,14 +379,15 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DCegl%C3%A9di%20%C3%BAt%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-9" lat="47.046317" lon="19.781993" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DCegl%C3%A9di%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2750 Nagykőrös, Ceglédi u. 32.', 'postcode': '2750', 'city': 'Nagykőrös', 'street': 'Ceglédi utca', 'housenumber': '32', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-9" lat="47.04631" lon="19.78199" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nagykőrös"/>
     <tag k="addr:housenumber" v="32"/>
     <tag k="addr:postcode" v="2750"/>
-    <tag k="addr:street" v="Ceglédi út"/>
+    <tag k="addr:street" v="Ceglédi utca"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="OKHBHUHB"/>
     <tag k="brand" v="K&amp;H"/>
@@ -402,11 +401,10 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.033026 19.781191) -->
+  <!-- Original coordinates: POINT (47.03302 19.78119) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Nagykőrös'
@@ -426,10 +424,11 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DDe%C3%A1k%20t%C3%A9r%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-10" lat="47.033026" lon="19.781191" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DDe%C3%A1k%20t%C3%A9r%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2750 Nagykőrös, Deák tér 1.', 'postcode': '2750', 'city': 'Nagykőrös', 'street': 'Deák tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-10" lat="47.03302" lon="19.78119" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nagykőrös"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="2750"/>
@@ -447,17 +446,16 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
-  <!-- Original coordinates: POINT (47.417171 19.740797) -->
+  <!-- Original coordinates: POINT (47.41717 19.74079) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Nagykáta'
 addr:housenumber                 N		'4'
 addr:postcode                    N		'2760'
-addr:street                      N		'Dózsa György utca'
+addr:street                      N		'Dózsa György út'
 amenity                          N		'atm'
 bic                              N		'OKHBHUHB'
 brand                            N		'K&H'
@@ -471,14 +469,15 @@ operator:addr                    N		'1095 Budapest, Lechner Ödön fasor 9.'
 ref:HU:company                   N		'01 10 041043'
 ref:vatin                        N		'HU10195664'
 ref:vatin:hu                     N		'10195664\-4\-44'
-source:www.kh.hu:date            N		'2020\-05\-17'
+source:www.kh.hu:date            N		'2021\-11\-20'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DNagyk%C3%A1ta%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D2760%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20utca%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2020-05-17 -->
-  <node action="modify" id="-11" lat="47.417171" lon="19.740797" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DNagyk%C3%A1ta%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D2760%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Camenity%3Datm%7Cbic%3DOKHBHUHB%7Cbrand%3DK%26H%7Ccontact%3Awebsite%3Dhttps%3A//www.kh.hu%7Cfixme%3Dverify%20import%7Cname%3DK%26H%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DK%26H%20Bank%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Lechner%20%C3%96d%C3%B6n%20fasor%209.%7Cref%3AHU%3Acompany%3D01%2010%20041043%7Cref%3Avatin%3DHU10195664%7Cref%3Avatin%3Ahu%3D10195664-4-44%7Csource%3Awww.kh.hu%3Adate%3D2021-11-20 -->
+  <!--ˇ'original': '2760 Nagykáta, Dózsa György út 4.', 'postcode': '2760', 'city': 'Nagykáta', 'street': 'Dózsa György út', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-11" lat="47.41717" lon="19.74079" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nagykáta"/>
     <tag k="addr:housenumber" v="4"/>
     <tag k="addr:postcode" v="2760"/>
-    <tag k="addr:street" v="Dózsa György utca"/>
+    <tag k="addr:street" v="Dózsa György út"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="OKHBHUHB"/>
     <tag k="brand" v="K&amp;H"/>
@@ -492,6 +491,6 @@ source:www.kh.hu:date            N		'2020\-05\-17'
     <tag k="ref:HU:company" v="01 10 041043"/>
     <tag k="ref:vatin" v="HU10195664"/>
     <tag k="ref:vatin:hu" v="10195664-4-44"/>
-    <tag k="source:www.kh.hu:date" v="2020-05-17"/>
+    <tag k="source:www.kh.hu:date" v="2021-11-20"/>
   </node>
 </osm>

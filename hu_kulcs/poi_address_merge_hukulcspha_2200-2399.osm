@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <!-- Original coordinates: POINT (47.409575549075 19.264569282532) -->
+  <!-- Original coordinates: POINT (47.40957 19.26457) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Vecsés'
-addr:housenumber                 N		'20'
-addr:postcode                    N		'2220'
-addr:street                      N		'Károly utca'
-air_conditioning                 N		'yes'
-amenity                          N		'pharmacy'
-brand                            N		'Kulcs Patika'
-contact:website                  N		'https://www.kulcspatika.hu/patikak/hanga\-patika\-p214'
-dispensing                       N		'yes'
-fixme                            N		'verify import'
-name                             N		'None'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:www.kulcspatika.hu:date   N		'2020\-09\-19'
+addr:city                        NEW		'Vecsés'
+addr:housenumber                 NEW		'20'
+addr:postcode                    NEW		'2220'
+addr:street                      NEW		'Károly utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'pharmacy'
+brand                            NEW		'Kulcs Patika'
+contact:website                  NEW		'https://www.kulcspatika.hu/'
+dispensing                       NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'None'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DVecs%C3%A9s%7Caddr%3Ahousenumber%3D20%7Caddr%3Apostcode%3D2220%7Caddr%3Astreet%3DK%C3%A1roly%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/patikak/hanga-patika-p214%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.kulcspatika.hu%3Adate%3D2020-09-19 -->
-  <node action="modify" id="-1" lat="47.409575549075" lon="19.264569282532" timestamp="2020-09-19T00:19:02Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DVecs%C3%A9s%7Caddr%3Ahousenumber%3D20%7Caddr%3Apostcode%3D2220%7Caddr%3Astreet%3DK%C3%A1roly%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'None', 'postcode': '2220', 'city': 'Vecsés', 'street': 'Károly utca', 'housenumber': '20', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-1" lat="47.40957" lon="19.26457" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Vecsés"/>
     <tag k="addr:housenumber" v="20"/>
     <tag k="addr:postcode" v="2220"/>
@@ -35,7 +35,7 @@ source:www.kulcspatika.hu:date   N		'2020\-09\-19'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="pharmacy"/>
     <tag k="brand" v="Kulcs Patika"/>
-    <tag k="contact:website" v="https://www.kulcspatika.hu/patikak/hanga-patika-p214"/>
+    <tag k="contact:website" v="https://www.kulcspatika.hu/"/>
     <tag k="dispensing" v="yes"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="None"/>
@@ -47,44 +47,93 @@ source:www.kulcspatika.hu:date   N		'2020\-09\-19'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:www.kulcspatika.hu:date" v="2020-09-19"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
-  <!-- Original coordinates: POINT (47.452447666338 19.524409991402) -->
+  <!-- Original coordinates: POINT (47.42837 19.44626) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Sülysáp'
-addr:housenumber                 N		'26'
-addr:postcode                    N		'2242'
-addr:street                      N		'Vasút utca'
-air_conditioning                 N		'yes'
-amenity                          N		'pharmacy'
-brand                            N		'Kulcs Patika'
-contact:website                  N		'https://www.kulcspatika.hu/patikak/levendula\-patika\-p69'
-dispensing                       N		'yes'
-fixme                            N		'verify import'
-name                             N		'None'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:www.kulcspatika.hu:date   N		'2020\-09\-19'
+addr:city                        NEW		'Mende'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'2235'
+addr:street                      NEW		'Állomás utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'pharmacy'
+brand                            NEW		'Kulcs Patika'
+contact:website                  NEW		'https://www.kulcspatika.hu/'
+dispensing                       NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'None'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DS%C3%BClys%C3%A1p%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D2242%7Caddr%3Astreet%3DVas%C3%BAt%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/patikak/levendula-patika-p69%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.kulcspatika.hu%3Adate%3D2020-09-19 -->
-  <node action="modify" id="-2" lat="47.452447666338" lon="19.524409991402" timestamp="2020-09-19T00:19:02Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DMende%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2235%7Caddr%3Astreet%3D%C3%81llom%C3%A1s%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'None', 'postcode': '2235', 'city': 'Mende', 'street': 'Állomás utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="47.42837" lon="19.44626" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Mende"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="2235"/>
+    <tag k="addr:street" v="Állomás utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="brand" v="Kulcs Patika"/>
+    <tag k="contact:website" v="https://www.kulcspatika.hu/"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (47.4524 19.5244) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Sülysáp'
+addr:housenumber                 NEW		'26'
+addr:postcode                    NEW		'2241'
+addr:street                      NEW		'Vasút utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'pharmacy'
+brand                            NEW		'Kulcs Patika'
+contact:website                  NEW		'https://www.kulcspatika.hu/'
+dispensing                       NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'None'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DS%C3%BClys%C3%A1p%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D2241%7Caddr%3Astreet%3DVas%C3%BAt%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'None', 'postcode': '2241', 'city': 'Sülysáp', 'street': 'Vasút utca', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-3" lat="47.4524" lon="19.5244" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Sülysáp"/>
     <tag k="addr:housenumber" v="26"/>
-    <tag k="addr:postcode" v="2242"/>
+    <tag k="addr:postcode" v="2241"/>
     <tag k="addr:street" v="Vasút utca"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="pharmacy"/>
     <tag k="brand" v="Kulcs Patika"/>
-    <tag k="contact:website" v="https://www.kulcspatika.hu/patikak/levendula-patika-p69"/>
+    <tag k="contact:website" v="https://www.kulcspatika.hu/"/>
     <tag k="dispensing" v="yes"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="None"/>
@@ -96,44 +145,44 @@ source:www.kulcspatika.hu:date   N		'2020\-09\-19'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:www.kulcspatika.hu:date" v="2020-09-19"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
-  <!-- Original coordinates: POINT (47.32643954805 19.002023935318) -->
+  <!-- Original coordinates: POINT (47.41416 19.52329) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szigethalom'
-addr:housenumber                 N		'12'
-addr:postcode                    N		'2315'
-addr:street                      N		'Kossuth Lajos utca'
-air_conditioning                 N		'yes'
-amenity                          N		'pharmacy'
-brand                            N		'Kulcs Patika'
-contact:website                  N		'https://www.kulcspatika.hu/patikak/csillag\-patika\-p153'
-dispensing                       N		'yes'
-fixme                            N		'verify import'
-name                             N		'None'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:www.kulcspatika.hu:date   N		'2020\-09\-19'
+addr:city                        NEW		'Úri'
+addr:housenumber                 NEW		'29'
+addr:postcode                    NEW		'2244'
+addr:street                      NEW		'Rákóczi utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'pharmacy'
+brand                            NEW		'Kulcs Patika'
+contact:website                  NEW		'https://www.kulcspatika.hu/'
+dispensing                       NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'None'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DSzigethalom%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D2315%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/patikak/csillag-patika-p153%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.kulcspatika.hu%3Adate%3D2020-09-19 -->
-  <node action="modify" id="-3" lat="47.32643954805" lon="19.002023935318" timestamp="2020-09-19T00:19:02Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Szigethalom"/>
-    <tag k="addr:housenumber" v="12"/>
-    <tag k="addr:postcode" v="2315"/>
-    <tag k="addr:street" v="Kossuth Lajos utca"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3D%C3%9Ari%7Caddr%3Ahousenumber%3D29%7Caddr%3Apostcode%3D2244%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'None', 'postcode': '2244', 'city': 'Úri', 'street': 'Rákóczi utca', 'housenumber': '29', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="47.41416" lon="19.52329" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Úri"/>
+    <tag k="addr:housenumber" v="29"/>
+    <tag k="addr:postcode" v="2244"/>
+    <tag k="addr:street" v="Rákóczi utca"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="pharmacy"/>
     <tag k="brand" v="Kulcs Patika"/>
-    <tag k="contact:website" v="https://www.kulcspatika.hu/patikak/csillag-patika-p153"/>
+    <tag k="contact:website" v="https://www.kulcspatika.hu/"/>
     <tag k="dispensing" v="yes"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="None"/>
@@ -145,36 +194,134 @@ source:www.kulcspatika.hu:date   N		'2020\-09\-19'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:www.kulcspatika.hu:date" v="2020-09-19"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
-  <!-- Original coordinates: POINT (47.213278712211 19.278215589302) -->
+  <!-- Original coordinates: POINT (47.32787 19.00687) -->
   <!-- OSM <-> POI distance: Non exist-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Dabas'
-addr:housenumber                 N		'154'
-addr:postcode                    N		'2371'
-addr:street                      N		'Szent János út'
-air_conditioning                 N		'yes'
-amenity                          N		'pharmacy'
-brand                            N		'Kulcs Patika'
-contact:website                  N		'https://www.kulcspatika.hu/patikak/szent\-janos\-gyogyszertar\-p107'
-dispensing                       N		'yes'
-fixme                            N		'verify import'
-name                             N		'None'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:www.kulcspatika.hu:date   N		'2020\-09\-19'
+addr:city                        NEW		'Szigethalom'
+addr:housenumber                 NEW		'5'
+addr:postcode                    NEW		'2315'
+addr:street                      NEW		'Mű út'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'pharmacy'
+brand                            NEW		'Kulcs Patika'
+contact:website                  NEW		'https://www.kulcspatika.hu/'
+dispensing                       NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'None'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DDabas%7Caddr%3Ahousenumber%3D154%7Caddr%3Apostcode%3D2371%7Caddr%3Astreet%3DSzent%20J%C3%A1nos%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/patikak/szent-janos-gyogyszertar-p107%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Awww.kulcspatika.hu%3Adate%3D2020-09-19 -->
-  <node action="modify" id="-4" lat="47.213278712211" lon="19.278215589302" timestamp="2020-09-19T00:19:02Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DSzigethalom%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D2315%7Caddr%3Astreet%3DM%C5%B1%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'None', 'postcode': '2315', 'city': 'Szigethalom', 'street': 'Mű út', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.32787" lon="19.00687" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Szigethalom"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:postcode" v="2315"/>
+    <tag k="addr:street" v="Mű út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="brand" v="Kulcs Patika"/>
+    <tag k="contact:website" v="https://www.kulcspatika.hu/"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (47.38298 19.21186) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Gyál'
+addr:housenumber                 NEW		'117'
+addr:postcode                    NEW		'2360'
+addr:street                      NEW		'Munkácsy Mihály utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'pharmacy'
+brand                            NEW		'Kulcs Patika'
+contact:website                  NEW		'https://www.kulcspatika.hu/'
+dispensing                       NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'None'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DGy%C3%A1l%7Caddr%3Ahousenumber%3D117%7Caddr%3Apostcode%3D2360%7Caddr%3Astreet%3DMunk%C3%A1csy%20Mih%C3%A1ly%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'None', 'postcode': '2360', 'city': 'Gyál', 'street': 'Munkácsy Mihály utca', 'housenumber': '117', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-6" lat="47.38298" lon="19.21186" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Gyál"/>
+    <tag k="addr:housenumber" v="117"/>
+    <tag k="addr:postcode" v="2360"/>
+    <tag k="addr:street" v="Munkácsy Mihály utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="brand" v="Kulcs Patika"/>
+    <tag k="contact:website" v="https://www.kulcspatika.hu/"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (47.21347 19.27629) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Dabas'
+addr:housenumber                 NEW		'154'
+addr:postcode                    NEW		'2371'
+addr:street                      NEW		'Szent János út'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'pharmacy'
+brand                            NEW		'Kulcs Patika'
+contact:website                  NEW		'https://www.kulcspatika.hu/'
+dispensing                       NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'None'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DDabas%7Caddr%3Ahousenumber%3D154%7Caddr%3Apostcode%3D2371%7Caddr%3Astreet%3DSzent%20J%C3%A1nos%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dpharmacy%7Cbrand%3DKulcs%20Patika%7Ccontact%3Awebsite%3Dhttps%3A//www.kulcspatika.hu/%7Cdispensing%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DNone%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'None', 'postcode': '2371', 'city': 'Dabas', 'street': 'Szent János út', 'housenumber': '154', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="47.21347" lon="19.27629" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Dabas"/>
     <tag k="addr:housenumber" v="154"/>
     <tag k="addr:postcode" v="2371"/>
@@ -182,7 +329,7 @@ source:www.kulcspatika.hu:date   N		'2020\-09\-19'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="pharmacy"/>
     <tag k="brand" v="Kulcs Patika"/>
-    <tag k="contact:website" v="https://www.kulcspatika.hu/patikak/szent-janos-gyogyszertar-p107"/>
+    <tag k="contact:website" v="https://www.kulcspatika.hu/"/>
     <tag k="dispensing" v="yes"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="None"/>
@@ -194,6 +341,6 @@ source:www.kulcspatika.hu:date   N		'2020\-09\-19'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:www.kulcspatika.hu:date" v="2020-09-19"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
 </osm>

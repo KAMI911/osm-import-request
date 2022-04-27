@@ -4,43 +4,42 @@
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Sárvár'
-addr:housenumber                 N		'71'
-addr:postcode                    N		'9600'
-addr:street                      N		'Batthyány utca'
-amenity                          N		'vending_machine'
-branch                           N		'Sárvár Penny Batthyány utca'
-brand                            N		'Foxpost'
-contact:email                    N		'info@foxpost.hu'
-contact:facebook                 N		'https://www.facebook.com/foxpostzrt'
-contact:phone                    N		'+36 1 999 03 69'
-contact:website                  N		'https://www.foxpost.hu'
-contact:youtube                  N		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      N		'Kültéri automatánk a bejárattól jobbra található a buszpályaudvar felöli homlokzaton. Az automatát minden hétköznap 13:30 \- 14:30 között ürítjük és töltjük. '
-fixme                            N		'verify import'
-name                             N		'Foxpost'
-opening_hours                    N		'24/7; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'FoxPost Zrt.'
-operator:addr                    N		'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     N		'no'
-payment:contactless              N		'yes'
-payment:mastercard               N		'yes'
-payment:visa                     N		'yes'
-ref:HU:company                   N		'10 10 020309'
-ref:vatin                        N		'HU25034644'
-ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2021\-11\-20'
-vending                          N		'parcel_pickup;parcel_mail_in'
+addr:city                        NEW		'Sárvár'
+addr:housenumber                 NEW		'71'
+addr:postcode                    NEW		'9600'
+addr:street                      NEW		'Batthyány utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Sárvár Penny Batthyány utca'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'Kültéri automatánk a bejárattól jobbra található a buszpályaudvar felöli homlokzaton. Az automatát minden hétköznap 14:00\-15:00 között ürítjük és töltjük. HU470'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DS%C3%A1rv%C3%A1r%7Caddr%3Ahousenumber%3D71%7Caddr%3Apostcode%3D9600%7Caddr%3Astreet%3DBatthy%C3%A1ny%20utca%7Camenity%3Dvending_machine%7Cbranch%3DS%C3%A1rv%C3%A1r%20Penny%20Batthy%C3%A1ny%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20bej%C3%A1ratt%C3%B3l%20jobbra%20tal%C3%A1lhat%C3%B3%20a%20buszp%C3%A1lyaudvar%20fel%C3%B6li%20homlokzaton.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2013%3A30%20-%2014%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DS%C3%A1rv%C3%A1r%7Caddr%3Ahousenumber%3D71%7Caddr%3Apostcode%3D9600%7Caddr%3Astreet%3DBatthy%C3%A1ny%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DS%C3%A1rv%C3%A1r%20Penny%20Batthy%C3%A1ny%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20bej%C3%A1ratt%C3%B3l%20jobbra%20tal%C3%A1lhat%C3%B3%20a%20buszp%C3%A1lyaudvar%20fel%C3%B6li%20homlokzaton.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2014%3A00-15%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU470%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': '9600 Sárvár, Batthyány utca 71.', 'postcode': '9600', 'city': 'Sárvár', 'street': 'Batthyány utca', 'housenumber': '71', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.253971" lon="16.92559" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-1" lat="47.253971" lon="16.92559" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Sárvár"/>
     <tag k="addr:housenumber" v="71"/>
     <tag k="addr:postcode" v="9600"/>
     <tag k="addr:street" v="Batthyány utca"/>
-    <tag k="amenity" v="vending_machine"/>
+    <tag k="amenity" v="parcel_locker"/>
     <tag k="branch" v="Sárvár Penny Batthyány utca"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
@@ -48,13 +47,13 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Kültéri automatánk a bejárattól jobbra található a buszpályaudvar felöli homlokzaton. Az automatát minden hétköznap 13:30 - 14:30 között ürítjük és töltjük. "/>
+    <tag k="description" v="Kültéri automatánk a bejárattól jobbra található a buszpályaudvar felöli homlokzaton. Az automatát minden hétköznap 14:00-15:00 között ürítjük és töltjük. HU470"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="24/7; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -62,51 +61,114 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (47.255154 16.618173) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Szombathely'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'9700'
+addr:street                      NEW		'Demeter utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Szombathely ALDI Demeter utca'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'Kültéri automatánk az áruház parkolójának bejáratától balra található. Az automatát minden hétköznap 08:00\-09:00 között ürítjük és töltjük. HU676'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DDemeter%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DSzombathely%20ALDI%20Demeter%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20parkol%C3%B3j%C3%A1nak%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A00-09%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU676%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': '9700 Szombathely, Demeter utca 2.', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Demeter utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="47.255154" lon="16.618173" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Szombathely"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="9700"/>
+    <tag k="addr:street" v="Demeter utca"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Szombathely ALDI Demeter utca"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="Kültéri automatánk az áruház parkolójának bejáratától balra található. Az automatát minden hétköznap 08:00-09:00 között ürítjük és töltjük. HU676"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/7947742030 -->
   <!-- Original coordinates: POINT (47.242662 16.591305) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Szombathely'			'Szombathely'
-addr:housenumber                 E		'10'			'10'
-addr:postcode                    E		'9700'			'9700'
-addr:street                      E		'Gazdag Erzsi utca'			'Gazdag Erzsi utca'
-amenity                          E		'vending_machine'			'vending_machine'
-branch                           M		'Szombathely Tesco Gazdag Erzsi utca'			'Szombathely Tesco'
-brand                            E		'Foxpost'			'Foxpost'
-contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
-contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 03 69'			'+36 1 999 03 69'
-contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
-contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'Kültéri automatánk az áruházzal szemben állva, annak bejáratától 10 méterre balra található a fal előtt. Az automatát minden hétköznap 11:00\-12:00 között ürítjük és töltjük.'			'Figyelem! Automatánk kültéren helyezkedik el. Ha szembe állunk az áruházzal, akkor a bejárattól 10 méterre balra a fal előtt.'
-fixme                            E		'verify import'			'verify import'
-name                             E		'Foxpost'			'Foxpost'
-opening_hours                    E		'24/7; PH off'			'24/7; PH off'
-opening_hours:covid19            E		'same'			'same'
-operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
-operator:addr                    E		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     E		'no'			'no'
-payment:contactless              E		'yes'			'yes'
-payment:mastercard               E		'yes'			'yes'
-payment:visa                     E		'yes'			'yes'
-ref:HU:company                   E		'10 10 020309'			'10 10 020309'
-ref:vatin                        E		'HU25034644'			'HU25034644'
-ref:vatin:hu                     E		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2021\-11\-20'			'2020\-09\-27'
-vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
+addr:city                         EQU 		'Szombathely'			'Szombathely'
+addr:housenumber                  EQU 		'10'			'10'
+addr:postcode                     EQU 		'9700'			'9700'
+addr:street                       EQU 		'Gazdag Erzsi utca'			'Gazdag Erzsi utca'
+amenity                           EQU 		'parcel_locker'			'parcel_locker'
+branch                            MOD 		'Szombathely Tesco Gazdag Erzsi utca'			'Szombathely Tesco'
+brand                             EQU 		'Foxpost'			'Foxpost'
+contact:email                     EQU 		'info@foxpost.hu'			'info@foxpost.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
+contact:phone                     EQU 		'+36 1 999 03 69'			'+36 1 999 03 69'
+contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                       MOD 		'Kültéri automatánk az áruházzal szemben állva, annak bejáratától 10 méterre balra található a fal előtt. Az automatát minden hétköznap 08:30\-09:30 között ürítjük és töltjük. HU311'			'Figyelem! Automatánk kültéren helyezkedik el. Ha szembe állunk az áruházzal, akkor a bejárattól 10 méterre balra a fal előtt.'
+fixme                             EQU 		'verify import'			'verify import'
+name                              EQU 		'Foxpost'			'Foxpost'
+opening_hours                     EQU 		'24/7; PH off'			'24/7; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'FoxPost Zrt.'			'FoxPost Zrt.'
+operator:addr                     EQU 		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                    EQU 		'yes'			'yes'
+parcel_pickup                     EQU 		'yes'			'yes'
+payment:cash                      EQU 		'no'			'no'
+payment:contactless               EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
+ref:vatin                         EQU 		'HU25034644'			'HU25034644'
+ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7947742030&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DGazdag%20Erzsi%20utca%7Camenity%3Dvending_machine%7Cbranch%3DSzombathely%20Tesco%20Gazdag%20Erzsi%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1zzal%20szemben%20%C3%A1llva%2C%20annak%20bej%C3%A1rat%C3%A1t%C3%B3l%2010%20m%C3%A9terre%20balra%20tal%C3%A1lhat%C3%B3%20a%20fal%20el%C5%91tt.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A00-12%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7947742030&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DGazdag%20Erzsi%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DSzombathely%20Tesco%20Gazdag%20Erzsi%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1zzal%20szemben%20%C3%A1llva%2C%20annak%20bej%C3%A1rat%C3%A1t%C3%B3l%2010%20m%C3%A9terre%20balra%20tal%C3%A1lhat%C3%B3%20a%20fal%20el%C5%91tt.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A30-09%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU311%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': '9700 Szombathely, Gazdag Erzsi utca 10.', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Gazdag Erzsi utca', 'housenumber': '10', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="7947742030" lat="47.242662" lon="16.591305" timestamp="2020-09-27T13:20:52Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <node action="modify" id="7947742030" lat="47.242662" lon="16.591305" timestamp="2022-02-12T20:42:22Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Szombathely"/>
     <tag k="addr:housenumber" v="10"/>
     <tag k="addr:postcode" v="9700"/>
     <tag k="addr:street" v="Gazdag Erzsi utca"/>
-    <tag k="amenity" v="vending_machine"/>
+    <tag k="amenity" v="parcel_locker"/>
     <tag k="branch" v="Szombathely Tesco Gazdag Erzsi utca"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
@@ -114,13 +176,15 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Kültéri automatánk az áruházzal szemben állva, annak bejáratától 10 méterre balra található a fal előtt. Az automatát minden hétköznap 11:00-12:00 között ürítjük és töltjük."/>
+    <tag k="description" v="Kültéri automatánk az áruházzal szemben állva, annak bejáratától 10 méterre balra található a fal előtt. Az automatát minden hétköznap 08:30-09:30 között ürítjük és töltjük. HU311"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="24/7; PH off"/>
     <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="parcel_pickup" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -128,50 +192,50 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059675176 -->
   <!-- Original coordinates: POINT (47.229802 16.61989) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Szombathely'			'Szombathely'
-addr:housenumber                 E		'3\-5'			'3\-5'
-addr:postcode                    E		'9700'			'9700'
-addr:street                      E		'Hefele Menyhért utca'			'Hefele Menyhért utca'
-amenity                          E		'vending_machine'			'vending_machine'
-branch                           E		'Szombathely Spar Hefele Menyhért utca'			'Szombathely Spar Hefele Menyhért utca'
-brand                            E		'Foxpost'			'Foxpost'
-contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
-contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 0369'			'+36 1 999 0369'
-contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
-contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'Automatánk az üzlet bejáratánál található. Az automatát minden hétköznap 11:30\-12:30 között ürítjük és töltjük.'			'Automatánkat az üzlet bejáratánál találod.'
-name                             E		'Foxpost'			'Foxpost'
-opening_hours                    E		'Mo\-Fr 06:30\-20:00; Sa 06:30\-17:00; PH off'			'Mo\-Fr 06:30\-20:00; Sa 06:30\-17:00; PH off'
-opening_hours:covid19            E		'Mo\-Fr 06:30\-19:00; Sa 06:30\-15:00; PH off'			'Mo\-Fr 06:30\-19:00; Sa 06:30\-15:00; PH off'
-operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
-operator:addr                    E		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     E		'no'			'no'
-payment:contactless              E		'yes'			'yes'
-payment:mastercard               E		'yes'			'yes'
-payment:visa                     E		'yes'			'yes'
-ref:HU:company                   E		'10 10 020309'			'10 10 020309'
-ref:vatin                        E		'HU25034644'			'HU25034644'
-ref:vatin:hu                     E		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2021\-11\-20'			'2020\-09\-27'
-vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
+addr:city                         EQU 		'Szombathely'			'Szombathely'
+addr:housenumber                  EQU 		'3\-5'			'3\-5'
+addr:postcode                     EQU 		'9700'			'9700'
+addr:street                       EQU 		'Hefele Menyhért utca'			'Hefele Menyhért utca'
+amenity                           EQU 		'parcel_locker'			'parcel_locker'
+branch                            EQU 		'Szombathely Spar Hefele Menyhért utca'			'Szombathely Spar Hefele Menyhért utca'
+brand                             EQU 		'Foxpost'			'Foxpost'
+contact:email                     EQU 		'info@foxpost.hu'			'info@foxpost.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
+contact:phone                     EQU 		'+36 1 999 0369'			'+36 1 999 0369'
+contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                       MOD 		'Automatánk az üzlet bejáratánál található. Az automatát minden hétköznap 10:30\-11:30 között ürítjük és töltjük. HU130'			'Automatánkat az üzlet bejáratánál találod.'
+name                              EQU 		'Foxpost'			'Foxpost'
+opening_hours                     MOD 		'Mo\-Fr 06:30\-19:00; Sa 06:30\-15:00; PH off'			'Mo\-Fr 06:30\-20:00; Sa 06:30\-17:00; PH off'
+opening_hours:covid19             EQU 		'Mo\-Fr 06:30\-19:00; Sa 06:30\-15:00; PH off'			'Mo\-Fr 06:30\-19:00; Sa 06:30\-15:00; PH off'
+operator                          EQU 		'FoxPost Zrt.'			'FoxPost Zrt.'
+operator:addr                     EQU 		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                    EQU 		'yes'			'yes'
+parcel_pickup                     EQU 		'yes'			'yes'
+payment:cash                      EQU 		'no'			'no'
+payment:contactless               EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
+ref:vatin                         EQU 		'HU25034644'			'HU25034644'
+ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059675176&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D3-5%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DHefele%20Menyh%C3%A9rt%20utca%7Camenity%3Dvending_machine%7Cbranch%3DSzombathely%20Spar%20Hefele%20Menyh%C3%A9rt%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20az%20%C3%BCzlet%20bej%C3%A1rat%C3%A1n%C3%A1l%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A30-12%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Fr%2006%3A30-20%3A00%3B%20Sa%2006%3A30-17%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Fr%2006%3A30-19%3A00%3B%20Sa%2006%3A30-15%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059675176&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D3-5%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DHefele%20Menyh%C3%A9rt%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DSzombathely%20Spar%20Hefele%20Menyh%C3%A9rt%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20az%20%C3%BCzlet%20bej%C3%A1rat%C3%A1n%C3%A1l%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2010%3A30-11%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU130%7Cname%3DFoxpost%7Copening_hours%3DMo-Fr%2006%3A30-19%3A00%3B%20Sa%2006%3A30-15%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Fr%2006%3A30-19%3A00%3B%20Sa%2006%3A30-15%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': '9700 Szombathely, Hefele Menyhért utca 3-5.', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Hefele Menyhért utca', 'housenumber': '3-5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="7059675176" lat="47.229802" lon="16.61989" timestamp="2020-09-27T13:20:52Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+  <node action="modify" id="7059675176" lat="47.229802" lon="16.61989" timestamp="2022-02-12T20:42:22Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Szombathely"/>
     <tag k="addr:housenumber" v="3-5"/>
     <tag k="addr:postcode" v="9700"/>
     <tag k="addr:street" v="Hefele Menyhért utca"/>
-    <tag k="amenity" v="vending_machine"/>
+    <tag k="amenity" v="parcel_locker"/>
     <tag k="branch" v="Szombathely Spar Hefele Menyhért utca"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
@@ -179,12 +243,14 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Automatánk az üzlet bejáratánál található. Az automatát minden hétköznap 11:30-12:30 között ürítjük és töltjük."/>
+    <tag k="description" v="Automatánk az üzlet bejáratánál található. Az automatát minden hétköznap 10:30-11:30 között ürítjük és töltjük. HU130"/>
     <tag k="name" v="Foxpost"/>
-    <tag k="opening_hours" v="Mo-Fr 06:30-20:00; Sa 06:30-17:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30-19:00; Sa 06:30-15:00; PH off"/>
     <tag k="opening_hours:covid19" v="Mo-Fr 06:30-19:00; Sa 06:30-15:00; PH off"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="parcel_pickup" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -192,63 +258,128 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (47.241213 16.623293) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Szombathely'
+addr:housenumber                 NEW		'39\-45'
+addr:postcode                    NEW		'9700'
+addr:street                      NEW		'Huszár út'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Szombathely Spar 11\-es Huszár út'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'Kültéri automatánk az áruház bejáratától balra, az épület sarkán található. Az automatát minden hétköznap 11:00\-12:00 között ürítjük és töltjük. HU679'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D39-45%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DHusz%C3%A1r%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DSzombathely%20Spar%2011-es%20Husz%C3%A1r%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%2C%20az%20%C3%A9p%C3%BClet%20sark%C3%A1n%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A00-12%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU679%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': '9700 Szombathely, 11-es Huszár út 39-45.', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Huszár út', 'housenumber': '39-45', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.241213" lon="16.623293" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Szombathely"/>
+    <tag k="addr:housenumber" v="39-45"/>
+    <tag k="addr:postcode" v="9700"/>
+    <tag k="addr:street" v="Huszár út"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Szombathely Spar 11-es Huszár út"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="Kültéri automatánk az áruház bejáratától balra, az épület sarkán található. Az automatát minden hétköznap 11:00-12:00 között ürítjük és töltjük. HU679"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/7551829970 -->
   <!-- Original coordinates: POINT (47.215305 16.619214) -->
   <!-- OSM <-> POI distance: 236.08025384 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Szombathely'			'Szombathely'
-addr:housenumber                 N		'49'
-addr:postcode                    E		'9700'			'9700'
-addr:street                      M		'Szent Gellért utca'			'Újvilág utca'
-amenity                          E		'vending_machine'			'vending_machine'
-branch                           M		'Szombathely ALDI'			'Szombathely Interspar'
-brand                            E		'Foxpost'			'Foxpost'
-contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
-contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 0369'			'+36 1 999 0369'
-contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
-contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'Kültéri automatánk az ALDI bejáratától balra, a parkoló végében található. Az automatát minden hétköznap 12:00\-13:00 között ürítjük és töltjük.'			'Parkoló felöli szélfogóban. Az automatát minden hétköznap 12:30 és 13:30 között ürítjük és töltjük'
-name                             E		'Foxpost'			'Foxpost'
-opening_hours                    E		'Mo\-Sa 06:00\-22:00; Su 08:00\-19:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 08:00\-19:00; PH off'
-opening_hours:covid19            M		'24/7; PH off'			'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'
-operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
-operator:addr                    E		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     E		'no'			'no'
-payment:contactless              E		'yes'			'yes'
-payment:mastercard               E		'yes'			'yes'
-payment:visa                     E		'yes'			'yes'
-ref:HU:company                   E		'10 10 020309'			'10 10 020309'
-ref:vatin                        E		'HU25034644'			'HU25034644'
-ref:vatin:hu                     E		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2021\-11\-20'			'2020\-09\-27'
-vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
+addr:city                         EQU 		'Szombathely'			'Szombathely'
+addr:housenumber                 NEW		'49'
+addr:postcode                     EQU 		'9700'			'9700'
+addr:street                       EQU 		'Újvilág utca'			'Újvilág utca'
+amenity                           EQU 		'parcel_locker'			'parcel_locker'
+branch                            MOD 		'Szombathely ALDI Gellért utca'			'Szombathely Interspar'
+brand                             EQU 		'Foxpost'			'Foxpost'
+contact:email                     EQU 		'info@foxpost.hu'			'info@foxpost.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
+contact:phone                     EQU 		'+36 1 999 0369'			'+36 1 999 0369'
+contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                       MOD 		'Kültéri automatánk az ALDI bejáratától balra, a parkoló végében található. Az automatát minden hétköznap 10:00\-11:00 között ürítjük és töltjük. HU340'			'Parkoló felöli szélfogóban. Az automatát minden hétköznap 12:30 és 13:30 között ürítjük és töltjük'
+name                              EQU 		'Foxpost'			'Foxpost'
+opening_hours                     MOD 		'24/7; PH off'			'Mo\-Sa 06:00\-22:00; Su 08:00\-19:00; PH off'
+opening_hours:covid19             EQU 		'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'			'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'
+operator                          EQU 		'FoxPost Zrt.'			'FoxPost Zrt.'
+operator:addr                     EQU 		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                    EQU 		'yes'			'yes'
+parcel_pickup                     EQU 		'yes'			'yes'
+payment:cash                      EQU 		'no'			'no'
+payment:contactless               EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
+ref:vatin                         EQU 		'HU25034644'			'HU25034644'
+ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7551829970&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D49%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DSzent%20Gell%C3%A9rt%20utca%7Camenity%3Dvending_machine%7Cbranch%3DSzombathely%20ALDI%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20ALDI%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%2C%20a%20parkol%C3%B3%20v%C3%A9g%C3%A9ben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A00-13%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2008%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
-  <!--ˇ'original': '9700 Szombathely, Szent Gellért utca 49.', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Szent Gellért utca', 'housenumber': '49', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="7551829970" lat="47.2143856" lon="16.6220314" timestamp="2020-12-01T18:13:46Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7551829970&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D49%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3D%C3%9Ajvil%C3%A1g%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DSzombathely%20ALDI%20Gell%C3%A9rt%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20ALDI%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%2C%20a%20parkol%C3%B3%20v%C3%A9g%C3%A9ben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2010%3A00-11%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU340%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': '9700 Szombathely, Szent Gellért utca 49.', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Újvilág utca', 'housenumber': '49', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="7551829970" lat="47.2143856" lon="16.6220314" timestamp="2022-02-12T20:42:22Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szombathely"/>
     <tag k="addr:housenumber" v="49"/>
     <tag k="addr:postcode" v="9700"/>
-    <tag k="addr:street" v="Szent Gellért utca"/>
-    <tag k="amenity" v="vending_machine"/>
-    <tag k="branch" v="Szombathely ALDI"/>
+    <tag k="addr:street" v="Újvilág utca"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Szombathely ALDI Gellért utca"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
     <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
     <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Kültéri automatánk az ALDI bejáratától balra, a parkoló végében található. Az automatát minden hétköznap 12:00-13:00 között ürítjük és töltjük."/>
+    <tag k="description" v="Kültéri automatánk az ALDI bejáratától balra, a parkoló végében található. Az automatát minden hétköznap 10:00-11:00 között ürítjük és töltjük. HU340"/>
     <tag k="name" v="Foxpost"/>
-    <tag k="opening_hours" v="Mo-Sa 06:00-22:00; Su 08:00-19:00; PH off"/>
-    <tag k="opening_hours:covid19" v="24/7; PH off"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="opening_hours:covid19" v="Mo-Sa 06:00-19:00; Su 08:00-18:00; PH off"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="parcel_pickup" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -256,48 +387,48 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/7551829970 -->
   <!-- Original coordinates: POINT (47.214446 16.622124) -->
   <!-- OSM <-> POI distance: 9.69660965 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Szombathely'			'Szombathely'
-addr:postcode                    E		'9700'			'9700'
-addr:street                      E		'Újvilág utca'			'Újvilág utca'
-amenity                          E		'vending_machine'			'vending_machine'
-branch                           M		'Szombathely Interspar Újvilág utca'			'Szombathely Interspar'
-brand                            E		'Foxpost'			'Foxpost'
-contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
-contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 0369'			'+36 1 999 0369'
-contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
-contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'Automatánk a parkoló felőli szélfogóban található. Az automatát minden hétköznap 12:30\-13:30 között ürítjük és töltjük.'			'Parkoló felöli szélfogóban. Az automatát minden hétköznap 12:30 és 13:30 között ürítjük és töltjük'
-name                             E		'Foxpost'			'Foxpost'
-opening_hours                    E		'Mo\-Sa 06:00\-22:00; Su 08:00\-19:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 08:00\-19:00; PH off'
-opening_hours:covid19            E		'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'			'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'
-operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
-operator:addr                    E		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     E		'no'			'no'
-payment:contactless              E		'yes'			'yes'
-payment:mastercard               E		'yes'			'yes'
-payment:visa                     E		'yes'			'yes'
-ref:HU:company                   E		'10 10 020309'			'10 10 020309'
-ref:vatin                        E		'HU25034644'			'HU25034644'
-ref:vatin:hu                     E		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2021\-11\-20'			'2020\-09\-27'
-vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
+addr:city                         EQU 		'Szombathely'			'Szombathely'
+addr:postcode                     EQU 		'9700'			'9700'
+addr:street                       EQU 		'Újvilág utca'			'Újvilág utca'
+amenity                           EQU 		'parcel_locker'			'parcel_locker'
+branch                            MOD 		'Szombathely Interspar Újvilág utca'			'Szombathely Interspar'
+brand                             EQU 		'Foxpost'			'Foxpost'
+contact:email                     EQU 		'info@foxpost.hu'			'info@foxpost.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
+contact:phone                     EQU 		'+36 1 999 0369'			'+36 1 999 0369'
+contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                       MOD 		'Automatánk a parkoló felőli szélfogóban található. Az automatát minden hétköznap 09:00\-10:00 között ürítjük és töltjük. HU75'			'Parkoló felöli szélfogóban. Az automatát minden hétköznap 12:30 és 13:30 között ürítjük és töltjük'
+name                              EQU 		'Foxpost'			'Foxpost'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 08:00\-19:00; PH off'
+opening_hours:covid19             EQU 		'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'			'Mo\-Sa 06:00\-19:00; Su 08:00\-18:00; PH off'
+operator                          EQU 		'FoxPost Zrt.'			'FoxPost Zrt.'
+operator:addr                     EQU 		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                    EQU 		'yes'			'yes'
+parcel_pickup                     EQU 		'yes'			'yes'
+payment:cash                      EQU 		'no'			'no'
+payment:contactless               EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
+ref:vatin                         EQU 		'HU25034644'			'HU25034644'
+ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7551829970&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3D%C3%9Ajvil%C3%A1g%20utca%7Camenity%3Dvending_machine%7Cbranch%3DSzombathely%20Interspar%20%C3%9Ajvil%C3%A1g%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20parkol%C3%B3%20fel%C5%91li%20sz%C3%A9lfog%C3%B3ban%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A30-13%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2008%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7551829970&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3D%C3%9Ajvil%C3%A1g%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DSzombathely%20Interspar%20%C3%9Ajvil%C3%A1g%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20parkol%C3%B3%20fel%C5%91li%20sz%C3%A9lfog%C3%B3ban%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2009%3A00-10%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU75%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': '9700 Szombathely, Újvilág utca', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Újvilág utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="7551829970" lat="47.2143856" lon="16.6220314" timestamp="2020-12-01T18:13:46Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <node action="modify" id="7551829970" lat="47.2143856" lon="16.6220314" timestamp="2022-02-12T20:42:22Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szombathely"/>
     <tag k="addr:postcode" v="9700"/>
     <tag k="addr:street" v="Újvilág utca"/>
-    <tag k="amenity" v="vending_machine"/>
+    <tag k="amenity" v="parcel_locker"/>
     <tag k="branch" v="Szombathely Interspar Újvilág utca"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
@@ -305,12 +436,14 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Automatánk a parkoló felőli szélfogóban található. Az automatát minden hétköznap 12:30-13:30 között ürítjük és töltjük."/>
+    <tag k="description" v="Automatánk a parkoló felőli szélfogóban található. Az automatát minden hétköznap 09:00-10:00 között ürítjük és töltjük. HU75"/>
     <tag k="name" v="Foxpost"/>
-    <tag k="opening_hours" v="Mo-Sa 06:00-22:00; Su 08:00-19:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-19:00; Su 08:00-18:00; PH off"/>
     <tag k="opening_hours:covid19" v="Mo-Sa 06:00-19:00; Su 08:00-18:00; PH off"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="parcel_pickup" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -318,50 +451,50 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059675175 -->
   <!-- Original coordinates: POINT (47.23671 16.652085) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Szombathely'			'Szombathely'
-addr:housenumber                 E		'1'			'1'
-addr:postcode                    E		'9700'			'9700'
-addr:street                      E		'Varasd utca'			'Varasd utca'
-amenity                          E		'vending_machine'			'vending_machine'
-branch                           E		'Szombathely Family Center'			'Szombathely Family Center'
-brand                            E		'Foxpost'			'Foxpost'
-contact:email                    E		'info@foxpost.hu'			'info@foxpost.hu'
-contact:facebook                 E		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
-contact:phone                    E		'+36 1 999 0369'			'+36 1 999 0369'
-contact:website                  E		'https://www.foxpost.hu'			'https://www.foxpost.hu'
-contact:youtube                  E		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      M		'Automatánk a mosdókkal szemben található. Az automatát minden hétköznap 13:00\-14:00 között ürítjük és töltjük.'			'A mosdókkal szemben. Az automatát minden hétköznap 13:00 és 14:00 között ürítjük és töltjük.'
-name                             E		'Foxpost'			'Foxpost'
-opening_hours                    E		'Mo\-Sa 09:00\-20:00; Su 10:00\-18:00; PH off'			'Mo\-Sa 09:00\-20:00; Su 10:00\-18:00; PH off'
-opening_hours:covid19            E		'same'			'same'
-operator                         E		'FoxPost Zrt.'			'FoxPost Zrt.'
-operator:addr                    E		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     E		'no'			'no'
-payment:contactless              E		'yes'			'yes'
-payment:mastercard               E		'yes'			'yes'
-payment:visa                     E		'yes'			'yes'
-ref:HU:company                   E		'10 10 020309'			'10 10 020309'
-ref:vatin                        E		'HU25034644'			'HU25034644'
-ref:vatin:hu                     E		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date       M		'2021\-11\-20'			'2020\-09\-27'
-vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
+addr:city                         EQU 		'Szombathely'			'Szombathely'
+addr:housenumber                  EQU 		'1'			'1'
+addr:postcode                     EQU 		'9700'			'9700'
+addr:street                       EQU 		'Varasd utca'			'Varasd utca'
+amenity                           EQU 		'parcel_locker'			'parcel_locker'
+branch                            EQU 		'Szombathely Family Center'			'Szombathely Family Center'
+brand                             EQU 		'Foxpost'			'Foxpost'
+contact:email                     EQU 		'info@foxpost.hu'			'info@foxpost.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
+contact:phone                     EQU 		'+36 1 999 0369'			'+36 1 999 0369'
+contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                       MOD 		'Automatánk a mosdókkal szemben található. Az automatát minden hétköznap 12:00\-13:00 között ürítjük és töltjük. HU63'			'A mosdókkal szemben. Az automatát minden hétköznap 13:00 és 14:00 között ürítjük és töltjük.'
+name                              EQU 		'Foxpost'			'Foxpost'
+opening_hours                     EQU 		'Mo\-Sa 09:00\-20:00; Su 10:00\-18:00; PH off'			'Mo\-Sa 09:00\-20:00; Su 10:00\-18:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'FoxPost Zrt.'			'FoxPost Zrt.'
+operator:addr                     EQU 		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                    EQU 		'yes'			'yes'
+parcel_pickup                     EQU 		'yes'			'yes'
+payment:cash                      EQU 		'no'			'no'
+payment:contactless               EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
+ref:vatin                         EQU 		'HU25034644'			'HU25034644'
+ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059675175&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DVarasd%20utca%7Camenity%3Dvending_machine%7Cbranch%3DSzombathely%20Family%20Center%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20mosd%C3%B3kkal%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2013%3A00-14%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2009%3A00-20%3A00%3B%20Su%2010%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059675175&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DVarasd%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DSzombathely%20Family%20Center%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20mosd%C3%B3kkal%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A00-13%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU63%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2009%3A00-20%3A00%3B%20Su%2010%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': '9700 Szombathely, Varasd utca 1.', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Varasd utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="7059675175" lat="47.23671" lon="16.652085" timestamp="2020-09-27T13:20:52Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+  <node action="modify" id="7059675175" lat="47.23671" lon="16.652085" timestamp="2022-02-12T20:42:22Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Szombathely"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="9700"/>
     <tag k="addr:street" v="Varasd utca"/>
-    <tag k="amenity" v="vending_machine"/>
+    <tag k="amenity" v="parcel_locker"/>
     <tag k="branch" v="Szombathely Family Center"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
@@ -369,12 +502,14 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Automatánk a mosdókkal szemben található. Az automatát minden hétköznap 13:00-14:00 között ürítjük és töltjük."/>
+    <tag k="description" v="Automatánk a mosdókkal szemben található. Az automatát minden hétköznap 12:00-13:00 között ürítjük és töltjük. HU63"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="Mo-Sa 09:00-20:00; Su 10:00-18:00; PH off"/>
     <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="parcel_pickup" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -382,50 +517,48 @@ vending                          E		'parcel_pickup;parcel_mail_in'			'parcel_pic
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- Original coordinates: POINT (47.379646 16.555684) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kőszeg'
-addr:housenumber                 N		'7'
-addr:postcode                    N		'9730'
-addr:street                      N		'Pogányi út'
-amenity                          N		'vending_machine'
-branch                           N		'Kőszeg Tesco'
-brand                            N		'Foxpost'
-contact:email                    N		'info@foxpost.hu'
-contact:facebook                 N		'https://www.facebook.com/foxpostzrt'
-contact:phone                    N		'+36 1 999 03 69'
-contact:website                  N		'https://www.foxpost.hu'
-contact:youtube                  N		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      N		'Beltéri automatánk az áruház szélfogójában, a bejáratban található. Az automatát minden hétköznap 10:30\-11:30 között ürítjük és töltjük.'
-fixme                            N		'verify import'
-name                             N		'Foxpost'
-opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 08:00\-18:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'FoxPost Zrt.'
-operator:addr                    N		'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     N		'no'
-payment:contactless              N		'yes'
-payment:mastercard               N		'yes'
-payment:visa                     N		'yes'
-ref:HU:company                   N		'10 10 020309'
-ref:vatin                        N		'HU25034644'
-ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2021\-11\-20'
-vending                          N		'parcel_pickup;parcel_mail_in'
+addr:city                        NEW		'Kőszeg'
+addr:housenumber                 NEW		'7'
+addr:postcode                    NEW		'9730'
+addr:street                      NEW		'Pogányi út'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Kőszeg Tesco'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'Beltéri automatánk az áruház szélfogójában, a bejáratban található. Az automatát minden hétköznap 07:30\-08:30 között ürítjük és töltjük. HU149'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 08:00\-18:00; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DK%C5%91szeg%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D9730%7Caddr%3Astreet%3DPog%C3%A1nyi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DK%C5%91szeg%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DBelt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20sz%C3%A9lfog%C3%B3j%C3%A1ban%2C%20a%20bej%C3%A1ratban%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2010%3A30-11%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DK%C5%91szeg%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D9730%7Caddr%3Astreet%3DPog%C3%A1nyi%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DK%C5%91szeg%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DBelt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20sz%C3%A9lfog%C3%B3j%C3%A1ban%2C%20a%20bej%C3%A1ratban%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2007%3A30-08%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU149%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-18%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': '9730 Kőszeg, Pogányi út 7.', 'postcode': '9730', 'city': 'Kőszeg', 'street': 'Pogányi út', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-7" lat="47.379646" lon="16.555684" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-9" lat="47.379646" lon="16.555684" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kőszeg"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="9730"/>
     <tag k="addr:street" v="Pogányi út"/>
-    <tag k="amenity" v="vending_machine"/>
+    <tag k="amenity" v="parcel_locker"/>
     <tag k="branch" v="Kőszeg Tesco"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
@@ -433,13 +566,13 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Beltéri automatánk az áruház szélfogójában, a bejáratban található. Az automatát minden hétköznap 10:30-11:30 között ürítjük és töltjük."/>
+    <tag k="description" v="Beltéri automatánk az áruház szélfogójában, a bejáratban található. Az automatát minden hétköznap 07:30-08:30 között ürítjük és töltjük. HU149"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 08:00-18:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -447,7 +580,6 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
 </osm>

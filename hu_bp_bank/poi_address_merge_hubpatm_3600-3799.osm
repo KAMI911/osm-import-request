@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/9347166652 -->
   <!-- Original coordinates: POINT (48.2192 20.2871) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Ózd'
-addr:housenumber                 N		'1'
-addr:postcode                    N		'3600'
-addr:street                      N		'Gyújtó tér'
-air_conditioning                 N		'yes'
-amenity                          N		'atm'
-bic                              N		'BUDAHUHB'
-branch                           N		'Ózd'
-brand                            N		'Budapest Bank'
-brand:wikidata                   N		'Q27493463'
-brand:wikipedia                  N		'en:Budapest Bank'
-contact:website                  N		'https://www.budapestbank.hu'
-fixme                            N		'verify import'
-name                             N		'Budapest Bank ATM'
-opening_hours                    N		'24/7'
-opening_hours:covid19            N		'same'
-operator                         N		'Budapest Bank Zrt.'
-operator:addr                    N		'1138 Budapest, Váci út 193.'
-ref:HU:company                   N		'01 10 041037'
-ref:vatin                        N		'HU10196445'
-ref:vatin:hu                     N		'10196445\-4\-44'
-source:www.budapestbank.hu:date  N		'2021\-11\-20'
+addr:city                         EQU 		'Ózd'			'Ózd'
+addr:housenumber                  EQU 		'1'			'1'
+addr:postcode                     EQU 		'3600'			'3600'
+addr:street                       EQU 		'Gyújtó tér'			'Gyújtó tér'
+air_conditioning                  EQU 		'yes'			'yes'
+amenity                           EQU 		'atm'			'atm'
+bic                               EQU 		'BUDAHUHB'			'BUDAHUHB'
+branch                            MOD 		'Ózdi fiók'			'Ózd'
+brand                             EQU 		'Budapest Bank'			'Budapest Bank'
+brand:wikidata                    EQU 		'Q27493463'			'Q27493463'
+brand:wikipedia                   EQU 		'en:Budapest Bank'			'en:Budapest Bank'
+contact:website                   EQU 		'https://www.budapestbank.hu'			'https://www.budapestbank.hu'
+fixme                             EQU 		'verify import'			'verify import'
+name                              EQU 		'Budapest Bank ATM'			'Budapest Bank ATM'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          EQU 		'Budapest Bank Zrt.'			'Budapest Bank Zrt.'
+operator:addr                     EQU 		'1138 Budapest, Váci út 193.'			'1138 Budapest, Váci út 193.'
+ref:HU:company                    EQU 		'01 10 041037'			'01 10 041037'
+ref:vatin                         EQU 		'HU10196445'			'HU10196445'
+ref:vatin:hu                      EQU 		'10196445\-4\-44'			'10196445\-4\-44'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3D%C3%93zd%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D3600%7Caddr%3Astreet%3DGy%C3%BAjt%C3%B3%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3D%C3%93zd%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9347166652&addtags=%7Caddr%3Acity%3D%C3%93zd%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D3600%7Caddr%3Astreet%3DGy%C3%BAjt%C3%B3%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3D%C3%93zdi%20fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': 'Gyújtó tér 1.', 'postcode': '3600', 'city': 'Ózd', 'street': 'Gyújtó tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="48.2192" lon="20.2871" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="9347166652" lat="48.2187896" lon="20.2868806" timestamp="2021-12-29T17:46:45Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Ózd"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="3600"/>
@@ -37,7 +37,7 @@ source:www.budapestbank.hu:date  N		'2021\-11\-20'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="BUDAHUHB"/>
-    <tag k="branch" v="Ózd"/>
+    <tag k="branch" v="Ózdi fiók"/>
     <tag k="brand" v="Budapest Bank"/>
     <tag k="brand:wikidata" v="Q27493463"/>
     <tag k="brand:wikipedia" v="en:Budapest Bank"/>
@@ -45,68 +45,67 @@ source:www.budapestbank.hu:date  N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Budapest Bank ATM"/>
     <tag k="opening_hours" v="24/7"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Budapest Bank Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
-    <tag k="source:www.budapestbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/8163458347 -->
   <!-- Original coordinates: POINT (48.2491 20.6194) -->
   <!-- OSM <-> POI distance: 8.32702795 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Kazincbarcika'			'Kazincbarcika'
-addr:housenumber                 E		'26'			'26'
-addr:postcode                    E		'3700'			'3700'
-addr:street                      M		'Egressy Béni utca'			'Egressy Béni út'
-air_conditioning                 E		'yes'			'yes'
-amenity                          E		'atm'			'atm'
-bic                              E		'BUDAHUHB'			'BUDAHUHB'
-branch                           E		'Kazincbarcika'			'Kazincbarcika'
-brand                            E		'Budapest Bank'			'Budapest Bank'
-brand:wikidata                   E		'Q27493463'			'Q27493463'
-brand:wikipedia                  E		'en:Budapest Bank'			'en:Budapest Bank'
-contact:website                  E		'https://www.budapestbank.hu'			'https://www.budapestbank.hu'
-name                             E		'Budapest Bank ATM'			'Budapest Bank ATM'
-opening_hours                    E		'24/7'			'24/7'
-opening_hours:covid19            N		'same'
-operator                         E		'Budapest Bank Zrt.'			'Budapest Bank Zrt.'
-operator:addr                    E		'1138 Budapest, Váci út 193.'			'1138 Budapest, Váci út 193.'
-ref:HU:company                   E		'01 10 041037'			'01 10 041037'
-ref:vatin                        E		'HU10196445'			'HU10196445'
-ref:vatin:hu                     E		'10196445\-4\-44'			'10196445\-4\-44'
-source                           E		'website'			'website'
-source:date                      E		'2020\-11\-25'			'2020\-11\-25'
-source:www.budapestbank.hu:date  N		'2021\-11\-20'
+addr:city                         EQU 		'Kazincbarcika'			'Kazincbarcika'
+addr:housenumber                  EQU 		'26'			'26'
+addr:postcode                     EQU 		'3700'			'3700'
+addr:street                       EQU 		'Egressy Béni út'			'Egressy Béni út'
+air_conditioning                  EQU 		'yes'			'yes'
+amenity                           EQU 		'atm'			'atm'
+bic                               EQU 		'BUDAHUHB'			'BUDAHUHB'
+branch                            MOD 		'Kazincbarcikai fiók'			'Kazincbarcika'
+brand                             EQU 		'Budapest Bank'			'Budapest Bank'
+brand:wikidata                    EQU 		'Q27493463'			'Q27493463'
+brand:wikipedia                   EQU 		'en:Budapest Bank'			'en:Budapest Bank'
+contact:website                   EQU 		'https://www.budapestbank.hu'			'https://www.budapestbank.hu'
+name                              MOD 		'Budapest Bank ATM'			'Budapest Bank'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'Budapest Bank Zrt.'			'Budapest Bank'
+operator:addr                     EQU 		'1138 Budapest, Váci út 193.'			'1138 Budapest, Váci út 193.'
+operator:wikidata                 EQU 		'Q27493463'			'Q27493463'
+operator:wikipedia                EQU 		'en:Budapest Bank'			'en:Budapest Bank'
+ref:HU:company                    EQU 		'01 10 041037'			'01 10 041037'
+ref:vatin                         EQU 		'HU10196445'			'HU10196445'
+ref:vatin:hu                      EQU 		'10196445\-4\-44'			'10196445\-4\-44'
+source                            EQU 		'website'			'website'
+source:date                       MOD 		'2022\-04\-26'			'2021\-12\-17'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458347&addtags=%7Caddr%3Acity%3DKazincbarcika%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D3700%7Caddr%3Astreet%3DEgressy%20B%C3%A9ni%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DKazincbarcika%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Dwebsite%7Csource%3Adate%3D2020-11-25%7Csource%3Awww.budapestbank.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Egressy Béni u. 26.', 'postcode': '3700', 'city': 'Kazincbarcika', 'street': 'Egressy Béni utca', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="8163458347" lat="48.2491531" lon="20.6193207" timestamp="2021-01-17T12:18:40Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458347&addtags=%7Caddr%3Acity%3DKazincbarcika%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D3700%7Caddr%3Astreet%3DEgressy%20B%C3%A9ni%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DKazincbarcikai%20fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Coperator%3Awikidata%3DQ27493463%7Coperator%3Awikipedia%3Den%3ABudapest%20Bank%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Dwebsite%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'Egressy Béni utca 26.', 'postcode': '3700', 'city': 'Kazincbarcika', 'street': 'Egressy Béni út', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8163458347" lat="48.2491531" lon="20.6193207" timestamp="2022-01-09T21:54:53Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Kazincbarcika"/>
     <tag k="addr:housenumber" v="26"/>
     <tag k="addr:postcode" v="3700"/>
-    <tag k="addr:street" v="Egressy Béni utca"/>
+    <tag k="addr:street" v="Egressy Béni út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="BUDAHUHB"/>
-    <tag k="branch" v="Kazincbarcika"/>
+    <tag k="branch" v="Kazincbarcikai fiók"/>
     <tag k="brand" v="Budapest Bank"/>
     <tag k="brand:wikidata" v="Q27493463"/>
     <tag k="brand:wikipedia" v="en:Budapest Bank"/>
     <tag k="contact:website" v="https://www.budapestbank.hu"/>
     <tag k="name" v="Budapest Bank ATM"/>
     <tag k="opening_hours" v="24/7"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Budapest Bank Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
+    <tag k="operator:wikidata" v="Q27493463"/>
+    <tag k="operator:wikipedia" v="en:Budapest Bank"/>
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
     <tag k="source" v="website"/>
-    <tag k="source:date" v="2020-11-25"/>
-    <tag k="source:www.budapestbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
 </osm>

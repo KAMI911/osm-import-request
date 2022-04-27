@@ -4,43 +4,42 @@
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Dombóvár'
-addr:housenumber                 N		'7'
-addr:postcode                    N		'7200'
-addr:street                      N		'Köztársaság utca'
-amenity                          N		'vending_machine'
-branch                           N		'Dombóvár Tesco'
-brand                            N		'Foxpost'
-contact:email                    N		'info@foxpost.hu'
-contact:facebook                 N		'https://www.facebook.com/foxpostzrt'
-contact:phone                    N		'+36 1 999 03 69'
-contact:website                  N		'https://www.foxpost.hu'
-contact:youtube                  N		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      N		'Beltéri automatán az áruház üzletsorán található a bankautomaták mellett. Az automatát minden hétköznap 12:30\-13:30 között ürítjük és töltjük.'
-fixme                            N		'verify import'
-name                             N		'Foxpost'
-opening_hours                    N		'Mo\-Sa 06:00\-22:00; Su 07:00\-19:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'FoxPost Zrt.'
-operator:addr                    N		'3200 Gyöngyös, Batsányi János utca 9.'
-payment:cash                     N		'no'
-payment:contactless              N		'yes'
-payment:mastercard               N		'yes'
-payment:visa                     N		'yes'
-ref:HU:company                   N		'10 10 020309'
-ref:vatin                        N		'HU25034644'
-ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2021\-11\-20'
-vending                          N		'parcel_pickup;parcel_mail_in'
+addr:city                        NEW		'Dombóvár'
+addr:housenumber                 NEW		'7'
+addr:postcode                    NEW		'7200'
+addr:street                      NEW		'Köztársaság utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Dombóvár Tesco'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'Beltéri automatán az áruház üzletsorán található a bankautomaták mellett. Az automatát minden hétköznap 14:00\-15:00 között ürítjük és töltjük. HU140'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'Mo\-Sa 06:00\-22:00; Su 07:00\-19:00; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DDomb%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D7200%7Caddr%3Astreet%3DK%C3%B6zt%C3%A1rsas%C3%A1g%20utca%7Camenity%3Dvending_machine%7Cbranch%3DDomb%C3%B3v%C3%A1r%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DBelt%C3%A9ri%20automat%C3%A1n%20az%20%C3%A1ruh%C3%A1z%20%C3%BCzletsor%C3%A1n%20tal%C3%A1lhat%C3%B3%20a%20bankautomat%C3%A1k%20mellett.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A30-13%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2021-11-20%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DDomb%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D7200%7Caddr%3Astreet%3DK%C3%B6zt%C3%A1rsas%C3%A1g%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DDomb%C3%B3v%C3%A1r%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DBelt%C3%A9ri%20automat%C3%A1n%20az%20%C3%A1ruh%C3%A1z%20%C3%BCzletsor%C3%A1n%20tal%C3%A1lhat%C3%B3%20a%20bankautomat%C3%A1k%20mellett.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2014%3A00-15%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU140%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': '7200 Dombóvár, Köztársaság utca 7.', 'postcode': '7200', 'city': 'Dombóvár', 'street': 'Köztársaság utca', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="46.386674" lon="18.137592" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-1" lat="46.386674" lon="18.137592" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Dombóvár"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="7200"/>
     <tag k="addr:street" v="Köztársaság utca"/>
-    <tag k="amenity" v="vending_machine"/>
+    <tag k="amenity" v="parcel_locker"/>
     <tag k="branch" v="Dombóvár Tesco"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
@@ -48,13 +47,13 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Beltéri automatán az áruház üzletsorán található a bankautomaták mellett. Az automatát minden hétköznap 12:30-13:30 között ürítjük és töltjük."/>
+    <tag k="description" v="Beltéri automatán az áruház üzletsorán található a bankautomaták mellett. Az automatát minden hétköznap 14:00-15:00 között ürítjük és töltjük. HU140"/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-22:00; Su 07:00-19:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="FoxPost Zrt."/>
     <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
     <tag k="payment:cash" v="no"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:mastercard" v="yes"/>
@@ -62,7 +61,69 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2021-11-20"/>
-    <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (46.191971 18.258399) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Komló'
+addr:housenumber                 NEW		'54\-56'
+addr:postcode                    NEW		'7300'
+addr:street                      NEW		'Kossuth Lajos utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Komló Tesco'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'Kültéri automatánk az áruház bejáratától balra található. Az automatát minden hétköznap 14:30\-15:30 között ürítjük és töltjük. HU687'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DKoml%C3%B3%7Caddr%3Ahousenumber%3D54-56%7Caddr%3Apostcode%3D7300%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DKoml%C3%B3%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2014%3A30-15%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU687%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': '7300 Komló, Kossuth Lajos utca 54-56.', 'postcode': '7300', 'city': 'Komló', 'street': 'Kossuth Lajos utca', 'housenumber': '54-56', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="46.191971" lon="18.258399" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Komló"/>
+    <tag k="addr:housenumber" v="54-56"/>
+    <tag k="addr:postcode" v="7300"/>
+    <tag k="addr:street" v="Kossuth Lajos utca"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Komló Tesco"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="Kültéri automatánk az áruház bejáratától balra található. Az automatát minden hétköznap 14:30-15:30 között ürítjük és töltjük. HU687"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
 </osm>

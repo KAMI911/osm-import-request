@@ -1,53 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <node action="modify" id="3395154330" lat="47.9811843" lon="22.5034001" timestamp="2017-09-26T06:13:56Z" uid="1559158" user="vakulya" version="2"/>
-  <node action="modify" id="3395154331" lat="47.9811476" lon="22.503548" timestamp="2017-09-26T06:13:56Z" uid="1559158" user="vakulya" version="2"/>
-  <node action="modify" id="3395154332" lat="47.981254" lon="22.503607" timestamp="2017-09-26T06:13:56Z" uid="1559158" user="vakulya" version="2"/>
-  <node action="modify" id="5130044893" lat="47.9812794" lon="22.5036045" timestamp="2017-09-26T06:13:49Z" uid="1559158" user="vakulya" version="1"/>
-  <node action="modify" id="5130044894" lat="47.9812962" lon="22.5035888" timestamp="2017-09-26T06:13:49Z" uid="1559158" user="vakulya" version="1"/>
-  <node action="modify" id="5130044895" lat="47.9813154" lon="22.5035584" timestamp="2017-09-26T06:13:49Z" uid="1559158" user="vakulya" version="1"/>
-  <node action="modify" id="5130044899" lat="47.9813257" lon="22.5035122" timestamp="2017-09-26T06:13:49Z" uid="1559158" user="vakulya" version="1"/>
-  <node action="modify" id="5130044898" lat="47.9812592" lon="22.5034767" timestamp="2017-09-26T06:13:49Z" uid="1559158" user="vakulya" version="1"/>
-  <node action="modify" id="3395154333" lat="47.9812668" lon="22.5034458" timestamp="2017-09-26T06:13:56Z" uid="1559158" user="vakulya" version="2"/>
+  <node id="3395154330" lat="47.9811942" lon="22.5033089" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="3"/>
+  <node id="3395154331" lat="47.9811575" lon="22.5034568" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="3"/>
+  <node id="3395154332" lat="47.9812639" lon="22.5035158" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="3"/>
+  <node id="5130044893" lat="47.9812893" lon="22.5035133" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="2"/>
+  <node id="5130044894" lat="47.9813061" lon="22.5034976" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="2"/>
+  <node id="5130044895" lat="47.9813253" lon="22.5034672" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="2"/>
+  <node id="5130044899" lat="47.9813356" lon="22.503421" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="2"/>
+  <node id="5130044898" lat="47.9812691" lon="22.5033855" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="2"/>
+  <node id="3395154333" lat="47.9812767" lon="22.5033546" timestamp="2022-02-04T12:07:08Z" uid="906236" user="urbalazs" version="3"/>
   <!-- OSM link: https://osm.org/way/332394724 -->
   <!-- Original coordinates: POINT (47.98125 22.50327) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Fehérgyarmat'			'Fehérgyarmat'
-addr:housenumber                 E		'38'			'38'
-addr:postcode                    E		'4900'			'4900'
-addr:street                      E		'Mártírok útja'			'Mártírok útja'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-branch                           N		'FEHÉRGYARMAT'
-brand                            E		'Shell'			'Shell'
-brand:wikidata                   N		'Q154950'
-brand:wikipedia                  N		'hu:Royal Dutch Shell'
-building                         E		'retail'			'retail'
-contact:facebook                 N		'https://www.facebook.com/ShellMagyarorszag/'
-contact:fax                      N		'+36 1 999 8673'
-contact:phone                    N		'+36 644510110'
-contact:twitter                  N		'shell'
-contact:website                  N		'https://shell.hu/'
-fuel:diesel                      E		'yes'			'yes'
-fuel:octane_95                   E		'yes'			'yes'
-name                             E		'Shell'			'Shell'
-opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
-operator                         E		'Shell Hungary Zrt.'			'Shell Hungary Zrt.'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:shell.hu:date             N		'2020\-06\-10'
+addr:city                         EQU 		'Fehérgyarmat'			'Fehérgyarmat'
+addr:housenumber                  EQU 		'38'			'38'
+addr:postcode                     EQU 		'4900'			'4900'
+addr:street                       EQU 		'Mártírok útja'			'Mártírok útja'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'fuel'			'fuel'
+branch                           NEW		'FEHÉRGYARMAT'
+brand                             EQU 		'Shell'			'Shell'
+brand:wikidata                    EQU 		'Q154950'			'Q154950'
+brand:wikipedia                   MOD 		'hu:Royal Dutch Shell'			'en:Royal Dutch Shell'
+building                          EQU 		'retail'			'retail'
+compressed_air                   NEW		'yes'
+contact:facebook                 NEW		'https://www.facebook.com/ShellMagyarorszag/'
+contact:fax                      NEW		'+36 1 999 8673'
+contact:phone                    NEW		'+36 44 510 110'
+contact:twitter                  NEW		'shell'
+contact:website                  NEW		'https://find.shell.com/hu/fuel/10205935\-fehergyarmat'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:adblue                      NEW		'yes'
+fuel:diesel                       EQU 		'yes'			'yes'
+fuel:octane_100                  NEW		'yes'
+fuel:octane_95                    EQU 		'yes'			'yes'
+loyalty_card                     NEW		'yes'
+name                              EQU 		'Shell'			'Shell'
+operator                          EQU 		'Shell Hungary Zrt.'			'Shell Hungary Zrt.'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w332394724&addtags=%7Caddr%3Acity%3DFeh%C3%A9rgyarmat%7Caddr%3Ahousenumber%3D38%7Caddr%3Apostcode%3D4900%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DFEH%C3%89RGYARMAT%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20644510110%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-06-10 -->
-  <way action="modify" id="332394724" timestamp="2019-03-26T12:33:36Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w332394724&addtags=%7Caddr%3Acity%3DFeh%C3%A9rgyarmat%7Caddr%3Ahousenumber%3D38%7Caddr%3Apostcode%3D4900%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DFEH%C3%89RGYARMAT%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2044%20510%20110%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205935-fehergyarmat%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'MÁRTÍROK ÚTJA 38', 'postcode': '4900', 'city': 'Fehérgyarmat', 'street': 'Mártírok útja', 'housenumber': '38', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="332394724" timestamp="2021-11-05T12:33:45Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="3395154330"/>
     <nd ref="3395154331"/>
     <nd ref="3395154332"/>
@@ -69,15 +73,19 @@ source:shell.hu:date             N		'2020\-06\-10'
     <tag k="brand:wikidata" v="Q154950"/>
     <tag k="brand:wikipedia" v="hu:Royal Dutch Shell"/>
     <tag k="building" v="retail"/>
+    <tag k="compressed_air" v="yes"/>
     <tag k="contact:facebook" v="https://www.facebook.com/ShellMagyarorszag/"/>
     <tag k="contact:fax" v="+36 1 999 8673"/>
-    <tag k="contact:phone" v="+36 644510110"/>
+    <tag k="contact:phone" v="+36 44 510 110"/>
     <tag k="contact:twitter" v="shell"/>
-    <tag k="contact:website" v="https://shell.hu/"/>
+    <tag k="contact:website" v="https://find.shell.com/hu/fuel/10205935-fehergyarmat"/>
+    <tag k="fuel:GTL_diesel" v="yes"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_100" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
+    <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
     <tag k="operator" v="Shell Hungary Zrt."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -87,6 +95,6 @@ source:shell.hu:date             N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:shell.hu:date" v="2020-06-10"/>
+    <tag k="source:date" v="2022-06-08"/>
   </way>
 </osm>

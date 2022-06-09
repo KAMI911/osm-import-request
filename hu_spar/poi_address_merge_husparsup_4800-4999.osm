@@ -9,57 +9,57 @@
   <!-- OSM <-> POI distance: 33.2901309 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Vásárosnamény'			'Vásárosnamény'
-addr:housenumber                 M		'8\-12'			'8'
-addr:postcode                    E		'4800'			'4800'
-addr:street                      E		'Jókai út'			'Jókai út'
-branch                           N		'Spar szupermarket Vásárosnamény'
-brand                            N		'Spar'
-brand:wikidata                   N		'Q610492'
-brand:wikipedia                  N		'hu:Spar'
-building                         E		'retail'			'retail'
-contact:email                    N		'vevoszolgalat@spar.hu'
-contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
-contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
-contact:phone                    N		'+36208237727'
-contact:website                  M		'https://www.spar.hu/uzletek/spar\-szupermarket\-vasarosnameny\-4800\-jokai\-ut\-8\-12\-'			'http://www.spar.hu'
-contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
-name                             M		'Spar'			'SPAR'
-opening_hours                    E		'06:30\-19:00'			'06:30\-19:00'
-operator                         M		'SPAR Magyarország Kereskedelmi Kft.'			'Spar'
-payment:american_express         N		'yes'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:edenred_card             N		'yes'
-payment:edenred_voucher          N		'yes'
-payment:erzsebet                 N		'yes'
-payment:erzsebet_plus            N		'yes'
-payment:jcb                      N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:multipay                 N		'yes'
-payment:otp_bankpont             N		'yes'
-payment:otp_cafeteria            N		'yes'
-payment:unionpay                 N		'yes'
-payment:v_pay                    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-shop                             E		'supermarket'			'supermarket'
-source:www.spar.hu:date          N		'2021\-11\-20'
-wheelchair                       E		'yes'			'yes'
+addr:city                         EQU 		'Vásárosnamény'			'Vásárosnamény'
+addr:housenumber                  EQU 		'8'			'8'
+addr:postcode                     EQU 		'4800'			'4800'
+addr:street                       EQU 		'Jókai út'			'Jókai út'
+branch                           NEW		'Spar szupermarket Vásárosnamény'
+brand                             EQU 		'Spar'			'Spar'
+brand:wikidata                    EQU 		'Q610492'			'Q610492'
+brand:wikipedia                   MOD 		'hu:Spar'			'en:SPAR (retailer)'
+building                          EQU 		'retail'			'retail'
+contact:email                    NEW		'vevoszolgalat@spar.hu'
+contact:facebook                 NEW		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                NEW		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    NEW		'+36208237727'
+contact:website                   MOD 		'https://www.spar.hu/uzletek/spar\-szupermarket\-vasarosnameny\-4800\-jokai\-ut\-8\-12\-'			'http://www.spar.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                              EQU 		'Spar'			'Spar'
+opening_hours                     EQU 		'06:30\-19:00'			'06:30\-19:00'
+operator                          MOD 		'SPAR Magyarország Kereskedelmi Kft.'			'Spar'
+payment:american_express         NEW		'yes'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:edenred_card             NEW		'yes'
+payment:edenred_voucher          NEW		'yes'
+payment:erzsebet                 NEW		'yes'
+payment:erzsebet_plus            NEW		'yes'
+payment:jcb                      NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:multipay                 NEW		'yes'
+payment:otp_bankpont             NEW		'yes'
+payment:otp_cafeteria            NEW		'yes'
+payment:unionpay                 NEW		'yes'
+payment:v_pay                    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+shop                              EQU 		'supermarket'			'supermarket'
+source:date                      NEW		'2022\-06\-08'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w300664505&addtags=%7Caddr%3Acity%3DV%C3%A1s%C3%A1rosnam%C3%A9ny%7Caddr%3Ahousenumber%3D8-12%7Caddr%3Apostcode%3D4800%7Caddr%3Astreet%3DJ%C3%B3kai%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20V%C3%A1s%C3%A1rosnam%C3%A9ny%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-vasarosnameny-4800-jokai-ut-8-12-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Copening_hours%3D06%3A30-19%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Awww.spar.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
-  <!--ˇ'original': 'Jókai út 8-12.', 'postcode': '4800', 'city': 'Vásárosnamény', 'street': 'Jókai út', 'housenumber': '8-12', 'conscriptionnumber': 'None'°-->
-  <way action="modify" id="300664505" timestamp="2017-12-25T16:17:44Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w300664505&addtags=%7Caddr%3Acity%3DV%C3%A1s%C3%A1rosnam%C3%A9ny%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D4800%7Caddr%3Astreet%3DJ%C3%B3kai%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20V%C3%A1s%C3%A1rosnam%C3%A9ny%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-vasarosnameny-4800-jokai-ut-8-12-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Copening_hours%3D06%3A30-19%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Jókai út 8-12.', 'postcode': '4800', 'city': 'Vásárosnamény', 'street': 'Jókai út', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="300664505" timestamp="2022-04-03T09:08:41Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <nd ref="3047635311"/>
     <nd ref="3047635312"/>
     <nd ref="3047635313"/>
     <nd ref="3047635314"/>
     <nd ref="3047635311"/>
     <tag k="addr:city" v="Vásárosnamény"/>
-    <tag k="addr:housenumber" v="8-12"/>
+    <tag k="addr:housenumber" v="8"/>
     <tag k="addr:postcode" v="4800"/>
     <tag k="addr:street" v="Jókai út"/>
     <tag k="branch" v="Spar szupermarket Vásárosnamény"/>
@@ -96,7 +96,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:www.spar.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="wheelchair" v="yes"/>
   </way>
 </osm>

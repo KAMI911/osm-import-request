@@ -5,50 +5,53 @@
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Nyékládháza'			'Nyékládháza'
-addr:housenumber                 E		'182'			'182'
-addr:postcode                    E		'3433'			'3433'
-addr:street                      E		'Viola utca'			'Viola utca'
-air_conditioning                 E		'yes'			'yes'
-amenity                          E		'fuel'			'fuel'
-brand                            E		'OMV'			'OMV'
-brand:wikidata                   E		'Q168238'			'Q168238'
-brand:wikipedia                  E		'en:OMV'			'en:OMV'
-compressed_air                   E		'yes'			'yes'
-contact:email                    E		'info.hungary@omv.com'			'info.hungary@omv.com'
-contact:facebook                 E		'https://www.facebook.com/omvmagyarorszag'			'https://www.facebook.com/omvmagyarorszag'
-contact:fax                      E		'+36 1 381 9899'			'+36 1 381 9899'
-contact:instagram                E		'https://www.instagram.com/omv/'			'https://www.instagram.com/omv/'
-contact:linkedin                 E		'https://www.linkedin.com/company/omv'			'https://www.linkedin.com/company/omv'
-contact:phone                    E		'+36 46 391 800'			'+36 46 391 800'
-contact:twitter                  E		'omv'			'omv'
-contact:website                  E		'https://www.omv.hu'			'https://www.omv.hu'
-contact:youtube                  E		'https://www.youtube.com/user/omvofficial'			'https://www.youtube.com/user/omvofficial'
-fuel:GTL_diesel                  E		'yes'			'yes'
-fuel:diesel                      E		'yes'			'yes'
-fuel:octane_100                  E		'yes'			'yes'
-fuel:octane_95                   E		'yes'			'yes'
-name                             E		'OMV'			'OMV'
-opening_hours                    E		'24/7'			'24/7'
-opening_hours:covid19            E		'same'			'same'
-operator                         E		'OMV Hungária Kft.'			'OMV Hungária Kft.'
-operator:addr                    E		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'			'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
-payment:cash                     E		'yes'			'yes'
-payment:contactless              E		'yes'			'yes'
-payment:maestro                  E		'yes'			'yes'
-payment:mastercard               E		'yes'			'yes'
-payment:mastercard_contactless   E		'yes'			'yes'
-payment:mastercard_electronic    E		'yes'			'yes'
-payment:visa                     E		'yes'			'yes'
-payment:visa_electron            E		'yes'			'yes'
-ref:HU:company                   E		'01\-09\-071584'			'01\-09\-071584'
-ref:vatin                        E		'HU10542925'			'HU10542925'
-ref:vatin:hu                     E		'10542925\-2\-44'			'10542925\-2\-44'
-source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
+addr:city                         EQU 		'Nyékládháza'			'Nyékládháza'
+addr:housenumber                  EQU 		'182'			'182'
+addr:postcode                     EQU 		'3433'			'3433'
+addr:street                       EQU 		'Viola utca'			'Viola utca'
+air_conditioning                  EQU 		'yes'			'yes'
+amenity                           EQU 		'fuel'			'fuel'
+brand                             EQU 		'OMV'			'OMV'
+brand:operator                   NEW		'OMV Hungária Kft.'
+brand:operator:addr              NEW		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
+brand:wikidata                    EQU 		'Q168238'			'Q168238'
+brand:wikipedia                   EQU 		'en:OMV'			'en:OMV'
+compressed_air                    EQU 		'yes'			'yes'
+contact:email                     EQU 		'info.hungary@omv.com'			'info.hungary@omv.com'
+contact:facebook                  EQU 		'https://www.facebook.com/omvmagyarorszag'			'https://www.facebook.com/omvmagyarorszag'
+contact:fax                       EQU 		'+36 1 381 9899'			'+36 1 381 9899'
+contact:instagram                 EQU 		'https://www.instagram.com/omv/'			'https://www.instagram.com/omv/'
+contact:linkedin                  EQU 		'https://www.linkedin.com/company/omv'			'https://www.linkedin.com/company/omv'
+contact:phone                     EQU 		'+36 46 391 800'			'+36 46 391 800'
+contact:twitter                   EQU 		'omv'			'omv'
+contact:website                   EQU 		'https://www.omv.hu'			'https://www.omv.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/user/omvofficial'			'https://www.youtube.com/user/omvofficial'
+fuel:GTL_diesel                   EQU 		'yes'			'yes'
+fuel:diesel                       EQU 		'yes'			'yes'
+fuel:octane_100                   EQU 		'yes'			'yes'
+fuel:octane_95                    EQU 		'yes'			'yes'
+name                              EQU 		'OMV'			'OMV'
+opening_hours                     EQU 		'24/7'			'24/7'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'OMV Hungária Kft.'			'OMV Hungária Kft.'
+operator:addr                     EQU 		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'			'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'01\-09\-071584'			'01\-09\-071584'
+ref:vatin                         EQU 		'HU10542925'			'HU10542925'
+ref:vatin:hu                      EQU 		'10542925\-2\-44'			'10542925\-2\-44'
+source                            EQU 		'website'			'website'
+source:date                       MOD 		'2022\-06\-08'			'2020\-10\-03'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3210603183&addtags=%7Caddr%3Acity%3DNy%C3%A9kl%C3%A1dh%C3%A1za%7Caddr%3Ahousenumber%3D182%7Caddr%3Apostcode%3D3433%7Caddr%3Astreet%3DViola%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20391%20800%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3210603183&addtags=%7Caddr%3Acity%3DNy%C3%A9kl%C3%A1dh%C3%A1za%7Caddr%3Ahousenumber%3D182%7Caddr%3Apostcode%3D3433%7Caddr%3Astreet%3DViola%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Aoperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cbrand%3Aoperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20391%20800%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Dwebsite%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Viola u. 182/1', 'postcode': '3433', 'city': 'Nyékládháza', 'street': 'Viola utca', 'housenumber': '182', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="3210603183" lat="47.9866775" lon="20.8316404" timestamp="2020-10-04T10:06:14Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+  <node action="modify" id="3210603183" lat="47.9866775" lon="20.8316404" timestamp="2022-01-31T20:55:05Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Nyékládháza"/>
     <tag k="addr:housenumber" v="182"/>
     <tag k="addr:postcode" v="3433"/>
@@ -56,6 +59,8 @@ source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
+    <tag k="brand:operator" v="OMV Hungária Kft."/>
+    <tag k="brand:operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="brand:wikidata" v="Q168238"/>
     <tag k="brand:wikipedia" v="en:OMV"/>
     <tag k="compressed_air" v="yes"/>
@@ -88,73 +93,74 @@ source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
-  <node id="1330477050" lat="48.1057334" lon="20.7899576" timestamp="2011-06-19T08:50:19Z" uid="471661" user="fotel" version="1"/>
-  <node id="1330477099" lat="48.1057871" lon="20.7901614" timestamp="2011-06-19T08:50:20Z" uid="471661" user="fotel" version="1"/>
-  <node id="1330477084" lat="48.1055722" lon="20.790376" timestamp="2011-06-19T08:50:19Z" uid="471661" user="fotel" version="1"/>
-  <node id="1330477118" lat="48.1053839" lon="20.7903532" timestamp="2011-06-19T08:50:20Z" uid="471661" user="fotel" version="1"/>
-  <node id="1330477017" lat="48.1053762" lon="20.7901434" timestamp="2015-05-10T08:29:09Z" uid="1645575" user="GeoLaci" version="2"/>
-  <node id="1330477015" lat="48.1054898" lon="20.7901346" timestamp="2015-05-10T08:29:09Z" uid="1645575" user="GeoLaci" version="2"/>
-  <node id="1330477105" lat="48.1055579" lon="20.7901507" timestamp="2011-06-19T08:50:20Z" uid="471661" user="fotel" version="1"/>
+  <node id="1330477050" lat="48.1057098" lon="20.7898396" timestamp="2022-04-16T09:40:24Z" uid="12544363" user="barczi" version="2"/>
+  <node id="1330477099" lat="48.1057958" lon="20.7901197" timestamp="2022-04-16T09:40:24Z" uid="12544363" user="barczi" version="2"/>
+  <node id="1330477118" lat="48.1055419" lon="20.7902946" timestamp="2022-04-16T09:40:24Z" uid="12544363" user="barczi" version="2"/>
+  <node id="9669789568" lat="48.1054523" lon="20.7902585" timestamp="2022-04-16T09:40:24Z" uid="12544363" user="barczi" version="1"/>
+  <node id="1330477017" lat="48.1053595" lon="20.7902547" timestamp="2022-04-16T09:40:24Z" uid="12544363" user="barczi" version="3"/>
+  <node id="9669789567" lat="48.1053639" lon="20.7900155" timestamp="2022-04-16T09:40:24Z" uid="12544363" user="barczi" version="1"/>
+  <node id="1330477105" lat="48.1054493" lon="20.7900189" timestamp="2022-04-16T09:40:24Z" uid="12544363" user="barczi" version="2"/>
   <!-- OSM link: https://osm.org/way/118273582 -->
   <!-- Original coordinates: POINT (48.1056 20.79011) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Miskolc'			'Miskolc'
-addr:housenumber                 E		'16'			'16'
-addr:postcode                    E		'3526'			'3526'
-addr:street                      E		'Búza tér'			'Búza tér'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-brand                            E		'OMV'			'OMV'
-brand:wikidata                   E		'Q168238'			'Q168238'
-brand:wikipedia                  E		'en:OMV'			'en:OMV'
-compressed_air                   N		'yes'
-contact:email                    N		'info.hungary@omv.com'
-contact:facebook                 N		'https://www.facebook.com/omvmagyarorszag'
-contact:fax                      N		'+36 1 381 9899'
-contact:instagram                N		'https://www.instagram.com/omv/'
-contact:linkedin                 N		'https://www.linkedin.com/company/omv'
-contact:phone                    N		'+36 46 359 816'
-contact:twitter                  N		'omv'
-contact:website                  N		'https://www.omv.hu'
-contact:youtube                  N		'https://www.youtube.com/user/omvofficial'
-fuel:GTL_diesel                  N		'yes'
-fuel:diesel                      E		'yes'			'yes'
-fuel:gasoline                    E		'yes'			'yes'
-fuel:octane_100                  N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'OMV'			'OMV'
-opening_hours                    E		'24/7'			'24/7'
-opening_hours:covid19            N		'same'
-operator                         E		'OMV Hungária Kft.'			'OMV Hungária Kft.'
-operator:addr                    N		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
-payment:cash                     E		'yes'			'yes'
-payment:contactless              N		'yes'
-payment:credit_cards             E		'yes'			'yes'
-payment:debit_cards              E		'yes'			'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'01\-09\-071584'
-ref:vatin                        N		'HU10542925'
-ref:vatin:hu                     N		'10542925\-2\-44'
-source:www.omv.hu:date           N		'2021\-11\-20'
+addr:city                         EQU 		'Miskolc'			'Miskolc'
+addr:housenumber                  EQU 		'16'			'16'
+addr:postcode                     EQU 		'3526'			'3526'
+addr:street                       EQU 		'Búza tér'			'Búza tér'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'fuel'			'fuel'
+brand                             EQU 		'OMV'			'OMV'
+brand:operator                   NEW		'OMV Hungária Kft.'
+brand:operator:addr              NEW		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
+brand:wikidata                    EQU 		'Q168238'			'Q168238'
+brand:wikipedia                   EQU 		'en:OMV'			'en:OMV'
+compressed_air                   NEW		'yes'
+contact:email                    NEW		'info.hungary@omv.com'
+contact:facebook                 NEW		'https://www.facebook.com/omvmagyarorszag'
+contact:fax                      NEW		'+36 1 381 9899'
+contact:instagram                NEW		'https://www.instagram.com/omv/'
+contact:linkedin                 NEW		'https://www.linkedin.com/company/omv'
+contact:phone                    NEW		'+36 46 359 816'
+contact:twitter                  NEW		'omv'
+contact:website                  NEW		'https://www.omv.hu'
+contact:youtube                  NEW		'https://www.youtube.com/user/omvofficial'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:diesel                       EQU 		'yes'			'yes'
+fuel:gasoline                     EQU 		'yes'			'yes'
+fuel:octane_100                  NEW		'yes'
+fuel:octane_95                   NEW		'yes'
+name                              EQU 		'OMV'			'OMV'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          EQU 		'OMV Hungária Kft.'			'OMV Hungária Kft.'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless              NEW		'yes'
+payment:credit_cards              EQU 		'yes'			'yes'
+payment:debit_cards               EQU 		'yes'			'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+ref:HU:company                   NEW		'01\-09\-071584'
+ref:vatin                        NEW		'HU10542925'
+ref:vatin:hu                     NEW		'10542925\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118273582&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D3526%7Caddr%3Astreet%3DB%C3%BAza%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20359%20816%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Agasoline%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118273582&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D3526%7Caddr%3Astreet%3DB%C3%BAza%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Aoperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cbrand%3Aoperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20359%20816%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Agasoline%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3D24/7%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Búza tér 16', 'postcode': '3526', 'city': 'Miskolc', 'street': 'Búza tér', 'housenumber': '16', 'conscriptionnumber': 'None'°-->
-  <way action="modify" id="118273582" timestamp="2021-03-07T10:59:13Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+  <way action="modify" id="118273582" timestamp="2022-04-16T09:40:24Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <nd ref="1330477050"/>
     <nd ref="1330477099"/>
-    <nd ref="1330477084"/>
     <nd ref="1330477118"/>
+    <nd ref="9669789568"/>
     <nd ref="1330477017"/>
-    <nd ref="1330477015"/>
+    <nd ref="9669789567"/>
     <nd ref="1330477105"/>
     <nd ref="1330477050"/>
     <tag k="addr:city" v="Miskolc"/>
@@ -164,6 +170,8 @@ source:www.omv.hu:date           N		'2021\-11\-20'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
+    <tag k="brand:operator" v="OMV Hungária Kft."/>
+    <tag k="brand:operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="brand:wikidata" v="Q168238"/>
     <tag k="brand:wikipedia" v="en:OMV"/>
     <tag k="compressed_air" v="yes"/>
@@ -183,9 +191,7 @@ source:www.omv.hu:date           N		'2021\-11\-20'
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="OMV"/>
     <tag k="opening_hours" v="24/7"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="OMV Hungária Kft."/>
-    <tag k="operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:credit_cards" v="yes"/>
@@ -199,7 +205,7 @@ source:www.omv.hu:date           N		'2021\-11\-20'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </way>
   <node id="1338049804" lat="48.0830303" lon="20.7861437" timestamp="2021-03-13T19:14:37Z" uid="12544363" user="barczi" version="3"/>
   <node id="1338049732" lat="48.0829262" lon="20.7865709" timestamp="2021-03-13T19:14:37Z" uid="12544363" user="barczi" version="3"/>
@@ -216,51 +222,51 @@ source:www.omv.hu:date           N		'2021\-11\-20'
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Miskolc'			'Miskolc'
-addr:housenumber                 E		'175'			'175'
-addr:postcode                    E		'3529'			'3529'
-addr:street                      E		'Soltész Nagy Kálmán utca'			'Soltész Nagy Kálmán utca'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-brand                            E		'OMV'			'OMV'
-brand:wikidata                   E		'Q168238'			'Q168238'
-brand:wikipedia                  E		'en:OMV'			'en:OMV'
-compressed_air                   N		'yes'
-contact:email                    N		'info.hungary@omv.com'
-contact:facebook                 N		'https://www.facebook.com/omvmagyarorszag'
-contact:fax                      N		'+36 1 381 9899'
-contact:instagram                N		'https://www.instagram.com/omv/'
-contact:linkedin                 N		'https://www.linkedin.com/company/omv'
-contact:phone                    N		'+36 46 313 959'
-contact:twitter                  N		'omv'
-contact:website                  N		'https://www.omv.hu'
-contact:youtube                  N		'https://www.youtube.com/user/omvofficial'
-fuel:GTL_diesel                  N		'yes'
-fuel:diesel                      E		'yes'			'yes'
-fuel:gasoline                    E		'yes'			'yes'
-fuel:octane_100                  N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'OMV'			'OMV'
-opening_hours                    E		'Mo\-Su 06:00\-22:00; PH off'			'Mo\-Su 06:00\-22:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         E		'OMV Hungária Kft.'			'OMV Hungária Kft.'
-operator:addr                    N		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
-payment:cash                     E		'yes'			'yes'
-payment:contactless              N		'yes'
-payment:credit_cards             E		'yes'			'yes'
-payment:debit_cards              E		'yes'			'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'01\-09\-071584'
-ref:vatin                        N		'HU10542925'
-ref:vatin:hu                     N		'10542925\-2\-44'
-source:www.omv.hu:date           N		'2021\-11\-20'
+addr:city                         EQU 		'Miskolc'			'Miskolc'
+addr:housenumber                  EQU 		'175'			'175'
+addr:postcode                     EQU 		'3529'			'3529'
+addr:street                       EQU 		'Soltész Nagy Kálmán utca'			'Soltész Nagy Kálmán utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'fuel'			'fuel'
+brand                             EQU 		'OMV'			'OMV'
+brand:operator                   NEW		'OMV Hungária Kft.'
+brand:operator:addr              NEW		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
+brand:wikidata                    EQU 		'Q168238'			'Q168238'
+brand:wikipedia                   EQU 		'en:OMV'			'en:OMV'
+compressed_air                   NEW		'yes'
+contact:email                    NEW		'info.hungary@omv.com'
+contact:facebook                 NEW		'https://www.facebook.com/omvmagyarorszag'
+contact:fax                      NEW		'+36 1 381 9899'
+contact:instagram                NEW		'https://www.instagram.com/omv/'
+contact:linkedin                 NEW		'https://www.linkedin.com/company/omv'
+contact:phone                    NEW		'+36 46 313 959'
+contact:twitter                  NEW		'omv'
+contact:website                  NEW		'https://www.omv.hu'
+contact:youtube                  NEW		'https://www.youtube.com/user/omvofficial'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:diesel                       EQU 		'yes'			'yes'
+fuel:gasoline                     EQU 		'yes'			'yes'
+fuel:octane_100                  NEW		'yes'
+fuel:octane_95                   NEW		'yes'
+name                              EQU 		'OMV'			'OMV'
+opening_hours                     EQU 		'Mo\-Su 06:00\-22:00; PH off'			'Mo\-Su 06:00\-22:00; PH off'
+operator                          EQU 		'OMV Hungária Kft.'			'OMV Hungária Kft.'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless              NEW		'yes'
+payment:credit_cards              EQU 		'yes'			'yes'
+payment:debit_cards               EQU 		'yes'			'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+ref:HU:company                   NEW		'01\-09\-071584'
+ref:vatin                        NEW		'HU10542925'
+ref:vatin:hu                     NEW		'10542925\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w119021932&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D175%7Caddr%3Apostcode%3D3529%7Caddr%3Astreet%3DSolt%C3%A9sz%20Nagy%20K%C3%A1lm%C3%A1n%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20313%20959%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Agasoline%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w119021932&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D175%7Caddr%3Apostcode%3D3529%7Caddr%3Astreet%3DSolt%C3%A9sz%20Nagy%20K%C3%A1lm%C3%A1n%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Aoperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cbrand%3Aoperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20313%20959%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Agasoline%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Soltész Nagy Kálmán utca 175.', 'postcode': '3529', 'city': 'Miskolc', 'street': 'Soltész Nagy Kálmán utca', 'housenumber': '175', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="119021932" timestamp="2021-03-13T19:14:17Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <nd ref="1338049804"/>
@@ -281,6 +287,8 @@ source:www.omv.hu:date           N		'2021\-11\-20'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
+    <tag k="brand:operator" v="OMV Hungária Kft."/>
+    <tag k="brand:operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="brand:wikidata" v="Q168238"/>
     <tag k="brand:wikipedia" v="en:OMV"/>
     <tag k="compressed_air" v="yes"/>
@@ -300,9 +308,7 @@ source:www.omv.hu:date           N		'2021\-11\-20'
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="OMV"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="OMV Hungária Kft."/>
-    <tag k="operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:credit_cards" v="yes"/>
@@ -316,7 +322,7 @@ source:www.omv.hu:date           N		'2021\-11\-20'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </way>
   <node id="1356019242" lat="48.0832538" lon="20.784449" timestamp="2021-03-13T19:11:57Z" uid="12544363" user="barczi" version="3"/>
   <node id="1356019235" lat="48.0835688" lon="20.7846402" timestamp="2021-03-13T19:11:57Z" uid="12544363" user="barczi" version="3"/>
@@ -331,53 +337,53 @@ source:www.omv.hu:date           N		'2021\-11\-20'
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Miskolc'			'Miskolc'
-addr:housenumber                 M		'2/A'			'2/a'
-addr:postcode                    E		'3529'			'3529'
-addr:street                      E		'Testvérvárosok útja'			'Testvérvárosok útja'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-brand                            E		'OMV'			'OMV'
-brand:wikidata                   E		'Q168238'			'Q168238'
-brand:wikipedia                  E		'en:OMV'			'en:OMV'
-compressed_air                   N		'yes'
-contact:email                    N		'info.hungary@omv.com'
-contact:facebook                 N		'https://www.facebook.com/omvmagyarorszag'
-contact:fax                      N		'+36 1 381 9899'
-contact:instagram                N		'https://www.instagram.com/omv/'
-contact:linkedin                 N		'https://www.linkedin.com/company/omv'
-contact:phone                    N		'+36 46 365 365'
-contact:twitter                  N		'omv'
-contact:website                  N		'https://www.omv.hu'
-contact:youtube                  N		'https://www.youtube.com/user/omvofficial'
-fuel:GTL_diesel                  N		'yes'
-fuel:diesel                      E		'yes'			'yes'
-fuel:gasoline                    E		'yes'			'yes'
-fuel:octane_100                  N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'OMV'			'OMV'
-opening_hours                    N		'24/7'
-opening_hours:covid19            N		'same'
-operator                         E		'OMV Hungária Kft.'			'OMV Hungária Kft.'
-operator:addr                    N		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
-payment:cash                     E		'yes'			'yes'
-payment:contactless              N		'yes'
-payment:credit_cards             E		'yes'			'yes'
-payment:debit_cards              E		'yes'			'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-ref:HU:company                   N		'01\-09\-071584'
-ref:vatin                        N		'HU10542925'
-ref:vatin:hu                     N		'10542925\-2\-44'
-source:www.omv.hu:date           N		'2021\-11\-20'
-wheelchair                       E		'yes'			'yes'
+addr:city                         EQU 		'Miskolc'			'Miskolc'
+addr:housenumber                  EQU 		'2/a'			'2/a'
+addr:postcode                     EQU 		'3529'			'3529'
+addr:street                       EQU 		'Testvérvárosok útja'			'Testvérvárosok útja'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'fuel'			'fuel'
+brand                             EQU 		'OMV'			'OMV'
+brand:operator                   NEW		'OMV Hungária Kft.'
+brand:operator:addr              NEW		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
+brand:wikidata                    EQU 		'Q168238'			'Q168238'
+brand:wikipedia                   EQU 		'en:OMV'			'en:OMV'
+compressed_air                   NEW		'yes'
+contact:email                    NEW		'info.hungary@omv.com'
+contact:facebook                 NEW		'https://www.facebook.com/omvmagyarorszag'
+contact:fax                      NEW		'+36 1 381 9899'
+contact:instagram                NEW		'https://www.instagram.com/omv/'
+contact:linkedin                 NEW		'https://www.linkedin.com/company/omv'
+contact:phone                    NEW		'+36 46 365 365'
+contact:twitter                  NEW		'omv'
+contact:website                  NEW		'https://www.omv.hu'
+contact:youtube                  NEW		'https://www.youtube.com/user/omvofficial'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:diesel                       EQU 		'yes'			'yes'
+fuel:gasoline                     EQU 		'yes'			'yes'
+fuel:octane_100                  NEW		'yes'
+fuel:octane_95                   NEW		'yes'
+name                              EQU 		'OMV'			'OMV'
+opening_hours                    NEW		'24/7'
+operator                          EQU 		'OMV Hungária Kft.'			'OMV Hungária Kft.'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless              NEW		'yes'
+payment:credit_cards              EQU 		'yes'			'yes'
+payment:debit_cards               EQU 		'yes'			'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+ref:HU:company                   NEW		'01\-09\-071584'
+ref:vatin                        NEW		'HU10542925'
+ref:vatin:hu                     NEW		'10542925\-2\-44'
+source:date                      NEW		'2022\-06\-08'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w121054740&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D2/A%7Caddr%3Apostcode%3D3529%7Caddr%3Astreet%3DTestv%C3%A9rv%C3%A1rosok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20365%20365%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Agasoline%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
-  <!--ˇ'original': 'Testvérvárosok útja 2/A', 'postcode': '3529', 'city': 'Miskolc', 'street': 'Testvérvárosok útja', 'housenumber': '2/A', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w121054740&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D2/a%7Caddr%3Apostcode%3D3529%7Caddr%3Astreet%3DTestv%C3%A9rv%C3%A1rosok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Aoperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cbrand%3Aoperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20365%20365%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Agasoline%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3D24/7%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Testvérvárosok útja 2/A', 'postcode': '3529', 'city': 'Miskolc', 'street': 'Testvérvárosok útja', 'housenumber': '2/a', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="121054740" timestamp="2021-03-13T19:11:57Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <nd ref="1356019242"/>
     <nd ref="1356019235"/>
@@ -389,12 +395,14 @@ wheelchair                       E		'yes'			'yes'
     <nd ref="1356019238"/>
     <nd ref="1356019242"/>
     <tag k="addr:city" v="Miskolc"/>
-    <tag k="addr:housenumber" v="2/A"/>
+    <tag k="addr:housenumber" v="2/a"/>
     <tag k="addr:postcode" v="3529"/>
     <tag k="addr:street" v="Testvérvárosok útja"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
+    <tag k="brand:operator" v="OMV Hungária Kft."/>
+    <tag k="brand:operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="brand:wikidata" v="Q168238"/>
     <tag k="brand:wikipedia" v="en:OMV"/>
     <tag k="compressed_air" v="yes"/>
@@ -414,9 +422,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="OMV"/>
     <tag k="opening_hours" v="24/7"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="OMV Hungária Kft."/>
-    <tag k="operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
     <tag k="payment:credit_cards" v="yes"/>
@@ -430,7 +436,7 @@ wheelchair                       E		'yes'			'yes'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <!-- OSM link: https://osm.org/node/1328532087 -->
@@ -438,57 +444,61 @@ wheelchair                       E		'yes'			'yes'
   <!-- OSM <-> POI distance: 8.18474061 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Miskolc'			'Miskolc'
-addr:housenumber                 E		'338'			'338'
-addr:postcode                    E		'3534'			'3534'
-addr:street                      M		'Kiss tábornok út \- Kandó Kálmán utca'			'Kiss tábornok utca'
-air_conditioning                 E		'yes'			'yes'
-amenity                          E		'fuel'			'fuel'
-brand                            E		'OMV'			'OMV'
-brand:wikidata                   E		'Q168238'			'Q168238'
-brand:wikipedia                  E		'en:OMV'			'en:OMV'
-compressed_air                   E		'yes'			'yes'
-contact:email                    E		'info.hungary@omv.com'			'info.hungary@omv.com'
-contact:facebook                 E		'https://www.facebook.com/omvmagyarorszag'			'https://www.facebook.com/omvmagyarorszag'
-contact:fax                      E		'+36 1 381 9899'			'+36 1 381 9899'
-contact:instagram                E		'https://www.instagram.com/omv/'			'https://www.instagram.com/omv/'
-contact:linkedin                 E		'https://www.linkedin.com/company/omv'			'https://www.linkedin.com/company/omv'
-contact:phone                    E		'+36 46 401 680'			'+36 46 401 680'
-contact:twitter                  E		'omv'			'omv'
-contact:website                  E		'https://www.omv.hu'			'https://www.omv.hu'
-contact:youtube                  E		'https://www.youtube.com/user/omvofficial'			'https://www.youtube.com/user/omvofficial'
-fuel:GTL_diesel                  E		'yes'			'yes'
-fuel:diesel                      E		'yes'			'yes'
-fuel:octane_100                  E		'yes'			'yes'
-fuel:octane_95                   E		'yes'			'yes'
-name                             E		'OMV'			'OMV'
-opening_hours                    E		'Mo\-Su 06:00\-22:00; PH off'			'Mo\-Su 06:00\-22:00; PH off'
-opening_hours:covid19            M		'24/7'			'same'
-operator                         E		'OMV Hungária Kft.'			'OMV Hungária Kft.'
-operator:addr                    E		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'			'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
-payment:cash                     E		'yes'			'yes'
-payment:contactless              E		'yes'			'yes'
-payment:maestro                  E		'yes'			'yes'
-payment:mastercard               E		'yes'			'yes'
-payment:mastercard_contactless   E		'yes'			'yes'
-payment:mastercard_electronic    E		'yes'			'yes'
-payment:visa                     E		'yes'			'yes'
-payment:visa_electron            E		'yes'			'yes'
-ref:HU:company                   E		'01\-09\-071584'			'01\-09\-071584'
-ref:vatin                        E		'HU10542925'			'HU10542925'
-ref:vatin:hu                     E		'10542925\-2\-44'			'10542925\-2\-44'
-source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
+addr:city                         EQU 		'Miskolc'			'Miskolc'
+addr:housenumber                  EQU 		'338'			'338'
+addr:postcode                     EQU 		'3534'			'3534'
+addr:street                       EQU 		'Kiss tábornok utca'			'Kiss tábornok utca'
+air_conditioning                  EQU 		'yes'			'yes'
+amenity                           EQU 		'fuel'			'fuel'
+brand                             EQU 		'OMV'			'OMV'
+brand:operator                   NEW		'OMV Hungária Kft.'
+brand:operator:addr              NEW		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
+brand:wikidata                    EQU 		'Q168238'			'Q168238'
+brand:wikipedia                   EQU 		'en:OMV'			'en:OMV'
+compressed_air                    EQU 		'yes'			'yes'
+contact:email                     EQU 		'info.hungary@omv.com'			'info.hungary@omv.com'
+contact:facebook                  EQU 		'https://www.facebook.com/omvmagyarorszag'			'https://www.facebook.com/omvmagyarorszag'
+contact:fax                       EQU 		'+36 1 381 9899'			'+36 1 381 9899'
+contact:instagram                 EQU 		'https://www.instagram.com/omv/'			'https://www.instagram.com/omv/'
+contact:linkedin                  EQU 		'https://www.linkedin.com/company/omv'			'https://www.linkedin.com/company/omv'
+contact:phone                     EQU 		'+36 46 401 680'			'+36 46 401 680'
+contact:twitter                   EQU 		'omv'			'omv'
+contact:website                   EQU 		'https://www.omv.hu'			'https://www.omv.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/user/omvofficial'			'https://www.youtube.com/user/omvofficial'
+fuel:GTL_diesel                   EQU 		'yes'			'yes'
+fuel:diesel                       EQU 		'yes'			'yes'
+fuel:octane_100                   EQU 		'yes'			'yes'
+fuel:octane_95                    EQU 		'yes'			'yes'
+name                              EQU 		'OMV'			'OMV'
+opening_hours                     MOD 		'24/7'			'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'OMV Hungária Kft.'			'OMV Hungária Kft.'
+operator:addr                     EQU 		'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'			'1117 Budapest, Október huszonharmadika utca 6\-10 5. emelet 5/A.'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'01\-09\-071584'			'01\-09\-071584'
+ref:vatin                         EQU 		'HU10542925'			'HU10542925'
+ref:vatin:hu                      EQU 		'10542925\-2\-44'			'10542925\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1328532087&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D338%7Caddr%3Apostcode%3D3534%7Caddr%3Astreet%3DKiss%20t%C3%A1bornok%20%C3%BAt%20-%20Kand%C3%B3%20K%C3%A1lm%C3%A1n%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20401%20680%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3D24/7%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Awww.omv.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Kiss tábornok út - Kandó Kálmán u. Hrsz. :33833/49', 'postcode': '3534', 'city': 'Miskolc', 'street': 'Kiss tábornok út - Kandó Kálmán utca', 'housenumber': '338', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1328532087&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D338%7Caddr%3Apostcode%3D3534%7Caddr%3Astreet%3DKiss%20t%C3%A1bornok%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DOMV%7Cbrand%3Aoperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Cbrand%3Aoperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cbrand%3Awikidata%3DQ168238%7Cbrand%3Awikipedia%3Den%3AOMV%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Dinfo.hungary%40omv.com%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/omvmagyarorszag%7Ccontact%3Afax%3D%2B36%201%20381%209899%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/omv/%7Ccontact%3Alinkedin%3Dhttps%3A//www.linkedin.com/company/omv%7Ccontact%3Aphone%3D%2B36%2046%20401%20680%7Ccontact%3Atwitter%3Domv%7Ccontact%3Awebsite%3Dhttps%3A//www.omv.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/omvofficial%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DOMV%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DOMV%20Hung%C3%A1ria%20Kft.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%206-10%205.%20emelet%205/A.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-09-071584%7Cref%3Avatin%3DHU10542925%7Cref%3Avatin%3Ahu%3D10542925-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Kiss tábornok út - Kandó Kálmán u. Hrsz. :33833/49', 'postcode': '3534', 'city': 'Miskolc', 'street': 'Kiss tábornok utca', 'housenumber': '338', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="1328532087" lat="48.0997074" lon="20.7030271" timestamp="2020-10-04T10:06:14Z" uid="8635934" user="osm_poi_matchmaker" version="11">
     <tag k="addr:city" v="Miskolc"/>
     <tag k="addr:housenumber" v="338"/>
     <tag k="addr:postcode" v="3534"/>
-    <tag k="addr:street" v="Kiss tábornok út - Kandó Kálmán utca"/>
+    <tag k="addr:street" v="Kiss tábornok utca"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="OMV"/>
+    <tag k="brand:operator" v="OMV Hungária Kft."/>
+    <tag k="brand:operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="brand:wikidata" v="Q168238"/>
     <tag k="brand:wikipedia" v="en:OMV"/>
     <tag k="compressed_air" v="yes"/>
@@ -506,8 +516,8 @@ source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
     <tag k="fuel:octane_100" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="OMV"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
-    <tag k="opening_hours:covid19" v="24/7"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="OMV Hungária Kft."/>
     <tag k="operator:addr" v="1117 Budapest, Október huszonharmadika utca 6-10 5. emelet 5/A."/>
     <tag k="payment:cash" v="yes"/>
@@ -521,6 +531,6 @@ source:www.omv.hu:date           M		'2021\-11\-20'			'2020\-10\-03'
     <tag k="ref:HU:company" v="01-09-071584"/>
     <tag k="ref:vatin" v="HU10542925"/>
     <tag k="ref:vatin:hu" v="10542925-2-44"/>
-    <tag k="source:www.omv.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
 </osm>

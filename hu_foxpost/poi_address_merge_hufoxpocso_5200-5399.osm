@@ -1,5 +1,68 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- Original coordinates: POINT (47.319425 20.921693) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Karcag'
+addr:housenumber                 NEW		'2\-4'
+addr:postcode                    NEW		'5300'
+addr:street                      NEW		'Horváth Ferenc utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Karcag Spar'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'HU1523 számú kültéri automatánk az áruház bejáratától jobbra található.'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DKarcag%7Caddr%3Ahousenumber%3D2-4%7Caddr%3Apostcode%3D5300%7Caddr%3Astreet%3DHorv%C3%A1th%20Ferenc%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DKarcag%20Spar%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU1523%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': '5300 Karcag, Horváth Ferenc u. 2-4.', 'postcode': '5300', 'city': 'Karcag', 'street': 'Horváth Ferenc utca', 'housenumber': '2-4', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-1" lat="47.319425" lon="20.921693" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Karcag"/>
+    <tag k="addr:housenumber" v="2-4"/>
+    <tag k="addr:postcode" v="5300"/>
+    <tag k="addr:street" v="Horváth Ferenc utca"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Karcag Spar"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="HU1523 számú kültéri automatánk az áruház bejáratától jobbra található."/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
   <!-- Original coordinates: POINT (47.303315 20.905973) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
@@ -16,7 +79,7 @@ contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
 contact:phone                    NEW		'+36 1 999 03 69'
 contact:website                  NEW		'https://www.foxpost.hu'
 contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      NEW		'Kültéri automatánk az áruház bejáratától jobbra található. Az automatát minden hétköznap 15:00\-16:00 között ürítjük és töltjük. HU686'
+description                      NEW		'HU686 számú kültéri automatánk az áruház bejáratától jobbra található.'
 fixme                            NEW		'verify import'
 name                             NEW		'Foxpost'
 opening_hours                    NEW		'24/7; PH off'
@@ -30,11 +93,11 @@ payment:visa                     NEW		'yes'
 ref:HU:company                   NEW		'10 10 020309'
 ref:vatin                        NEW		'HU25034644'
 ref:vatin:hu                     NEW		'25034644\-2\-10'
-source:date                      NEW		'2022\-04\-26'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DKarcag%7Caddr%3Ahousenumber%3D34%7Caddr%3Apostcode%3D5300%7Caddr%3Astreet%3DKis%C3%BAjsz%C3%A1ll%C3%A1si%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DKarcag%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2015%3A00-16%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU686%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DKarcag%7Caddr%3Ahousenumber%3D34%7Caddr%3Apostcode%3D5300%7Caddr%3Astreet%3DKis%C3%BAjsz%C3%A1ll%C3%A1si%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DKarcag%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU686%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': '5300 Karcag, Kisújszállási út 34.', 'postcode': '5300', 'city': 'Karcag', 'street': 'Kisújszállási út', 'housenumber': '34', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.303315" lon="20.905973" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-2" lat="47.303315" lon="20.905973" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Karcag"/>
     <tag k="addr:housenumber" v="34"/>
     <tag k="addr:postcode" v="5300"/>
@@ -47,7 +110,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Kültéri automatánk az áruház bejáratától jobbra található. Az automatát minden hétköznap 15:00-16:00 között ürítjük és töltjük. HU686"/>
+    <tag k="description" v="HU686 számú kültéri automatánk az áruház bejáratától jobbra található."/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="24/7; PH off"/>
@@ -61,7 +124,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:date" v="2022-04-26"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (47.217286 20.757598) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -79,7 +142,7 @@ contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
 contact:phone                    NEW		'+36 1 999 03 69'
 contact:website                  NEW		'https://www.foxpost.hu'
 contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      NEW		'Kültéri automatánk az áruház bejáratától jobbra a kirakat előtt található. Az automatát minden hétköznap 14:30\-15:30 között ürítjük és töltjük. Hu659'
+description                      NEW		'HU659 számú kültéri automatánk az áruház bejáratától jobbra a kirakat előtt található.'
 fixme                            NEW		'verify import'
 name                             NEW		'Foxpost'
 opening_hours                    NEW		'24/7; PH off'
@@ -93,11 +156,11 @@ payment:visa                     NEW		'yes'
 ref:HU:company                   NEW		'10 10 020309'
 ref:vatin                        NEW		'HU25034644'
 ref:vatin:hu                     NEW		'25034644\-2\-10'
-source:date                      NEW		'2022\-04\-26'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DKis%C3%BAjsz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5310%7Caddr%3Astreet%3DSzabads%C3%A1g%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DKis%C3%BAjsz%C3%A1ll%C3%A1s%20Coop%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%20a%20kirakat%20el%C5%91tt%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2014%3A30-15%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20Hu659%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DKis%C3%BAjsz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5310%7Caddr%3Astreet%3DSzabads%C3%A1g%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DKis%C3%BAjsz%C3%A1ll%C3%A1s%20Coop%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU659%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%20a%20kirakat%20el%C5%91tt%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': '5310 Kisújszállás, Szabadság utca 2.', 'postcode': '5310', 'city': 'Kisújszállás', 'street': 'Szabadság utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="47.217286" lon="20.757598" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="47.217286" lon="20.757598" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kisújszállás"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="5310"/>
@@ -110,7 +173,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Kültéri automatánk az áruház bejáratától jobbra a kirakat előtt található. Az automatát minden hétköznap 14:30-15:30 között ürítjük és töltjük. Hu659"/>
+    <tag k="description" v="HU659 számú kültéri automatánk az áruház bejáratától jobbra a kirakat előtt található."/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="24/7; PH off"/>
@@ -124,6 +187,132 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:date" v="2022-04-26"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (47.371762 20.631915) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kunhegyes'
+addr:housenumber                 NEW		'35'
+addr:postcode                    NEW		'5340'
+addr:street                      NEW		'Kossuth Lajos utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Kunhegyes Spar'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'HU1525 számú kültéri automatánk az áruház bejáratától balra található.'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DKunhegyes%7Caddr%3Ahousenumber%3D35%7Caddr%3Apostcode%3D5340%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DKunhegyes%20Spar%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU1525%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': '5340 Kunhegyes, Kossuth Lajos utca 35.', 'postcode': '5340', 'city': 'Kunhegyes', 'street': 'Kossuth Lajos utca', 'housenumber': '35', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="47.371762" lon="20.631915" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kunhegyes"/>
+    <tag k="addr:housenumber" v="35"/>
+    <tag k="addr:postcode" v="5340"/>
+    <tag k="addr:street" v="Kossuth Lajos utca"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Kunhegyes Spar"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="HU1525 számú kültéri automatánk az áruház bejáratától balra található."/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (47.606055 20.759954) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Tiszafüred'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'5350'
+addr:street                      NEW		'Madách Imre utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Tiszafüred Tesco'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'HU1526 számú kültéri automatánk az áruház bejáratától jobbra található.'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DTiszaf%C3%BCred%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5350%7Caddr%3Astreet%3DMad%C3%A1ch%20Imre%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DTiszaf%C3%BCred%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU1526%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': '5350 Tiszafüred, Madách Imre u. 2.', 'postcode': '5350', 'city': 'Tiszafüred', 'street': 'Madách Imre utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.606055" lon="20.759954" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Tiszafüred"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="5350"/>
+    <tag k="addr:street" v="Madách Imre utca"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Tiszafüred Tesco"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="HU1526 számú kültéri automatánk az áruház bejáratától jobbra található."/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
 </osm>

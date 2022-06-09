@@ -1,58 +1,58 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <!-- Original coordinates: POINT (47.68974 16.58365) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM link: https://osm.org/node/5788088398 -->
+  <!-- Original coordinates: POINT (47.68265 16.57713) -->
+  <!-- OSM <-> POI distance: 7.37385084 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Sopron'
-addr:housenumber                 N		'15\-17'
-addr:postcode                    N		'9400'
-addr:street                      N		'Selmeci utca'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Sopron \- Selmeci utca'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'EVBox'
-model                            N		'BusinessLine'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Ady Endre út'			'Ady Endre út'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13220 \- Sopron, Ady Endre út (Egyetem parkoló) \- Mobiliti'			'Sopron \- Ady Endre út (Egyetem parkoló)'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+manufacturer                      EQU 		'Evopro'			'Evopro'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:type2_cable                EQU 		'2'			'2'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+source:date                      NEW		'2022\-06\-08'
+source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D15-17%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DSelmeci%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSopron%20-%20Selmeci%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Selmeci utca 15-17. - INTERSPAR ', 'postcode': '9400', 'city': 'Sopron', 'street': 'Selmeci utca', 'housenumber': '15-17', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.68974" lon="16.58365" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5788088398&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DAdy%20Endre%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13220%20-%20Sopron%2C%20Ady%20Endre%20%C3%BAt%20%28Egyetem%20parkol%C3%B3%29%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!--ˇ'original': 'Ady Endre út (Egyetem parkoló)', 'postcode': '9400', 'city': 'Sopron', 'street': 'Ady Endre út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="5788088398" lat="47.6827129" lon="16.5770988" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Sopron"/>
-    <tag k="addr:housenumber" v="15-17"/>
     <tag k="addr:postcode" v="9400"/>
-    <tag k="addr:street" v="Selmeci utca"/>
+    <tag k="addr:street" v="Ady Endre út"/>
+    <tag k="alt_name" v="e-mobi"/>
     <tag k="amenity" v="charging_station"/>
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Sopron - Selmeci utca"/>
+    <tag k="branch" v="13220 - Sopron, Ady Endre út (Egyetem parkoló) - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
-    <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="EVBox"/>
-    <tag k="model" v="BusinessLine"/>
+    <tag k="manufacturer" v="Evopro"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -63,6 +63,723 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
+  </node>
+  <!-- Original coordinates: POINT (47.67782 16.58914) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Sopron'
+addr:housenumber                 NEW		'16'
+addr:postcode                    NEW		'9400'
+addr:street                      NEW		'Arany János utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10211 \- Sopron, Arany János utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DArany%20J%C3%A1nos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10211%20-%20Sopron%2C%20Arany%20J%C3%A1nos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Arany János utca 16.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Arany János utca', 'housenumber': '16', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="47.67782" lon="16.58914" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:housenumber" v="16"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Arany János utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10211 - Sopron, Arany János utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (47.67025 16.61215) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Sopron'
+addr:housenumber                 NEW		'30'
+addr:postcode                    NEW		'9400'
+addr:street                      NEW		'Ipar körút'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10327 \- Sopron, Ipar körút \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIpar%20k%C3%B6r%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10327%20-%20Sopron%2C%20Ipar%20k%C3%B6r%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Ipar körút 30.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Ipar körút', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-3" lat="47.67025" lon="16.61215" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:housenumber" v="30"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Ipar körút"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10327 - Sopron, Ipar körút - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (47.67029 16.61201) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Sopron'
+addr:housenumber                 NEW		'30'
+addr:postcode                    NEW		'9400'
+addr:street                      NEW		'Ipar körút'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10328 \- Sopron, Ipar körút \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIpar%20k%C3%B6r%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10328%20-%20Sopron%2C%20Ipar%20k%C3%B6r%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Ipar körút 30.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Ipar körút', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="47.67029" lon="16.61201" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:housenumber" v="30"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Ipar körút"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10328 - Sopron, Ipar körút - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/8099989531 -->
+  <!-- Original coordinates: POINT (47.67463 16.58293) -->
+  <!-- OSM <-> POI distance: 13.83741766 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Jegenye sor'			'Jegenye sor'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13221 \- Sopron, Jegenye sor (Locomotive Szálloda) \- Mobiliti'			'Sopron \- Jegenye sor (Locomotive Szálloda)'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+manufacturer                      EQU 		'Evopro'			'Evopro'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:type2_cable                EQU 		'2'			'2'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+source                            EQU 		'website'			'website'
+source:date                       MOD 		'2022\-06\-08'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989531&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DJegenye%20sor%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13221%20-%20Sopron%2C%20Jegenye%20sor%20%28Locomotive%20Sz%C3%A1lloda%29%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dwebsite%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Jegenye sor (Locomotive Szálloda)', 'postcode': '9400', 'city': 'Sopron', 'street': 'Jegenye sor', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989531" lat="47.67453" lon="16.58282" timestamp="2022-01-19T17:25:27Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Jegenye sor"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="13221 - Sopron, Jegenye sor (Locomotive Szálloda) - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/8099989530 -->
+  <!-- Original coordinates: POINT (47.67792 16.60235) -->
+  <!-- OSM <-> POI distance: 5.69305286 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Kuruc körút'			'Kuruc körút'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13580 \- Sopron, Kuruc krt (Szív utca) \- Mobiliti'			'Sopron \- Kuruc krt. (Szív utca)'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+fixme                             EQU 		'verify import'			'verify import'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:chademo                    EQU 		'1'			'1'
+socket:chademo:output             EQU 		'22 kW'			'22 kW'
+socket:type2_combo                EQU 		'1'			'1'
+socket:type2_combo:output         EQU 		'22 kW'			'22 kW'
+source:date                      NEW		'2022\-06\-08'
+source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989530&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DKuruc%20k%C3%B6r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13580%20-%20Sopron%2C%20Kuruc%20krt%20%28Sz%C3%ADv%20utca%29%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!--ˇ'original': 'Kuruc krt. (Szív utca)', 'postcode': '9400', 'city': 'Sopron', 'street': 'Kuruc körút', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989530" lat="47.6779" lon="16.60242" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Kuruc körút"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="13580 - Sopron, Kuruc krt (Szív utca) - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="22 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/8099989529 -->
+  <!-- Original coordinates: POINT (47.69405 16.57805) -->
+  <!-- OSM <-> POI distance: 0.0 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Révai Miklós út'			'Révai Miklós út'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'23002 \- Sopron, Révai Miklós út \- Mobiliti'			'Sopron \- Révai Miklós út'
+capacity                          MOD 		'3'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+fixme                             EQU 		'verify import'			'verify import'
+manufacturer                      EQU 		'DBT'			'DBT'
+model                             EQU 		'uick Charger Tri\-Standard'			'uick Charger Tri\-Standard'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:chademo                    EQU 		'1'			'1'
+socket:chademo:output             EQU 		'44 kW'			'44 kW'
+socket:type2_cable                EQU 		'1'			'1'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+socket:type2_combo                EQU 		'1'			'1'
+socket:type2_combo:output         EQU 		'44 kW'			'44 kW'
+source:date                      NEW		'2022\-06\-08'
+source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989529&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DR%C3%A9vai%20Mikl%C3%B3s%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D23002%20-%20Sopron%2C%20R%C3%A9vai%20Mikl%C3%B3s%20%C3%BAt%20-%20Mobiliti%7Ccapacity%3D3%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DDBT%7Cmodel%3Duick%20Charger%20Tri-Standard%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D44%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D44%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!--ˇ'original': 'Révai Miklós út', 'postcode': '9400', 'city': 'Sopron', 'street': 'Révai Miklós út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989529" lat="47.69405" lon="16.57805" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Révai Miklós út"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="23002 - Sopron, Révai Miklós út - Mobiliti"/>
+    <tag k="capacity" v="3"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="DBT"/>
+    <tag k="model" v="uick Charger Tri-Standard"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="44 kW"/>
+    <tag k="socket:type2_cable" v="1"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="44 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
+  </node>
+  <!-- Original coordinates: POINT (47.68889 16.5829) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Sopron'
+addr:housenumber                 NEW		'15\-17'
+addr:postcode                    NEW		'9400'
+addr:street                      NEW		'Selmeci utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10232 \- Sopron, Selmeci utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D15-17%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DSelmeci%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10232%20-%20Sopron%2C%20Selmeci%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Selmeci utca 15-17.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Selmeci utca', 'housenumber': '15-17', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-8" lat="47.68889" lon="16.5829" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:housenumber" v="15-17"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Selmeci utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10232 - Sopron, Selmeci utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (47.68978 16.58358) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Sopron'
+addr:housenumber                 NEW		'15\-17'
+addr:postcode                    NEW		'9400'
+addr:street                      NEW		'Selmeci utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10231 \- Sopron, Selmeci utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D15-17%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DSelmeci%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10231%20-%20Sopron%2C%20Selmeci%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Selmeci utca 15-17.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Selmeci utca', 'housenumber': '15-17', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-9" lat="47.68978" lon="16.58358" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:housenumber" v="15-17"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Selmeci utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10231 - Sopron, Selmeci utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (47.68974 16.58365) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Sopron'
+addr:housenumber                 NEW		'15\-17'
+addr:postcode                    NEW		'9400'
+addr:street                      NEW		'Selmeci utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10115 \- Sopron, Selmeci utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D15-17%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DSelmeci%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10115%20-%20Sopron%2C%20Selmeci%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Selmeci utca 15-17.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Selmeci utca', 'housenumber': '15-17', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-10" lat="47.68974" lon="16.58365" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Sopron"/>
+    <tag k="addr:housenumber" v="15-17"/>
+    <tag k="addr:postcode" v="9400"/>
+    <tag k="addr:street" v="Selmeci utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10115 - Sopron, Selmeci utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/8099989528 -->
+  <!-- Original coordinates: POINT (47.71546 16.65473) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Fertőrákos'			'Fertőrákos'
+addr:housenumber                  EQU 		'165'			'165'
+addr:postcode                     EQU 		'9421'			'9421'
+addr:street                       EQU 		'Fő utca'			'Fő utca'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13222 \- Fertőrákos, Fő utca \- Mobiliti'			'Fertőrákos \- Fő utca 165.'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+fixme                             EQU 		'verify import'			'verify import'
+manufacturer                      EQU 		'Evopro'			'Evopro'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:type2_cable                EQU 		'2'			'2'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+source:date                      NEW		'2022\-06\-08'
+source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989528&addtags=%7Caddr%3Acity%3DFert%C5%91r%C3%A1kos%7Caddr%3Ahousenumber%3D165%7Caddr%3Apostcode%3D9421%7Caddr%3Astreet%3DF%C5%91%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13222%20-%20Fert%C5%91r%C3%A1kos%2C%20F%C5%91%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!--ˇ'original': 'Fő utca 165.', 'postcode': '9421', 'city': 'Fertőrákos', 'street': 'Fő utca', 'housenumber': '165', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989528" lat="47.71537" lon="16.6544" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Fertőrákos"/>
+    <tag k="addr:housenumber" v="165"/>
+    <tag k="addr:postcode" v="9421"/>
+    <tag k="addr:street" v="Fő utca"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="13222 - Fertőrákos, Fő utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/8099989527 -->
+  <!-- Original coordinates: POINT (47.61949 16.8641) -->
+  <!-- OSM <-> POI distance: 11.87727301 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Fertőd'			'Fertőd'
+addr:postcode                     EQU 		'9431'			'9431'
+addr:street                       EQU 		'Hydn sétány'			'Hydn sétány'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13223 \- Fertőd, Hydn sétány \- Mobiliti'			'Fertőd \- Hydn sétány'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+manufacturer                      EQU 		'Evopro'			'Evopro'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:type2_cable                EQU 		'2'			'2'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+source                            EQU 		'website'			'website'
+source:date                       MOD 		'2022\-06\-08'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989527&addtags=%7Caddr%3Acity%3DFert%C5%91d%7Caddr%3Apostcode%3D9431%7Caddr%3Astreet%3DHydn%20s%C3%A9t%C3%A1ny%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13223%20-%20Fert%C5%91d%2C%20Hydn%20s%C3%A9t%C3%A1ny%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dwebsite%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Hydn sétány', 'postcode': '9431', 'city': 'Fertőd', 'street': 'Hydn sétány', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989527" lat="47.6194106" lon="16.863994" timestamp="2022-02-22T21:59:53Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <tag k="addr:city" v="Fertőd"/>
+    <tag k="addr:postcode" v="9431"/>
+    <tag k="addr:street" v="Hydn sétány"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="13223 - Fertőd, Hydn sétány - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
 </osm>

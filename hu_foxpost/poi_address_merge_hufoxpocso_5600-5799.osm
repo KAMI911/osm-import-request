@@ -10,14 +10,14 @@ addr:housenumber                  EQU 		'37'			'37'
 addr:postcode                     EQU 		'5600'			'5600'
 addr:street                       EQU 		'Andrássy út'			'Andrássy út'
 amenity                           EQU 		'parcel_locker'			'parcel_locker'
-branch                            EQU 		'Csaba Center'			'Csaba Center'
+branch                            MOD 		'Békéscsaba Csaba Center'			'Csaba Center'
 brand                             EQU 		'Foxpost'			'Foxpost'
 contact:email                     EQU 		'info@foxpost.hu'			'info@foxpost.hu'
 contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
 contact:phone                     EQU 		'+36 1 999 0369'			'+36 1 999 0369'
 contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
 contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                       MOD 		'Automatánk az első emeleten, a parkolóházi átjáróban található. Az automatát minden hétköznap 11:00\-12:00 között ürítjük és töltjük. HU58'			'Az első emeleten a parkolóházi átjáróban. Az automatát minden hétköznap 9:00 és 10:00 között ürítjük és töltjük'
+description                       MOD 		'HU58 számú automatánk az első emeleten, a parkolóházi átjáróban található.'			'Az első emeleten a parkolóházi átjáróban. Az automatát minden hétköznap 9:00 és 10:00 között ürítjük és töltjük'
 name                              EQU 		'Foxpost'			'Foxpost'
 opening_hours                     MOD 		'Mo\-Sa 07:00\-22:30; Su 08:00\-22:30; PH off'			'Mo\-Th 07:00\-01:00,Fr\-Sa 07:00\-02:00,Su 07:00\-00:00;PH off'
 opening_hours:covid19             EQU 		'same'			'same'
@@ -32,9 +32,9 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:date                      NEW		'2022\-04\-26'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681513&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9scsaba%7Caddr%3Ahousenumber%3D37%7Caddr%3Apostcode%3D5600%7Caddr%3Astreet%3DAndr%C3%A1ssy%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DCsaba%20Center%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20az%20els%C5%91%20emeleten%2C%20a%20parkol%C3%B3h%C3%A1zi%20%C3%A1tj%C3%A1r%C3%B3ban%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A00-12%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU58%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2007%3A00-22%3A30%3B%20Su%2008%3A00-22%3A30%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681513&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9scsaba%7Caddr%3Ahousenumber%3D37%7Caddr%3Apostcode%3D5600%7Caddr%3Astreet%3DAndr%C3%A1ssy%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DB%C3%A9k%C3%A9scsaba%20Csaba%20Center%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU58%20sz%C3%A1m%C3%BA%20automat%C3%A1nk%20az%20els%C5%91%20emeleten%2C%20a%20parkol%C3%B3h%C3%A1zi%20%C3%A1tj%C3%A1r%C3%B3ban%20tal%C3%A1lhat%C3%B3.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2007%3A00-22%3A30%3B%20Su%2008%3A00-22%3A30%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': '5600 Békéscsaba, Andrássy út 37-43.', 'postcode': '5600', 'city': 'Békéscsaba', 'street': 'Andrássy út', 'housenumber': '37', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681513" lat="46.677003" lon="21.087967" timestamp="2022-02-12T20:42:22Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Békéscsaba"/>
@@ -42,14 +42,14 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="addr:postcode" v="5600"/>
     <tag k="addr:street" v="Andrássy út"/>
     <tag k="amenity" v="parcel_locker"/>
-    <tag k="branch" v="Csaba Center"/>
+    <tag k="branch" v="Békéscsaba Csaba Center"/>
     <tag k="brand" v="Foxpost"/>
     <tag k="contact:email" v="info@foxpost.hu"/>
     <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
     <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Automatánk az első emeleten, a parkolóházi átjáróban található. Az automatát minden hétköznap 11:00-12:00 között ürítjük és töltjük. HU58"/>
+    <tag k="description" v="HU58 számú automatánk az első emeleten, a parkolóházi átjáróban található."/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="Mo-Sa 07:00-22:30; Su 08:00-22:30; PH off"/>
     <tag k="opening_hours:covid19" v="same"/>
@@ -64,7 +64,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:date" v="2022-04-26"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.669986 21.107463) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -82,7 +82,7 @@ contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
 contact:phone                    NEW		'+36 1 999 03 69'
 contact:website                  NEW		'https://www.foxpost.hu'
 contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      NEW		'Kültéri automatánk az áruház bejáratától balra található. Az automatát hétköznaponként 12:00\-13:00 között ürítjük és töltjük. HU385'
+description                      NEW		'HU385 számú kültéri automatánk az áruház bejáratától balra található.'
 fixme                            NEW		'verify import'
 name                             NEW		'Foxpost'
 opening_hours                    NEW		'24/7; PH off'
@@ -96,11 +96,11 @@ payment:visa                     NEW		'yes'
 ref:HU:company                   NEW		'10 10 020309'
 ref:vatin                        NEW		'HU25034644'
 ref:vatin:hu                     NEW		'25034644\-2\-10'
-source:date                      NEW		'2022\-04\-26'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9scsaba%7Caddr%3Ahousenumber%3D41%7Caddr%3Apostcode%3D5600%7Caddr%3Astreet%3DCorvin%20J.%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DB%C3%A9k%C3%A9scsaba%20Tesco%20Corvin%20J.%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20h%C3%A9tk%C3%B6znaponk%C3%A9nt%2012%3A00-13%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU385%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9scsaba%7Caddr%3Ahousenumber%3D41%7Caddr%3Apostcode%3D5600%7Caddr%3Astreet%3DCorvin%20J.%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DB%C3%A9k%C3%A9scsaba%20Tesco%20Corvin%20J.%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU385%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': '5600 Békéscsaba, Corvin J. utca 41.', 'postcode': '5600', 'city': 'Békéscsaba', 'street': 'Corvin J. utca', 'housenumber': '41', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="46.669986" lon="21.107463" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-2" lat="46.669986" lon="21.107463" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Békéscsaba"/>
     <tag k="addr:housenumber" v="41"/>
     <tag k="addr:postcode" v="5600"/>
@@ -113,7 +113,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Kültéri automatánk az áruház bejáratától balra található. Az automatát hétköznaponként 12:00-13:00 között ürítjük és töltjük. HU385"/>
+    <tag k="description" v="HU385 számú kültéri automatánk az áruház bejáratától balra található."/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="24/7; PH off"/>
@@ -127,7 +127,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:date" v="2022-04-26"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681512 -->
   <!-- Original coordinates: POINT (46.68081 21.074456) -->
@@ -146,7 +146,7 @@ contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			
 contact:phone                     EQU 		'+36 1 999 0369'			'+36 1 999 0369'
 contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
 contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                       MOD 		'Az automata a kassza sor legvégén bal oldalon, a Patika Plusz mellett található. Az automatát minden hétköznap 10:30\-11:30 között ürítjük és töltjük. HU120'			'Az automata a kassza sor legvégén bal oldalon, a Patika Plusz mellett található. Az automatát hétköznaponként 8:30\-9:30 között ürítjük és töltjük.'
+description                       MOD 		'HU120 számú az automata a kassza sor legvégén bal oldalon, a Patika Plusz mellett található.'			'Az automata a kassza sor legvégén bal oldalon, a Patika Plusz mellett található. Az automatát hétköznaponként 8:30\-9:30 között ürítjük és töltjük.'
 name                              EQU 		'Foxpost'			'Foxpost'
 opening_hours                     EQU 		'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 07:00\-20:00; PH off'
 opening_hours:covid19             EQU 		'same'			'same'
@@ -161,9 +161,9 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:date                      NEW		'2022\-04\-26'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681512&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9scsaba%7Caddr%3Ahousenumber%3D68%7Caddr%3Apostcode%3D5600%7Caddr%3Astreet%3DSzarvasi%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DB%C3%A9k%C3%A9scsaba%20Tesco%20Szarvasi%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAz%20automata%20a%20kassza%20sor%20legv%C3%A9g%C3%A9n%20bal%20oldalon%2C%20a%20Patika%20Plusz%20mellett%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2010%3A30-11%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU120%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681512&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9scsaba%7Caddr%3Ahousenumber%3D68%7Caddr%3Apostcode%3D5600%7Caddr%3Astreet%3DSzarvasi%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DB%C3%A9k%C3%A9scsaba%20Tesco%20Szarvasi%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU120%20sz%C3%A1m%C3%BA%20az%20automata%20a%20kassza%20sor%20legv%C3%A9g%C3%A9n%20bal%20oldalon%2C%20a%20Patika%20Plusz%20mellett%20tal%C3%A1lhat%C3%B3.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cparcel_pickup%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': '5600 Békéscsaba, Szarvasi út 68.', 'postcode': '5600', 'city': 'Békéscsaba', 'street': 'Szarvasi út', 'housenumber': '68', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681512" lat="46.68081" lon="21.074456" timestamp="2022-02-12T20:42:22Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Békéscsaba"/>
@@ -178,7 +178,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="contact:phone" v="+36 1 999 0369"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Az automata a kassza sor legvégén bal oldalon, a Patika Plusz mellett található. Az automatát minden hétköznap 10:30-11:30 között ürítjük és töltjük. HU120"/>
+    <tag k="description" v="HU120 számú az automata a kassza sor legvégén bal oldalon, a Patika Plusz mellett található."/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-22:00; Su 07:00-20:00; PH off"/>
     <tag k="opening_hours:covid19" v="same"/>
@@ -193,7 +193,70 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:date" v="2022-04-26"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.653831 21.237586) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Gyula'
+addr:housenumber                 NEW		'15/A'
+addr:postcode                    NEW		'5700'
+addr:street                      NEW		'Bicere utca'
+amenity                          NEW		'parcel_locker'
+branch                           NEW		'Gyula ALDI'
+brand                            NEW		'Foxpost'
+contact:email                    NEW		'info@foxpost.hu'
+contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
+contact:phone                    NEW		'+36 1 999 03 69'
+contact:website                  NEW		'https://www.foxpost.hu'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                      NEW		'HU790 számú kültéri automatánk az áruház bejáratától balra a beszállítói zónánál található.'
+fixme                            NEW		'verify import'
+name                             NEW		'Foxpost'
+opening_hours                    NEW		'24/7; PH off'
+operator                         NEW		'FoxPost Zrt.'
+operator:addr                    NEW		'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                   NEW		'yes'
+payment:cash                     NEW		'no'
+payment:contactless              NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:visa                     NEW		'yes'
+ref:HU:company                   NEW		'10 10 020309'
+ref:vatin                        NEW		'HU25034644'
+ref:vatin:hu                     NEW		'25034644\-2\-10'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DGyula%7Caddr%3Ahousenumber%3D15/A%7Caddr%3Apostcode%3D5700%7Caddr%3Astreet%3DBicere%20utca%7Camenity%3Dparcel_locker%7Cbranch%3DGyula%20ALDI%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU790%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20a%20besz%C3%A1ll%C3%ADt%C3%B3i%20z%C3%B3n%C3%A1n%C3%A1l%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': '5700 Gyula, Bicere utca 15/A.', 'postcode': '5700', 'city': 'Gyula', 'street': 'Bicere utca', 'housenumber': '15/A', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="46.653831" lon="21.237586" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Gyula"/>
+    <tag k="addr:housenumber" v="15/A"/>
+    <tag k="addr:postcode" v="5700"/>
+    <tag k="addr:street" v="Bicere utca"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Gyula ALDI"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="HU790 számú kültéri automatánk az áruház bejáratától balra a beszállítói zónánál található."/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.641507 21.25818) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -211,7 +274,7 @@ contact:facebook                 NEW		'https://www.facebook.com/foxpostzrt'
 contact:phone                    NEW		'+36 1 999 03 69'
 contact:website                  NEW		'https://www.foxpost.hu'
 contact:youtube                  NEW		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
-description                      NEW		'Kültéri automatánk az áruház bejáratától balra található. Az automatát minden hétköznap 12:30\-13:30 között ürítjük és töltjük. HU379'
+description                      NEW		'HU379 számú kültéri automatánk az áruház bejáratától balra található.'
 fixme                            NEW		'verify import'
 name                             NEW		'Foxpost'
 opening_hours                    NEW		'24/7; PH off'
@@ -225,11 +288,11 @@ payment:visa                     NEW		'yes'
 ref:HU:company                   NEW		'10 10 020309'
 ref:vatin                        NEW		'HU25034644'
 ref:vatin:hu                     NEW		'25034644\-2\-10'
-source:date                      NEW		'2022\-04\-26'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DGyula%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5700%7Caddr%3Astreet%3DCsabai%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DGyula%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2012%3A30-13%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%20HU379%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-04-26 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DGyula%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5700%7Caddr%3Astreet%3DCsabai%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DGyula%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU379%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20balra%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': '5700 Gyula, Csabai út 3.', 'postcode': '5700', 'city': 'Gyula', 'street': 'Csabai út', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="46.641507" lon="21.25818" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-5" lat="46.641507" lon="21.25818" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Gyula"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="5700"/>
@@ -242,7 +305,7 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="contact:phone" v="+36 1 999 03 69"/>
     <tag k="contact:website" v="https://www.foxpost.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
-    <tag k="description" v="Kültéri automatánk az áruház bejáratától balra található. Az automatát minden hétköznap 12:30-13:30 között ürítjük és töltjük. HU379"/>
+    <tag k="description" v="HU379 számú kültéri automatánk az áruház bejáratától balra található."/>
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Foxpost"/>
     <tag k="opening_hours" v="24/7; PH off"/>
@@ -256,6 +319,6 @@ source:date                      NEW		'2022\-04\-26'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:date" v="2022-04-26"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
 </osm>

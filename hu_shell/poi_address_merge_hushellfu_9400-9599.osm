@@ -1,48 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <node action="modify" id="1507187049" lat="47.6712386" lon="16.6123043" timestamp="2018-02-14T20:15:52Z" uid="5314035" user="Turboscsiga" version="2"/>
-  <node action="modify" id="1507187053" lat="47.6713257" lon="16.6123564" timestamp="2018-02-14T20:15:52Z" uid="5314035" user="Turboscsiga" version="2"/>
-  <node action="modify" id="1507187050" lat="47.6712778" lon="16.6125331" timestamp="2018-02-14T20:15:53Z" uid="5314035" user="Turboscsiga" version="2"/>
-  <node action="modify" id="1507187044" lat="47.6711907" lon="16.612481" timestamp="2018-02-14T20:15:53Z" uid="5314035" user="Turboscsiga" version="2"/>
+  <node id="1507187049" lat="47.6712366" lon="16.6123361" timestamp="2022-04-12T09:27:38Z" uid="12368303" user="efi99" version="4"/>
+  <node id="1507187053" lat="47.6713265" lon="16.6123863" timestamp="2022-01-08T14:22:50Z" uid="12368303" user="efi99" version="3"/>
+  <node id="1507187050" lat="47.6712786" lon="16.612563" timestamp="2022-01-08T14:22:50Z" uid="12368303" user="efi99" version="3"/>
+  <node id="1507187044" lat="47.6711922" lon="16.6125133" timestamp="2022-04-12T09:27:38Z" uid="12368303" user="efi99" version="4"/>
   <!-- OSM link: https://osm.org/way/137382314 -->
-  <!-- Original coordinates: POINT (47.67113 16.6125) -->
+  <!-- Original coordinates: POINT (47.671131 16.612501) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Sopron'			'Sopron'
-addr:housenumber                 E		'32'			'32'
-addr:postcode                    E		'9400'			'9400'
-addr:street                      E		'Ipar körút'			'Ipar körút'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-branch                           N		'SOPRON II 550'
-brand                            E		'Shell'			'Shell'
-brand:wikidata                   N		'Q154950'
-brand:wikipedia                  N		'hu:Royal Dutch Shell'
-building                         E		'yes'			'yes'
-contact:facebook                 N		'https://www.facebook.com/ShellMagyarorszag/'
-contact:fax                      N		'+36 1 999 8673'
-contact:phone                    N		'+36 699702103'
-contact:twitter                  N		'shell'
-contact:website                  N		'https://shell.hu/'
-fuel:diesel                      N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'Shell'			'Shell'
-opening_hours                    M		'Mo\-Su 06:00\-22:00; PH off'			'24/7'
-operator                         E		'Shell'			'Shell'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:shell.hu:date             N		'2020\-06\-10'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'32'			'32'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Ipar körút'			'Ipar körút'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'fuel'			'fuel'
+branch                           NEW		'SOPRON II 550'
+brand                             EQU 		'Shell'			'Shell'
+brand:wikidata                    MOD 		'Q154950'			'Q110716465'
+brand:wikipedia                   MOD 		'hu:Royal Dutch Shell'			'en:Royal Dutch Shell'
+building                          EQU 		'yes'			'yes'
+compressed_air                   NEW		'yes'
+contact:facebook                 NEW		'https://www.facebook.com/ShellMagyarorszag/'
+contact:fax                      NEW		'+36 1 999 8673'
+contact:phone                    NEW		'+36 99 702 103'
+contact:twitter                  NEW		'shell'
+contact:website                  NEW		'https://find.shell.com/hu/fuel/11367868\-sopron\-ii\-550'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:adblue                      NEW		'yes'
+fuel:diesel                      NEW		'yes'
+fuel:octane_100                  NEW		'yes'
+fuel:octane_95                   NEW		'yes'
+loyalty_card                     NEW		'yes'
+name                              EQU 		'Shell'			'Shell'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          EQU 		'Shell'			'Shell'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w137382314&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIpar%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSOPRON%20II%20550%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20699702103%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-06-10 -->
-  <way action="modify" id="137382314" timestamp="2020-05-12T21:34:36Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w137382314&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIpar%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSOPRON%20II%20550%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2099%20702%20103%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11367868-sopron-ii-550%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'IPAR KRT. 32', 'postcode': '9400', 'city': 'Sopron', 'street': 'Ipar körút', 'housenumber': '32', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="137382314" timestamp="2022-04-12T09:27:38Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <nd ref="1507187049"/>
     <nd ref="1507187053"/>
     <nd ref="1507187050"/>
@@ -59,15 +64,20 @@ source:shell.hu:date             N		'2020\-06\-10'
     <tag k="brand:wikidata" v="Q154950"/>
     <tag k="brand:wikipedia" v="hu:Royal Dutch Shell"/>
     <tag k="building" v="yes"/>
+    <tag k="compressed_air" v="yes"/>
     <tag k="contact:facebook" v="https://www.facebook.com/ShellMagyarorszag/"/>
     <tag k="contact:fax" v="+36 1 999 8673"/>
-    <tag k="contact:phone" v="+36 699702103"/>
+    <tag k="contact:phone" v="+36 99 702 103"/>
     <tag k="contact:twitter" v="shell"/>
-    <tag k="contact:website" v="https://shell.hu/"/>
+    <tag k="contact:website" v="https://find.shell.com/hu/fuel/11367868-sopron-ii-550"/>
+    <tag k="fuel:GTL_diesel" v="yes"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_100" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
+    <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Shell"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -77,62 +87,68 @@ source:shell.hu:date             N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:shell.hu:date" v="2020-06-10"/>
+    <tag k="source:date" v="2022-06-08"/>
   </way>
-  <node action="modify" id="3080817290" lat="47.6930614" lon="16.5822415" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817289" lat="47.6930518" lon="16.5823139" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817283" lat="47.6929995" lon="16.5822986" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817278" lat="47.6929938" lon="16.5823414" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817270" lat="47.692939" lon="16.5823255" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817272" lat="47.6929545" lon="16.5822077" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817269" lat="47.6929047" lon="16.5821932" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817271" lat="47.6929507" lon="16.5818445" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817288" lat="47.6930476" lon="16.5818728" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817286" lat="47.693033" lon="16.5819831" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817292" lat="47.6930924" lon="16.5820004" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817293" lat="47.6930985" lon="16.5819545" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817303" lat="47.6931788" lon="16.5819779" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817299" lat="47.6931511" lon="16.5821876" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817284" lat="47.6930071" lon="16.5821457" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
-  <node action="modify" id="3080817279" lat="47.6929969" lon="16.5822227" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817290" lat="47.6930614" lon="16.5822415" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817289" lat="47.6930518" lon="16.5823139" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817283" lat="47.6929995" lon="16.5822986" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817278" lat="47.6929938" lon="16.5823414" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817270" lat="47.692939" lon="16.5823255" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817272" lat="47.6929545" lon="16.5822077" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817269" lat="47.6929047" lon="16.5821932" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817271" lat="47.6929507" lon="16.5818445" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817288" lat="47.6930476" lon="16.5818728" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817286" lat="47.693033" lon="16.5819831" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817292" lat="47.6930924" lon="16.5820004" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817293" lat="47.6930985" lon="16.5819545" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817303" lat="47.6931788" lon="16.5819779" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817299" lat="47.6931511" lon="16.5821876" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817284" lat="47.6930071" lon="16.5821457" timestamp="2014-09-16T20:32:47Z" uid="36129" user="City-busz" version="1"/>
+  <node id="3080817279" lat="47.6929969" lon="16.5822227" timestamp="2014-09-16T20:32:46Z" uid="36129" user="City-busz" version="1"/>
   <!-- OSM link: https://osm.org/way/303679624 -->
-  <!-- Original coordinates: POINT (47.69303 16.58204) -->
+  <!-- Original coordinates: POINT (47.69303 16.582047) -->
   <!-- OSM <-> POI distance: 0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Sopron'			'Sopron'
-addr:housenumber                 E		'60'			'60'
-addr:postcode                    E		'9400'			'9400'
-addr:street                      E		'Lackner Kristóf utca'			'Lackner Kristóf utca'
-air_conditioning                 N		'yes'
-amenity                          E		'fuel'			'fuel'
-branch                           N		'SOPRON'
-brand                            E		'Shell'			'Shell'
-brand:wikidata                   N		'Q154950'
-brand:wikipedia                  N		'hu:Royal Dutch Shell'
-building                         E		'yes'			'yes'
-contact:facebook                 N		'https://www.facebook.com/ShellMagyarorszag/'
-contact:fax                      N		'+36 1 999 8673'
-contact:phone                    N		'+36 699505946'
-contact:twitter                  N		'shell'
-contact:website                  N		'https://shell.hu/'
-fuel:diesel                      N		'yes'
-fuel:octane_95                   N		'yes'
-name                             E		'Shell'			'Shell'
-opening_hours                    M		'Mo\-Su 06:00\-22:00; PH off'			'24/7'
-operator                         E		'Shell'			'Shell'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:shell.hu:date             N		'2020\-06\-10'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'60'			'60'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Lackner Kristóf utca'			'Lackner Kristóf utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'fuel'			'fuel'
+branch                           NEW		'SOPRON'
+brand                             EQU 		'Shell'			'Shell'
+brand:wikidata                   NEW		'Q154950'
+brand:wikipedia                  NEW		'hu:Royal Dutch Shell'
+building                          EQU 		'yes'			'yes'
+compressed_air                   NEW		'yes'
+contact:facebook                 NEW		'https://www.facebook.com/ShellMagyarorszag/'
+contact:fax                      NEW		'+36 1 999 8673'
+contact:phone                    NEW		'+36 99 505 946'
+contact:twitter                  NEW		'shell'
+contact:website                  NEW		'https://find.shell.com/hu/fuel/10203196\-sopron'
+food                             NEW		'yes'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:adblue                      NEW		'yes'
+fuel:diesel                      NEW		'yes'
+fuel:octane_100                  NEW		'yes'
+fuel:octane_95                   NEW		'yes'
+loyalty_card                     NEW		'yes'
+name                              EQU 		'Shell'			'Shell'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          EQU 		'Shell'			'Shell'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w303679624&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D60%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DLackner%20Krist%C3%B3f%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSOPRON%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%20699505946%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ashell.hu%3Adate%3D2020-06-10 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w303679624&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D60%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DLackner%20Krist%C3%B3f%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSOPRON%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2099%20505%20946%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203196-sopron%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'LACKNER K. U. 60', 'postcode': '9400', 'city': 'Sopron', 'street': 'Lackner Kristóf utca', 'housenumber': '60', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="303679624" timestamp="2019-03-29T07:22:40Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="3080817290"/>
     <nd ref="3080817289"/>
@@ -162,15 +178,21 @@ source:shell.hu:date             N		'2020\-06\-10'
     <tag k="brand:wikidata" v="Q154950"/>
     <tag k="brand:wikipedia" v="hu:Royal Dutch Shell"/>
     <tag k="building" v="yes"/>
+    <tag k="compressed_air" v="yes"/>
     <tag k="contact:facebook" v="https://www.facebook.com/ShellMagyarorszag/"/>
     <tag k="contact:fax" v="+36 1 999 8673"/>
-    <tag k="contact:phone" v="+36 699505946"/>
+    <tag k="contact:phone" v="+36 99 505 946"/>
     <tag k="contact:twitter" v="shell"/>
-    <tag k="contact:website" v="https://shell.hu/"/>
+    <tag k="contact:website" v="https://find.shell.com/hu/fuel/10203196-sopron"/>
+    <tag k="food" v="yes"/>
+    <tag k="fuel:GTL_diesel" v="yes"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_100" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
+    <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="Shell"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Shell"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:contactless" v="yes"/>
@@ -180,6 +202,6 @@ source:shell.hu:date             N		'2020\-06\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:shell.hu:date" v="2020-06-10"/>
+    <tag k="source:date" v="2022-06-08"/>
   </way>
 </osm>

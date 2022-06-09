@@ -5,41 +5,40 @@
   <!-- OSM <-> POI distance: 13.68997755 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budapest'			'Budapest'
-addr:housenumber                 E		'45'			'45'
-addr:postcode                    E		'1023'			'1023'
-addr:street                      M		'Frankel Leó utca'			'Frankel Leó út'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-branch                           E		'Frankel Leó úti fiók és ATM'			'Frankel Leó úti fiók és ATM'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:email                    E		'020obuda@sberbank.hu'			'020obuda@sberbank.hu'
-contact:phone                    E		'+36 1 55 45 556'			'+36 1 55 45 556'
-contact:website                  M		'https://www.sberbank.hu'			'https://www.sberbank.hu/hu.html'
-name                             E		'Sberbank'			'Sberbank'
-name:it                          E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    E		'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00; PH closed'			'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00; PH closed'
-opening_hours:covid19            N		'Mo,Th 8:00\-17:00; Tu\-We 8:00\-16:00; Fr 8:00\-14:00; PH off'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Budapest'			'Budapest'
+addr:housenumber                  EQU 		'45'			'45'
+addr:postcode                     EQU 		'1023'			'1023'
+addr:street                       EQU 		'Frankel Leó út'			'Frankel Leó út'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+branch                            EQU 		'Frankel Leó úti fiók és ATM'			'Frankel Leó úti fiók és ATM'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:email                     EQU 		'020obuda@sberbank.hu'			'020obuda@sberbank.hu'
+contact:phone                     EQU 		'+36 1 55 45 556'			'+36 1 55 45 556'
+contact:website                   MOD 		'https://www.sberbank.hu'			'https://www.sberbank.hu/hu.html'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:it                           EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                     MOD 		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'			'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00; PH closed'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5749897796&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D45%7Caddr%3Apostcode%3D1023%7Caddr%3Astreet%3DFrankel%20Le%C3%B3%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbranch%3DFrankel%20Le%C3%B3%20%C3%BAti%20fi%C3%B3k%20%C3%A9s%20ATM%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Aemail%3D020obuda%40sberbank.hu%7Ccontact%3Aphone%3D%2B36%201%2055%2045%20556%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Ait%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo-We%2008%3A00-16%3A00%3B%20Th%2008%3A00-18%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20closed%7Copening_hours%3Acovid19%3DMo%2CTh%208%3A00-17%3A00%3B%20Tu-We%208%3A00-16%3A00%3B%20Fr%208%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Frankel Leó utca 45', 'postcode': '1023', 'city': 'Budapest', 'street': 'Frankel Leó utca', 'housenumber': '45', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5749897796&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D45%7Caddr%3Apostcode%3D1023%7Caddr%3Astreet%3DFrankel%20Le%C3%B3%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbranch%3DFrankel%20Le%C3%B3%20%C3%BAti%20fi%C3%B3k%20%C3%A9s%20ATM%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Aemail%3D020obuda%40sberbank.hu%7Ccontact%3Aphone%3D%2B36%201%2055%2045%20556%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Ait%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Frankel Leó utca 45', 'postcode': '1023', 'city': 'Budapest', 'street': 'Frankel Leó út', 'housenumber': '45', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="5749897796" lat="47.5212303" lon="19.0370364" timestamp="2021-09-18T16:47:31Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="45"/>
     <tag k="addr:postcode" v="1023"/>
-    <tag k="addr:street" v="Frankel Leó utca"/>
+    <tag k="addr:street" v="Frankel Leó út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="bank"/>
     <tag k="atm" v="yes"/>
@@ -55,47 +54,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="name" v="Sberbank"/>
     <tag k="name:it" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo-We 08:00-16:00; Th 08:00-18:00; Fr 08:00-14:00; PH closed"/>
-    <tag k="opening_hours:covid19" v="Mo,Th 8:00-17:00; Tu-We 8:00-16:00; Fr 8:00-14:00; PH off"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (47.50844 19.0264) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Budapest'
-addr:housenumber                 N		'1\-5'
-addr:postcode                    N		'1024'
-addr:street                      N		'Lövőház utca'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo\-Fr 08:00\-16:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Budapest'
+addr:housenumber                 NEW		'1\-5'
+addr:postcode                    NEW		'1024'
+addr:street                      NEW		'Lövőház utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo\-Fr 9:00\-16:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1-5%7Caddr%3Apostcode%3D1024%7Caddr%3Astreet%3DL%C3%B6v%C5%91h%C3%A1z%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo-Fr%2008%3A00-16%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1-5%7Caddr%3Apostcode%3D1024%7Caddr%3Astreet%3DL%C3%B6v%C5%91h%C3%A1z%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo-Fr%209%3A00-16%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Lövőház utca 1-5', 'postcode': '1024', 'city': 'Budapest', 'street': 'Lövőház utca', 'housenumber': '1-5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="47.50844" lon="19.0264" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-2" lat="47.50844" lon="19.0264" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="1-5"/>
     <tag k="addr:postcode" v="1024"/>
@@ -112,47 +109,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo-Fr 08:00-16:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo-Fr 9:00-16:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (47.56112 19.08615) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Budapest'
-addr:housenumber                 N		'56'
-addr:postcode                    N		'1042'
-addr:street                      N		'Árpád út'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Budapest'
+addr:housenumber                 NEW		'56'
+addr:postcode                    NEW		'1042'
+addr:street                      NEW		'Árpád út'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D56%7Caddr%3Apostcode%3D1042%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D56%7Caddr%3Apostcode%3D1042%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Árpád út 56', 'postcode': '1042', 'city': 'Budapest', 'street': 'Árpád út', 'housenumber': '56', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="47.56112" lon="19.08615" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="47.56112" lon="19.08615" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="56"/>
     <tag k="addr:postcode" v="1042"/>
@@ -169,48 +164,46 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/272560809 -->
   <!-- Original coordinates: POINT (47.49608 19.05305) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budapest'			'Budapest'
-addr:housenumber                 E		'5'			'5'
-addr:postcode                    E		'1052'			'1052'
-addr:street                      E		'Fehér Hajó utca'			'Fehér Hajó utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    E		'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00'			'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00'
-opening_hours:covid19            N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
-wheelchair                       E		'no'			'no'
+addr:city                         EQU 		'Budapest'			'Budapest'
+addr:housenumber                  EQU 		'5'			'5'
+addr:postcode                     EQU 		'1052'			'1052'
+addr:street                       EQU 		'Fehér Hajó utca'			'Fehér Hajó utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                     MOD 		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'			'Mo,Th 08:00\-12:30, Tu,We 08:00\-16:00, Fr 08:00\-12:30, Mo,Th 13:00\-17:00, Tu,We 13:00\-16:00, Fr 13:00\-14:00'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
+wheelchair                        EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n272560809&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D1052%7Caddr%3Astreet%3DFeh%C3%A9r%20Haj%C3%B3%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo-We%2008%3A00-16%3A00%3B%20Th%2008%3A00-18%3A00%3B%20Fr%2008%3A00-14%3A00%7Copening_hours%3Acovid19%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n272560809&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D1052%7Caddr%3Astreet%3DFeh%C3%A9r%20Haj%C3%B3%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dno -->
   <!--ˇ'original': 'Fehér Hajó utca 5', 'postcode': '1052', 'city': 'Budapest', 'street': 'Fehér Hajó utca', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="272560809" lat="47.4961005" lon="19.0537706" timestamp="2016-04-18T13:15:12Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+  <node action="modify" id="272560809" lat="47.4961005" lon="19.0537706" timestamp="2022-03-30T10:16:46Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="1052"/>
@@ -226,14 +219,13 @@ wheelchair                       E		'no'			'no'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo-We 08:00-16:00; Th 08:00-18:00; Fr 08:00-14:00"/>
-    <tag k="opening_hours:covid19" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="wheelchair" v="no"/>
   </node>
   <!-- OSM link: https://osm.org/node/2470908664 -->
@@ -241,34 +233,33 @@ wheelchair                       E		'no'			'no'
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budapest'			'Budapest'
-addr:housenumber                 E		'51'			'51'
-addr:postcode                    E		'1071'			'1071'
-addr:street                      E		'Damjanich utca'			'Damjanich utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:phone                    N		'+36 1 413 3940'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          E		'Сбербанк'			'Сбербанк'
-note                             E		'Parkolás: utcán fizetős'			'Parkolás: utcán fizetős'
-opening_hours                    E		'Mo\-Fr 8:00\-16:00'			'Mo\-Fr 8:00\-16:00'
-opening_hours:covid19            N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
-wheelchair                       E		'yes'			'yes'
+addr:city                         EQU 		'Budapest'			'Budapest'
+addr:housenumber                  EQU 		'51'			'51'
+addr:postcode                     EQU 		'1071'			'1071'
+addr:street                       EQU 		'Damjanich utca'			'Damjanich utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:phone                    NEW		'+36 1 413 3940'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                           EQU 		'Сбербанк'			'Сбербанк'
+note                              EQU 		'Parkolás: utcán fizetős'			'Parkolás: utcán fizetős'
+opening_hours                     MOD 		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'			'Mo\-Fr 8:00\-16:00'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2470908664&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D1071%7Caddr%3Astreet%3DDamjanich%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Aphone%3D%2B36%201%20413%203940%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cnote%3DParkol%C3%A1s%3A%20utc%C3%A1n%20fizet%C5%91s%7Copening_hours%3DMo-Fr%208%3A00-16%3A00%7Copening_hours%3Acovid19%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2470908664&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D1071%7Caddr%3Astreet%3DDamjanich%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Aphone%3D%2B36%201%20413%203940%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cnote%3DParkol%C3%A1s%3A%20utc%C3%A1n%20fizet%C5%91s%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Damjanich utca 51', 'postcode': '1071', 'city': 'Budapest', 'street': 'Damjanich utca', 'housenumber': '51', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2470908664" lat="47.5093737" lon="19.0824857" timestamp="2019-05-29T15:27:09Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Budapest"/>
@@ -288,14 +279,13 @@ wheelchair                       E		'yes'			'yes'
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
     <tag k="note" v="Parkolás: utcán fizetős"/>
-    <tag k="opening_hours" v="Mo-Fr 8:00-16:00"/>
-    <tag k="opening_hours:covid19" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/2993772149 -->
@@ -303,32 +293,31 @@ wheelchair                       E		'yes'			'yes'
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budapest'			'Budapest'
-addr:housenumber                 E		'7'			'7'
-addr:postcode                    E		'1088'			'1088'
-addr:street                      E		'Rákóczi út'			'Rákóczi út'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    E		'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00'			'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00'
-opening_hours:covid19            N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
-wheelchair                       E		'no'			'no'
+addr:city                         EQU 		'Budapest'			'Budapest'
+addr:housenumber                  EQU 		'7'			'7'
+addr:postcode                     EQU 		'1088'			'1088'
+addr:street                       EQU 		'Rákóczi út'			'Rákóczi út'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                     MOD 		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'			'Mo\-We 08:00\-16:00; Th 08:00\-18:00; Fr 08:00\-14:00'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
+wheelchair                        EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2993772149&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D1088%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo-We%2008%3A00-16%3A00%3B%20Th%2008%3A00-18%3A00%3B%20Fr%2008%3A00-14%3A00%7Copening_hours%3Acovid19%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2993772149&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D1088%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dno -->
   <!--ˇ'original': 'Rákóczi út 7', 'postcode': '1088', 'city': 'Budapest', 'street': 'Rákóczi út', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2993772149" lat="47.4946008" lon="19.0619136" timestamp="2021-10-12T20:08:11Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Budapest"/>
@@ -346,51 +335,45 @@ wheelchair                       E		'no'			'no'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo-We 08:00-16:00; Th 08:00-18:00; Fr 08:00-14:00"/>
-    <tag k="opening_hours:covid19" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="wheelchair" v="no"/>
   </node>
-  <!-- OSM link: https://osm.org/node/6760370779 -->
   <!-- Original coordinates: POINT (47.50246 19.13695) -->
-  <!-- OSM <-> POI distance: 30.75986321 m-->
+  <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budapest'			'Budapest'
-addr:housenumber                 M		'25/A'			'61'
-addr:postcode                    E		'1106'			'1106'
-addr:street                      M		'Örs vezér tere'			'Kerepesi út'
-air_conditioning                 E		'yes'			'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              M		'MAVOHUHB'			'BUDAHUHB'
-branch                           E		'Árkád 2'			'Árkád 2'
-brand                            M		'Sberbank'			'Budapest Bank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q27493463'
-brand:wikipedia                  M		'en:Sberbank of Russia'			'en:Budapest Bank'
-contact:website                  M		'https://www.sberbank.hu'			'https://www.budapestbank.hu'
-fixme                            E		'Az automatikus import a Fehér út másik oldalára, a metró elé helyezte. Az Árkádon belül pontosítandó a helye.'			'Az automatikus import a Fehér út másik oldalára, a metró elé helyezte. Az Árkádon belül pontosítandó a helye.'
-name                             M		'Sberbank'			'Budapest Bank'
-name:ru                          N		'Сбербанк'
-opening_hours                    E		'Mo 09:00\-18:00; Tu\-Th 09:00\-17:00; Fr 09:00\-16:00; PH off'			'Mo 09:00\-18:00; Tu\-Th 09:00\-17:00; Fr 09:00\-16:00; PH off'
-opening_hours:covid19            M		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'			'same'
-operator                         M		'Sberbank Magyarország Zrt.'			'Budapest Bank Zrt.'
-operator:addr                    M		'1088 Budapest, Rákóczi út 1\-3.'			'1138 Budapest, Váci út 193.'
-ref:HU:company                   M		'01 10 041720'			'01 10 041037'
-ref:vatin                        M		'HU10776999'			'HU10196445'
-ref:vatin:hu                     M		'10776999\-2\-44'			'10196445\-4\-44'
-source:www.budapestbank.hu:date  E		'2020\-09\-28'			'2020\-09\-28'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Budapest'
+addr:housenumber                 NEW		'25/A'
+addr:postcode                    NEW		'1106'
+addr:street                      NEW		'Örs vezér tere'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6760370779&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D25/A%7Caddr%3Apostcode%3D1106%7Caddr%3Astreet%3D%C3%96rs%20vez%C3%A9r%20tere%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbranch%3D%C3%81rk%C3%A1d%202%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3DAz%20automatikus%20import%20a%20Feh%C3%A9r%20%C3%BAt%20m%C3%A1sik%20oldal%C3%A1ra%2C%20a%20metr%C3%B3%20el%C3%A9%20helyezte.%20Az%20%C3%81rk%C3%A1don%20bel%C3%BCl%20pontos%C3%ADtand%C3%B3%20a%20helye.%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2009%3A00-18%3A00%3B%20Tu-Th%2009%3A00-17%3A00%3B%20Fr%2009%3A00-16%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2020-09-28%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D25/A%7Caddr%3Apostcode%3D1106%7Caddr%3Astreet%3D%C3%96rs%20vez%C3%A9r%20tere%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Örs vezér tere 25/A - Árkád', 'postcode': '1106', 'city': 'Budapest', 'street': 'Örs vezér tere', 'housenumber': '25/A', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="6760370779" lat="47.5026773" lon="19.1372034" timestamp="2021-01-26T06:39:58Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+  <node action="modify" id="-7" lat="47.50246" lon="19.13695" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="25/A"/>
     <tag k="addr:postcode" v="1106"/>
@@ -399,56 +382,50 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="amenity" v="bank"/>
     <tag k="atm" v="yes"/>
     <tag k="bic" v="MAVOHUHB"/>
-    <tag k="branch" v="Árkád 2"/>
     <tag k="brand" v="Sberbank"/>
     <tag k="brand:ru" v="Сбербанк"/>
     <tag k="brand:wikidata" v="Q17379757"/>
     <tag k="brand:wikipedia" v="en:Sberbank of Russia"/>
     <tag k="contact:website" v="https://www.sberbank.hu"/>
-    <tag k="fixme" v="Az automatikus import a Fehér út másik oldalára, a metró elé helyezte. Az Árkádon belül pontosítandó a helye."/>
+    <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo 09:00-18:00; Tu-Th 09:00-17:00; Fr 09:00-16:00; PH off"/>
-    <tag k="opening_hours:covid19" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.budapestbank.hu:date" v="2020-09-28"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/3485644093 -->
   <!-- Original coordinates: POINT (47.51636 19.05922) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budapest'			'Budapest'
-addr:housenumber                 E		'36\-38'			'36\-38'
-addr:postcode                    E		'1132'			'1132'
-addr:street                      E		'Váci út'			'Váci út'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
-wheelchair                       E		'yes'			'yes'
+addr:city                         EQU 		'Budapest'			'Budapest'
+addr:housenumber                  EQU 		'36\-38'			'36\-38'
+addr:postcode                     EQU 		'1132'			'1132'
+addr:street                       EQU 		'Váci út'			'Váci út'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3485644093&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D36-38%7Caddr%3Apostcode%3D1132%7Caddr%3Astreet%3DV%C3%A1ci%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3485644093&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D36-38%7Caddr%3Apostcode%3D1132%7Caddr%3Astreet%3DV%C3%A1ci%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Váci út 36-38', 'postcode': '1132', 'city': 'Budapest', 'street': 'Váci út', 'housenumber': '36-38', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3485644093" lat="47.5162198" lon="19.0593266" timestamp="2019-07-27T06:46:32Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Budapest"/>
@@ -466,14 +443,12 @@ wheelchair                       E		'yes'			'yes'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/2296770517 -->
@@ -481,35 +456,34 @@ wheelchair                       E		'yes'			'yes'
   <!-- OSM <-> POI distance: 48.60722164 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budapest'			'Budapest'
-addr:housenumber                 M		'167/B'			'167'
-addr:postcode                    E		'1238'			'1238'
-addr:street                      E		'Grassalkovich út'			'Grassalkovich út'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         E		'Sberbank Magyarország Zrt.'			'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Budapest'			'Budapest'
+addr:housenumber                  EQU 		'167'			'167'
+addr:postcode                     EQU 		'1238'			'1238'
+addr:street                       EQU 		'Grassalkovich út'			'Grassalkovich út'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                          EQU 		'Sberbank Magyarország Zrt.'			'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2296770517&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D167/B%7Caddr%3Apostcode%3D1238%7Caddr%3Astreet%3DGrassalkovich%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Grassalkovich út 167/b', 'postcode': '1238', 'city': 'Budapest', 'street': 'Grassalkovich út', 'housenumber': '167/B', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2296770517&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D1238%7Caddr%3Astreet%3DGrassalkovich%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Grassalkovich út 167/b', 'postcode': '1238', 'city': 'Budapest', 'street': 'Grassalkovich út', 'housenumber': '167', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2296770517" lat="47.3994693" lon="19.1149396" timestamp="2019-07-26T20:37:06Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Budapest"/>
-    <tag k="addr:housenumber" v="167/B"/>
+    <tag k="addr:housenumber" v="167"/>
     <tag k="addr:postcode" v="1238"/>
     <tag k="addr:street" v="Grassalkovich út"/>
     <tag k="air_conditioning" v="yes"/>
@@ -523,47 +497,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/392426276 -->
   <!-- Original coordinates: POINT (47.46078 18.9535) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budaörs'			'Budaörs'
-addr:housenumber                 E		'86'			'86'
-addr:postcode                    E		'2040'			'2040'
-addr:street                      E		'Szabadság út'			'Szabadság út'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         M		'Sberbank Magyarország Zrt.'			'Sberbank'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Budaörs'			'Budaörs'
+addr:housenumber                  EQU 		'86'			'86'
+addr:postcode                     EQU 		'2040'			'2040'
+addr:street                       EQU 		'Szabadság út'			'Szabadság út'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                          MOD 		'Sberbank Magyarország Zrt.'			'Sberbank'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n392426276&addtags=%7Caddr%3Acity%3DBuda%C3%B6rs%7Caddr%3Ahousenumber%3D86%7Caddr%3Apostcode%3D2040%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n392426276&addtags=%7Caddr%3Acity%3DBuda%C3%B6rs%7Caddr%3Ahousenumber%3D86%7Caddr%3Apostcode%3D2040%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Szabadság út 86', 'postcode': '2040', 'city': 'Budaörs', 'street': 'Szabadság út', 'housenumber': '86', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="392426276" lat="47.4604058" lon="18.9533059" timestamp="2020-12-29T20:33:03Z" uid="8635934" user="osm_poi_matchmaker" version="8">
+  <node action="modify" id="392426276" lat="47.4604058" lon="18.9533059" timestamp="2022-04-03T07:42:15Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <tag k="addr:city" v="Budaörs"/>
     <tag k="addr:housenumber" v="86"/>
     <tag k="addr:postcode" v="2040"/>
@@ -579,45 +551,43 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/2920866637 -->
   <!-- Original coordinates: POINT (47.62183 18.90962) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Pilisvörösvár'			'Pilisvörösvár'
-addr:housenumber                 E		'83'			'83'
-addr:postcode                    E		'2085'			'2085'
-addr:street                      E		'Fő utca'			'Fő utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Pilisvörösvár'			'Pilisvörösvár'
+addr:housenumber                  EQU 		'83'			'83'
+addr:postcode                     EQU 		'2085'			'2085'
+addr:street                       EQU 		'Fő utca'			'Fő utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2920866637&addtags=%7Caddr%3Acity%3DPilisv%C3%B6r%C3%B6sv%C3%A1r%7Caddr%3Ahousenumber%3D83%7Caddr%3Apostcode%3D2085%7Caddr%3Astreet%3DF%C5%91%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2920866637&addtags=%7Caddr%3Acity%3DPilisv%C3%B6r%C3%B6sv%C3%A1r%7Caddr%3Ahousenumber%3D83%7Caddr%3Apostcode%3D2085%7Caddr%3Astreet%3DF%C5%91%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Fő utca 83', 'postcode': '2085', 'city': 'Pilisvörösvár', 'street': 'Fő utca', 'housenumber': '83', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2920866637" lat="47.6213491" lon="18.9095159" timestamp="2020-04-27T19:38:10Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Pilisvörösvár"/>
@@ -635,48 +605,46 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/1358867803 -->
   <!-- Original coordinates: POINT (48.10333 20.7791) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Miskolc'			'Miskolc'
-addr:housenumber                 E		'9'			'9'
-addr:postcode                    E		'3525'			'3525'
-addr:street                      E		'Városház tér'			'Városház tér'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-drive_through                    E		'no'			'no'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Miskolc'			'Miskolc'
+addr:housenumber                  EQU 		'9'			'9'
+addr:postcode                     EQU 		'3525'			'3525'
+addr:street                       EQU 		'Városház tér'			'Városház tér'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   MOD 		'en:Sberbank of Russia'			'en:Sberbank'
+contact:website                  NEW		'https://www.sberbank.hu'
+drive_through                     EQU 		'no'			'no'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                     MOD 		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'			'closed'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1358867803&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D3525%7Caddr%3Astreet%3DV%C3%A1rosh%C3%A1z%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cdrive_through%3Dno%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1358867803&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D3525%7Caddr%3Astreet%3DV%C3%A1rosh%C3%A1z%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cdrive_through%3Dno%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Városház tér 9', 'postcode': '3525', 'city': 'Miskolc', 'street': 'Városház tér', 'housenumber': '9', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="1358867803" lat="48.1033334" lon="20.7793329" timestamp="2021-02-18T09:58:47Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+  <node action="modify" id="1358867803" lat="48.1033334" lon="20.7793329" timestamp="2022-04-20T13:57:14Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Miskolc"/>
     <tag k="addr:housenumber" v="9"/>
     <tag k="addr:postcode" v="3525"/>
@@ -693,52 +661,50 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="drive_through" v="no"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/3183044061 -->
   <!-- Original coordinates: POINT (47.53176 21.62402) -->
   <!-- OSM <-> POI distance: 71.56194344 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Debrecen'			'Debrecen'
-addr:housenumber                 N		'1/A'
-addr:postcode                    N		'4026'
-addr:street                      M		'Hatvan utca'			'Kálvin tér'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
-wheelchair                       E		'yes'			'yes'
+addr:city                         EQU 		'Debrecen'			'Debrecen'
+addr:housenumber                 NEW		'1/A'
+addr:postcode                    NEW		'4026'
+addr:street                       EQU 		'Kálvin tér'			'Kálvin tér'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3183044061&addtags=%7Caddr%3Acity%3DDebrecen%7Caddr%3Ahousenumber%3D1/A%7Caddr%3Apostcode%3D4026%7Caddr%3Astreet%3DHatvan%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20%7Cwheelchair%3Dyes -->
-  <!--ˇ'original': 'Hatvan u. 1/a', 'postcode': '4026', 'city': 'Debrecen', 'street': 'Hatvan utca', 'housenumber': '1/A', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3183044061&addtags=%7Caddr%3Acity%3DDebrecen%7Caddr%3Ahousenumber%3D1/A%7Caddr%3Apostcode%3D4026%7Caddr%3Astreet%3DK%C3%A1lvin%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!--ˇ'original': 'Hatvan u. 1/a', 'postcode': '4026', 'city': 'Debrecen', 'street': 'Kálvin tér', 'housenumber': '1/A', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3183044061" lat="47.5323117" lon="21.6235292" timestamp="2020-09-23T17:35:06Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Debrecen"/>
     <tag k="addr:housenumber" v="1/A"/>
     <tag k="addr:postcode" v="4026"/>
-    <tag k="addr:street" v="Hatvan utca"/>
+    <tag k="addr:street" v="Kálvin tér"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="bank"/>
     <tag k="atm" v="yes"/>
@@ -750,14 +716,13 @@ wheelchair                       E		'yes'			'yes'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/4973088262 -->
@@ -765,31 +730,30 @@ wheelchair                       E		'yes'			'yes'
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Nyíregyháza'			'Nyíregyháza'
-addr:housenumber                 E		'13'			'13'
-addr:postcode                    E		'4400'			'4400'
-addr:street                      E		'Bercsényi utca'			'Bercsényi utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Nyíregyháza'			'Nyíregyháza'
+addr:housenumber                  EQU 		'13'			'13'
+addr:postcode                     EQU 		'4400'			'4400'
+addr:street                       EQU 		'Bercsényi utca'			'Bercsényi utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4973088262&addtags=%7Caddr%3Acity%3DNy%C3%ADregyh%C3%A1za%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D4400%7Caddr%3Astreet%3DBercs%C3%A9nyi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4973088262&addtags=%7Caddr%3Acity%3DNy%C3%ADregyh%C3%A1za%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D4400%7Caddr%3Astreet%3DBercs%C3%A9nyi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Bercsényi utca 13', 'postcode': '4400', 'city': 'Nyíregyháza', 'street': 'Bercsényi utca', 'housenumber': '13', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4973088262" lat="47.9549357" lon="21.7141971" timestamp="2017-07-16T06:03:10Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Nyíregyháza"/>
@@ -807,47 +771,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (47.1763 20.19592) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szolnok'
-addr:housenumber                 N		'3'
-addr:postcode                    N		'5000'
-addr:street                      N		'Sólyom utca'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Szolnok'
+addr:housenumber                 NEW		'3'
+addr:postcode                    NEW		'5000'
+addr:street                      NEW		'Sólyom utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DSzolnok%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5000%7Caddr%3Astreet%3DS%C3%B3lyom%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DSzolnok%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5000%7Caddr%3Astreet%3DS%C3%B3lyom%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Sólyom u. 3', 'postcode': '5000', 'city': 'Szolnok', 'street': 'Sólyom utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-15" lat="47.1763" lon="20.19592" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-15" lat="47.1763" lon="20.19592" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szolnok"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="5000"/>
@@ -864,47 +826,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.90558 19.68797) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kecskemét'
-addr:housenumber                 N		'1'
-addr:postcode                    N		'6000'
-addr:street                      N		'Petőfi Sándor utca'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Petőfi Sándor utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Petőfi Sándor u. 1', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Petőfi Sándor utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-16" lat="46.90558" lon="19.68797" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-16" lat="46.90558" lon="19.68797" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="6000"/>
@@ -921,47 +881,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.25245 20.14875) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szeged'
-addr:housenumber                 N		'1\-3'
-addr:postcode                    N		'6720'
-addr:street                      N		'Klauzál tér'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Szeged'
+addr:housenumber                 NEW		'1\-3'
+addr:postcode                    NEW		'6720'
+addr:street                      NEW		'Klauzál tér'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D6720%7Caddr%3Astreet%3DKlauz%C3%A1l%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DSzeged%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D6720%7Caddr%3Astreet%3DKlauz%C3%A1l%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Klauzál tér 1-3', 'postcode': '6720', 'city': 'Szeged', 'street': 'Klauzál tér', 'housenumber': '1-3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-17" lat="46.25245" lon="20.14875" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-17" lat="46.25245" lon="20.14875" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szeged"/>
     <tag k="addr:housenumber" v="1-3"/>
     <tag k="addr:postcode" v="6720"/>
@@ -978,47 +936,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.61765 18.85234) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Paks'
-addr:housenumber                 N		'2'
-addr:postcode                    N		'7030'
-addr:street                      N		'Tolnai út'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Paks'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'7030'
+addr:street                      NEW		'Tolnai út'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DPaks%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D7030%7Caddr%3Astreet%3DTolnai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DPaks%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D7030%7Caddr%3Astreet%3DTolnai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Tolnai út 2', 'postcode': '7030', 'city': 'Paks', 'street': 'Tolnai út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-18" lat="46.61765" lon="18.85234" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-18" lat="46.61765" lon="18.85234" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Paks"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="7030"/>
@@ -1035,47 +991,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/7074253467 -->
   <!-- Original coordinates: POINT (46.34705 18.70291) -->
   <!-- OSM <-> POI distance: 38.45432727 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szekszárd'
-addr:housenumber                 N		'4'
-addr:postcode                    N		'7100'
-addr:street                      N		'Arany János utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:email                    N		'065szekszard@sberbank.hu'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    E		'Mo,Th 08:00\-17:00; Tu,We 08:00\-16:00; Fr 08:00\-14:00; PH off'			'Mo,Th 08:00\-17:00; Tu,We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
-survey:date                      E		'2019\-12\-18'			'2019\-12\-18'
+addr:city                        NEW		'Szekszárd'
+addr:housenumber                 NEW		'4'
+addr:postcode                    NEW		'7100'
+addr:street                      NEW		'Arany János utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:email                    NEW		'065szekszard@sberbank.hu'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                     MOD 		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'			'Mo,Th 08:00\-17:00; Tu,We 08:00\-16:00; Fr 08:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
+survey:date                       EQU 		'2019\-12\-18'			'2019\-12\-18'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7074253467&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3DArany%20J%C3%A1nos%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Aemail%3D065szekszard%40sberbank.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu%2CWe%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20%7Csurvey%3Adate%3D2019-12-18 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7074253467&addtags=%7Caddr%3Acity%3DSzeksz%C3%A1rd%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D7100%7Caddr%3Astreet%3DArany%20J%C3%A1nos%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Aemail%3D065szekszard%40sberbank.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08%7Csurvey%3Adate%3D2019-12-18 -->
   <!--ˇ'original': 'Arany János u. 4', 'postcode': '7100', 'city': 'Szekszárd', 'street': 'Arany János utca', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7074253467" lat="46.3468471" lon="18.7033157" timestamp="2019-12-21T08:01:28Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Szekszárd"/>
@@ -1094,14 +1048,13 @@ survey:date                      E		'2019\-12\-18'			'2019\-12\-18'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu,We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
     <tag k="survey:date" v="2019-12-18"/>
   </node>
   <!-- OSM link: https://osm.org/node/7918184501 -->
@@ -1109,33 +1062,33 @@ survey:date                      E		'2019\-12\-18'			'2019\-12\-18'
   <!-- OSM <-> POI distance: 47.34153258 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kaposvár'
-addr:housenumber                 N		'30'
-addr:postcode                    N		'7400'
-addr:street                      N		'Fő utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kaposvár'
+addr:housenumber                 NEW		'30'
+addr:postcode                    NEW		'7400'
+addr:street                      NEW		'Fő utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   MOD 		'en:Sberbank of Russia'			'en:Sberbank'
+contact:website                  NEW		'https://www.sberbank.hu'
+disused                           EQU 		'yes'			'yes'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7918184501&addtags=%7Caddr%3Acity%3DKaposv%C3%A1r%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D7400%7Caddr%3Astreet%3DF%C5%91%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7918184501&addtags=%7Caddr%3Acity%3DKaposv%C3%A1r%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D7400%7Caddr%3Astreet%3DF%C5%91%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cdisused%3Dyes%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Fő u. 30', 'postcode': '7400', 'city': 'Kaposvár', 'street': 'Fő utca', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="7918184501" lat="46.3565524" lon="17.7955598" timestamp="2020-09-17T20:07:09Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <node action="modify" id="7918184501" lat="46.3565524" lon="17.7955598" timestamp="2022-04-17T14:44:43Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Kaposvár"/>
     <tag k="addr:housenumber" v="30"/>
     <tag k="addr:postcode" v="7400"/>
@@ -1149,53 +1102,52 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="brand:wikidata" v="Q17379757"/>
     <tag k="brand:wikipedia" v="en:Sberbank of Russia"/>
     <tag k="contact:website" v="https://www.sberbank.hu"/>
+    <tag k="disused" v="yes"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
-  <!-- OSM link: https://osm.org/node/5287715050 -->
-  <!-- Original coordinates: POINT (46.07755 18.23759) -->
-  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Original coordinates: POINT (46.07363 18.22943) -->
+  <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Pécs'			'Pécs'
-addr:housenumber                 E		'66'			'66'
-addr:postcode                    E		'7626'			'7626'
-addr:street                      E		'Király utca'			'Király utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Pécs'
+addr:housenumber                 NEW		'5'
+addr:postcode                    NEW		'7621'
+addr:street                      NEW		'Kossuth tér'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5287715050&addtags=%7Caddr%3Acity%3DP%C3%A9cs%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D7626%7Caddr%3Astreet%3DKir%C3%A1ly%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Király u. 66', 'postcode': '7626', 'city': 'Pécs', 'street': 'Király utca', 'housenumber': '66', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="5287715050" lat="46.0769339" lon="18.2379973" timestamp="2017-12-16T15:42:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-21&addtags=%7Caddr%3Acity%3DP%C3%A9cs%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D7621%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Kossuth tér 5', 'postcode': '7621', 'city': 'Pécs', 'street': 'Kossuth tér', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-21" lat="46.07363" lon="18.22943" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Pécs"/>
-    <tag k="addr:housenumber" v="66"/>
-    <tag k="addr:postcode" v="7626"/>
-    <tag k="addr:street" v="Király utca"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:postcode" v="7621"/>
+    <tag k="addr:street" v="Kossuth tér"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="bank"/>
     <tag k="atm" v="yes"/>
@@ -1205,49 +1157,48 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="brand:wikidata" v="Q17379757"/>
     <tag k="brand:wikipedia" v="en:Sberbank of Russia"/>
     <tag k="contact:website" v="https://www.sberbank.hu"/>
+    <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (47.19192 18.41242) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Székesfehérvár'
-addr:housenumber                 N		'1'
-addr:postcode                    N		'8000'
-addr:street                      N		'Rákóczi utca'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Székesfehérvár'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'8000'
+addr:street                      NEW		'Rákóczi utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DSz%C3%A9kesfeh%C3%A9rv%C3%A1r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D8000%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DSz%C3%A9kesfeh%C3%A9rv%C3%A1r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D8000%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Rákóczi utca 1', 'postcode': '8000', 'city': 'Székesfehérvár', 'street': 'Rákóczi utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-22" lat="47.19192" lon="18.41242" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-22" lat="47.19192" lon="18.41242" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Székesfehérvár"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="8000"/>
@@ -1264,48 +1215,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/2096039051 -->
   <!-- Original coordinates: POINT (46.45495 16.9872) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Nagykanizsa'			'Nagykanizsa'
-addr:housenumber                 E		'36'			'36'
-addr:postcode                    E		'8800'			'8800'
-addr:street                      E		'Király utca'			'Király utca'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:hu                          E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Nagykanizsa'			'Nagykanizsa'
+addr:housenumber                  EQU 		'36'			'36'
+addr:postcode                     EQU 		'8800'			'8800'
+addr:street                       EQU 		'Király utca'			'Király utca'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2096039051&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Ahousenumber%3D36%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DKir%C3%A1ly%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Ahu%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2096039051&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Ahousenumber%3D36%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DKir%C3%A1ly%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Király utca 36', 'postcode': '8800', 'city': 'Nagykanizsa', 'street': 'Király utca', 'housenumber': '36', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="2096039051" lat="46.4549541" lon="16.9872815" timestamp="2021-08-27T17:51:46Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+  <node action="modify" id="2096039051" lat="46.4549541" lon="16.9872815" timestamp="2022-01-04T15:21:36Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Nagykanizsa"/>
     <tag k="addr:housenumber" v="36"/>
     <tag k="addr:postcode" v="8800"/>
@@ -1320,49 +1268,46 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="brand:wikipedia" v="en:Sberbank of Russia"/>
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
-    <tag k="name:hu" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.83783 16.84547) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Zalaegerszeg'
-addr:housenumber                 N		'61\-63'
-addr:postcode                    N		'8900'
-addr:street                      N		'Kossuth Lajos utca'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Zalaegerszeg'
+addr:housenumber                 NEW		'61\-63'
+addr:postcode                    NEW		'8900'
+addr:street                      NEW		'Kossuth Lajos utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-24&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D61-63%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Kossuth Lajos u.  61-63', 'postcode': '8900', 'city': 'Zalaegerszeg', 'street': 'Kossuth Lajos utca', 'housenumber': '61-63', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-24" lat="46.83783" lon="16.84547" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-24&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D61-63%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Kossuth Lajos u. 61-63', 'postcode': '8900', 'city': 'Zalaegerszeg', 'street': 'Kossuth Lajos utca', 'housenumber': '61-63', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-24" lat="46.83783" lon="16.84547" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Zalaegerszeg"/>
     <tag k="addr:housenumber" v="61-63"/>
     <tag k="addr:postcode" v="8900"/>
@@ -1379,50 +1324,48 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
-  <!-- Original coordinates: POINT (47.68888 17.64406) -->
+  <!-- Original coordinates: POINT (47.68877 17.64551) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Győr'
-addr:housenumber                 N		'1'
-addr:postcode                    N		'9022'
-addr:street                      N		'Budai út'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Győr'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'9027'
+addr:street                      NEW		'Budai út'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D9022%7Caddr%3Astreet%3DBudai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Budai út 1', 'postcode': '9022', 'city': 'Győr', 'street': 'Budai út', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-25" lat="47.68888" lon="17.64406" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D9027%7Caddr%3Astreet%3DBudai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Budai út 2', 'postcode': '9027', 'city': 'Győr', 'street': 'Budai út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-25" lat="47.68877" lon="17.64551" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Győr"/>
-    <tag k="addr:housenumber" v="1"/>
-    <tag k="addr:postcode" v="9022"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="9027"/>
     <tag k="addr:street" v="Budai út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="bank"/>
@@ -1436,51 +1379,49 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- OSM link: https://osm.org/node/1448679494 -->
   <!-- Original coordinates: POINT (47.68378 16.59167) -->
   <!-- OSM <-> POI distance: 33.39243557 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Sopron'			'Sopron'
-addr:housenumber                 E		'3'			'3'
-addr:postcode                    E		'9400'			'9400'
-addr:street                      M		'Hátsókapu utca'			'Hátsókapu'
-air_conditioning                 N		'yes'
-amenity                          E		'bank'			'bank'
-atm                              E		'yes'			'yes'
-bic                              N		'MAVOHUHB'
-brand                            E		'Sberbank'			'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   M		'Q17379757'			'Q205012'
-brand:wikipedia                  E		'en:Sberbank of Russia'			'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-name                             E		'Sberbank'			'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    E		'Mo\-We 08:00\-16:00;Th 08:00\-18:00;Fr 08:00\-14:00'			'Mo\-We 08:00\-16:00;Th 08:00\-18:00;Fr 08:00\-14:00'
-opening_hours:covid19            N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'3'			'3'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Hátsókapu'			'Hátsókapu'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'bank'			'bank'
+atm                               EQU 		'yes'			'yes'
+bic                              NEW		'MAVOHUHB'
+brand                             EQU 		'Sberbank'			'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                    MOD 		'Q17379757'			'Q205012'
+brand:wikipedia                   EQU 		'en:Sberbank of Russia'			'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+name                              EQU 		'Sberbank'			'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                     MOD 		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'			'Mo\-We 08:00\-16:00;Th 08:00\-18:00;Fr 08:00\-14:00'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1448679494&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DH%C3%A1ts%C3%B3kapu%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo-We%2008%3A00-16%3A00%3BTh%2008%3A00-18%3A00%3BFr%2008%3A00-14%3A00%7Copening_hours%3Acovid19%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Hátsókapu u. 3', 'postcode': '9400', 'city': 'Sopron', 'street': 'Hátsókapu utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1448679494&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DH%C3%A1ts%C3%B3kapu%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Hátsókapu u. 3', 'postcode': '9400', 'city': 'Sopron', 'street': 'Hátsókapu', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="1448679494" lat="47.6834803" lon="16.5916983" timestamp="2020-07-15T15:49:54Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="9400"/>
-    <tag k="addr:street" v="Hátsókapu utca"/>
+    <tag k="addr:street" v="Hátsókapu"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="bank"/>
     <tag k="atm" v="yes"/>
@@ -1492,47 +1433,45 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="contact:website" v="https://www.sberbank.hu"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo-We 08:00-16:00;Th 08:00-18:00;Fr 08:00-14:00"/>
-    <tag k="opening_hours:covid19" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (47.22706 16.62324) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szombathely'
-addr:housenumber                 N		'1'
-addr:postcode                    N		'9700'
-addr:street                      N		'Rákóczi Ferenc utca'
-air_conditioning                 N		'yes'
-amenity                          N		'bank'
-atm                              N		'yes'
-bic                              N		'MAVOHUHB'
-brand                            N		'Sberbank'
-brand:ru                         N		'Сбербанк'
-brand:wikidata                   N		'Q17379757'
-brand:wikipedia                  N		'en:Sberbank of Russia'
-contact:website                  N		'https://www.sberbank.hu'
-fixme                            N		'verify import'
-name                             N		'Sberbank'
-name:ru                          N		'Сбербанк'
-opening_hours                    N		'Mo,Th 08:00\-17:00; Tu\-We 08:00\-16:00; Fr 08:00\-14:00; PH off'
-opening_hours:covid19            N		'same'
-operator                         N		'Sberbank Magyarország Zrt.'
-operator:addr                    N		'1088 Budapest, Rákóczi út 1\-3.'
-ref:HU:company                   N		'01 10 041720'
-ref:vatin                        N		'HU10776999'
-ref:vatin:hu                     N		'10776999\-2\-44'
-source:www.sberbank.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Szombathely'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'9700'
+addr:street                      NEW		'Rákóczi Ferenc utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'bank'
+atm                              NEW		'yes'
+bic                              NEW		'MAVOHUHB'
+brand                            NEW		'Sberbank'
+brand:ru                         NEW		'Сбербанк'
+brand:wikidata                   NEW		'Q17379757'
+brand:wikipedia                  NEW		'en:Sberbank of Russia'
+contact:website                  NEW		'https://www.sberbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Sberbank'
+name:ru                          NEW		'Сбербанк'
+opening_hours                    NEW		'Mo,Th 9:00\-17:00; Tu\-We 9:00\-16:00; Fr 9:00\-14:00; PH off'
+operator                         NEW		'Sberbank Magyarország Zrt.'
+operator:addr                    NEW		'1088 Budapest, Rákóczi út 1\-3.'
+ref:HU:company                   NEW		'01 10 041720'
+ref:vatin                        NEW		'HU10776999'
+ref:vatin:hu                     NEW		'10776999\-2\-44'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-27&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20Ferenc%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%2008%3A00-17%3A00%3B%20Tu-We%2008%3A00-16%3A00%3B%20Fr%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Awww.sberbank.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-27&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20Ferenc%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DMAVOHUHB%7Cbrand%3DSberbank%7Cbrand%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Den%3ASberbank%20of%20Russia%7Ccontact%3Awebsite%3Dhttps%3A//www.sberbank.hu%7Cfixme%3Dverify%20import%7Cname%3DSberbank%7Cname%3Aru%3D%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%7Copening_hours%3DMo%2CTh%209%3A00-17%3A00%3B%20Tu-We%209%3A00-16%3A00%3B%20Fr%209%3A00-14%3A00%3B%20PH%20off%7Coperator%3DSberbank%20Magyarorsz%C3%A1g%20Zrt.%7Coperator%3Aaddr%3D1088%20Budapest%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%201-3.%7Cref%3AHU%3Acompany%3D01%2010%20041720%7Cref%3Avatin%3DHU10776999%7Cref%3Avatin%3Ahu%3D10776999-2-44%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Rákóczi Ferenc u. 1', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Rákóczi Ferenc utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-27" lat="47.22706" lon="16.62324" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-27" lat="47.22706" lon="16.62324" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Szombathely"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="9700"/>
@@ -1549,13 +1488,12 @@ source:www.sberbank.hu:date      N		'2021\-11\-20'
     <tag k="fixme" v="verify import"/>
     <tag k="name" v="Sberbank"/>
     <tag k="name:ru" v="Сбербанк"/>
-    <tag k="opening_hours" v="Mo,Th 08:00-17:00; Tu-We 08:00-16:00; Fr 08:00-14:00; PH off"/>
-    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="opening_hours" v="Mo,Th 9:00-17:00; Tu-We 9:00-16:00; Fr 9:00-14:00; PH off"/>
     <tag k="operator" v="Sberbank Magyarország Zrt."/>
     <tag k="operator:addr" v="1088 Budapest, Rákóczi út 1-3."/>
     <tag k="ref:HU:company" v="01 10 041720"/>
     <tag k="ref:vatin" v="HU10776999"/>
     <tag k="ref:vatin:hu" v="10776999-2-44"/>
-    <tag k="source:www.sberbank.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
 </osm>

@@ -1,58 +1,58 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <!-- Original coordinates: POINT (46.88529 19.63991) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM link: https://osm.org/node/8099989613 -->
+  <!-- Original coordinates: POINT (46.91645 19.67979) -->
+  <!-- OSM <-> POI distance: 0.0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kecskemét'
-addr:housenumber                 N		'2/B'
-addr:postcode                    N		'6000'
-addr:street                      N		'Dunaföldvári út'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kecskemét \- Izsáki út'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Ensto'
-model                            N		'EVF200'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                         EQU 		'Kecskemét'			'Kecskemét'
+addr:postcode                     EQU 		'6000'			'6000'
+addr:street                       EQU 		'Akadémia körút'			'Akadémia körút'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13157 \- Kecskemét, Akadémia körút \- Mobiliti'			'Kecskemét \- Akadémia krt.'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+manufacturer                      EQU 		'Evopro'			'Evopro'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:type2_cable                EQU 		'2'			'2'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+source                            EQU 		'website'			'website'
+source:date                       MOD 		'2022\-06\-08'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2/B%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKecskem%C3%A9t%20-%20Izs%C3%A1ki%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Dunaföldvári út 2/b - Decathlon ', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Dunaföldvári út', 'housenumber': '2/B', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="46.88529" lon="19.63991" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989613&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DAkad%C3%A9mia%20k%C3%B6r%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13157%20-%20Kecskem%C3%A9t%2C%20Akad%C3%A9mia%20k%C3%B6r%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dwebsite%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Akadémia körút', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Akadémia körút', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989613" lat="46.91645" lon="19.67979" timestamp="2022-06-03T18:27:23Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Kecskemét"/>
-    <tag k="addr:housenumber" v="2/B"/>
     <tag k="addr:postcode" v="6000"/>
-    <tag k="addr:street" v="Dunaföldvári út"/>
+    <tag k="addr:street" v="Akadémia körút"/>
+    <tag k="alt_name" v="e-mobi"/>
     <tag k="amenity" v="charging_station"/>
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kecskemét - Izsáki út"/>
+    <tag k="branch" v="13157 - Kecskemét, Akadémia körút - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
-    <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto"/>
-    <tag k="model" v="EVF200"/>
+    <tag k="manufacturer" v="Evopro"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -63,44 +63,628 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/8099989612 -->
+  <!-- Original coordinates: POINT (46.9066 19.68923) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Kecskemét'			'Kecskemét'
+addr:housenumber                  EQU 		'3'			'3'
+addr:postcode                     EQU 		'6000'			'6000'
+addr:street                       EQU 		'Deák Ferenc tér'			'Deák Ferenc tér'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13570 \- Kecskemét, Deák Ferenc tér \- Mobiliti'			'Kecskemét \- Deák Ferenc tér 3.'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+fixme                             EQU 		'verify import'			'verify import'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:chademo                    EQU 		'1'			'1'
+socket:chademo:output             EQU 		'22 kW'			'22 kW'
+socket:type2_combo                EQU 		'1'			'1'
+socket:type2_combo:output         EQU 		'22 kW'			'22 kW'
+source:date                      NEW		'2022\-06\-08'
+source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989612&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13570%20-%20Kecskem%C3%A9t%2C%20De%C3%A1k%20Ferenc%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!--ˇ'original': 'Deák Ferenc tér 3.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Deák Ferenc tér', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989612" lat="46.90654" lon="19.68898" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Deák Ferenc tér"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="13570 - Kecskemét, Deák Ferenc tér - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="22 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
+  </node>
+  <!-- Original coordinates: POINT (46.88739 19.63495) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Dunaföldvári út'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10183 \- Auchan Kecskemét \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10183%20-%20Auchan%20Kecskem%C3%A9t%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Dunaföldvári út 2.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Dunaföldvári út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-3" lat="46.88739" lon="19.63495" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Dunaföldvári út"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10183 - Auchan Kecskemét - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.88734 19.63496) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Dunaföldvári út'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10184 \- Auchan Kecskemét \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10184%20-%20Auchan%20Kecskem%C3%A9t%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Dunaföldvári út 2.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Dunaföldvári út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="46.88734" lon="19.63496" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Dunaföldvári út"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10184 - Auchan Kecskemét - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.88528 19.64037) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Dunaföldvári út'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10064 \- Decathlon Kecskemét \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10064%20-%20Decathlon%20Kecskem%C3%A9t%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Dunaföldvári út 2b', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Dunaföldvári út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="46.88528" lon="19.64037" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Dunaföldvári út"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10064 - Decathlon Kecskemét - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.88516 19.64027) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Dunaföldvári út'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'20010 \- Decathlon Kecskemét \- Mobiliti'
+capacity                         NEW		'3'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:chademo                   NEW		'1'
+socket:chademo:output            NEW		'50 kW'
+socket:type2_cable               NEW		'1'
+socket:type2_cable:output        NEW		'43 kW'
+socket:type2_combo               NEW		'1'
+socket:type2_combo:output        NEW		'50 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D20010%20-%20Decathlon%20Kecskem%C3%A9t%20-%20Mobiliti%7Ccapacity%3D3%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D50%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D43%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D50%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Dunaföldvári út 2b', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Dunaföldvári út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-6" lat="46.88516" lon="19.64027" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Dunaföldvári út"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="20010 - Decathlon Kecskemét - Mobiliti"/>
+    <tag k="capacity" v="3"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="50 kW"/>
+    <tag k="socket:type2_cable" v="1"/>
+    <tag k="socket:type2_cable:output" v="43 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="50 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.88752 19.6349) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Dunaföldvári út'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'20044 \- Auchan Kecskemét \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:chademo                   NEW		'1'
+socket:chademo:output            NEW		'50 kW'
+socket:type2_combo               NEW		'1'
+socket:type2_combo:output        NEW		'50 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DDunaf%C3%B6ldv%C3%A1ri%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D20044%20-%20Auchan%20Kecskem%C3%A9t%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D50%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D50%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Dunaföldvári út 2.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Dunaföldvári út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="46.88752" lon="19.6349" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Dunaföldvári út"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="20044 - Auchan Kecskemét - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="50 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="50 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/6116463570 -->
+  <!-- Original coordinates: POINT (46.91049 19.69388) -->
+  <!-- OSM <-> POI distance: 1.94087711 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Kecskemét'			'Kecskemét'
+addr:postcode                     EQU 		'6000'			'6000'
+addr:street                       EQU 		'Horváth Cirill tér'			'Horváth Cirill tér'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13155 \- Kecskemét, Horváth Cirill tér \- Mobiliti'			'Kecskemét \- Horváth Cirill tér'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+manufacturer                      EQU 		'Evopro'			'Evopro'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:type2_cable                EQU 		'2'			'2'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+source:date                      NEW		'2022\-06\-08'
+source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6116463570&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DHorv%C3%A1th%20Cirill%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13155%20-%20Kecskem%C3%A9t%2C%20Horv%C3%A1th%20Cirill%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!--ˇ'original': 'Horváth Cirill tér', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Horváth Cirill tér', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="6116463570" lat="46.9104956" lon="19.6938558" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Horváth Cirill tér"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="13155 - Kecskemét, Horváth Cirill tér - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
+  </node>
+  <!-- Original coordinates: POINT (46.89942 19.67395) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'3'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Izsáki út'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10131 \- Kecskemét, Izsáki út \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DIzs%C3%A1ki%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10131%20-%20Kecskem%C3%A9t%2C%20Izs%C3%A1ki%20%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Izsáki út 3.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Izsáki út', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-9" lat="46.89942" lon="19.67395" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Izsáki út"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10131 - Kecskemét, Izsáki út - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.89823 19.67276) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'6'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Izsáki út'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'24002 \- Kecskemét, Four Points by Sheraton Hotel \- Mobiliti'
+capacity                         NEW		'3'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:chademo                   NEW		'1'
+socket:chademo:output            NEW		'50 kW'
+socket:type2_cable               NEW		'1'
+socket:type2_cable:output        NEW		'22 kW'
+socket:type2_combo               NEW		'1'
+socket:type2_combo:output        NEW		'50 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DIzs%C3%A1ki%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D24002%20-%20Kecskem%C3%A9t%2C%20Four%20Points%20by%20Sheraton%20Hotel%20-%20Mobiliti%7Ccapacity%3D3%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D50%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D50%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Izsáki út 6.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Izsáki út', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-10" lat="46.89823" lon="19.67276" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="6"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Izsáki út"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="24002 - Kecskemét, Four Points by Sheraton Hotel - Mobiliti"/>
+    <tag k="capacity" v="3"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo" v="1"/>
+    <tag k="socket:chademo:output" v="50 kW"/>
+    <tag k="socket:type2_cable" v="1"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="socket:type2_combo" v="1"/>
+    <tag k="socket:type2_combo:output" v="50 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.90745 19.67715) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kecskemét'
-addr:housenumber                 N		'26'
-addr:postcode                    N		'6000'
-addr:street                      N		'Jász utca'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kecskemét \- Jász utca'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'EVBox'
-model                            N		'BusinessLine'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'26'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Jász utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10108 \- Kecskemét, Jász utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DJ%C3%A1sz%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKecskem%C3%A9t%20-%20J%C3%A1sz%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Jász utca 26. - SPAR ', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Jász utca', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="46.90745" lon="19.67715" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DJ%C3%A1sz%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10108%20-%20Kecskem%C3%A9t%2C%20J%C3%A1sz%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Jász utca 26.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Jász utca', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-11" lat="46.90745" lon="19.67715" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="26"/>
     <tag k="addr:postcode" v="6000"/>
@@ -109,15 +693,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kecskemét - Jász utca"/>
+    <tag k="branch" v="10108 - Kecskemét, Jász utca - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="EVBox"/>
-    <tag k="model" v="BusinessLine"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -128,44 +710,42 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.91446 19.68912) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kecskemét'
-addr:housenumber                 N		'31'
-addr:postcode                    N		'6000'
-addr:street                      N		'Jókai utca'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kecskemét \- Jókai utca'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Ensto'
-model                            N		'EVF200'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'31'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Jókai utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10129 \- Kecskemét, Jókai utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D31%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DJ%C3%B3kai%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKecskem%C3%A9t%20-%20J%C3%B3kai%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D31%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DJ%C3%B3kai%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10129%20-%20Kecskem%C3%A9t%2C%20J%C3%B3kai%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Jókai utca 31.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Jókai utca', 'housenumber': '31', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="46.91446" lon="19.68912" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-12" lat="46.91446" lon="19.68912" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="31"/>
     <tag k="addr:postcode" v="6000"/>
@@ -174,15 +754,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kecskemét - Jókai utca"/>
+    <tag k="branch" v="10129 - Kecskemét, Jókai utca - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto"/>
-    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -193,44 +771,42 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.90496 19.6926) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kecskemét'
-addr:housenumber                 N		'2'
-addr:postcode                    N		'6000'
-addr:street                      N		'Katona József tér'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kecskemét \- Katona József tér'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Ensto'
-model                            N		'EVF200'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Katona József tér'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10130 \- Kecskemét, Katona József tér \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DKatona%20J%C3%B3zsef%20t%C3%A9r%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKecskem%C3%A9t%20-%20Katona%20J%C3%B3zsef%20t%C3%A9r%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DKatona%20J%C3%B3zsef%20t%C3%A9r%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10130%20-%20Kecskem%C3%A9t%2C%20Katona%20J%C3%B3zsef%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
   <!--ˇ'original': 'Katona József tér 2.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Katona József tér', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="46.90496" lon="19.6926" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-13" lat="46.90496" lon="19.6926" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="6000"/>
@@ -239,15 +815,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kecskemét - Katona József tér"/>
+    <tag k="branch" v="10130 - Kecskemét, Katona József tér - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto"/>
-    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -258,44 +832,164 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.90766 19.6888) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Korona utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10251 \- Kecskemét, Malom Központ P1 \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DKorona%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10251%20-%20Kecskem%C3%A9t%2C%20Malom%20K%C3%B6zpont%20P1%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Korona utca 2.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Korona utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-14" lat="46.90766" lon="19.6888" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Korona utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10251 - Kecskemét, Malom Központ P1 - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.90749 19.68869) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Korona utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10252 \- Kecskemét, Malom Központ P2 \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DKorona%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10252%20-%20Kecskem%C3%A9t%2C%20Malom%20K%C3%B6zpont%20P2%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Korona utca 2.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Korona utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-15" lat="46.90749" lon="19.68869" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Korona utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10252 - Kecskemét, Malom Központ P2 - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.91873 19.67371) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kecskemét'
-addr:housenumber                 N		'5/A'
-addr:postcode                    N		'6000'
-addr:street                      N		'Március 15. utca'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kecskemét \- Március 15\-e utca'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'EVBox'
-model                            N		'BusinessLine'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'5/A'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Március 15. utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10107 \- Kecskemét, Március 15\-e utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D5/A%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DM%C3%A1rcius%2015.%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKecskem%C3%A9t%20-%20M%C3%A1rcius%2015-e%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Március 15-e utca 5/a - SPAR ', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Március 15. utca', 'housenumber': '5/A', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-5" lat="46.91873" lon="19.67371" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D5/A%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DM%C3%A1rcius%2015.%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10107%20-%20Kecskem%C3%A9t%2C%20M%C3%A1rcius%2015-e%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Március 15-e utca 5/A', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Március 15. utca', 'housenumber': '5/A', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-16" lat="46.91873" lon="19.67371" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="5/A"/>
     <tag k="addr:postcode" v="6000"/>
@@ -304,15 +998,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kecskemét - Március 15-e utca"/>
+    <tag k="branch" v="10107 - Kecskemét, Március 15-e utca - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="EVBox"/>
-    <tag k="model" v="BusinessLine"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -323,44 +1015,110 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/8099989611 -->
+  <!-- Original coordinates: POINT (46.90981 19.69808) -->
+  <!-- OSM <-> POI distance: 0.0 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Kecskemét'			'Kecskemét'
+addr:postcode                     EQU 		'6000'			'6000'
+addr:street                       EQU 		'Rákóczi út'			'Rákóczi út'
+alt_name                          EQU 		'e\-mobi'			'e\-mobi'
+amenity                           EQU 		'charging_station'			'charging_station'
+authentication:app                EQU 		'yes'			'yes'
+authentication:membership_card    EQU 		'yes'			'yes'
+authentication:none               EQU 		'yes'			'yes'
+branch                            MOD 		'13156 \- Kecskemét, Rákóczi út \- Mobiliti'			'Kecskemét \- Rákóczi út'
+capacity                          EQU 		'2'			'2'
+contact:email                     MOD 		'help@mobiliti.hu'			'kapcsolat@e\-mobi.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/elektromobilitas'			'https://www.facebook.com/elektromobilitas'
+contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
+contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
+fee                               EQU 		'yes'			'yes'
+fixme                             EQU 		'verify import'			'verify import'
+manufacturer                      EQU 		'Evopro'			'Evopro'
+name                              MOD 		'Mobiliti'			'e\-töltőpont'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          MOD 		'NKM Mobilitás Kft.'			'e\-Mobi Elektromobilitás Nonprofit Kft.'
+operator:addr                     MOD 		'1081 Budapest, II. János Pál pápa tér 20.'			'1037 Budapest, Montevideo utca 2/C'
+parking:fee                       EQU 		'no'			'no'
+ref:HU:company                    MOD 		'01\-09\-965868'			'01 09 281052'
+ref:vatin                         MOD 		'HU23443486'			'HU25539431'
+ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
+socket:type2_cable                EQU 		'2'			'2'
+socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
+source:date                      NEW		'2022\-06\-08'
+source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989611&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13156%20-%20Kecskem%C3%A9t%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!--ˇ'original': 'Rákóczi út', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Rákóczi út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8099989611" lat="46.90981" lon="19.69808" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Rákóczi út"/>
+    <tag k="alt_name" v="e-mobi"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="13156 - Kecskemét, Rákóczi út - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/elektromobilitas"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Evopro"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- Original coordinates: POINT (46.89883 19.6903) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kecskemét'
-addr:housenumber                 N		'2\-4'
-addr:postcode                    N		'6000'
-addr:street                      N		'Szultán utca'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kecskemét \- Szultán utca'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Ensto'
-model                            N		'EVF200'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'2\-4'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Szultán utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10006 \- Kecskemét, Szultán utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2-4%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DSzult%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKecskem%C3%A9t%20-%20Szult%C3%A1n%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Szultán utca 2-4. ', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Szultán utca', 'housenumber': '2-4', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-6" lat="46.89883" lon="19.6903" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D2-4%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DSzult%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10006%20-%20Kecskem%C3%A9t%2C%20Szult%C3%A1n%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Szultán utca 2-4.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Szultán utca', 'housenumber': '2-4', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-18" lat="46.89883" lon="19.6903" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kecskemét"/>
     <tag k="addr:housenumber" v="2-4"/>
     <tag k="addr:postcode" v="6000"/>
@@ -369,15 +1127,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kecskemét - Szultán utca"/>
+    <tag k="branch" v="10006 - Kecskemét, Szultán utca - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto"/>
-    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -388,44 +1144,408 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.93201 19.66659) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Talfája utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10248 \- Kecskemét, Talfája utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-19&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DTalf%C3%A1ja%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10248%20-%20Kecskem%C3%A9t%2C%20Talf%C3%A1ja%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Talfája utca 1.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Talfája utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-19" lat="46.93201" lon="19.66659" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Talfája utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10248 - Kecskemét, Talfája utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.93206 19.66665) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kecskemét'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'6000'
+addr:street                      NEW		'Talfája utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10247 \- Kecskemét, Talfája utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-20&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6000%7Caddr%3Astreet%3DTalf%C3%A1ja%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10247%20-%20Kecskem%C3%A9t%2C%20Talf%C3%A1ja%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Talfája utca 1.', 'postcode': '6000', 'city': 'Kecskemét', 'street': 'Talfája utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-20" lat="46.93206" lon="19.66665" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="6000"/>
+    <tag k="addr:street" v="Talfája utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10247 - Kecskemét, Talfája utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.72261 19.84561) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kiskunfélegyháza'
+addr:housenumber                 NEW		'74\-76'
+addr:postcode                    NEW		'6100'
+addr:street                      NEW		'Dr. Holló Lajos utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10238 \- Kiskunfélegyháza, Dr. Holló Lajos utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-21&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D74-76%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DDr.%20Holl%C3%B3%20Lajos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10238%20-%20Kiskunf%C3%A9legyh%C3%A1za%2C%20Dr.%20Holl%C3%B3%20Lajos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Dr. Holló Lajos utca 74-76.', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Dr. Holló Lajos utca', 'housenumber': '74-76', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-21" lat="46.72261" lon="19.84561" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kiskunfélegyháza"/>
+    <tag k="addr:housenumber" v="74-76"/>
+    <tag k="addr:postcode" v="6100"/>
+    <tag k="addr:street" v="Dr. Holló Lajos utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10238 - Kiskunfélegyháza, Dr. Holló Lajos utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.72248 19.84561) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kiskunfélegyháza'
+addr:housenumber                 NEW		'74\-76'
+addr:postcode                    NEW		'6100'
+addr:street                      NEW		'Dr. Holló Lajos utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10237 \- Kiskunfélegyháza, Dr. Holló Lajos utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D74-76%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DDr.%20Holl%C3%B3%20Lajos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10237%20-%20Kiskunf%C3%A9legyh%C3%A1za%2C%20Dr.%20Holl%C3%B3%20Lajos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Dr. Holló Lajos utca 74-76.', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Dr. Holló Lajos utca', 'housenumber': '74-76', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-22" lat="46.72248" lon="19.84561" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kiskunfélegyháza"/>
+    <tag k="addr:housenumber" v="74-76"/>
+    <tag k="addr:postcode" v="6100"/>
+    <tag k="addr:street" v="Dr. Holló Lajos utca"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10237 - Kiskunfélegyháza, Dr. Holló Lajos utca - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.68914 19.8493) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kiskunfélegyháza'
+addr:housenumber                 NEW		'8'
+addr:postcode                    NEW		'6100'
+addr:street                      NEW		'IX. körzet tanya'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10318 \- Kiskunfélegyháza, IX. körzet tanya \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-23&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DIX.%20k%C3%B6rzet%20tanya%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10318%20-%20Kiskunf%C3%A9legyh%C3%A1za%2C%20IX.%20k%C3%B6rzet%20tanya%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'IX. körzet tanya 8.', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'IX. körzet tanya', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-23" lat="46.68914" lon="19.8493" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kiskunfélegyháza"/>
+    <tag k="addr:housenumber" v="8"/>
+    <tag k="addr:postcode" v="6100"/>
+    <tag k="addr:street" v="IX. körzet tanya"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10318 - Kiskunfélegyháza, IX. körzet tanya - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
+  </node>
+  <!-- Original coordinates: POINT (46.6891 19.84913) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Kiskunfélegyháza'
+addr:housenumber                 NEW		'8'
+addr:postcode                    NEW		'6100'
+addr:street                      NEW		'IX. körzet tanya'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10317 \- Kiskunfélegyháza, IX. körzet tanya \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-24&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DIX.%20k%C3%B6rzet%20tanya%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10317%20-%20Kiskunf%C3%A9legyh%C3%A1za%2C%20IX.%20k%C3%B6rzet%20tanya%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'IX. körzet tanya 8.', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'IX. körzet tanya', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-24" lat="46.6891" lon="19.84913" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kiskunfélegyháza"/>
+    <tag k="addr:housenumber" v="8"/>
+    <tag k="addr:postcode" v="6100"/>
+    <tag k="addr:street" v="IX. körzet tanya"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="authentication:app" v="yes"/>
+    <tag k="authentication:membership_card" v="yes"/>
+    <tag k="authentication:none" v="yes"/>
+    <tag k="branch" v="10317 - Kiskunfélegyháza, IX. körzet tanya - Mobiliti"/>
+    <tag k="capacity" v="2"/>
+    <tag k="contact:email" v="help@mobiliti.hu"/>
+    <tag k="contact:phone" v="+36 62 565 758"/>
+    <tag k="contact:website" v="https://www.mobiliti.hu"/>
+    <tag k="fee" v="yes"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Mobiliti"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="NKM Mobilitás Kft."/>
+    <tag k="operator:addr" v="1081 Budapest, II. János Pál pápa tér 20."/>
+    <tag k="parking:fee" v="no"/>
+    <tag k="ref:HU:company" v="01-09-965868"/>
+    <tag k="ref:vatin" v="HU23443486"/>
+    <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:type2_cable" v="2"/>
+    <tag k="socket:type2_cable:output" v="22 kW"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.71224 19.84867) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kiskunfélegyháza'
-addr:housenumber                 N		'1'
-addr:postcode                    N		'6100'
-addr:street                      N		'Kazinczy utca'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kiskunfélegyháza \- Kazinczy utca'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Ensto'
-model                            N		'EVF200'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kiskunfélegyháza'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'6100'
+addr:street                      NEW		'Kazinczy utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10007 \- Kiskunfélegyháza, Kazinczy utca\- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DKazinczy%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKiskunf%C3%A9legyh%C3%A1za%20-%20Kazinczy%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Kazinczy utca 1. ', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Kazinczy utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-7" lat="46.71224" lon="19.84867" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DKazinczy%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10007%20-%20Kiskunf%C3%A9legyh%C3%A1za%2C%20Kazinczy%20utca-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Kazinczy utca 1.', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Kazinczy utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-25" lat="46.71224" lon="19.84867" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kiskunfélegyháza"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="6100"/>
@@ -434,15 +1554,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kiskunfélegyháza - Kazinczy utca"/>
+    <tag k="branch" v="10007 - Kiskunfélegyháza, Kazinczy utca- Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto"/>
-    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -453,44 +1571,42 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.71018 19.84312) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kiskunfélegyháza'
-addr:housenumber                 N		'14'
-addr:postcode                    N		'6100'
-addr:street                      N		'Kossuth Lajos utca'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kiskunfélegyháza \- Kossuth Lajos utca'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Ensto'
-model                            N		'EVF200'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kiskunfélegyháza'
+addr:housenumber                 NEW		'14'
+addr:postcode                    NEW		'6100'
+addr:street                      NEW		'Kossuth Lajos utca'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10008 \- Kiskunfélegyháza, Kossuth Lajos utca \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKiskunf%C3%A9legyh%C3%A1za%20-%20Kossuth%20Lajos%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Kossuth Lajos utca 14.  ', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Kossuth Lajos utca', 'housenumber': '14', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-8" lat="46.71018" lon="19.84312" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-26&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10008%20-%20Kiskunf%C3%A9legyh%C3%A1za%2C%20Kossuth%20Lajos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Kossuth Lajos utca 14.', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Kossuth Lajos utca', 'housenumber': '14', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-26" lat="46.71018" lon="19.84312" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kiskunfélegyháza"/>
     <tag k="addr:housenumber" v="14"/>
     <tag k="addr:postcode" v="6100"/>
@@ -499,15 +1615,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kiskunfélegyháza - Kossuth Lajos utca"/>
+    <tag k="branch" v="10008 - Kiskunfélegyháza, Kossuth Lajos utca - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto"/>
-    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -518,44 +1632,42 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
   <!-- Original coordinates: POINT (46.71046 19.84923) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Kiskunfélegyháza'
-addr:housenumber                 N		'4'
-addr:postcode                    N		'6100'
-addr:street                      N		'Szent János tér'
-amenity                          N		'charging_station'
-authentication:app               N		'yes'
-authentication:membership_card   N		'yes'
-authentication:none              N		'yes'
-branch                           N		'Kiskunfélegyháza \- Szent János tér'
-capacity                         N		'2'
-contact:email                    N		'help@mobiliti.hu'
-contact:phone                    N		'+36 62 565 758'
-contact:website                  N		'https://www.mobiliti.hu'
-fee                              N		'yes'
-fixme                            N		'verify import'
-manufacturer                     N		'Ensto'
-model                            N		'EVF200'
-name                             N		'Mobiliti'
-opening_hours                    N		'24/7'
-operator                         N		'NKM Mobilitás Kft.'
-operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      N		'no'
-ref:HU:company                   N		'01\-09\-965868'
-ref:vatin                        N		'HU23443486'
-ref:vatin:hu                     N		'23443486\-2\-42'
-socket:type2_cable               N		'2'
-socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+addr:city                        NEW		'Kiskunfélegyháza'
+addr:housenumber                 NEW		'4'
+addr:postcode                    NEW		'6100'
+addr:street                      NEW		'Szent János tér'
+amenity                          NEW		'charging_station'
+authentication:app               NEW		'yes'
+authentication:membership_card   NEW		'yes'
+authentication:none              NEW		'yes'
+branch                           NEW		'10009 \- Kiskunfélegyháza, Szent János tér \- Mobiliti'
+capacity                         NEW		'2'
+contact:email                    NEW		'help@mobiliti.hu'
+contact:phone                    NEW		'+36 62 565 758'
+contact:website                  NEW		'https://www.mobiliti.hu'
+fee                              NEW		'yes'
+fixme                            NEW		'verify import'
+name                             NEW		'Mobiliti'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'NKM Mobilitás Kft.'
+operator:addr                    NEW		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      NEW		'no'
+ref:HU:company                   NEW		'01\-09\-965868'
+ref:vatin                        NEW		'HU23443486'
+ref:vatin:hu                     NEW		'23443486\-2\-42'
+socket:type2_cable               NEW		'2'
+socket:type2_cable:output        NEW		'22 kW'
+source:date                      NEW		'2022\-06\-08'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DSzent%20J%C3%A1nos%20t%C3%A9r%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKiskunf%C3%A9legyh%C3%A1za%20-%20Szent%20J%C3%A1nos%20t%C3%A9r%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
-  <!--ˇ'original': 'Szent János tér 4. ', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Szent János tér', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-9" lat="46.71046" lon="19.84923" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-27&addtags=%7Caddr%3Acity%3DKiskunf%C3%A9legyh%C3%A1za%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D6100%7Caddr%3Astreet%3DSzent%20J%C3%A1nos%20t%C3%A9r%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10009%20-%20Kiskunf%C3%A9legyh%C3%A1za%2C%20Szent%20J%C3%A1nos%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!--ˇ'original': 'Szent János tér 4.', 'postcode': '6100', 'city': 'Kiskunfélegyháza', 'street': 'Szent János tér', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-27" lat="46.71046" lon="19.84923" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Kiskunfélegyháza"/>
     <tag k="addr:housenumber" v="4"/>
     <tag k="addr:postcode" v="6100"/>
@@ -564,15 +1676,13 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="authentication:app" v="yes"/>
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
-    <tag k="branch" v="Kiskunfélegyháza - Szent János tér"/>
+    <tag k="branch" v="10009 - Kiskunfélegyháza, Szent János tér - Mobiliti"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto"/>
-    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -583,6 +1693,6 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="source:date" v="2022-06-08"/>
   </node>
 </osm>
